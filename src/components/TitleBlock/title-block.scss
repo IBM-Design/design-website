@@ -1,0 +1,12 @@
+.title-block {
+    height: 744px;
+}
+
+.title-block__text {
+    @include type-style('display-03');
+    
+    span {
+        display: block;
+        color: $ibm-colors__blue--50; 
+    }
+}

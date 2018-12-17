@@ -1,0 +1,248 @@
+
+//----------------------------
+// Flex
+//----------------------------
+.container .flex-wrap {
+  @include breakpoint('md') {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+//----------------------------
+// Bleed
+//----------------------------
+.container .ibm--col-bleed {
+  padding: 0;
+}
+
+//----------------------------
+// Background
+//----------------------------
+.dark,
+.light {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dark {
+  background: $ibm-colors__black;
+  color: $ibm-colors__white;
+}
+
+.light {
+  background: $ibm-colors__gray--20;
+}
+
+//----------------------------
+// h2
+//----------------------------
+
+.page-h2 {
+  @include type-style('productive-heading-04');
+  position: relative;
+  color: $text-01;
+  margin-top: rem(56px);
+  margin-bottom: $spacing-lg;
+  position: relative;
+}
+ 
+//----------------------------
+// h3
+//----------------------------
+
+.page-h3 {
+  @include type-style('heading-03');
+  color: $text-01;
+  margin-top: rem(24px);
+  margin-bottom: $spacing-md;
+  position: relative;
+}
+
+//----------------------------
+// h4
+//----------------------------
+
+.page-h4 {
+  @include type-style('heading-02');
+  color: $text-01;
+  margin-top: rem(8px);
+  margin-bottom: rem(8px);
+  position: relative;
+}
+
+// Targets heading elements when they are the first element on a page to remove top margin
+.page-content > div > .ibm--row:first-child {
+  .page-h4,
+  .component-docs h4,
+  .page-h3,
+  .component-docs h3,
+  .page-h2,
+  .component-docs h2 {
+    margin-top: 0;
+  }
+}
+
+//----------------------------
+// h5
+//----------------------------
+
+.page-h5 {
+  position: relative;
+}
+
+//----------------------------
+// Anchor Link
+//----------------------------
+h2, h3, h4, h5 {
+  // This makes sure there is breathing room when 
+  // you jump to the heading anchor link
+  &:before {
+    display: block; 
+    content: " "; 
+    margin-top: rem(-56px); 
+    height: rem(56px); 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+  .anchor-link {
+    position: absolute;
+    left: rem(-24px);
+    opacity: 0;
+  }
+  
+  .anchor-link__icon {
+    fill: $ibm-colors__blue--50;
+  }
+
+  &:hover .anchor-link {
+    opacity: 1;
+  }
+}
+
+
+//----------------------------
+// ul / ol
+//----------------------------
+
+.page-ul,
+.page-ol {
+  @include typescale('epsilon');
+  margin: 0 0 $spacing-lg $spacing-lg;
+  line-height: 1.75;
+  position: relative;
+}
+
+.page-ul > li {
+  font-weight: 400;
+  padding-left: 0.25rem;
+  list-style-type: none;
+
+  &:before {
+    content: "\2013";
+    position: absolute;
+    left: -1rem;
+  }
+}
+
+.page-ol > li {
+  font-weight: 400;
+  padding-left: 0.25rem;
+  list-style-type: decimal;
+}
+
+// The following is a css hack because remark is nesting 
+// tags inside of lists and causing double grid code
+.container .page-ol,
+.container .page-ul {
+  .ibm--row {
+    margin: 0;
+    width: 100%;
+  }
+
+  .ibm--col-lg-7,
+  .ibm--col-lg-8,
+  .ibm--col-lg-12 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+//----------------------------
+// Anchor Link
+//----------------------------
+
+.page-content > div > .anchor-links:first-child .page-ul {
+  margin-top: 0;
+}
+
+.anchor-links {
+  .page-ul {
+    margin-bottom: 2.25rem;
+    margin-top: rem(72px);
+    position: relative;
+  }
+
+  .page-ul > li {
+    @include type-style('heading-03');
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: $spacing-xs;
+
+    &:before {
+      content: "\21B3"; //"↳"
+      position: absolute;
+      left: -1.5rem;
+      cursor: pointer;
+    }
+
+    a {
+      @include type-style('heading-03');
+      color: $ibm-colors__gray--90;
+      text-decoration: none;
+    }
+
+    &:hover {
+      a,
+      &:before {
+        color: $ibm-colors__blue--60;
+      }
+    }
+  }
+}
+
+
+//----------------------------
+// Image
+//----------------------------
+
+/*
+.page-content img {
+  max-width: 100%;
+}
+
+.gatsby-resp-image-background-image {
+  background: transparent !important; // Need important to override inline style added by gatsby-remark-images
+}
+
+.container--component .gatsby-resp-image-image {
+  box-shadow: none !important; // Need important to override inline style added by gatsby-remark-images
+  border: none !important;
+}
+*/
+
+//----------------------------
+// Blockquote
+//----------------------------
+
+
+//----------------------------
+// Video Embed
+//----------------------------
+
+iframe.embedVideoIframe {
+  //border: 1px solid $ui-03;
+}

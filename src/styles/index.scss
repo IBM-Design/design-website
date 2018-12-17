@@ -1,0 +1,39 @@
+//---------------------------------------
+// Carbon Components
+//---------------------------------------
+
+$feature-flags: (
+  components-x: true,
+  ui-shell: true,
+);
+@import '@carbon/layout/scss/layout.scss';
+.container {
+  //need this to avoid conflicts with old grid code
+  $prefix: 'ibm';
+  $imported-modules-local: ();
+  @import '@carbon/grid/scss/grid.scss';
+}
+@import '@carbon/grid/scss/aspect-ratio.scss';
+@import '@carbon/type/scss/type.scss';
+@import '@carbon/type/scss/_classes.scss';
+
+@import 'carbon-components/scss/globals/scss/styles.scss';
+
+//---------------------------------------
+// Page styles
+//---------------------------------------
+$font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+  sans-serif;
+
+@import 'page';
+
+//---------------------------------------
+// Components
+//---------------------------------------
+@import '../components/404/404.scss';
+@import '../components/markdown/markdown.scss';
+@import '../components/ClickableTile/clickable-tile.scss';
+@import '../components/PageTable/page-table.scss';
+@import '../components/Footer/footer.scss';
+@import '../components/BackToTop/back-to-top.scss';
+@import '../components/TitleBlock/title-block.scss';
