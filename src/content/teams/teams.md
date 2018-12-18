@@ -1,12 +1,12 @@
 ---
-title: Approach
+title: Teams
 ---
 
 <dark>
 
 <title-block
-    text_one="The key to solving business problems"
-    text_two="is to focus on the human problems.">
+    text_one="A solution’s quality hinges directly on"
+    text_two="the diversity of the team delivering it.">
 </title-block>
 
 </dark>

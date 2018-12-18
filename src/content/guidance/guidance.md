@@ -1,12 +1,12 @@
 ---
-title: Approach
+title: Guidance
 ---
 
 <dark>
 
 <title-block
-    text_one="The key to solving business problems"
-    text_two="is to focus on the human problems.">
+    text_one="Spend less time building buttons"
+    text_two="and more time building bonds.">
 </title-block>
 
 </dark>

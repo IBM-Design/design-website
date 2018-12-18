@@ -9,6 +9,9 @@ import {
   Header, 
   HeaderMenuButton, 
   HeaderName, 
+  HeaderNavigation,
+  HeaderMenu,
+  HeaderMenuItem,
   SkipToContent,  
   HeaderGlobalBar,
   HeaderGlobalAction,
@@ -144,9 +147,21 @@ class Layout extends React.Component {
                 aria-label="Open menu"
                 onClick={(this.onToggleBtnClick)}
               />
-                <HeaderName prefix="IBM" to="/" element={Link}>
-                  Design
-                </HeaderName>
+              <HeaderName prefix="IBM" to="/" element={Link}>
+                Design
+              </HeaderName>
+              
+              <HeaderNavigation aria-label="IBM [Platform]">
+                <HeaderMenu href="/approach" aria-label="Approach">
+                  <HeaderMenuItem href="/approach/design-thinking">Design thinking</HeaderMenuItem>
+                  <HeaderMenuItem href="/approach/design-services">Design services</HeaderMenuItem>
+                  <HeaderMenuItem href="/approach/design-philosophy">Design philosophy</HeaderMenuItem>
+                </HeaderMenu>
+                <HeaderMenuItem href="/approach">Approach</HeaderMenuItem>
+                <HeaderMenuItem href="/teams">Teams</HeaderMenuItem>
+                <HeaderMenuItem href="/guidance">Guidance</HeaderMenuItem>
+                <HeaderMenuItem href="/impact">Impact</HeaderMenuItem>
+              </HeaderNavigation>
             </Header>         
             <div className="container">
               {children}
