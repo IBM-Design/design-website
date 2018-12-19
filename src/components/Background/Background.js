@@ -15,7 +15,6 @@ export default class Background extends React.Component {
     } = this.props;
 
     const classNames = classnames({
-      'ibm--grid': true,
       'background': true,
       'background--black': color === 'black',
       'background--white': color === 'white',
@@ -24,7 +23,9 @@ export default class Background extends React.Component {
 
     return (
       <div className={classNames}>
-        {children}
+        <div className="ibm--grid">
+          {children}
+        </div>
       </div>
     );
   }
