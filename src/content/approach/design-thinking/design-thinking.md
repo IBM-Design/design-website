@@ -1,3 +1,3 @@
 ---
-title: Design Thinking
+title: Design thinking
 ---
