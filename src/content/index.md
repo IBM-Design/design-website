@@ -2,14 +2,11 @@
 title: Homepage
 ---
 
-<background color="black">
-<!-- empty line is required when wrapping markdown with custom component -->
-<title-block
-    text_one="The purpose of everything we design"
-    text_two="is to guide the people we serve.">
-</title-block>
-<!--  -->
-</background>
+<title-block>
+The purpose of<br>
+everything we design<br>
+<span>is to guide the people<br>
+we serve.</span></title-block>
 
 <background color="white">
 <!--  -->

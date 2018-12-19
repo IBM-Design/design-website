@@ -2,14 +2,10 @@
 title: Guidance
 ---
 
-<background color="black">
-
 <title-block
     text_one="Spend less time building buttons"
     text_two="and more time building bonds.">
 </title-block>
-
-</background>
 
 <background color="gray">
 
