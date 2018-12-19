@@ -151,7 +151,7 @@ class Layout extends React.Component {
               
               <HeaderNavigation aria-label="IBM [Platform]">
                 <HeaderMenu href="/approach" aria-label="Approach">
-                  <HeaderMenuItem href="/approach/design-thinking" element={Link}>Design thinking</HeaderMenuItem>
+                  <HeaderMenuItem href="/approach/design-thinking">Design thinking</HeaderMenuItem>
                   <HeaderMenuItem href="/approach/design-services">Design services</HeaderMenuItem>
                   <HeaderMenuItem href="/approach/design-philosophy">Design philosophy</HeaderMenuItem>
                 </HeaderMenu>
