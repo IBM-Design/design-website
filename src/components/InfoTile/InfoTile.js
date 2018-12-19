@@ -98,7 +98,7 @@ export default class InfoTile extends React.Component {
         { type === "small" ? (
           <img
             className={imgClassNames}
-            src={img_src}
+            src={require(`${img_src}`)}
             alt={img_alt}/>
         ) : null}
         <section className='tile--text-container ibm--col-sm-4'>

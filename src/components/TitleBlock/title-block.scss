@@ -1,9 +1,32 @@
 .title-block {
-    height: 744px;
+    height: calc(100vh - 48px);
+}
+
+.title-block .ibm--grid {
+    height: 100%;
+    }
+
+.title-block .ibm--row {
+    height: 100%;
+}
+
+.title-block__content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .title-block__text {
     @include type-style('display-03');
+    font-size: calc(36px + 56 * ((100vw - 320px) / 1264));
+
+    @include breakpoint('sm') {
+        padding-bottom: 1rem;
+    }
+
+    @include breakpoint('lg') {
+        padding-bottom: 4rem;
+    }
     
     span {
         display: block;

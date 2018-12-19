@@ -12,6 +12,7 @@ import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
 import InfoTile from '../components/InfoTile';
 import InfoTileContainer from '../components/InfoTileContainer';
+import Background from '../components/Background';
 
 // Custom Markdown
 import {
@@ -24,8 +25,6 @@ import {
   ul,
   ol,
   AnchorLinks,
-  Dark,
-  Light,
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
@@ -40,8 +39,6 @@ const renderAst = new rehypeReact({
     ul: ul,
     ol: ol,
     pre: Snippet,
-    dark: Dark,
-    light: Light,
     table: PageTable,
     'grid-wrapper': GridWrapper,
     'clickable-tile': ClickTile,
@@ -49,6 +46,7 @@ const renderAst = new rehypeReact({
     'title-block': TitleBlock,
     'info-tile': InfoTile,
     'info-tile-container': InfoTileContainer,
+    'background': Background,
   },
 }).Compiler;
 
