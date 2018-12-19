@@ -1,12 +1,12 @@
 ---
-title: Homepage
+title: Teams
 ---
 
 <dark>
 
 <title-block
-    text_one="The purpose of everything we design"
-    text_two="is to guide the people we serve.">
+    text_one="A solution’s quality hinges directly on"
+    text_two="the diversity of the team delivering it.">
 </title-block>
 
 </dark>
