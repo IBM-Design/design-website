@@ -54,7 +54,7 @@ exports.createPages = ({ actions, graphql }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       const slug = node.fields.slug;
       const currentPage = node.fields.currentPage;
-      let currentPath = slug;
+      let currentPath = slug.slice(0, slug.lastIndexOf(currentPage));
       createPage({
         path: currentPath,
         component: path.resolve(`./src/templates/page.js`),
