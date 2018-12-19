@@ -10,6 +10,7 @@ import ClickTile from '../components/ClickableTile';
 import GridWrapper from '../components/GridWrapper';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
+import InfoTile from '../components/InfoTile';
 
 // Custom Markdown
 import {
@@ -45,6 +46,7 @@ const renderAst = new rehypeReact({
     'clickable-tile': ClickTile,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
+    'info-tile': InfoTile,
   },
 }).Compiler;
 
