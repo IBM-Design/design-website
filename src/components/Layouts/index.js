@@ -150,15 +150,15 @@ class Layout extends React.Component {
               </HeaderName>
               
               <HeaderNavigation aria-label="IBM [Platform]">
-                <HeaderMenu href="/approach" aria-label="Approach">
-                  <HeaderMenuItem href="/approach/design-thinking">Design thinking</HeaderMenuItem>
-                  <HeaderMenuItem href="/approach/design-services">Design services</HeaderMenuItem>
-                  <HeaderMenuItem href="/approach/design-philosophy">Design philosophy</HeaderMenuItem>
+                <HeaderMenu aria-label="Approach">
+                  <HeaderMenuItem className="nav-hack" to="/approach" element={Link}>Approach</HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>Design thinking</HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-services" element={Link}>Design services</HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-philosophy" element={Link}>Design philosophy</HeaderMenuItem>
                 </HeaderMenu>
-                <HeaderMenuItem href="/approach">Approach</HeaderMenuItem>
-                <HeaderMenuItem href="/teams">Teams</HeaderMenuItem>
-                <HeaderMenuItem href="/guidance">Guidance</HeaderMenuItem>
-                <HeaderMenuItem href="/impact">Impact</HeaderMenuItem>
+                <HeaderMenuItem to="/teams" element={Link}>Teams</HeaderMenuItem>
+                <HeaderMenuItem to="/guidance" element={Link}>Guidance</HeaderMenuItem>
+                <HeaderMenuItem to="/impact" element={Link}>Impact</HeaderMenuItem>
               </HeaderNavigation>
             </Header>         
             <div className="container">

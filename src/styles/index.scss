@@ -31,6 +31,7 @@ $font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
 //---------------------------------------
 // Components
 //---------------------------------------
+@import '../components/Background/background.scss';
 @import '../components/404/404.scss';
 @import '../components/Markdown/markdown.scss';
 @import '../components/ClickableTile/clickable-tile.scss';

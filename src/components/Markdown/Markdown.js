@@ -147,23 +147,3 @@ export class AnchorLinks extends React.Component {
     );
   }
 }
-
-export class Dark extends React.Component {
-  render() {
-    return (
-      <div className="ibm--grid dark">
-        {this.props.children}
-      </div>
-    );
-  }
-}
-
-export class Light extends React.Component {
-  render() {
-    return (
-      <div className="ibm--grid light">
-        {this.props.children}
-      </div>
-    );
-  }
-}
