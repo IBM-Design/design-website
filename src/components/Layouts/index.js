@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import classnames from 'classnames';
-import Footer from '../Footer';
+
 import favicon32 from '../../content/global/images/favicon-32.png';
 import { 
   Header, 
@@ -17,7 +17,7 @@ import {
   HeaderGlobalAction,
 } from 'carbon-components-react/lib/components/UIShell';
 import { AppSwitcher20, Menu32 } from '@carbon/icons-react';
-
+import { WebsiteFooter } from '@carbon/addons-website';
 import navigation from '../../data/navigation/navigation.json';
 
 import '../../styles/index.scss';
@@ -104,6 +104,8 @@ class Layout extends React.Component {
 
   render() {
     const { children } = this.props;
+    const currentYear = new Date().getFullYear();
+    const lastUpdated = 'December 19, 2018';
 
     return (
       <StaticQuery
@@ -153,7 +155,7 @@ class Layout extends React.Component {
               
               <HeaderNavigation aria-label="IBM [Platform]">
                 <HeaderMenu href="/approach" aria-label="Approach">
-                  <HeaderMenuItem href="/approach/design-thinking">Design thinking</HeaderMenuItem>
+                  <HeaderMenuItem href="/approach/design-thinking" element={Link}>Design thinking</HeaderMenuItem>
                   <HeaderMenuItem href="/approach/design-services">Design services</HeaderMenuItem>
                   <HeaderMenuItem href="/approach/design-philosophy">Design philosophy</HeaderMenuItem>
                 </HeaderMenu>
@@ -165,7 +167,36 @@ class Layout extends React.Component {
             </Header>         
             <div className="container">
               {children}
-              <Footer />
+              <WebsiteFooter
+                logoOffset={false}
+                linksCol1={[
+                  { href: 'https://www.ibm.com/privacy', linkText: 'Privacy' },
+                  {
+                    href: 'https://www.ibm.com/legal',
+                    linkText: 'Terms of Use',
+                  },
+                  { href: 'https://www.ibm.com', linkText: 'IBM.com' },
+                ]}
+                linksCol2={[
+                  {
+                    href: 'https://twitter.com/ibmdesign',
+                    linkText: 'Twitter',
+                  },
+                  {
+                    href: 'https://facebook.com/ibmdesign',
+                    linkText: 'Facebook',
+                  },
+                ]}>
+                <p>
+                  Have questions? Email us or open an issue in{' '}
+                  <a href="https://github.com/IBM-Design/design-website/issues/new" target="_blank">GitHub.</a>
+                </p>
+                <p>
+                  Last updated {lastUpdated}
+                  <br />
+                  Copyright © {currentYear} IBM
+                </p>
+              </WebsiteFooter>
             </div>
           </>
         )}
