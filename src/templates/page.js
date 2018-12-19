@@ -10,6 +10,7 @@ import ClickTile from '../components/ClickableTile';
 import GridWrapper from '../components/GridWrapper';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
+import Background from '../components/Background';
 
 // Custom Markdown
 import {
@@ -22,8 +23,6 @@ import {
   ul,
   ol,
   AnchorLinks,
-  Dark,
-  Light,
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
@@ -38,13 +37,12 @@ const renderAst = new rehypeReact({
     ul: ul,
     ol: ol,
     pre: Snippet,
-    dark: Dark,
-    light: Light,
     table: PageTable,
     'grid-wrapper': GridWrapper,
     'clickable-tile': ClickTile,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
+    'background': Background,
   },
 }).Compiler;
 

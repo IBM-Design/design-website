@@ -2,16 +2,16 @@
 title: Impact
 ---
 
-<dark>
+<background color="black">
 
 <title-block
     text_one="Design is simply the means;"
     text_two="business outcomes are the end.">
 </title-block>
 
-</dark>
+</background>
 
-<light>
+<background color="gray">
 
 When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.
-</light>
+</background>
