@@ -2,14 +2,10 @@
 title: Teams
 ---
 
-<background color="black">
-
-<title-block
-    text_one="A solution’s quality hinges directly on"
-    text_two="the diversity of the team delivering it.">
+<title-block>
+A solution’s quality<br>hinges directly on<br>
+<span>the diversity of the<br>team delivering it.</span>
 </title-block>
-
-</background>
 
 <background color="gray">
 

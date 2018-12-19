@@ -21,12 +21,12 @@
 //----------------------------
 
 .page-h2 {
-  @include type-style('productive-heading-04');
+  @include type-style('expressive-heading-04');
+  font-size: rem(42px);
   position: relative;
-  color: $text-01;
+  color: $ibm-colors__blue--60;
   margin-top: rem(56px);
   margin-bottom: $spacing-lg;
-  position: relative;
 }
  
 //----------------------------
