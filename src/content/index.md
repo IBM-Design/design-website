@@ -6,7 +6,8 @@ title: Homepage
 The purpose of<br>
 everything we design<br>
 <span>is to guide the people<br>
-we serve.</span></title-block>
+we serve.</span>
+</title-block>
 
 <background color="white">
 <!--  -->

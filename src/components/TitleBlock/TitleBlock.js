@@ -18,15 +18,11 @@ const eyeBeeM = (
 export default class TitleBlock extends React.Component {
   static propTypes = {
     children: PropTypes.node,
-    text_one: PropTypes.string,
-    text_two: PropTypes.string,
   };
 
   render() {
     const {
-      children,
-      text_one,
-      text_two
+      children
     } = this.props;
     
     return (
@@ -34,11 +30,10 @@ export default class TitleBlock extends React.Component {
         <div className="ibm--grid">
           <div className="ibm--row">
             <div class="title-block__content ibm--col-lg-12 ibm--col-md-7">
-            {eyeBeeM}
+              {eyeBeeM}
               <h1 className="title-block__text">
-              {children}
+                {children}
               </h1>
-              
             </div>
           </div>
         </div>

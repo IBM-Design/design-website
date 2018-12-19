@@ -4,9 +4,9 @@ title: Approach
 
 <background color="black">
 
-<title-block
-    text_one="The key to solving business problems"
-    text_two="is to focus on the human problems.">
+<title-block>
+The key to solving<br>business problems
+<span>is to focus on the<br>human problems.</span>
 </title-block>
 
 </background>

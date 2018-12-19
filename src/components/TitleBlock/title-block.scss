@@ -4,7 +4,6 @@
 
 .title-block .ibm--grid {
     height: 100%;
-    outline: 1px dotted white;
     }
 
 .title-block .ibm--row {
@@ -19,7 +18,7 @@
 
 .title-block__text {
     @include type-style('display-03');
-    
+    font-size: calc(36px + 56 * ((100vw - 320px) / 1264));
 
     @include breakpoint('sm') {
         padding-bottom: 1rem;
@@ -33,31 +32,4 @@
         display: block;
         color: $ibm-colors__blue--50; 
     }
-
-    font-size: calc(36px + 56 * ((100vw - 320px) / 1264));
-/*
-    @include breakpoint('sm') {
-        font-size: 36px;
-        outline-color: red;
-    }
-
-    @include breakpoint('md') {
-        font-size: 76px;
-        outline-color: orange;
-    }
-
-    @include breakpoint('lg') {
-        font-size: 84px;
-        outline-color: yellow;
-    }
-
-    @include breakpoint('xlg') {
-        font-size: 92px;
-        outline-color: green;
-    }
-
-    @include breakpoint('max') {
-        font-size: 92px;
-    }
-    */
 }
