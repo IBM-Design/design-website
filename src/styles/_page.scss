@@ -89,7 +89,7 @@ button,
   // All paragraphs on Markdown pages
   // And divs when markdown doesn't wrap text in paragraphs (when you have to use html for links to open in a new window)
   p {
-    //max-width: 38rem;
+    @include type-style('heading-03');
     line-height: 1.5;
     padding: 0 0 $spacing-lg;
   }
