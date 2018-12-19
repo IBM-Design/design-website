@@ -11,6 +11,7 @@ import GridWrapper from '../components/GridWrapper';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
 import InfoTile from '../components/InfoTile';
+import InfoTileContainer from '../components/InfoTileContainer';
 
 // Custom Markdown
 import {
@@ -47,6 +48,7 @@ const renderAst = new rehypeReact({
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
     'info-tile': InfoTile,
+    'info-tile-container': InfoTileContainer,
   },
 }).Compiler;
 
