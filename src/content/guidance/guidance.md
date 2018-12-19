@@ -1,12 +1,12 @@
 ---
-title: Homepage
+title: Guidance
 ---
 
 <dark>
 
 <title-block
-    text_one="The purpose of everything we design"
-    text_two="is to guide the people we serve.">
+    text_one="Spend less time building buttons"
+    text_two="and more time building bonds.">
 </title-block>
 
 </dark>

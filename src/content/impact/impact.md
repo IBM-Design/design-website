@@ -1,12 +1,12 @@
 ---
-title: Homepage
+title: Impact
 ---
 
 <dark>
 
 <title-block
-    text_one="The purpose of everything we design"
-    text_two="is to guide the people we serve.">
+    text_one="Design is simply the means;"
+    text_two="business outcomes are the end.">
 </title-block>
 
 </dark>
