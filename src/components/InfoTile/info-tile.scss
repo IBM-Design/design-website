@@ -1,0 +1,118 @@
+//===================
+//SMALL TILE STYLES
+//===================
+.ibm--col-lg-4.tile--sm {
+  max-width: rem(288px);
+}
+
+.tile--sm {
+  display: flex;
+  flex-direction: column;
+}
+
+.title--sm {
+  font-size: rem(28px);
+  font-weight: normal;
+  margin-bottom: rem(14px);
+}
+
+.img--sm {
+  width: rem(288px);
+  height: rem(288px);
+  border: 1px solid green;
+  margin-bottom: rem(18px);
+}
+
+.arrow--link-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  & > a {
+    padding-bottom: rem(4px);
+    padding-right: rem(4px);
+  }
+
+  & > svg {
+    fill: $brand-01;
+  }
+}
+
+//===================
+//LARGE TILE STYLES
+//===================
+
+.tile--lg {
+  display: flex;
+  margin-bottom: rem(30px);
+  justify-content: space-between;
+
+  & > .tile--text-container {
+    margin-top: rem(80px);
+    margin-left: rem(64px);
+    max-width: rem(400px);
+
+    & > h1,
+    & > p,
+    & > div {
+      padding-left: rem(16px);
+    }
+
+    & > p {
+      max-width: rem(310px);
+      line-height: rem(22px);
+    }
+  }
+}
+
+.title--lg {
+  font-size: rem(42px);
+  color: $brand-01;
+  font-weight: 400;
+}
+
+.tile--button.bx--btn {
+  display: flex;
+  justify-content: space-between;
+  width: rem(208px);
+  height: rem(65px);
+  padding-right: rem(16px);
+  margin-top: rem(42px);
+
+  & > svg {
+    fill: $ibm-colors__white;
+  }
+}
+
+.title--two {
+  font-weight: 400;
+  font-size: rem(42px);
+  color: $ibm-colors__black;
+  margin-bottom: rem(30px);
+}
+
+.tile-img--container {
+  border: 1px solid blue;
+  height: rem(383px);
+  width: rem(575px);
+  margin-right: rem(65px);
+  margin-top: rem(172px);
+  margin-bottom: rem(72px);
+}
+
+.img--lg {
+  border: 1px solid green;
+  height: rem(383px);
+  width: rem(575px);
+}
+
+//===================
+//OPTIONS
+//===================
+.tile--no-gutter {
+  margin-bottom: 0;
+}
+
+.text--light {
+  color: $ibm-colors__white;
+}
