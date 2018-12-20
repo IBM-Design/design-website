@@ -32,9 +32,24 @@ export class Grid extends React.Component {
 export class Column extends React.Component {
   static propTypes = {
     children: PropTypes.node,
+    /**
+   * Specify the col width at small breakpoint, default is 4
+   */
     sm: PropTypes.string,
+    /**
+   * Specify the col width at medium breakpoint, default is 8
+   */
     md: PropTypes.string,
+    /**
+   * Specify the col width at large breakpoint, default is 16
+   */
     lg: PropTypes.string,
+  };
+
+  static defaultProps = {
+    sm: '4',
+    md: '8',
+    lg: '16',
   };
 
   render() {

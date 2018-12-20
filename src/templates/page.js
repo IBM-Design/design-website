@@ -7,10 +7,8 @@ import Layout from '../components/Layouts';
 import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
 import ClickTile from '../components/ClickableTile';
-import GridWrapper from '../components/GridWrapper';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
-import Background from '../components/Background';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
   h1,
@@ -35,11 +33,9 @@ const renderAst = new rehypeReact({
     ol: ol,
     pre: Snippet,
     table: PageTable,
-    'grid-wrapper': GridWrapper,
     'clickable-tile': ClickTile,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
-    background: Background,
     grid: Grid,
     column: Column,
   },

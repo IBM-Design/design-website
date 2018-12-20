@@ -62,11 +62,6 @@ Images will render as full width responsive images by default. Use blockquote in
 100% width standard image
 `![image alt text](images/image.png)`
 
-Smaller image w/ text wrapping
-`> ![tone](images/content-general-2.png)`
-
-![Example](https://user-images.githubusercontent.com/2753488/45236528-b02cb980-b2a1-11e8-9e81-af4ec353d3e9.png)
-
 ### Lists
 
     * This is a bulleted list
@@ -97,20 +92,3 @@ We support inline code and code blocks.
 
 ## Custom Markdown Components
 
-#### Grid Wrapper
-
-This is a wrapper component used to wrap components like tiles, do-dont, images and more. Shown with the default values below.
-
-```
-Properties
-
-    - col_lg: Specify the col width at large breakpoint, default is 12
-    - col_md: Specify the col width at medium breakpoint, default is 8
-    - col_sm: Specify the col width at small breakpoint, default is 4
-    - flex: Set to true to set display:flex | flexwrap: wrap to row
-    - bleed: Set to true to remove col padding
-
-
-<grid-wrapper />
-<grid-wrapper col_lg="12" col_md="8" col_sm="4" flex="false" bleed="false">
-```
