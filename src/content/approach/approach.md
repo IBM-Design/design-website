@@ -16,7 +16,7 @@ Whether solving problems or serving clients, we put people at the center of ever
 
 </column>
 
-<info-tile
+<tile
     type="large"
     background="white"
     img_src="./global/images/tile-img-lg__design-services.png"
@@ -26,9 +26,9 @@ Whether solving problems or serving clients, we put people at the center of ever
     description="Explore the framework that drives how we think and work every day."
     link_one="Read more"
     button="true">
-  </info-tile>
+  </tile>
 
-  <info-tile
+  <tile
     type="large"
     background="black"
     light="true"
@@ -39,9 +39,9 @@ Whether solving problems or serving clients, we put people at the center of ever
     description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
     link_one="Read more"
     button="true">
-  </info-tile>
+  </tile>
 
-  <info-tile
+  <tile
     type="large"
     background="#051243"
     light="true"
@@ -52,8 +52,6 @@ Whether solving problems or serving clients, we put people at the center of ever
     description="Design is about moving people forward, both emotionally and functionally."
     link_one="Read more"
     button="true">
-  </info-tile>
-</light>
+  </tile>
 
 </grid>
-

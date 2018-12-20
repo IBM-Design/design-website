@@ -9,11 +9,8 @@ import PageTable from '../components/PageTable';
 import ClickTile from '../components/ClickableTile';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
-import InfoTile from '../components/InfoTile';
-import InfoTileContainer from '../components/InfoTileContainer';
+import Tile from '../components/Tile';
 import { Grid, Column } from '../components/Grid/Grid';
-
-// Custom Markdown
 import {
   h1,
   h2,
@@ -40,8 +37,7 @@ const renderAst = new rehypeReact({
     'clickable-tile': ClickTile,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
-    'info-tile': InfoTile,
-    'info-tile-container': InfoTileContainer,
+    'tile': Tile,
     grid: Grid,
     column: Column,
   },

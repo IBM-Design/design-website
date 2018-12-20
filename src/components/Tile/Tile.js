@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import { Button, Link } from 'carbon-components-react';
 import { ArrowRight16, Launch20 } from '@carbon/icons-react';
 
-export default class InfoTile extends React.Component {
+export default class Tile extends React.Component {
   static propTypes = {
     no_gutter: PropTypes.bool,
      //if true, will set margin bottom to 0 so tiles will touch
