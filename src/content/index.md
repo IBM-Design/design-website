@@ -23,7 +23,7 @@ When you blend human-centered design with time-tested business acumen and deep d
 ## Featured
 <!-- -->
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 <tile
       type="small"
@@ -34,7 +34,7 @@ When you blend human-centered design with time-tested business acumen and deep d
     </tile>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 <tile
       type="small"
@@ -45,7 +45,7 @@ When you blend human-centered design with time-tested business acumen and deep d
     </tile>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
   <tile
       type="small"
