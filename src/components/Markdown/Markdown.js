@@ -78,9 +78,3 @@ export class ol extends React.Component {
     return <ol className="page-ol">{this.props.children}</ol>;
   }
 }
-
-export class AnchorLinks extends React.Component {
-  render() {
-    return <div className="anchor-links">{this.props.children}</div>;
-  }
-}

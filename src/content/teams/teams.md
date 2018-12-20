@@ -3,8 +3,18 @@ title: Teams
 ---
 
 <title-block>
+
+<anchor-links>
+
+- [How we work](#how-we-work)
+- [Dimensions of diversity](#dimensions-of-diversity)
+- [Work with us](#work-with-us)
+
+</anchor-links>
+
 A solution’s quality<br>hinges directly on<br>
 <span>the diversity of the<br>team delivering it.</span>
+
 </title-block>
 
 <grid background="gray-10">
