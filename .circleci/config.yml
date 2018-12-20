@@ -12,11 +12,5 @@ jobs:
       - run:
           name: Confirm project can build
           command: |
-            yarn build:external
-      - deploy:
-          name: test
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              # Install `ibmcloud` CLI
-              curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
-            fi
+            yarn build
+      
