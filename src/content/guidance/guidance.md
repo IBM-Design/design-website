@@ -24,6 +24,9 @@ Tap into a growing collection of design tools, assets and resources to keep your
     no_gutter="true"
     tile_title_one="IBM Design Language"
     tile_title_two="Principles, guidelines and ready-made assets to help you build exceptional experiences."
+    link_one="Gallery"
+    link_two="Elements"
+    link_three="Practices"
     button="true">
     <img src="../global/images/tile-img-xl__idl.png" alt="Geometric shapes"/>
   </tile>
@@ -65,6 +68,9 @@ Tap into a growing collection of design tools, assets and resources to keep your
     background="white"
     tile_title_one="Enterprise Design Thinking"
     tile_title_two="A scalable learning approach that makes design thinking stick. "
+    link_one="Badges"
+    link_two="Toolkit"
+    link_three="FAQ"
     button="true">
     <img src="../global/images/tile-img-xl__edt.png" alt="Geometric shapes"/>
   </tile>
@@ -77,6 +83,9 @@ Tap into a growing collection of design tools, assets and resources to keep your
     background="#FFD2DD"
     tile_title_one="IBM Design Research"
     tile_title_two="Drive actionable user insights through observation, experience, and making."
+    link_one="Principles"
+    link_two="Foundation"
+    link_three="Resources"
     button="true">
     <img src="../global/images/tile-img-xl__idr.png" alt="Geometric shapes"/>
   </tile>

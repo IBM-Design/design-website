@@ -113,6 +113,15 @@
   margin-top: rem(100px);
 }
 
+.multi-link {
+  box-shadow: 0 1px $brand-01;
+}
+
+.multi-link:hover {
+  color: $ibm-colors__blue--50;
+  cursor: pointer;
+}
+
 //===================
 //OPTIONS
 //===================

@@ -109,6 +109,16 @@ export default class Tile extends React.Component {
                 <ArrowRight16/>
               </div>
             ) : null}
+            {link_two ?
+              (
+                <div className='multi-link-container'>
+                  <Link className='multi-link' href={href_one}>{link_one}</Link>
+                  <br/>
+                  <Link className='multi-link' href={href_two}>{link_two}</Link>
+                  <br/>
+                  <Link className='multi-link' href={href_three}>{link_three}</Link>
+                </div>
+              ) : null}
           {button === 'true' ? (
             <Button className='tile--button'>
               <span>Start Using</span>
