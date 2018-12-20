@@ -1,4 +1,3 @@
-
 //----------------------------
 // Background
 //----------------------------
@@ -11,11 +10,19 @@
   background: $ibm-colors__white;
 }
 
-.background--gray {
+.background--gray-10 {
+  background: $ibm-colors__gray--10;
+}
+
+.background--gray-20 {
   background: $ibm-colors__gray--20;
 }
 
 .background--black {
   background: $ibm-colors__black;
   color: $ibm-colors__white;
+}
+
+.ibm--col-* {
+  outline: 1px dotted yellow;
 }

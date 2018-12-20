@@ -7,7 +7,10 @@ A solution’s quality<br>hinges directly on<br>
 <span>the diversity of the<br>team delivering it.</span>
 </title-block>
 
-<background color="gray">
+<grid background="gray-10">
+<column lg="8">
 
-When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.
-</background>
+The foundational unit of design is the team. Learn how we leverage diversity to strengthen our teams and explore the types of roles we hire for.
+
+</column>
+</grid>

@@ -2,7 +2,6 @@
 
 This is the IBM.com.design website; built with GatsbyJS.
 
-
 ## 📂 Structure
 
 ```
@@ -17,7 +16,7 @@ src
 
 ## 👩‍💻 Development
 
-- 🤝 [Contribution Guidelines](.github/CONTRIBUTING.md) 
+- 🤝 [Contribution Guidelines](.github/CONTRIBUTING.md)
 - 📚 [Content/Markdown Guidelines](docs/CONTENT.md)
 - 🗺 [Navigation Guidelines](docs/NAVIGATION.md)
 

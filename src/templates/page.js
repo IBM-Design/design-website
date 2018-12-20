@@ -7,14 +7,10 @@ import Layout from '../components/Layouts';
 import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
 import ClickTile from '../components/ClickableTile';
-import GridWrapper from '../components/GridWrapper';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
-import Background from '../components/Background';
-
-// Custom Markdown
+import { Grid, Column } from '../components/Grid/Grid';
 import {
-  p,
   h1,
   h2,
   h3,
@@ -28,7 +24,6 @@ import {
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
-    p: p,
     h1: h1,
     h2: h2,
     h3: h3,
@@ -38,11 +33,11 @@ const renderAst = new rehypeReact({
     ol: ol,
     pre: Snippet,
     table: PageTable,
-    'grid-wrapper': GridWrapper,
     'clickable-tile': ClickTile,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
-    'background': Background,
+    grid: Grid,
+    column: Column,
   },
 }).Compiler;
 
@@ -54,7 +49,9 @@ export default ({ data }) => {
   return (
     <Layout>
       {/*<h1>{post.frontmatter.title}</h1>*/}
-      <main className="page-content" id="maincontent">{renderAst(post.htmlAst)}</main>
+      <main className="page-content" id="maincontent">
+        {renderAst(post.htmlAst)}
+      </main>
       <BackToTop />
     </Layout>
   );
