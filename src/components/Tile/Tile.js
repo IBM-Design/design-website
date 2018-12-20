@@ -83,6 +83,12 @@ export default class Tile extends React.Component {
       'text--light': light,
     });
 
+    const lgImgClassNames = classnames({
+      'ibm--col-lg-8': type === 'large',
+      'ibm--col-lg-16': type === 'xlarge',
+      'ibm--col-sm-4 img--lg': type === 'large' || type === 'xlarge',
+    });
+
     return (
       <div className={classNames} style={{backgroundColor: background}}>
         { type === "small" ? (
@@ -96,7 +102,7 @@ export default class Tile extends React.Component {
             <h1 className={titleTwoClassNames}>{tile_title_two}</h1>
           ) : null}
           <p className={descClassName}>{description}</p>
-          {!link_two ?
+          {!link_two && link_one ?
             (
               <div className='arrow--link-container'>
                 <Link href={href_one}>{link_one}</Link>
@@ -111,7 +117,7 @@ export default class Tile extends React.Component {
           ) : null}
         </section>
         { type !== "small" ? (
-          <div className="ibm--col-lg-8 ibm--col-sm-4 img--lg">
+          <div className={lgImgClassNames}>
             {children}
           </div>
         ) : null}
