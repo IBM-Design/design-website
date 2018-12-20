@@ -21,13 +21,12 @@ Whether solving problems or serving clients, we put people at the center of ever
 <tile
     type="large"
     background="white"
-    img_src="./global/images/tile-img-lg__design-services.png"
-    img_alt="geometric x-shapes"
     tile_title_one="Design Thinking"
     tile_title_two="Human-centered design at scale."
     description="Explore the framework that drives how we think and work every day."
     link_one="Read more"
     button="true">
+    <img src="./global/images/tile-img-lg__design-services.png" alt="geometric x-shapes" class="img--lg"/>
   </tile>
 
 </column>
@@ -37,13 +36,12 @@ Whether solving problems or serving clients, we put people at the center of ever
     type="large"
     background="black"
     light="true"
-    img_src="./global/images/tile-img-lg__design-services.png"
-    img_alt="geometric x-shapes"
     tile_title_one="Design Services"
     tile_title_two="Your business partner by design."
     description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
     link_one="Read more"
     button="true">
+    <img src="./global/images/tile-img-lg__design-services.png" alt="geometric x-shapes" class="img--lg"/>
   </tile>
 
 </column>
@@ -53,13 +51,12 @@ Whether solving problems or serving clients, we put people at the center of ever
     type="large"
     background="#051243"
     light="true"
-    img_src="./global/images/tile-img-lg__design-services.png"
-    img_alt="geometric x-shapes"
     tile_title_one="Design Philosophy"
     tile_title_two="The beliefs behind everything we do."
     description="Design is about moving people forward, both emotionally and functionally."
     link_one="Read more"
     button="true">
+    <img src="./global/images/tile-img-lg__design-services.png" alt="geometric x-shapes" class="img--lg"/>
   </tile>
 
 </column>

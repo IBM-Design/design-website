@@ -6,16 +6,14 @@ import { ArrowRight16, Launch20 } from '@carbon/icons-react';
 
 export default class Tile extends React.Component {
   static propTypes = {
+    children: PropTypes.node,
+    //for tile images
     no_gutter: PropTypes.bool,
      //if true, will set margin bottom to 0 so tiles will touch
     button: PropTypes.bool,
     //if true, will include clickable tile
     button_href: PropTypes.string,
     //clickable tile href
-    img_src: PropTypes.string,
-    //src for img
-    img_alt: PropTypes.string,
-    //alt text for img
     type: PropTypes.string,
     //"small", "large", "xlarge" specifies the version of tile component used
     tile_title_one: PropTypes.string,
@@ -44,11 +42,10 @@ export default class Tile extends React.Component {
 
   render() {
     const {
+      children,
       no_gutter,
       button,
       button_href,
-      img_src,
-      img_alt,
       type,
       tile_title_one,
       tile_title_two,
@@ -73,11 +70,10 @@ export default class Tile extends React.Component {
 
     });
 
-    const imgClassNames = classnames({
-      'img--sm': type === 'small',
-      'img--lg': type === 'large',
-      'img--xl': type === 'xlarge',
-    });
+    //Classnames for <img/> children depending on tile type:
+      // 'img--sm': type === 'small',
+      // 'img--lg': type === 'large',
+      // 'img--xl': type === 'xlarge',
 
     const titleClassNames = classnames({
       'title--sm': type === 'small',
@@ -95,12 +91,7 @@ export default class Tile extends React.Component {
 
     return (
       <div className={classNames} style={{backgroundColor: background}}>
-        { type === "small" ? (
-          <img
-            className={imgClassNames}
-            src={img_src}
-            alt={img_alt}/>
-        ) : null}
+        { type === "small" ? {children} : null}
         <section className='tile--text-container ibm--col-sm-4'>
           <h1 className={titleClassNames}>{tile_title_one}</h1>
           {tile_title_two ? (
@@ -114,7 +105,7 @@ export default class Tile extends React.Component {
                 <ArrowRight16/>
               </div>
             ) : null}
-          {button ? (
+          {button === 'true' ? (
             <Button className='tile--button'>
               <span>Start Using</span>
               <Launch20/>
@@ -123,10 +114,7 @@ export default class Tile extends React.Component {
         </section>
         { type !== "small" ? (
           <div className="ibm--col-lg-8 ibm--col-sm-4 tile-img--container">
-            <img
-              className={imgClassNames}
-              src={img_src}
-              alt={img_alt}/>
+            {children}
           </div>
         ) : null}
       </div>
