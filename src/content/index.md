@@ -17,9 +17,7 @@ When you blend human-centered design with time-tested business acumen and deep d
 
 ### h3 test
 
-small tile one
-small tile two
-small tile three
+
 
 <!--  -->
 </background>
