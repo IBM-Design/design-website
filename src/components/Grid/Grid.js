@@ -33,39 +33,31 @@ export class Column extends React.Component {
   static propTypes = {
     children: PropTypes.node,
     /**
-   * Specify the col width at small breakpoint, default is 4
+   * Specify the col width at small breakpoint
    */
     sm: PropTypes.string,
     /**
-   * Specify the col width at medium breakpoint, default is 8
+   * Specify the col width at medium breakpoint
    */
     md: PropTypes.string,
     /**
-   * Specify the col width at large breakpoint, default is 16
+   * Specify the col width at large breakpoint
    */
     lg: PropTypes.string,
     /**
-   * Specify the col offset at large breakpoint, default is 0
+   * Specify the col offset at large breakpoint
    */
     offset_lg: PropTypes.string,
   };
 
-  static defaultProps = {
-    sm: '4',
-    md: '8',
-    lg: '16',
-    offset_lg: '0'
-  };
-
   render() {
     const { children, sm, md, lg, offset_lg } = this.props;
-
-    const classNames = classnames(
-      `ibm--col-lg-${lg}`,
-      `ibm--col-md-${md}`,
-      `ibm--col-sm-${sm}`,
-      `ibm--offset-lg-${offset_lg}`,
-    );
+    
+    let classNames = "";
+    if(lg) classNames += `ibm--col-lg-${lg} `;
+    if(md) classNames += `ibm--col-md-${md} `;
+    if(sm) classNames += `ibm--col-sm-${sm} `;
+    if(offset_lg) classNames += `ibm--offset-lg-${offset_lg} `;
 
     return <div className={classNames}>{children}</div>;
   }
