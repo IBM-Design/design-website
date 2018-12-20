@@ -9,29 +9,34 @@ everything we design<br>
 we serve.</span>
 </title-block>
 
-<background color="gray">
+<grid background="gray-10">
+<column lg="8">
 
 When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.
 
-## h2 test
+</column>
+</grid>
 
-### h3 test
-
-small tile one
-small tile two
-small tile three
-
-</background>
-
-<grid background="white">
+<grid background="gray-10">
 
 <column lg="4">
 
-## Heading taking up 4 columns
+## Featured
 
 </column>
-<column lg="12">
+<column lg="4">
 
-Paragraph here
+Tile 1
+
+</column>
+<column lg="4">
+
+Tile 2
+
+</column>
+<column lg="4">
+
+Tile 3
+
 </column>
 </grid>
