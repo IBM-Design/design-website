@@ -27,11 +27,10 @@ When you blend human-centered design with time-tested business acumen and deep d
 
 <tile
       type="small"
-      img_src="./global/images/tile-img-sm__ix-migros.png"
-      img_alt="an image of a little boy drinking from a mug"
       tile_title_one="iX + Migros"
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">
+      <img src="./global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>
     </tile>
 
 </column>
@@ -39,11 +38,10 @@ When you blend human-centered design with time-tested business acumen and deep d
 
 <tile
       type="small"
-      img_src="./global/images/tile-img-sm__ix-migros.png"
-      img_alt="an image of a little boy drinking from a mug"
       tile_title_one="iX + Migros"
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">
+      <img src="./global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>
     </tile>
 
 </column>
@@ -51,11 +49,10 @@ When you blend human-centered design with time-tested business acumen and deep d
 
   <tile
       type="small"
-      img_src="./global/images/tile-img-sm__ix-migros.png"
-      img_alt="an image of a little boy drinking from a mug"
       tile_title_one="iX + Migros"
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">
+      <img src="./global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>    
     </tile>
 
 </column>

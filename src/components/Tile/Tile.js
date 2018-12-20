@@ -91,7 +91,10 @@ export default class Tile extends React.Component {
 
     return (
       <div className={classNames} style={{backgroundColor: background}}>
-        { type === "small" ? {children} : null}
+        { type === "small" ? (
+          <div>
+            {children}
+          </div> ) : null}
         <section className='tile--text-container ibm--col-sm-4'>
           <h1 className={titleClassNames}>{tile_title_one}</h1>
           {tile_title_two ? (
