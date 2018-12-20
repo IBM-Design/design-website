@@ -58,7 +58,7 @@ As IBMers, we believe the purpose of every design, and every designer, is to gui
 
 </column>
 
-<column lg="4">
+<column offset_lg="2" lg="4">
 
 Here → There
 
