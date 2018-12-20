@@ -16,9 +16,8 @@
 }
 
 .title--sm {
-  font-size: rem(28px);
-  font-weight: normal;
   margin-bottom: rem(14px);
+  @include type-style('productive-heading-04');
 }
 
 .img--sm {
