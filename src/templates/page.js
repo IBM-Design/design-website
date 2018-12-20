@@ -6,10 +6,10 @@ import Layout from '../components/Layouts';
 // Components
 import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
-import ClickTile from '../components/ClickableTile';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
 import Tile from '../components/Tile';
+import AnchorLinks from '../components/AnchorLinks';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
   h1,
@@ -19,7 +19,6 @@ import {
   h5,
   ul,
   ol,
-  AnchorLinks,
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
@@ -34,7 +33,6 @@ const renderAst = new rehypeReact({
     ol: ol,
     pre: Snippet,
     table: PageTable,
-    'clickable-tile': ClickTile,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
     'tile': Tile,

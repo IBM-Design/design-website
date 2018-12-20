@@ -3,10 +3,20 @@ title: Guidance
 ---
 
 <title-block>
+
+<anchor-links>
+
+- [IBM design language](#how-we-work)
+- [Enterprise design thinking](#dimensions-of-diversity)
+- [IBM design research](#work-with-us)
+
+</anchor-links>
+
 Spend less time<br>
 building buttons<br>
 <span>and more time<br>
 building bonds.</span>
+
 </title-block>
 
 <grid background="gray-10">

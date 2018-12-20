@@ -1,5 +1,15 @@
 .title-block {
+  position: relative;
   height: calc(100vh - 48px);
+  min-height: 470px;
+
+  @include breakpoint('md') {
+    min-height: 540px;
+  }
+
+  @include breakpoint('lg') {
+    min-height: 640px;
+  }
 }
 
 .title-block .ibm--grid {
@@ -22,6 +32,10 @@
 
   @include breakpoint('sm') {
     padding-bottom: 1rem;
+  }
+
+  @include breakpoint('md') {
+    padding-bottom: 2rem;
   }
 
   @include breakpoint('lg') {

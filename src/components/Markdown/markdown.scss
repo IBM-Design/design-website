@@ -135,49 +135,6 @@ h5 {
 }
 
 //----------------------------
-// Anchor Link
-//----------------------------
-
-.page-content > div > .anchor-links:first-child .page-ul {
-  margin-top: 0;
-}
-
-.anchor-links {
-  .page-ul {
-    margin-bottom: 2.25rem;
-    margin-top: rem(72px);
-    position: relative;
-  }
-
-  .page-ul > li {
-    @include type-style('heading-03');
-    list-style: none;
-    cursor: pointer;
-    padding-bottom: $spacing-xs;
-
-    &:before {
-      content: '\21B3'; //"↳"
-      position: absolute;
-      left: -1.5rem;
-      cursor: pointer;
-    }
-
-    a {
-      @include type-style('heading-03');
-      color: $ibm-colors__gray--90;
-      text-decoration: none;
-    }
-
-    &:hover {
-      a,
-      &:before {
-        color: $ibm-colors__blue--60;
-      }
-    }
-  }
-}
-
-//----------------------------
 // Image
 //----------------------------
 
