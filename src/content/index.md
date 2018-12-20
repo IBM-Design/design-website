@@ -20,7 +20,7 @@ When you blend human-centered design with time-tested business acumen and deep d
 <grid background="gray-10">
 <column lg="4">
 
-## Featured
+### Featured
 <!-- -->
 </column>
 <column lg="4" md="4">
