@@ -1,13 +1,18 @@
 //===================
 //SMALL TILE STYLES
 //===================
-.ibm--col-lg-4.tile--sm {
-  max-width: rem(304px);
-}
-
 .tile--sm {
   display: flex;
+  max-width: rem(288px);
   flex-direction: column;
+
+  & > .tile--text-container {
+    padding-left: 0;
+
+    & > p {
+      font-size: rem(16px);
+    }
+  }
 }
 
 .title--sm {
@@ -19,9 +24,10 @@
 .img--sm {
   width: rem(288px);
   height: rem(288px);
-  border: 1px solid green;
   margin-bottom: rem(18px);
 }
+
+
 
 .arrow--link-container {
   display: flex;
@@ -91,19 +97,10 @@
   margin-bottom: rem(30px);
 }
 
-.tile-img--container {
-  border: 1px solid blue;
-  height: rem(383px);
-  width: rem(575px);
+.img--lg {
   margin-right: rem(65px);
   margin-top: rem(172px);
   margin-bottom: rem(72px);
-}
-
-.img--lg {
-  border: 1px solid green;
-  height: rem(383px);
-  width: rem(575px);
 }
 
 //===================

@@ -26,7 +26,7 @@ Whether solving problems or serving clients, we put people at the center of ever
     description="Explore the framework that drives how we think and work every day."
     link_one="Read more"
     button="true">
-    <img src="./global/images/tile-img-lg__design-services.png" alt="geometric x-shapes" class="img--lg"/>
+    <img src="../global/images/tile-img-lg__design-thinking.png" alt="Geometric shapes"/>
   </tile>
 
 </column>
@@ -41,7 +41,7 @@ Whether solving problems or serving clients, we put people at the center of ever
     description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
     link_one="Read more"
     button="true">
-    <img src="./global/images/tile-img-lg__design-services.png" alt="geometric x-shapes" class="img--lg"/>
+    <img src="../global/images/tile-img-lg__design-services.png" alt="Geometric shapes"/>
   </tile>
 
 </column>
@@ -56,7 +56,7 @@ Whether solving problems or serving clients, we put people at the center of ever
     description="Design is about moving people forward, both emotionally and functionally."
     link_one="Read more"
     button="true">
-    <img src="./global/images/tile-img-lg__design-services.png" alt="geometric x-shapes" class="img--lg"/>
+    <img src="../global/images/tile-img-lg__design-philosophy.png" alt="Ven diagram emphasizing overlapping area"/>
   </tile>
 
 </column>

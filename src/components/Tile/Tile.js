@@ -8,9 +8,9 @@ export default class Tile extends React.Component {
   static propTypes = {
     children: PropTypes.node,
     //for tile images
-    no_gutter: PropTypes.bool,
+    no_gutter: PropTypes.string,
      //if true, will set margin bottom to 0 so tiles will touch
-    button: PropTypes.bool,
+    button: PropTypes.string,
     //if true, will include clickable tile
     button_href: PropTypes.string,
     //clickable tile href
@@ -36,7 +36,7 @@ export default class Tile extends React.Component {
     //url for first link_three
     background: PropTypes.string,
     //string that sets hex value for background color
-    light: PropTypes.boolean
+    light: PropTypes.string
     //if true, makes description and title_two text white, else black (based on bg color)
   };
 
@@ -61,7 +61,6 @@ export default class Tile extends React.Component {
     } = this.props;
 
     const classNames = classnames({
-      'ibm--col-lg-4': type === 'small',
       'ibm--row': type === 'large' || type === 'xlarge',
       'tile--sm': type === 'small',
       'tile--lg': type === 'large',
@@ -69,11 +68,6 @@ export default class Tile extends React.Component {
       'tile--no-gutter': no_gutter === 'true',
 
     });
-
-    //Classnames for <img/> children depending on tile type:
-      // 'img--sm': type === 'small',
-      // 'img--lg': type === 'large',
-      // 'img--xl': type === 'xlarge',
 
     const titleClassNames = classnames({
       'title--sm': type === 'small',
@@ -92,9 +86,10 @@ export default class Tile extends React.Component {
     return (
       <div className={classNames} style={{backgroundColor: background}}>
         { type === "small" ? (
-          <div>
+          <div className='img--sm'>
             {children}
-          </div> ) : null}
+          </div>
+        ) : null}
         <section className='tile--text-container ibm--col-sm-4'>
           <h1 className={titleClassNames}>{tile_title_one}</h1>
           {tile_title_two ? (
@@ -116,7 +111,7 @@ export default class Tile extends React.Component {
           ) : null}
         </section>
         { type !== "small" ? (
-          <div className="ibm--col-lg-8 ibm--col-sm-4 tile-img--container">
+          <div className="ibm--col-lg-8 ibm--col-sm-4 img--lg">
             {children}
           </div>
         ) : null}
