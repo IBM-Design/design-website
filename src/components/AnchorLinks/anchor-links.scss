@@ -7,17 +7,7 @@
     padding: $spacing-md 0 $spacing-xs 0;
   }
 
-  @include breakpoint('md') {
-    position: absolute; 
-    right: rem(20px);
-    bottom: 2rem;
-    width: 25%;
-    padding: 0;
-  }
-
-  @include breakpoint('lg') {
-    bottom: 4rem;
-  }
+  
 
   .page-ul {
     position: relative;
@@ -58,5 +48,22 @@
         color: $ibm-colors__white;
       }
     }
+  }
+}
+
+//----------------------------
+// Anchor Links inside TitleBlock
+//----------------------------
+.title-block .anchor-links {
+  @include breakpoint('md') {
+    position: absolute; 
+    right: rem(20px);
+    bottom: 2rem;
+    width: 25%;
+    padding: 0;
+  }
+
+  @include breakpoint('lg') {
+    bottom: 4rem;
   }
 }

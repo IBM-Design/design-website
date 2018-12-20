@@ -2,6 +2,8 @@
 title: Homepage
 ---
 
+![teams](teams/images/teams.png)
+
 <title-block>
 The purpose of<br>
 everything we design<br>
@@ -25,17 +27,17 @@ When you blend human-centered design with time-tested business acumen and deep d
 </column>
 <column lg="4">
 
-Tile 1
+![teams](teams/images/teams.png)
 
 </column>
 <column lg="4">
 
-Tile 2
+![teams](teams/images/teams.png)
 
 </column>
 <column lg="4">
 
-Tile 3
+![teams](teams/images/teams.png)
 
 </column>
 </grid>
