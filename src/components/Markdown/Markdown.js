@@ -1,149 +1,86 @@
 import React from 'react';
-import { Location } from '@reach/router';
-import { Link } from 'gatsby';
-import { Link20 } from '@carbon/icons-react';
 
 export class h1 extends React.Component {
   render() {
-    return (
-      <div className="ibm--row">
-        <div className="ibm--col-lg-7">
-          <h1 className="page-h1">{this.props.children}</h1>
-        </div>
-      </div>
-    );
+    return <h1 className="page-h1">{this.props.children}</h1>;
   }
 }
 
 export class h2 extends React.Component {
   render() {
+    const hash =
+      typeof this.props.children[0] !== 'string'
+        ? undefined
+        : this.props.children[0]
+            .replace(/[:&]/g, '')
+            .toLowerCase()
+            .split(' ')
+            .join('-');
     return (
-      <Location>
-        {({ location }) => {
-          const hash = typeof this.props.children[0] !== 'string' ? undefined : this.props.children[0].replace(/[:&]/g, '').toLowerCase().split(' ').join('-');
-          const path = location.pathname;
-          return (
-            <div className="ibm--row">
-              <div className="ibm--col-lg-7">
-                <h2 className="page-h2" id={hash}>     
-                  {hash && (<Link className="anchor-link" to={`${path}#${hash}`}>
-                    <Link20 className="anchor-link__icon" aria-label="Anchor Link" />
-                  </Link>)}
-                  {this.props.children}
-                </h2>
-              </div>
-            </div>
-          )
-        }}
-      </Location>
+      <h2 className="page-h2" id={hash}>
+        {this.props.children}
+      </h2>
     );
   }
 }
 
 export class h3 extends React.Component {
   render() {
+    const hash =
+      typeof this.props.children[0] !== 'string'
+        ? undefined
+        : this.props.children[0]
+            .replace(/[:&]/g, '')
+            .toLowerCase()
+            .split(' ')
+            .join('-');
     return (
-      <Location>
-        {({ location }) => {
-          const hash = typeof this.props.children[0] !== 'string' ? undefined : this.props.children[0].replace(/[:&]/g, '').toLowerCase().split(' ').join('-');
-          const path = location.pathname;
-          return (
-            <div className="ibm--row">
-              <div className="ibm--col-lg-7">
-                <h3 className="page-h3" id={hash}>     
-                  {hash && (<Link className="anchor-link" to={`${path}#${hash}`}>
-                    <Link20 className="anchor-link__icon" aria-label="Anchor Link" />
-                  </Link>)}
-                  {this.props.children}
-                </h3>
-              </div>
-            </div>
-          )
-        }}
-      </Location>
+      <h3 className="page-h3" id={hash}>
+        {this.props.children}
+      </h3>
     );
   }
 }
 
 export class h4 extends React.Component {
   render() {
+    const hash =
+      typeof this.props.children[0] !== 'string'
+        ? undefined
+        : this.props.children[0]
+            .replace(/[:&]/g, '')
+            .toLowerCase()
+            .split(' ')
+            .join('-');
+
     return (
-      <Location>
-        {({ location }) => {
-          const hash = typeof this.props.children[0] !== 'string' ? undefined : this.props.children[0].replace(/[:&]/g, '').toLowerCase().split(' ').join('-');
-          const path = location.pathname;
-          return (
-            <div className="ibm--row">
-              <div className="ibm--col-lg-7">
-                <h4 className="page-h4" id={hash}>     
-                  {hash && (<Link className="anchor-link" to={`${path}#${hash}`}>
-                    <Link20 className="anchor-link__icon" aria-label="Anchor Link" />
-                  </Link>)}
-                  {this.props.children}
-                </h4>
-              </div>
-            </div>
-          )
-        }}
-      </Location>
+      <h4 className="page-h4" id={hash}>
+        {this.props.children}
+      </h4>
     );
   }
 }
 
 export class h5 extends React.Component {
   render() {
-    return (
-      <div className="ibm--row">
-        <div className="ibm--col-lg-7">
-          <h5 className="page-h5">{this.props.children}</h5>
-        </div>
-      </div>
-    );
+    return <h5 className="page-h5">{this.props.children}</h5>;
   }
 }
 
 export class ul extends React.Component {
   render() {
-    return (
-      <div className="ibm--row">
-        <div className="ibm--col-lg-8">
-          <ul className="page-ul">{this.props.children}</ul>
-        </div>
-      </div>
-    );
+    return <ul className="page-ul">{this.props.children}</ul>;
   }
 }
 
 export class ol extends React.Component {
   render() {
-    return (
-      <div className="ibm--row">
-        <div className="ibm--col-lg-8">
-          <ol className="page-ol">{this.props.children}</ol>
-        </div>
-      </div>
-    );
-  }
-}
-
-export class p extends React.Component {
-  render() {
-    return (
-      <div className="ibm--row">
-        <div className="ibm--col-lg-8 ibm--col-md-6">
-          <p>{this.props.children}</p>
-        </div>
-      </div>
-    );
+    return <ol className="page-ol">{this.props.children}</ol>;
   }
 }
 
 export class AnchorLinks extends React.Component {
   render() {
-    return (
-      <div className="anchor-links">
-        {this.props.children}
-      </div>
-    );
+    return <div className="anchor-links">{this.props.children}</div>;
   }
 }

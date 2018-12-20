@@ -2,14 +2,10 @@
 title: Approach
 ---
 
-<background color="black">
-
 <title-block>
 The key to solving<br>business problems
 <span>is to focus on the<br>human problems.</span>
 </title-block>
-
-</background>
 
 <background color="gray">
 

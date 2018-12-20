@@ -4,14 +4,14 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql, Link } from 'gatsby';
 
 import favicon32 from '../../content/global/images/favicon-32.png';
-import { 
-  Header, 
-  HeaderMenuButton, 
-  HeaderName, 
+import {
+  Header,
+  HeaderMenuButton,
+  HeaderName,
   HeaderNavigation,
   HeaderMenu,
   HeaderMenuItem,
-  SkipToContent,  
+  SkipToContent,
 } from 'carbon-components-react/lib/components/UIShell';
 import { WebsiteFooter } from '@carbon/addons-website';
 import navigation from '../../data/navigation/navigation.json';
@@ -143,24 +143,43 @@ class Layout extends React.Component {
               <SkipToContent />
               <HeaderMenuButton
                 aria-label="Open menu"
-                onClick={(this.onToggleBtnClick)}
+                onClick={this.onToggleBtnClick}
               />
               <HeaderName prefix="IBM" to="/" element={Link}>
                 Design
               </HeaderName>
-              
+
               <HeaderNavigation aria-label="IBM [Platform]">
                 <HeaderMenu aria-label="Approach">
-                  <HeaderMenuItem className="nav-hack" to="/approach" element={Link}>Approach</HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>Design thinking</HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-services" element={Link}>Design services</HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-philosophy" element={Link}>Design philosophy</HeaderMenuItem>
+                  <HeaderMenuItem
+                    className="nav-hack"
+                    to="/approach"
+                    element={Link}>
+                    Approach
+                  </HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>
+                    Design thinking
+                  </HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-services" element={Link}>
+                    Design services
+                  </HeaderMenuItem>
+                  <HeaderMenuItem
+                    to="/approach/design-philosophy"
+                    element={Link}>
+                    Design philosophy
+                  </HeaderMenuItem>
                 </HeaderMenu>
-                <HeaderMenuItem to="/teams" element={Link}>Teams</HeaderMenuItem>
-                <HeaderMenuItem to="/guidance" element={Link}>Guidance</HeaderMenuItem>
-                <HeaderMenuItem to="/impact" element={Link}>Impact</HeaderMenuItem>
+                <HeaderMenuItem to="/teams" element={Link}>
+                  Teams
+                </HeaderMenuItem>
+                <HeaderMenuItem to="/guidance" element={Link}>
+                  Guidance
+                </HeaderMenuItem>
+                <HeaderMenuItem to="/impact" element={Link}>
+                  Impact
+                </HeaderMenuItem>
               </HeaderNavigation>
-            </Header>         
+            </Header>
             <div className="container">
               {children}
               <WebsiteFooter
@@ -185,7 +204,11 @@ class Layout extends React.Component {
                 ]}>
                 <p>
                   Have questions? Email us or open an issue in{' '}
-                  <a href="https://github.com/IBM-Design/design-website/issues/new" target="_blank">GitHub.</a>
+                  <a
+                    href="https://github.com/IBM-Design/design-website/issues/new"
+                    target="_blank">
+                    GitHub.
+                  </a>
                 </p>
                 <p>
                   Last updated {lastUpdated}

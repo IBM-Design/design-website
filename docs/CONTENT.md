@@ -15,7 +15,6 @@ src
           ├── designers.md
 ```
 
-
 ## Frontmatter
 
 The top of each markdown file has required frontmatter fields to display the title for the page.
@@ -68,7 +67,6 @@ Smaller image w/ text wrapping
 
 ![Example](https://user-images.githubusercontent.com/2753488/45236528-b02cb980-b2a1-11e8-9e81-af4ec353d3e9.png)
 
-
 ### Lists
 
     * This is a bulleted list
@@ -98,8 +96,6 @@ We support inline code and code blocks.
     ```
 
 ## Custom Markdown Components
-
-
 
 #### Grid Wrapper
 

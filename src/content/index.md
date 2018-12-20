@@ -21,6 +21,17 @@ small tile one
 small tile two
 small tile three
 
-<!--  -->
 </background>
 
+<grid background="white">
+
+<column lg="4">
+
+## Heading taking up 4 columns
+
+</column>
+<column lg="12">
+
+Paragraph here
+</column>
+</grid>
