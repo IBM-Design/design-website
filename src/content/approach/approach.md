@@ -16,6 +16,8 @@ Whether solving problems or serving clients, we put people at the center of ever
 
 </column>
 
+<column lg="16">
+
 <tile
     type="large"
     background="white"
@@ -27,6 +29,9 @@ Whether solving problems or serving clients, we put people at the center of ever
     link_one="Read more"
     button="true">
   </tile>
+
+</column>
+<column lg="16">
 
   <tile
     type="large"
@@ -41,6 +46,9 @@ Whether solving problems or serving clients, we put people at the center of ever
     button="true">
   </tile>
 
+</column>
+<column lg="16">
+
   <tile
     type="large"
     background="#051243"
@@ -53,5 +61,7 @@ Whether solving problems or serving clients, we put people at the center of ever
     link_one="Read more"
     button="true">
   </tile>
+
+</column>
 
 </grid>
