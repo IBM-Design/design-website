@@ -1,6 +1,6 @@
-#
+# 
 
-This is the which is built using GatsbyJS.
+This is the IBM.com.design website; built with GatsbyJS.
 
 ## 📂 Structure
 
@@ -9,7 +9,6 @@ src
 ├── components
 ├── content
 ├── data
-├── layouts
 ├── pages
 ├── styles
 ├── templates
