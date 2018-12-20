@@ -9,7 +9,6 @@ src
 ├── components
 ├── content
 ├── data
-├── layouts
 ├── pages
 ├── styles
 ├── templates
