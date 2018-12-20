@@ -2,16 +2,17 @@
 title: Impact
 ---
 
-<background color="black">
-
 <title-block>
-Design is simply<br>the means;<br>
-<span>business outcomes<br>are the end.</span>
+Design is simply<br>
+the means;<br>
+<span>business outcomes
+<br>are the end.</span>
 </title-block>
 
-</background>
+<grid background="gray-10">
+<column lg="8">
 
-<background color="gray">
+TThe true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.
 
-When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.
-</background>
+</column>
+</grid>
