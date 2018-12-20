@@ -2,18 +2,19 @@
 title: Approach
 ---
 
-<background color="black">
-
 <title-block>
-The key to solving<br>business problems
-<span>is to focus on the<br>human problems.</span>
+The key to solving<br>
+business problems
+<span>is to focus on the
+<br>human problems.</span>
 </title-block>
 
-</background>
-
-<background color="gray">
+<grid background="gray-10">
+<column lg="8">
 
 Whether solving problems or serving clients, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.
+
+</column>
 
 <info-tile
     type="large"
@@ -54,5 +55,5 @@ Whether solving problems or serving clients, we put people at the center of ever
   </info-tile>
 </light>
 
-</background>
+</grid>
 

@@ -9,13 +9,23 @@ everything we design<br>
 we serve.</span>
 </title-block>
 
-<background color="gray">
+<grid background="gray-10">
+<column lg="8">
 
 When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.
 
+</column>
+</grid>
 
-  <info-tile-container title="Featured">
-    <info-tile
+<grid background="gray-10">
+<column lg="4">
+
+## Featured
+<!-- -->
+</column>
+<column lg="4">
+
+<info-tile
       type="small"
       img_src="./global/images/tile-img-sm__ix-migros.png"
       img_alt="an image of a little boy drinking from a mug"
@@ -23,7 +33,11 @@ When you blend human-centered design with time-tested business acumen and deep d
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">
     </info-tile>
-    <info-tile
+
+</column>
+<column lg="4">
+
+<info-tile
       type="small"
       img_src="./global/images/tile-img-sm__ix-migros.png"
       img_alt="an image of a little boy drinking from a mug"
@@ -31,7 +45,11 @@ When you blend human-centered design with time-tested business acumen and deep d
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">
     </info-tile>
-    <info-tile
+
+</column>
+<column lg="4">
+
+  <info-tile
       type="small"
       img_src="./global/images/tile-img-sm__ix-migros.png"
       img_alt="an image of a little boy drinking from a mug"
@@ -39,16 +57,6 @@ When you blend human-centered design with time-tested business acumen and deep d
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">
     </info-tile>
-  </info-tile-container>
-</light>
 
-## h2 test
-
-### h3 test
-
-small tile one
-small tile two
-small tile three
-
-<!--  -->
-</background>
+</column>
+</grid>

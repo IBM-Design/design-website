@@ -7,13 +7,13 @@ const { PATH_PREFIX = '/' } = process.env;
 module.exports = {
   pathPrefix: PATH_PREFIX,
   siteMetadata: {
-    title: 'IBM Design'
+    title: 'IBM Design',
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-00000000-0",
+        trackingId: 'UA-00000000-0',
       },
     },
     `gatsby-plugin-sharp`,
@@ -45,16 +45,6 @@ module.exports = {
           `gatsby-remark-responsive-iframe`,
           `gatsby-remark-component`,
           {
-            resolve: "gatsby-remark-custom-blocks",
-            options: {
-              blocks: {
-                dark: {
-                  classes: "custom-block-dark",
-                },
-              },
-            },
-          },
-          {
             resolve: 'gatsby-remark-embed-video',
             options: {
               width: 606,
@@ -72,7 +62,7 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 1024,
               linkImagesToOriginal: false,
-              backgroundColor: "transparent",
+              backgroundColor: 'transparent',
             },
           },
           'gatsby-remark-copy-linked-files',
