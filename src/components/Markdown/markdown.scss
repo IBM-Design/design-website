@@ -1,18 +1,21 @@
 //----------------------------
-// Flex
+// Paragraphs
 //----------------------------
-.container .flex-wrap {
-  @include breakpoint('md') {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.bx--type-body-long-02 { 
+  padding: 0 0 $spacing-lg;
 }
 
-//----------------------------
-// Bleed
-//----------------------------
-.container .ibm--col-bleed {
-  padding: 0;
+.bx--type-heading-03 { //small
+  padding: 0 0 $spacing-lg;
+}
+
+.bx--type-expressive-heading-04 { //medium
+  padding: 0 0 6rem 0;
+  color: $text-02;
+}
+
+.bx--type-expressive-heading-05 { //large
+  padding: 0 0 $spacing-lg;
 }
 
 //----------------------------
@@ -20,9 +23,9 @@
 //----------------------------
 
 .page-h2 {
-  @include type-style('expressive-heading-04');
-  font-size: rem(42px);
-  position: relative;
+  //@include type-style('expressive-heading-04');
+  //font-size: rem(42px);
+  font-weight: 400;
   color: $ibm-colors__blue--60;
 }
 
@@ -33,7 +36,7 @@
 .page-h3 {
   @include type-style('heading-03');
   color: $text-01;
-  position: relative;
+
 }
 
 //----------------------------
@@ -43,7 +46,6 @@
 .page-h4 {
   @include type-style('heading-02');
   color: $text-01;
-  position: relative;
 }
 
 //----------------------------
@@ -51,40 +53,7 @@
 //----------------------------
 
 .page-h5 {
-  position: relative;
-}
 
-//----------------------------
-// Anchor Link
-//----------------------------
-h2,
-h3,
-h4,
-h5 {
-  // This makes sure there is breathing room when
-  // you jump to the heading anchor link
-  &:before {
-    display: block;
-    content: ' ';
-    margin-top: rem(-56px);
-    height: rem(56px);
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  .anchor-link {
-    position: absolute;
-    left: rem(-24px);
-    opacity: 0;
-  }
-
-  .anchor-link__icon {
-    fill: $ibm-colors__blue--50;
-  }
-
-  &:hover .anchor-link {
-    opacity: 1;
-  }
 }
 
 //----------------------------
@@ -115,52 +84,6 @@ h5 {
   list-style-type: decimal;
 }
 
-// The following is a css hack because remark is nesting
-// tags inside of lists and causing double grid code
-.container .page-ol,
-.container .page-ul {
-  .ibm--row {
-    margin: 0;
-    width: 100%;
-  }
-
-  .ibm--col-lg-7,
-  .ibm--col-lg-8,
-  .ibm--col-lg-12 {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-
-//----------------------------
-// Image
-//----------------------------
-
-/*
-.page-content img {
-  max-width: 100%;
-}
-
-.gatsby-resp-image-background-image {
-  background: transparent !important; // Need important to override inline style added by gatsby-remark-images
-}
-
-.container--component .gatsby-resp-image-image {
-  box-shadow: none !important; // Need important to override inline style added by gatsby-remark-images
-  border: none !important;
-}
-*/
-
 //----------------------------
 // Blockquote
 //----------------------------
-
-//----------------------------
-// Video Embed
-//----------------------------
-
-iframe.embedVideoIframe {
-  //border: 1px solid $ui-03;
-}

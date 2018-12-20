@@ -1,5 +1,29 @@
 import React from 'react';
 
+export class p extends React.Component {
+  render() {
+    return <p className="bx--type-body-long-02">{this.props.children}</p>;
+  }
+}
+
+export class small extends React.Component {
+  render() {
+    return <p className="bx--type-heading-03">{this.props.children}</p>;
+  }
+}
+
+export class medium extends React.Component {
+  render() {
+    return <p className="bx--type-expressive-heading-04">{this.props.children}</p>;
+  }
+}
+
+export class large extends React.Component {
+  render() {
+    return <p className="bx--type-expressive-heading-05">{this.props.children}</p>;
+  }
+}
+
 export class h1 extends React.Component {
   render() {
     return <h1 className="page-h1">{this.props.children}</h1>;
@@ -17,7 +41,7 @@ export class h2 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <h2 className="page-h2" id={hash}>
+      <h2 className="page-h2 bx--type-display-02" id={hash}>
         {this.props.children}
       </h2>
     );

@@ -18,6 +18,9 @@ import {
   h5,
   ul,
   ol,
+  small,
+  medium,
+  large
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
@@ -36,6 +39,9 @@ const renderAst = new rehypeReact({
     'title-block': TitleBlock,
     grid: Grid,
     column: Column,
+    small: small,
+    medium: medium,
+    large: large
   },
 }).Compiler;
 

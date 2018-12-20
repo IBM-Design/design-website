@@ -20,11 +20,10 @@ A solution’s quality<br>hinges directly on<br>
 <grid background="gray-10">
 <column lg="8">
 
-The foundational unit of design is the team. Learn how we leverage diversity to strengthen our teams and explore the types of roles we hire for.
+<medium>The foundational unit of design is the team. Learn how we leverage diversity to strengthen our teams and explore the types of roles we hire for.</medium>
 
 </column>
-</grid>
-<grid background="gray-10">
+
 <column lg="16">
 
 ![teams](images/teams.png)
@@ -32,15 +31,13 @@ The foundational unit of design is the team. Learn how we leverage diversity to 
 </column>
 <column lg="4">
 
-## Diverse teams
+## Diverse<br>teams
 
 </column>
 <column lg="10">
 
-When solving complex, multi-faceted problems, we rely on the strength of Diverse Empowered Teams to envision and execute on solutions that generate value  for both our users and our clients.
-
-Diversity comes in many forms-your
-job role, your educational history, your cultural background-all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
+<large>When solving complex, multi-faceted problems, we rely on the strength of Diverse Empowered Teams to envision and execute on solutions that generate value  for both our users and our clients. 
+<br><br>Diversity comes in many forms-your job role, your educational history, your cultural background-all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.</large>
 
 </column>
 </grid>
@@ -80,9 +77,9 @@ job role, your educational history, your cultural background-all are important, 
 <column lg="10">
 
 ## Join us
-Ready to become part of the single-largest design initiative in the world? 
-
-We’re always looking for talented, ambitious individuals to join us in our mission. Check out the practices below and blah blah blah.
+<large>
+Ready to become part of the single-largest design initiative in the world? <br><br>We’re always looking for talented, ambitious individuals to join us in our mission. Check out the practices below and blah blah blah.
+</large>
 
 </column>
 

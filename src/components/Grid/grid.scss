@@ -1,11 +1,6 @@
 //----------------------------
 // Background
 //----------------------------
-.background {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .background--white {
   background: $ibm-colors__white;
 }
@@ -23,6 +18,10 @@
   color: $ibm-colors__white;
 }
 
-.ibm--col-* {
-  outline: 1px dotted yellow;
+
+
+.background div[class^="ibm--col-"] {
+  outline: 1px dotted red;
+  outline-offset: -1px;
+  //padding: 4rem 0 8rem 0;
 }
