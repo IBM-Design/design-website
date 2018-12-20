@@ -66,7 +66,7 @@ Everything IBM and IBMers do is this. Everything we design should too.
 
 </column>
 
-<column offset_lg="2">
+<column offset_lg="2" lg="12">
 
 ## Think → Guide
 
