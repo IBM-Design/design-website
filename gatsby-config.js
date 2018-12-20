@@ -45,16 +45,6 @@ module.exports = {
           `gatsby-remark-responsive-iframe`,
           `gatsby-remark-component`,
           {
-            resolve: 'gatsby-remark-custom-blocks',
-            options: {
-              blocks: {
-                dark: {
-                  classes: 'custom-block-dark',
-                },
-              },
-            },
-          },
-          {
             resolve: 'gatsby-remark-embed-video',
             options: {
               width: 606,
