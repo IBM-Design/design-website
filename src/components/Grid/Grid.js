@@ -22,7 +22,7 @@ export class Grid extends React.Component {
 
     return (
       <div className={classNames}>
-        <div className="ibm--grid ibm--grid--bleed">
+        <div className="ibm--grid ">
           <div className="ibm--row">{children}</div>
         </div>
       </div>

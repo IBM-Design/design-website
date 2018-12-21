@@ -34,6 +34,11 @@
   color: $ibm-colors__white;
 }
 
+// Paragraph immediatly following title block. Removes top padding
+.title-block + .background > div > div > div .page-p--lg {
+  padding-top: 0;
+}
+
 //----------------------------
 // h2
 //----------------------------

@@ -40,7 +40,7 @@ export default class TitleBlock extends React.Component {
 
     return (
       <div className="title-block background--black">
-        <div className="ibm--grid  ibm--grid--bleed">
+        <div className="ibm--grid  ">
           <div className="ibm--row">
             <div class="title-block__content ibm--col-lg-12 ibm--col-md-7">
               {eyeBeeM}
