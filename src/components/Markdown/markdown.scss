@@ -3,7 +3,7 @@
 //----------------------------
 .page-p { 
   @include type-style('body-long-02');
-  padding: 3rem 15% $spacing-lg 0;
+  padding: 3rem 0 $spacing-lg 0;
   color: $text-02;
 }
 

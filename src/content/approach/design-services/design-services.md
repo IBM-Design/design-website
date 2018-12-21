@@ -12,7 +12,7 @@ title: Design services
 </column>
 <column lg="12" offset_lg="2">
 
-VIDEO
+`vimeo: https://vimeo.com/293453905`
 
 </column>
 <column lg="7" offset_lg="2">

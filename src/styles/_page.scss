@@ -99,3 +99,13 @@ button {
   margin-bottom: -1.5rem; // needed to remove bottom default paragraph spacing
   margin-top: -3rem; // needed to remove top default paragraph spacing
 }
+
+//----------------------------
+// Video Embed
+//----------------------------
+
+iframe.embedVideoIframe {
+  max-width: 100%;
+  margin-bottom: -3rem; // needed to remove bottom default paragraph spacing
+  margin-top: -6rem; // needed to remove top default paragraph spacing
+}
