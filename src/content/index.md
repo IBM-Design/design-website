@@ -2,8 +2,6 @@
 title: Homepage
 ---
 
-![teams](teams/images/teams.png)
-
 <title-block>
 The purpose of<br>
 everything we design<br>

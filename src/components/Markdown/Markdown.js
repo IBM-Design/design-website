@@ -1,26 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
 export class p extends React.Component {
-  render() {
-    return <p className="bx--type-body-long-02">{this.props.children}</p>;
-  }
-}
+  static propTypes = {
+    children: PropTypes.node,
+    size: PropTypes.string,
+  };
 
-export class small extends React.Component {
   render() {
-    return <p className="bx--type-heading-03">{this.props.children}</p>;
-  }
-}
+    const { children, size } = this.props;
 
-export class medium extends React.Component {
-  render() {
-    return <p className="bx--type-expressive-heading-04">{this.props.children}</p>;
-  }
-}
+    const classNames = classnames({
+      'page-p': true,
+      'page-p--md': size === 'md',
+      'page-p--lg': size === 'lg',
+      'page-p--xl': size === 'xl',
+    });
 
-export class large extends React.Component {
-  render() {
-    return <p className="bx--type-expressive-heading-05">{this.props.children}</p>;
+    return <p className={classNames}>{children}</p>;
   }
 }
 
@@ -41,7 +39,7 @@ export class h2 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <h2 className="page-h2 bx--type-display-02" id={hash}>
+      <h2 className="page-h2" id={hash}>
         {this.props.children}
       </h2>
     );

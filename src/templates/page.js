@@ -11,6 +11,7 @@ import TitleBlock from '../components/TitleBlock';
 import AnchorLinks from '../components/AnchorLinks';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
+  p,
   h1,
   h2,
   h3,
@@ -26,6 +27,7 @@ import {
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
+    p: p,
     h1: h1,
     h2: h2,
     h3: h3,
@@ -39,9 +41,6 @@ const renderAst = new rehypeReact({
     'title-block': TitleBlock,
     grid: Grid,
     column: Column,
-    small: small,
-    medium: medium,
-    large: large
   },
 }).Compiler;
 

@@ -86,3 +86,16 @@ a.bx--header__menu-item[role='menuitem']:hover:before {
 button {
   font-family: $font-family;
 }
+
+//---------------------------------------
+// Images
+//---------------------------------------
+
+.gatsby-resp-image-wrapper {
+  max-width: 100% !important; //need to see why the plugin isn't respectinng the max width. this fixes for now. 🤔
+}
+
+.page-p .gatsby-resp-image-wrapper {
+  margin-bottom: -1.5rem; // needed to remove bottom default paragraph spacing
+  margin-top: -3rem; // needed to remove top default paragraph spacing
+}

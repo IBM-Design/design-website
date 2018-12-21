@@ -1,21 +1,33 @@
 //----------------------------
 // Paragraphs
 //----------------------------
-.bx--type-body-long-02 { 
-  padding: 0 0 $spacing-lg;
-}
-
-.bx--type-heading-03 { //small
-  padding: 0 0 $spacing-lg;
-}
-
-.bx--type-expressive-heading-04 { //medium
-  padding: 0 0 6rem 0;
+.page-p { 
+  @include type-style('body-long-02');
+  padding: 3rem 0 $spacing-lg;
   color: $text-02;
 }
 
-.bx--type-expressive-heading-05 { //large
-  padding: 0 0 $spacing-lg;
+.page-p--md { //md
+  @include type-style('heading-03');
+}
+
+.page-p--lg { //lg
+  padding: 3rem 0 6rem 0;
+  //replace with type token
+  font-size: rem(28px); 
+  line-height: 1.125;
+}
+
+.page-p--xl { //xl
+  @include type-style('expressive-heading-05');
+  font-size: rem(42px);
+  line-height: 120%;
+  font-weight: 400;
+  padding-bottom: 6rem;
+}
+
+.background--black .page-p {
+  color: $ibm-colors__white;
 }
 
 //----------------------------
@@ -23,10 +35,13 @@
 //----------------------------
 
 .page-h2 {
-  //@include type-style('expressive-heading-04');
-  //font-size: rem(42px);
+  @include type-style('expressive-heading-05');
+  font-size: rem(42px);
+  line-height: 120%;
   font-weight: 400;
   color: $ibm-colors__blue--60;
+  padding-top: 3rem;
+  padding-right: 25%;
 }
 
 //----------------------------
@@ -36,7 +51,7 @@
 .page-h3 {
   @include type-style('heading-03');
   color: $text-01;
-
+  padding-top: 3rem;
 }
 
 //----------------------------
@@ -62,12 +77,12 @@
 
 .page-ul,
 .page-ol {
-  margin: 0 0 $spacing-lg $spacing-lg;
+  margin: 0 0 6rem $spacing-lg;
   position: relative;
 }
 
 .page-ul > li {
-  font-weight: 400;
+  @include type-style('body-long-02');
   padding-left: 0.25rem;
   list-style-type: none;
 
@@ -79,7 +94,7 @@
 }
 
 .page-ol > li {
-  font-weight: 400;
+  @include type-style('body-long-02');
   padding-left: 0.25rem;
   list-style-type: decimal;
 }
@@ -87,3 +102,38 @@
 //----------------------------
 // Blockquote
 //----------------------------
+blockquote:first-child {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 1px;
+    background: $ibm-colors__gray--40;
+    position: absolute;
+    top: -8px;
+    left: -15%;
+  }
+}
+
+blockquote .page-p {
+  @include type-style('body-long-02');
+  font-style: italic;
+  padding: 0 0 1rem 0;
+}
+
+.background--black blockquote .page-p {
+  color: $ibm-colors__gray--40;
+}
+
+
+//----------------------------
+// HR
+//----------------------------
+hr {
+  margin: 4rem rem(32px) 0;
+  border-top: 1px solid $ibm-colors__gray--80;
+}

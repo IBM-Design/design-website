@@ -18,10 +18,10 @@
   color: $ibm-colors__white;
 }
 
-
-
+// selects all columnns for testing
 .background div[class^="ibm--col-"] {
-  outline: 1px dotted red;
-  outline-offset: -1px;
+  position: relative;
+  //outline: 1px dotted red;
+  //outline-offset: -1px;
   //padding: 4rem 0 8rem 0;
 }
