@@ -18,10 +18,10 @@ business problems
 
 </title-block>
 
-Z
+<grid background="gray-10">
+<column lg="8">
 
-Whether solving problems or serving clients, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.
+<p size="lg">Whether solving problems or serving clients, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.</p>
 
 </column>
 </grid>
-y

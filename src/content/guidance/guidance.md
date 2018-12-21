@@ -22,7 +22,7 @@ building bonds.</span>
 <grid background="gray-10">
 <column lg="8">
 
-Tap into a growing collection of design tools, assets and resources to keep your business moving forward.
+<p size="lg">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
 
 </column>
 </grid>

@@ -50,7 +50,7 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="4">
 
-### Identity
+#### Identity
 - Age and Ability
 - Gender identity
 - Race and ethnicity
@@ -58,7 +58,7 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="4">
 
-### Experience
+#### Experience
 - Cultural upbringing
 - Geography
 - Language
@@ -66,14 +66,14 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="4">
 
-### Expertise
+#### Expertise
 - Education
 - Organization
 - Discipline
 
 </column>
 </grid>
-<grid background="black">
+<grid background="gray-100">
 <column lg="10">
 
 ## Join us
@@ -107,7 +107,7 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column offset_lg="4" lg="3">
 
-> We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding.
+> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
 > — Amritha Prasad, Product Designer
 
@@ -127,7 +127,7 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column offset_lg="4" lg="3">
 
-> I joined because I liked that IBM was building creative teams and sharing their design process. I’m very excited to learn from my experienced peers and grow alongside the team.
+> _I joined because I liked that IBM was building creative teams and sharing their design process. I’m very excited to learn from my experienced peers and grow alongside the team._
 
 > — Alice Yang, Illustrator
 
@@ -147,9 +147,9 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column offset_lg="4" lg="3">
 
-> We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding.
+> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
-> — Amritha Prasad, Product Designer
+> _— Amritha Prasad, Product Designer_
 
 </column>
 </grid>

@@ -13,8 +13,13 @@
   background: $ibm-colors__gray--20;
 }
 
-.background--black {
+.background--gray-100 {
   background: $ibm-colors__gray--100;
+  color: $ibm-colors__white;
+}
+
+.background--black {
+  background: $ibm-colors__black;
   color: $ibm-colors__white;
 }
 
