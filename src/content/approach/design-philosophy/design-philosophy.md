@@ -21,12 +21,7 @@ title: Design philosophy
 
 <p size="md">Today, the talent, techniques, thinking and tools of design, like technology, have become more and more abundant and accessible to all alike.<br><br>Paradoxically, decisions are more distributed, and experiences can become less and less distinctive. The rapid, relentless pace to produce can create an uneven emphasis on immediacy and incrementalism over individuality and innovation.<br><br>It is more important than ever that we own our own ethos, make palpable our brand values, and incorporate an instantly identifiable IBMness in everything we do.</p>
 
-<p size="md">
-
-> Without aesthetic, design is either the humdrum repetition of familiar clichés or a wild scramble for novelty. Without aesthetic, the computer is but a mindless speed machine, producing effects without substance, form without relevant content, or content without meaningful form.
-> – Paul Rand
-
-</p>
+> _Without aesthetic, design is either the humdrum repetition of familiar clichés or a wild scramble for novelty. Without aesthetic, the computer is but a mindless speed machine, producing effects without substance, form without relevant content, or content without meaningful form. <br><br>– Paul Rand_
 
 <p size="md">Aesthetic is defined as the philosophical theory or set of principles governing outward appearance or actions. This characteristic applied to any experience is essential to its effectiveness. Everything we do (and don’t do) communicates. The care and craft we put into every experience is equal to any confidence or consideration we should expect in return.</p>
 

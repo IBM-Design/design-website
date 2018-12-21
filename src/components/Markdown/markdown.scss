@@ -146,6 +146,15 @@ blockquote em {
   color: $ibm-colors__gray--40;
 }
 
+.ibm--col-lg-7 blockquote .page-p {
+  @include type-style('heading-03');
+  padding-top: 1rem;
+  padding-left: 8%;
+  padding-bottom: 0;
+  color: $ibm-colors__blue--60;
+} 
+
+
 //----------------------------
 // HR
 //----------------------------
