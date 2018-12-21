@@ -18,10 +18,7 @@ import {
   h4,
   h5,
   ul,
-  ol,
-  small,
-  medium,
-  large
+  ol
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({

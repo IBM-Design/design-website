@@ -25,17 +25,17 @@ When you blend human-centered design with time-tested business acumen and deep d
 </column>
 <column lg="4">
 
-![teams](teams/images/teams.png)
+- Tile 1
 
 </column>
 <column lg="4">
 
-![teams](teams/images/teams.png)
+- Tile 2
 
 </column>
 <column lg="4">
 
-![teams](teams/images/teams.png)
+- Tile 3
 
 </column>
 </grid>
