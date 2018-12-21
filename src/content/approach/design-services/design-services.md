@@ -5,7 +5,7 @@ title: Design services
 <grid background="gray-10">
 <column lg="12" offset_lg="2">
 
-## Design services
+## **Design services**
 
 <p size="xl">Most companies make things for their clients; we prefer to co-create with them.<br><br>At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner. By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses.</p>
 
@@ -17,7 +17,7 @@ VIDEO
 </column>
 <column lg="7" offset_lg="2">
 
-### Capabilities
+## Capabilities
 <p size="lg">Our work focuses on three foundational areas of client success.</p>
 
 </column>

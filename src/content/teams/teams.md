@@ -31,7 +31,7 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="4">
 
-## Diverse<br>teams
+## **Diverse<br>teams**
 
 </column>
 <column lg="10">
@@ -45,7 +45,7 @@ A solution’s quality<br>hinges directly on<br>
 <grid background="gray-10">
 <column lg="4">
 
-## Dimensions of diversity
+## **Dimensions of diversity**
 
 </column>
 <column lg="4">
@@ -76,7 +76,7 @@ A solution’s quality<br>hinges directly on<br>
 <grid background="gray-100">
 <column lg="10">
 
-## Join us
+## **Join us**
 <p size="xl">Ready to become part of the single-largest design initiative in the world? <br><br>We’re always looking for talented, ambitious individuals to join us in our mission. Check out the practices below and blah blah blah.</p>
 
 

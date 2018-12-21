@@ -3,16 +3,18 @@
 //----------------------------
 .page-p { 
   @include type-style('body-long-02');
-  padding: 3rem 0 $spacing-lg;
+  padding: 3rem 15% $spacing-lg 0;
   color: $text-02;
 }
 
 .page-p--md { //md
   @include type-style('heading-03');
+  padding-right: 0;
 }
 
 .page-p--lg { //lg
-  padding: 0 0 6rem 0;
+  padding-right: 0;
+  padding-bottom: 6rem;
   //replace with type token
   font-size: rem(28px); 
   line-height: 1.125;
@@ -23,6 +25,7 @@
   font-size: rem(42px);
   line-height: 120%;
   font-weight: 400;
+  padding-right: 0;
   padding-bottom: 6rem;
 }
 
@@ -39,10 +42,15 @@
   @include type-style('expressive-heading-05');
   font-size: rem(42px);
   line-height: 120%;
-  font-weight: 400;
-  color: $ibm-colors__blue--60;
+  font-weight: 300;
+  color: $text-01;
   padding-top: 3rem;
   padding-right: 25%;
+
+  strong {
+    font-weight: 400;
+    color: $ibm-colors__blue--60;
+  }
 }
 
 //----------------------------
