@@ -48,21 +48,16 @@ export class Column extends React.Component {
    * Specify the col offset at large breakpoint
    */
     offset_lg: PropTypes.string,
-    /**
-   * Specify the type token size to use
-   */
-    type: PropTypes.string,
   };
 
   render() {
-    const { children, sm, md, lg, offset_lg, type } = this.props;
+    const { children, sm, md, lg, offset_lg } = this.props;
     
     let classNames = "";
     if(lg) classNames += `ibm--col-lg-${lg} `;
     if(md) classNames += `ibm--col-md-${md} `;
     if(sm) classNames += `ibm--col-sm-${sm} `;
     if(offset_lg) classNames += `ibm--offset-lg-${offset_lg} `;
-    if(type) classNames += `bx--type-${type} `;
 
     return <div className={classNames}>{children}</div>;
   }
