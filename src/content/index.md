@@ -26,7 +26,6 @@ When you blend human-centered design with time-tested business acumen and deep d
 <column lg="4" md="4">
 
 <tile
-      type="small"
       tile_title_one="IBM Security"
       description="Detection is at an all time high and breaches at an all time low"
       link_one="Read more">
@@ -37,7 +36,6 @@ When you blend human-centered design with time-tested business acumen and deep d
 <column lg="4" md="4">
 
 <tile
-      type="small"
       tile_title_one="IBM Plex"
       description="Our typeface launched earlier this year and is now going global"
       link_one="Read more">
@@ -48,7 +46,6 @@ When you blend human-centered design with time-tested business acumen and deep d
 <column lg="4" md="4">
 
   <tile
-      type="small"
       tile_title_one="iX + Migros"
       description="An integrated experience for Switzerland's most popular brand"
       link_one="Read more">

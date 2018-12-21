@@ -6,38 +6,71 @@ import { ArrowRight16, Launch20 } from '@carbon/icons-react';
 
 export default class Tile extends React.Component {
   static propTypes = {
+    /**
+   * for tile images
+   */
     children: PropTypes.node,
-    //for tile images
+    /**
+   * default=false, if true, large tiles will bleed at bottom
+   */
     no_gutter: PropTypes.string,
-     //if true, will set margin bottom to 0 so tiles will touch
+    /**
+   * default=false, if true, will include clickable tile
+   */
     button: PropTypes.string,
-    //if true, will include clickable tile
+    /**
+   * url for clickable tile button
+   */
     button_href: PropTypes.string,
-    //clickable tile href
+    /**
+   * specifies the version of tile component used.
+   default=small, other types include "large" and "xlarge"
+   */
     type: PropTypes.string,
-    //"small", "large", "xlarge" specifies the version of tile component used
+    /**
+   * only header for small tiles, first header for lg/xl tiles
+   */
     tile_title_one: PropTypes.string,
-    //name of title
+    /**
+   * second header for lg/xl tiles
+   */
     tile_title_two: PropTypes.string,
-    //for large tiles, second title text
+    /**
+   * description paragraph if needed
+   */
     description: PropTypes.string,
-    //paragraph
+    /**
+   * only link in sm/lg tiles, first link of 3 in xl tiles
+   */
     link_one: PropTypes.string,
-    //label for link
+    /**
+   * 2 link of 3 in xl tiles
+   */
     link_two: PropTypes.string,
-    //if more than one link, label for second link
+    /**
+   * 3 link of 3 in xl tiles
+   */
     link_three: PropTypes.string,
-    //if more than one link, label for third link
+    /**
+   * link 1 href
+   */
     href_one: PropTypes.string,
-    //url for first link_one
+    /**
+   * link 2 href
+   */
     href_two: PropTypes.string,
-    //url for first link_two
+    /**
+   * link 3 href
+   */
     href_three: PropTypes.string,
-    //url for first link_three
+    /**
+   * string that sets hex value for background color, if not included, bg is transparent
+   */
     background: PropTypes.string,
-    //string that sets hex value for background color
+    /**
+   * makes title 2 and description text white if bg is dark, default = false,
+   */ 
     light: PropTypes.string
-    //if true, makes description and title_two text white, else black (based on bg color)
   };
 
   render() {
@@ -75,12 +108,12 @@ export default class Tile extends React.Component {
     });
 
     const titleTwoClassNames = classnames({
-      'text--light': light,
+      'text--light': light === 'true',
       'title--two': tile_title_two
     });
 
     const descClassName = classnames({
-      'text--light': light,
+      'text--light': light === 'true',
     });
 
     const lgImgClassNames = classnames({
@@ -134,4 +167,11 @@ export default class Tile extends React.Component {
       </div>
     );
   }
+}
+
+Tile.defaultProps = {
+  type: 'small',
+  no_gutter: 'false',
+  button: 'false',
+  light: 'false',
 }
