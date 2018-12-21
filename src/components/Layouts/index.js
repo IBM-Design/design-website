@@ -8,13 +8,10 @@ import {
   Header,
   HeaderMenuButton,
   HeaderName,
-  HeaderNavigation,
-  HeaderMenu,
-  HeaderMenuItem,
   SkipToContent,
 } from 'carbon-components-react/lib/components/UIShell';
 import { WebsiteFooter } from '@carbon/addons-website';
-import navigation from '../../data/navigation/navigation.json';
+import Navigation from '../Navigation';
 
 import '../../styles/index.scss';
 
@@ -148,38 +145,12 @@ class Layout extends React.Component {
               <HeaderName prefix="IBM" to="/" element={Link}>
                 Design
               </HeaderName>
-
-              <HeaderNavigation aria-label="IBM [Platform]">
-                <HeaderMenu aria-label="Approach">
-                  <HeaderMenuItem
-                    className="nav-hack"
-                    to="/approach"
-                    element={Link}>
-                    Approach
-                  </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>
-                    Design thinking
-                  </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-services" element={Link}>
-                    Design services
-                  </HeaderMenuItem>
-                  <HeaderMenuItem
-                    to="/approach/design-philosophy"
-                    element={Link}>
-                    Design philosophy
-                  </HeaderMenuItem>
-                </HeaderMenu>
-                <HeaderMenuItem to="/teams" element={Link}>
-                  Teams
-                </HeaderMenuItem>
-                <HeaderMenuItem to="/guidance" element={Link}>
-                  Guidance
-                </HeaderMenuItem>
-                <HeaderMenuItem to="/impact" element={Link}>
-                  Impact
-                </HeaderMenuItem>
-              </HeaderNavigation>
+              <Navigation location={this.props.location} />
+              
             </Header>
+
+            
+
             <div className="container">
               {children}
               <WebsiteFooter

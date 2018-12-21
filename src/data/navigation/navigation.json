@@ -1,10 +1,25 @@
 {
-  "getting-started": {
-    "title": "Getting Started",
+  "approach": {
+    "title": "Approach",
     "sub-nav": {
-      "about-carbon": {
-        "title": "About Carbon"
+      "design-thinking": {
+        "title": "Design thinking"
+      },
+      "design-services": {
+        "title": "Design services"
+      },
+      "design-philosophy": {
+        "title": "Design philosophy"
       }
     }
+  },
+  "teams": {
+    "title": "Teams"
+  },
+  "guidance": {
+    "title": "Guidance"
+  },
+  "impact": {
+    "title": "Impact"
   }
 }
