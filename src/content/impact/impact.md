@@ -58,7 +58,7 @@ The true measure of design is the extent to which it solves real problems for re
 </column>
 </grid>
 <grid background="gray-10">
-<column lg="4" md="0">
+<column offset_lg="4">
 <!-- -->
 </column>
 

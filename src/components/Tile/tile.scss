@@ -3,7 +3,6 @@
 //===================
 .tile--sm {
   display: flex;
-  max-width: rem(288px);
   flex-direction: column;
 
   & > .tile--text-container {
@@ -26,12 +25,14 @@
 }
 
 .img--sm {
-  width: rem(288px);
-  height: rem(288px);
+  width: 100%;
+  height: auto;
   margin-bottom: rem(18px);
+
+  & > .gatsby-resp-image-wrapper {
+    max-width: rem(500px) !important;
+  }
 }
-
-
 
 .arrow--link-container {
   display: flex;
@@ -59,8 +60,6 @@
 
   & > .tile--text-container {
     margin-top: rem(80px);
-    margin-left: rem(64px);
-    max-width: rem(400px);
 
     & > h1,
     & > p,
@@ -69,20 +68,22 @@
     }
 
     & > p {
-      max-width: rem(310px);
       line-height: rem(22px);
       font-size: calc(14px + 2 * ((100vw - 320px) / 1264));
     }
 
+    @include max-breakpoint('lg'){
+      margin-left: rem(20px);
+      margin-right: rem(20px);
+    }
+
     @include max-breakpoint('bp--xs--major'){
       margin-top: rem(40px);
-      margin-left: rem(15px);
-      max-width: rem(300px);
     }
   }
 
-  @include max-breakpoint('md'){
-    margin-bottom: 0;
+  @include max-breakpoint('lg'){
+    flex-direction: column;
   }
 }
 
@@ -131,12 +132,12 @@
 }
 
 .tile--xl {
+  flex-direction: column;
+
   & > .tile--text-container {
     max-width: rem(640px);
-
-    @include max-breakpoint('bp--xs--major'){
-      margin-left: rem(15px);
-      max-width: rem(300px);
+    @include max-breakpoint('lg'){
+      margin-left: rem(20px);
     }
   }
 }
@@ -148,6 +149,10 @@
   @include max-breakpoint('lg'){
     margin-top: rem(50px);
   }
+}
+
+.multi-link--container {
+  padding-left: rem(16px);
 }
 
 .multi-link {

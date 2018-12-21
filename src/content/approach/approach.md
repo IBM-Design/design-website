@@ -16,6 +16,9 @@ Whether solving problems or serving clients, we put people at the center of ever
 
 </column>
 
+</grid>
+
+<grid background="gray-10">
 <column lg="16">
 
 <tile
@@ -25,6 +28,7 @@ Whether solving problems or serving clients, we put people at the center of ever
     tile_title_two="Human-centered design at scale."
     description="Explore the framework that drives how we think and work every day."
     link_one="Read more"
+    href_one="https://github.com/IBM-Design/design-website/pull/9"
     button="true">
     <img src="../global/images/tile-img-lg__design-thinking.png" alt="Geometric shapes"/>
   </tile>

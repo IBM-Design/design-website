@@ -69,7 +69,7 @@ export default class Tile extends React.Component {
     background: PropTypes.string,
     /**
    * makes title 2 and description text white if bg is dark, default = false,
-   */ 
+   */
     light: PropTypes.string
   };
 
@@ -94,12 +94,10 @@ export default class Tile extends React.Component {
     } = this.props;
 
     const classNames = classnames({
-      'ibm--row': type === 'large' || type === 'xlarge',
       'tile--sm': type === 'small',
       'tile--lg': type === 'large',
       'tile--xl': type === 'xlarge',
       'tile--no-gutter': no_gutter === 'true',
-
     });
 
     const titleClassNames = classnames({
@@ -119,7 +117,7 @@ export default class Tile extends React.Component {
     const lgImgClassNames = classnames({
       'ibm--col-lg-8': type === 'large',
       'ibm--col-lg-16': type === 'xlarge',
-      'ibm--col-sm-4 img--lg': type === 'large' || type === 'xlarge',
+      'img--lg': type === 'large' || type === 'xlarge',
     });
 
     return (
@@ -129,7 +127,7 @@ export default class Tile extends React.Component {
             {children}
           </div>
         ) : null}
-        <section className='tile--text-container ibm--col-sm-4'>
+        <section className='tile--text-container ibm-col-8 ibm--offset-lg-1'>
           <h1 className={titleClassNames}>{tile_title_one}</h1>
           {tile_title_two ? (
             <h1 className={titleTwoClassNames}>{tile_title_two}</h1>
@@ -144,16 +142,20 @@ export default class Tile extends React.Component {
             ) : null}
             {link_two ?
               (
-                <div className='multi-link-container'>
-                  <Link className='multi-link' href={href_one}>{link_one}</Link>
-                  <br/>
-                  <Link className='multi-link' href={href_two}>{link_two}</Link>
-                  <br/>
-                  <Link className='multi-link' href={href_three}>{link_three}</Link>
-                </div>
+                <ul className='multi-link--container'>
+                  <li>
+                    <Link className='multi-link' href={href_one} target="_blank">{link_one}</Link>
+                  </li>
+                  <li>
+                    <Link className='multi-link' href={href_two} target="_blank">{link_two}</Link>
+                  </li>
+                  <li>
+                    <Link className='multi-link' href={href_three} target="_blank">{link_three}</Link>
+                  </li>
+                </ul>
               ) : null}
           {button === 'true' ? (
-            <Button className='tile--button'>
+            <Button className='tile--button' href={button_href}>
               <span>Start Using</span>
               <Launch20/>
             </Button>
