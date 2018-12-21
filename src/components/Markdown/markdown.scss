@@ -58,6 +58,11 @@
   }
 }
 
+.background--black .page-h2,
+.background--gray-100 .page-h2 {
+  color: $ibm-colors__white;
+}
+
 //----------------------------
 // h3
 //----------------------------
@@ -71,6 +76,11 @@
   padding-top: 3rem;
 }
 
+.background--black .page-h3,
+.background--gray-100 .page-h3 {
+  color: $ibm-colors__white;
+}
+
 //----------------------------
 // h4
 //----------------------------
@@ -79,6 +89,11 @@
   @include type-style('heading-03');
   color: $text-01;
   padding-top: 3rem;
+}
+
+.background--black .page-h4,
+.background--gray-100 .page-h4 {
+  color: $ibm-colors__white;
 }
 
 //----------------------------
@@ -117,6 +132,13 @@
   list-style-type: decimal;
 }
 
+.background--black .page-ul > li,
+.background--gray-100 .page-ul > li,
+.background--black .page-ol > li,
+.background--gray-100 .page-ol > li {
+  color: $ibm-colors__white;
+}
+
 //----------------------------
 // Blockquote
 //----------------------------
@@ -151,7 +173,7 @@ blockquote em {
   color: $ibm-colors__gray--40;
 }
 
-.ibm--col-lg-7 blockquote .page-p {
+.background .ibm--col-lg-7 blockquote .page-p {
   @include type-style('heading-03');
   padding-top: 1rem;
   padding-left: 8%;
