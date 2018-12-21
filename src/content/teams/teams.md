@@ -92,7 +92,7 @@ A solution’s quality<br>hinges directly on<br>
 
 </anchor-links>
 </column>
-<column lg="10">
+<column lg="12">
 
 ![teams](images/teams_2.png)
 
@@ -112,7 +112,7 @@ A solution’s quality<br>hinges directly on<br>
 > — Amritha Prasad, Product Designer
 
 </column>
-<column lg="10">
+<column lg="12">
 
 ![teams](images/teams_2.png)
 
@@ -120,9 +120,7 @@ A solution’s quality<br>hinges directly on<br>
 <column lg="8">
 
 ## Brand and marketing
-<p size="md">Do you get excited by the idea of influencing how one of the world’s largest and most storied companies shows up in the world? Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to help sharpen and promote IBM’s brand identity.</p>
-
-Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing
+<p size="md">Do you get excited by the idea of influencing how one of the world’s largest and most storied companies shows up in the world? Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to help sharpen and promote IBM’s brand identity.<br><br>Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing</p>
 
 [View open roles](#)
 
@@ -134,7 +132,7 @@ Types of role: graphic design, content and copywriting, front-end development, c
 > — Alice Yang, Illustrator
 
 </column>
-<column lg="10">
+<column lg="12">
 
 ![teams](images/teams_3.png)
 
