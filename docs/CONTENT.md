@@ -143,6 +143,7 @@ The grid component has one prop, background which is used to tell the section wh
 - `gray-10`
 - `gray-20`
 - `gray-100`
+- `black-white` _50/50 black and white, black on top_
 
 ```
 <grid background="gray-10">
