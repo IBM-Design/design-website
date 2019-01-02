@@ -25,31 +25,7 @@ export default class NavItem extends React.Component {
      */
     location: PropTypes.object,
   };
-
-  state = {
-    open: false,
-  };
-
-  static getDerivedStateFromProps(props, state) {
-    const { location, itemSlug } = props;
-    const { open, prevLocation, prevItemSlug } = state;
-    return prevLocation === location && prevItemSlug === itemSlug
-      ? null
-      : {
-          open:
-            open ||
-            (location && itemSlug && locationContainsPath(location, itemSlug)),
-          prevLocation: location,
-          prevItemSlug: itemSlug,
-        };
-  }
-
-  toggleSubNav = () => {
-    this.setState({
-      open: !this.state.open,
-    });
-  };
-
+  
   renderSubNavItems = (subItems, location, itemSlug) => {
     return Object.keys(subItems).map(item => {
       // Check that the itemSlug (top most nav item w/ chidlren) matches the
@@ -88,6 +64,7 @@ export default class NavItem extends React.Component {
       <>
         {hasSubNav ? (
           <HeaderMenu {...menuItemProps} aria-label={item.title}>
+            {/* this is a hack, need to update the core component to allow top level item as a link */}
             <HeaderMenuItem to={`/${itemSlug}`} element={Link} className="nav-hack">
               {item.title}
             </HeaderMenuItem>
