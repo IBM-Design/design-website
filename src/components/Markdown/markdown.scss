@@ -130,9 +130,14 @@
   }
 }
 
+.page-ol {
+  margin-bottom: 1.5rem;
+}
+
 .page-ol > li {
   @include type-style('body-long-02');
   padding-left: 0.25rem;
+  padding-bottom: 1rem;
   list-style-type: decimal;
 }
 
