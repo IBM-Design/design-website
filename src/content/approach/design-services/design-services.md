@@ -70,7 +70,7 @@ title: Design services
 </column>
 </grid>
 <grid background="gray-10">
-<column lg="16" offset_lg="2">
+<column lg="14" offset_lg="2">
 
 Visit the Plex website to dive into the details behind the design!.
 

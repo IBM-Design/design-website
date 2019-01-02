@@ -26,7 +26,13 @@ We focused on three specific groups of users as we envisioned, prototyped and it
 2. **Marketing practitioners.** One of the most important roles a typeface has to play 	is representing the brand to potential clients; integrating the perspectives of our 	marketers was critical to the development of Plex.
 3. **Events teams.** In our highly-digital world, we often forget that typefaces have to 	work in physical contexts as well. Working closely with our events teams 	helped us prototype and iterate quickly to ensure that Plex worked well in 	physical environments.
 
+</column>
+<column lg="10" offset_lg="2">
+
 ![IBM Plex](images/group.svg)
+
+</column>
+<column lg="8" offset_lg="2">
 
 ### Research Insights
 
@@ -45,7 +51,7 @@ Plex is IBM’s first official typeface. It comes with four distinct sub-familie
 </column>
 </grid>
 <grid background="gray-10">
-<column lg="16" offset_lg="2">
+<column lg="14" offset_lg="2">
 
 Visit the Plex website to dive into the details behind the design!.
 
