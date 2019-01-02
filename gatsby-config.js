@@ -47,13 +47,13 @@ module.exports = {
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
-              width: 1200,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              //height: 333, // Optional: Overrides optional.ratio
+              width: 1584, //1584 is 99rem, max grid width
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77 57%   75%
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
             },
           },
+          `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-images`,
             options: {

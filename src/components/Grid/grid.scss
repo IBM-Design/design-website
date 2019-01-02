@@ -23,6 +23,11 @@
   color: $ibm-colors__white;
 }
 
+.background--black-white {
+  margin-top: -3rem;
+  background: linear-gradient(to bottom, $ibm-colors__black 50%, $ibm-colors__white 50%);
+}
+
 // selects all columnns for testing
 .background div[class^="ibm--col-"] {
   position: relative;

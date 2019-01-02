@@ -1,6 +1,10 @@
 //----------------------------
 // Paragraphs
 //----------------------------
+.page-p:empty{
+  padding: 0;
+}
+
 .page-p { 
   @include type-style('body-long-02');
   padding: 3rem 0 $spacing-lg 0;
@@ -101,7 +105,7 @@
 //----------------------------
 
 .page-h5 {
-
+// add styles
 }
 
 //----------------------------
