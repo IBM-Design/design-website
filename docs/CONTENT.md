@@ -53,6 +53,10 @@ If you need a link to open in a new window you will have to use standard html to
 
 `![image alt text](images/image.png)`
 
+### Video
+
+`vimeo: https://vimeo.com/293453905`
+
 ### Lists
 ```
 - This is a bulleted list
