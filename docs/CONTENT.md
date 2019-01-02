@@ -162,6 +162,7 @@ The following options are available
 - `lg` _how many columns the content should span at the large breakpoint
 - `md` _how many columns the content should span at the large breakpoint
 - `sm` _how many columns the content should span at the large breakpoint
+- `offset_lg` _how many columns you want to content offset by at the large breakpoint
 
 If you only add a value for the large breakpoint then the columnn will default to full width at smaller breakpoints.
 
@@ -169,7 +170,7 @@ If you only add a value for the large breakpoint then the columnn will default t
 
 ```
 <grid background="gray-10">
-<column lg="8">
+<column lg="6" offset_lg="2">
 
 ## Markdown and content here
 
