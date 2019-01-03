@@ -9,6 +9,7 @@ export default class ArrowLink extends React.Component {
   static propTypes = {
     /**
    * adds arrow icon to link, default is true, can set to false for inline links
+   inline links must be included inside an html element, i.e. <p></p>, <h2></h2>, etc.
    */
     arrow: PropTypes.string,
     /**
