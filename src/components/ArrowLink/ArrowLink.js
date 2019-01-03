@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Link } from 'carbon-components-react';
 import { ArrowRight16 } from '@carbon/icons-react';
+import { ArrowUpRight20 } from '@carbon/icons-react';
 
 export default class ArrowLink extends React.Component {
   static propTypes = {
@@ -11,6 +12,10 @@ export default class ArrowLink extends React.Component {
    */
     arrow: PropTypes.string,
     /**
+   * if true = uses ArrowRight16, if fault uses ArrowUpRight20, default = true
+   */
+    horizontal: PropTypes.string,
+    /**
    * Link text, default is "View more"
    */
     label: PropTypes.string,
@@ -18,24 +23,33 @@ export default class ArrowLink extends React.Component {
    * url path for link
    */
     href: PropTypes.string,
+    /**
+   * aligns items left or right, default = left
+   */
+    justify: PropTypes.string,
   };
 
   render() {
     const {
       arrow,
+      horizontal,
       href,
       label,
+      justify,
     } = this.props;
 
     const classNames = classnames({
       'arrow--link-container': arrow === 'true',
       'arrow--link-no_arrow': arrow === 'false',
+      'arrow--link-justify_right': arrow === 'true' && justify === 'right',
     });
 
     return (
       <div className={classNames}>
         <Link href={href}>{label}</Link>
-	      <ArrowRight16/>
+        { horizontal === 'true' ?
+          (<ArrowRight16/>) :
+          (<ArrowUpRight20 className='arrow--link-up_right_arrow'/>)}
       </div>
     );
   }
@@ -44,4 +58,6 @@ export default class ArrowLink extends React.Component {
 ArrowLink.defaultProps = {
   arrow: 'true',
   label: 'View more',
+  horizontal: 'true',
+  justify: 'left'
 }

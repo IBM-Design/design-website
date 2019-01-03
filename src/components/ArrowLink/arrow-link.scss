@@ -1,10 +1,11 @@
 .arrow--link-container {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   cursor: pointer;
 
   & > a {
-    padding-bottom: rem(4px);
+    margin-bottom: rem(4px);
     padding-right: rem(4px);
   }
 
@@ -15,8 +16,18 @@
 
 .arrow--link-no_arrow {
   display: inline;
+  cursor: pointer;
 
   & > svg {
     display: none;
   }
+}
+
+.arrow--link-up_right_arrow {
+  padding: 2px;
+  //icon only came in 20x20, this shrinks it down to correct size
+}
+
+.arrow--link-justify_right {
+  justify-content: flex-end;
 }
