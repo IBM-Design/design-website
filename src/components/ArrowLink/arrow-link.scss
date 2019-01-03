@@ -1,0 +1,22 @@
+.arrow--link-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  & > a {
+    padding-bottom: rem(4px);
+    padding-right: rem(4px);
+  }
+
+  & > svg {
+    fill: $brand-01;
+  }
+}
+
+.arrow--link-no_arrow {
+  display: inline;
+
+  & > svg {
+    display: none;
+  }
+}
