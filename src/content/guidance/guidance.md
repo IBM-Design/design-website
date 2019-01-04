@@ -28,16 +28,12 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="16">
 
 <tile
-    type="xlarge"
+    size="xlarge"
     background="#171717"
     light="true"
     no_gutter="true"
-    tile_title_one="IBM Design Language"
-    tile_title_two="Principles, guidelines and ready-made assets to help you build exceptional experiences."
-    link_one="Gallery"
-    link_two="Elements"
-    link_three="Practices"
-    button="true">
+    title_one="IBM Design Language"
+    title_two="Principles, guidelines and ready-made assets to help you build exceptional experiences.">
     <img src="../global/images/tile-img-xl__idl.png" alt="Geometric shapes"/>
   </tile>
 
@@ -45,14 +41,13 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="16">
 
   <tile
-    type="large"
+    size="large"
     background="#252525"
     light="true"
     no_gutter="true"
-    tile_title_one="Product"
-    tile_title_two="Design System"
-    description="This collection of UI components, guidelines, code, and tooling ensures IBM products share a unified user experience."
-    button="true">
+    title_one="Product"
+    title_two="Design System"
+    description="This collection of UI components, guidelines, code, and tooling ensures IBM products share a unified user experience.">
     <img src="../global/images/tile-img-lg__product.png" alt="Geometric shapes"/>
   </tile>
 
@@ -60,13 +55,12 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="16">
 
   <tile
-    type="large"
+    size="large"
     background="#383838"
     light="true"
-    tile_title_one="Digital"
-    tile_title_two="Design System"
-    description="This collection of elements, components, guidelines, code, and tooling is used to create unified user journeys."
-    button="true">
+    title_one="Digital"
+    title_two="Design System"
+    description="This collection of elements, components, guidelines, code, and tooling is used to create unified user journeys.">
     <img src="../global/images/tile-img-lg__digital.png" alt="Ven diagram emphasizing overlapping area"/>
   </tile>
 
@@ -74,14 +68,10 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="16">
 
 <tile
-    type="xlarge"
+    size="xlarge"
     background="white"
-    tile_title_one="Enterprise Design Thinking"
-    tile_title_two="A scalable learning approach that makes design thinking stick. "
-    link_one="Badges"
-    link_two="Toolkit"
-    link_three="FAQ"
-    button="true">
+    title_one="Enterprise Design Thinking"
+    title_two="A scalable learning approach that makes design thinking stick. ">
     <img src="../global/images/tile-img-xl__edt.png" alt="Geometric shapes"/>
   </tile>
 
@@ -89,14 +79,10 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="16">
 
   <tile
-    type="xlarge"
+    size="xlarge"
     background="#FFD2DD"
-    tile_title_one="IBM Design Research"
-    tile_title_two="Drive actionable user insights through observation, experience, and making."
-    link_one="Principles"
-    link_two="Foundation"
-    link_three="Resources"
-    button="true">
+    title_one="IBM Design Research"
+    title_two="Drive actionable user insights through observation, experience, and making.">
     <img src="../global/images/tile-img-xl__idr.png" alt="Geometric shapes"/>
   </tile>
 

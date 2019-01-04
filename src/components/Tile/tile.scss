@@ -34,21 +34,6 @@
   }
 }
 
-.arrow--link-container {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-
-  & > a {
-    padding-bottom: rem(4px);
-    padding-right: rem(4px);
-  }
-
-  & > svg {
-    fill: $brand-01;
-  }
-}
-
 //===================
 //LARGE TILE STYLES
 //===================
@@ -59,7 +44,7 @@
   justify-content: space-between;
 
   & > .tile--text-container {
-    margin-top: rem(80px);
+    margin-top: rem(32px);
 
     & > h1,
     & > p,
@@ -71,15 +56,6 @@
       line-height: rem(22px);
       font-size: calc(14px + 2 * ((100vw - 320px) / 1264));
     }
-
-    @include max-breakpoint('lg'){
-      margin-left: rem(20px);
-      margin-right: rem(20px);
-    }
-
-    @include max-breakpoint('bp--xs--major'){
-      margin-top: rem(40px);
-    }
   }
 
   @include max-breakpoint('lg'){
@@ -89,8 +65,8 @@
 
 .title--lg {
   font-size: calc(24px + 18 * ((100vw - 320px) / 1264));
-  color: $brand-01;
-  font-weight: 400;
+  color: $ibm-colors__black;
+  font-weight: 600;
 }
 
 .tile--button.bx--btn {
@@ -122,23 +98,11 @@
 }
 
 .img--lg {
-  margin-right: rem(65px);
-  margin-top: rem(172px);
-  margin-bottom: rem(72px);
+  margin-top: rem(48px);
+  margin-bottom: rem(48px);
 
   @include max-breakpoint('lg'){
     margin-top: rem(50px);
-  }
-}
-
-.tile--xl {
-  flex-direction: column;
-
-  & > .tile--text-container {
-    max-width: rem(640px);
-    @include max-breakpoint('lg'){
-      margin-left: rem(20px);
-    }
   }
 }
 
@@ -151,19 +115,6 @@
   }
 }
 
-.multi-link--container {
-  padding-left: rem(16px);
-}
-
-.multi-link {
-  box-shadow: 0 1px $brand-01;
-}
-
-.multi-link:hover {
-  color: $ibm-colors__blue--50;
-  cursor: pointer;
-}
-
 //===================
 //OPTIONS
 //===================
@@ -173,4 +124,22 @@
 
 .text--light {
   color: $ibm-colors__white;
+}
+
+//===================
+//OVERRIDES
+//===================
+.img--lg .gatsby-resp-image-wrapper {
+  max-width: 100% !important;
+}
+
+.tile--text-container.ibm--col-lg-4 {
+  @include breakpoint('lg'){
+    flex: 0 0 26%;
+    max-width: 26%;
+  }
+}
+
+.tile--lg .ibm--col-lg-8.img--lg {
+  padding-right: 0rem;
 }

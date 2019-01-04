@@ -18,51 +18,31 @@ Whether solving problems or serving clients, we put people at the center of ever
 
 </grid>
 
-<grid background="gray-10">
-<column lg="16">
-
 <tile
-    type="large"
-    background="white"
-    tile_title_one="Design Thinking"
-    tile_title_two="Human-centered design at scale."
-    description="Explore the framework that drives how we think and work every day."
-    link_one="Read more"
-    href_one="https://github.com/IBM-Design/design-website/pull/9"
-    button="true">
-    <img src="../global/images/tile-img-lg__design-thinking.png" alt="Geometric shapes"/>
-  </tile>
-
-</column>
-<column lg="16">
-
-  <tile
-    type="large"
+    size="large"
     background="black"
     light="true"
-    tile_title_one="Design Services"
-    tile_title_two="Your business partner by design."
-    description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
-    link_one="Read more"
-    button="true">
-    <img src="../global/images/tile-img-lg__design-services.png" alt="Geometric shapes"/>
+    title_one="Design Philosophy"
+    title_two="The beliefs behind everything we do."
+    description="Design is about moving people forward, both emotionally and functionally.">
+    <img src="../global/images/xl_design_philosphy.png" alt="Geometric shapes"/>
   </tile>
-
-</column>
-<column lg="16">
 
   <tile
-    type="large"
-    background="#051243"
-    light="true"
-    tile_title_one="Design Philosophy"
-    tile_title_two="The beliefs behind everything we do."
-    description="Design is about moving people forward, both emotionally and functionally."
-    link_one="Read more"
-    button="true">
-    <img src="../global/images/tile-img-lg__design-philosophy.png" alt="Ven diagram emphasizing overlapping area"/>
+    size="large"
+    background="#E7E7E7"
+    title_one="Design Thinking"
+    title_two="Human-centered design at scale."
+    description="Explore the framework that drives how we think and work every day.">
+    <img src="../global/images/xl_design_thinking.png" alt="Geometric shapes"/>
   </tile>
 
-</column>
-
-</grid>
+  <tile
+    size="large"
+    background="#373737"
+    light="true"
+    title_one="Design Services"
+    title_two="Your business partner by design."
+    description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes.">
+    <img src="../global/images/xl_design_services.png" alt="Ven diagram emphasizing overlapping area"/>
+  </tile>
