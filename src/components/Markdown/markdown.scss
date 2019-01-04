@@ -163,12 +163,12 @@ blockquote:first-child {
   &:before {
     content: '';
     display: block;
-    width: 40%;
+    width: 35%;
     height: 1px;
     background: $ibm-colors__gray--40;
     position: absolute;
     top: -24px;
-    left: -15%;
+    left: -1rem;
   }
 }
 

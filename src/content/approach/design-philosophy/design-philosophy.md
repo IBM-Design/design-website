@@ -95,14 +95,14 @@ title: Design philosophy
 </column>
 <column lg="4">
 
-![](images/design1.svg)
+![](../images/design1.svg)
 **Design thinking**<br>
 Get familiar with how to apply the framework that drives how we think and work every day. <br><br>[Read more](#)
 
 </column>
 <column lg="4">
 
-![](images/design2.svg)
+![](../images/design2.svg)
 **Design services**<br>
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br>[Read more](#)
 
