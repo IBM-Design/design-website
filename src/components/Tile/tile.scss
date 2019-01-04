@@ -21,7 +21,10 @@
 .img--sm {
   width: 100%;
   height: auto;
-  margin-bottom: rem(18px);
+}
+
+.tile--sm a.bx--tile {
+  width: 100%;
 }
 
 //===================
@@ -54,6 +57,11 @@
   margin: rem(32px);
 }
 
+.tile--md a.bx--tile {
+  right: 32px;
+  margin-left: auto;
+}
+
 //===================
 //LG TILE STYLES
 //===================
@@ -67,6 +75,11 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+}
+
+.tile--lg a.bx--tile {
+  right: 0;
+  margin-left: auto;
 }
 
 //===================
@@ -118,6 +131,13 @@
   }
 }
 
+.tile--xl a.bx--tile {
+  position: absolute;
+  right: 32px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
 //===================
 //OPTIONS
 //===================
@@ -141,4 +161,68 @@
     flex: 0 0 26%;
     max-width: 26%;
   }
+}
+
+//===================
+//CLICKABLE TILE - general
+//===================
+a.bx--tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: $text-01;
+  padding: $spacing-md;
+  position: relative;
+  background: $ibm-colors__white;
+  width: rem(304px);
+  height: rem(152px);
+
+  &:hover {
+    background: $ibm-colors__gray--20;
+  }
+}
+
+.tile__info {
+  width: 100%;
+
+  @include breakpoint('lg') {
+    width: 75%;
+  }
+}
+
+.tile__info h5 {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: $text-01;
+  margin: 0 0 $spacing-xs 0;
+  padding: 0 0 0 0;
+  @include type-style('body-short-01');
+}
+
+.tile__link-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+//===================
+//DARK CLICK TILE
+//===================
+
+a.tile--dark  {
+  background: $ibm-colors__gray--90;
+  color: $ibm-colors__white;
+}
+
+a.tile--dark:hover {
+  background: $ibm-colors__gray--80;
+}
+
+a.tile--dark .tile__info h5 {
+  color: $ibm-colors__white;
+}
+
+a.tile--dark .tile__link-icon svg {
+  fill: $ibm-colors__white;
 }

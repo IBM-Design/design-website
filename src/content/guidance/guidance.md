@@ -35,7 +35,8 @@ Tap into a growing collection of design tools, assets and resources to keep your
 
   <tile
     size="lg"
-    background="#373737">
+    background="#373737"
+    tile_dark="true">
     <img src="../global/images/lg_design_language.png" alt="Geometric shapes"/>
   </tile>
 
@@ -48,21 +49,21 @@ Tap into a growing collection of design tools, assets and resources to keep your
 </column>
 <column lg="4" md="4">
 
-  <tile>
+  <tile tile_dark="true">
     <img src="../global/images/tile-img-sm__plex.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
+  <tile tile_dark="true">
     <img src="../global/images/tile-img-sm__plex.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
+  <tile tile_dark="true">
     <img src="../global/images/tile-img-sm__plex.png" alt=""/>
   </tile>
 
@@ -77,7 +78,8 @@ Tap into a growing collection of design tools, assets and resources to keep your
 
   <tile
     size="lg"
-    background="#C5DEFF">
+    background="#C5DEFF"
+    tile_dark="true">
     <img src="../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
   </tile>
 
@@ -92,7 +94,8 @@ Tap into a growing collection of design tools, assets and resources to keep your
 
   <tile
     size="lg"
-    background="#F2BDD8">
+    background="#F2BDD8"
+    tile_dark="true">
     <img src="../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
   </tile>
 

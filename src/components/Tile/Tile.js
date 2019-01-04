@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { Button, Link } from 'carbon-components-react';
-import { ArrowRight16, Launch20 } from '@carbon/icons-react';
+import { ClickableTile } from 'carbon-components-react';
+import { ArrowRight16, ArrowUpRight20 } from '@carbon/icons-react';
 
 export default class Tile extends React.Component {
   static propTypes = {
@@ -97,6 +97,10 @@ export default class Tile extends React.Component {
       'img--lg': size === 'lg' || size === 'xl',
     });
 
+    const clickTileClassNames = classnames({
+      'tile--dark': tile_dark === 'true',
+    });
+
     return (
       <div className={classNames} style={{backgroundColor: background}}>
         { size === "sm" ? (
@@ -118,11 +122,37 @@ export default class Tile extends React.Component {
             {children}
           </div>
         ) : null}
-        {size === "md" ? (
+        { size === "md" ? (
           <div className='ibm--col-lg-8 tile--md_text-container'>
             <h1 className='title--main_md'>{title_one}</h1>
+            <ClickableTile
+                target="_blank"
+                rel="noopener noreferrer"
+                href={tile_href}
+                className={clickTileClassNames}>
+                <div className="tile__info">
+                  <h5>{tile_name}</h5>
+                </div>
+                <div className="tile__link-icon">
+                  <ArrowRight16 aria-label="Open resource" />
+                </div>
+              </ClickableTile>
           </div>
         ) : null}
+        { size !== "md" ? (
+          <ClickableTile
+              target="_blank"
+              rel="noopener noreferrer"
+              href={tile_href}
+              className={clickTileClassNames}>
+              <div className="tile__info">
+                <h5>{tile_name}</h5>
+              </div>
+              <div className="tile__link-icon">
+                <ArrowRight16 aria-label="Open resource" />
+              </div>
+            </ClickableTile>
+        ): null}
       </div>
     );
   }
