@@ -87,7 +87,7 @@ title: Design philosophy
 
 </column>
 </grid>
-<grid>
+<grid background="gray-10">
 <column lg="8">
 
 **Keep exploring our appraoch**
