@@ -4,17 +4,16 @@
   min-height: 470px;
   
   @include breakpoint('sm') {
-    margin-bottom: 1rem;
+
   }
 
   @include breakpoint('md') {
     min-height: 540px;
-    margin-bottom: 2rem;
+    
   }
 
   @include breakpoint('lg') {
     min-height: 640px;
-    margin-bottom: 3rem;
   }
 }
 
@@ -45,7 +44,7 @@
   }
 
   @include breakpoint('lg') {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   span {

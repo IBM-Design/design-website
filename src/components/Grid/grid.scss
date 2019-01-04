@@ -1,6 +1,15 @@
 //----------------------------
 // Background
 //----------------------------
+.background {
+  padding-bottom: rem(80px);
+  padding-top: 2rem;
+}
+
+.background:last-child {
+  padding-bottom: rem(128px);
+}
+
 .background--white {
   background: $ibm-colors__white;
 }

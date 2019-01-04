@@ -3,23 +3,14 @@
 //----------------------------
 
 .anchor-links {
-  @include breakpoint('sm') {
-    padding: $spacing-md 0 $spacing-xs 0;
-  }
-
-  @include breakpoint('lg') {
-    position: absolute;
-    bottom: 6rem;
-    left: 0;
-  }
-
   .page-ul {
     position: relative;
     margin-bottom: 0;
   }
 
   .page-ul > li {
-    @include type-style('body-short-02');
+    @include type-style('heading-03');
+    font-size: rem(22px);
     list-style: none;
     cursor: pointer;
     padding-bottom: $spacing-3xs;
@@ -33,7 +24,8 @@
     }
 
     a {
-      @include type-style('body-short-02');
+      @include type-style('heading-03');
+      font-size: rem(22px);
       color: $ibm-colors__white;
       text-decoration: none;
 
@@ -69,6 +61,6 @@
   }
 
   @include breakpoint('lg') {
-    bottom: 4rem;
+    bottom: 2rem;
   }
 }

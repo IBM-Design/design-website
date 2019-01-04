@@ -7,7 +7,7 @@
 
 .page-p { 
   @include type-style('body-long-02');
-  padding: 3rem 0 $spacing-lg 0;
+  padding: 0 0 $spacing-xl 0;
   color: $text-02;
 }
 
@@ -18,7 +18,7 @@
 
 .page-p--lg { //lg
   padding-right: 0;
-  padding-bottom: 6rem;
+  padding-bottom: 1.5rem;
   //replace with type token
   font-size: rem(28px); 
   line-height: 1.125;
@@ -31,6 +31,7 @@
   font-weight: 400;
   padding-right: 0;
   padding-bottom: 6rem;
+  color: $ibm-colors__gray--100;
 }
 
 .background--black .page-p,
@@ -48,13 +49,12 @@
 //----------------------------
 
 .page-h2 {
-  @include type-style('expressive-heading-05');
-  font-size: rem(42px);
+  //@include type-style('expressive-heading-05');
+  font-size: rem(32px);
   line-height: 120%;
   font-weight: 300;
   color: $text-01;
-  padding-top: 3rem;
-  padding-right: 25%;
+  padding-bottom: 2.5rem;
 
   strong {
     font-weight: 400;
@@ -152,9 +152,8 @@
 // Blockquote
 //----------------------------
 blockquote:first-child {
-  margin-top: 4rem;
-  padding-top: 1rem;
   position: relative;
+  margin-top: -6px;
 
   &:before {
     content: '';
@@ -163,7 +162,7 @@ blockquote:first-child {
     height: 1px;
     background: $ibm-colors__gray--40;
     position: absolute;
-    top: -8px;
+    top: -24px;
     left: -15%;
   }
 }
@@ -195,6 +194,15 @@ blockquote em {
 // HR
 //----------------------------
 hr {
-  margin: 4rem rem(32px) 0;
-  border-top: 1px solid $ibm-colors__gray--80;
+  border: none;
+  border-top: 1px solid $ibm-colors__gray--50;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+
+.background--black blockquote hr,
+.background--gray-100 blockquote hr {
+  border-color: $ibm-colors__white;
 }

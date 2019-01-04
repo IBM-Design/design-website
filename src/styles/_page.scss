@@ -96,12 +96,15 @@ button {
 }
 
 .page-p .gatsby-resp-image-wrapper {
-  margin-bottom: -1.5rem; // needed to remove bottom default paragraph spacing
-  margin-top: -3rem; // needed to remove top default paragraph spacing
+  margin-bottom: -2rem; // needed to remove bottom default paragraph spacing
 }
 
 .image--full {
   width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
 
 //----------------------------
