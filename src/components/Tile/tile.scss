@@ -1,5 +1,5 @@
 //===================
-//SMALL TILE STYLES
+//SM TILE STYLES
 //===================
 .tile--sm {
   display: flex;
@@ -18,39 +18,42 @@
   }
 }
 
-.title--sm {
-  margin-bottom: rem(14px);
-  @include type-style('productive-heading-04');
-  font-size: calc(20px + 8 * ((100vw - 320px) / 1264));
-}
-
 .img--sm {
   width: 100%;
   height: auto;
   margin-bottom: rem(18px);
+}
 
-  & > .gatsby-resp-image-wrapper {
-    max-width: rem(500px) !important;
+//===================
+//LG TILE STYLES
+//===================
+.tile--lg {
+  display: flex;
+  margin-bottom: rem(32px);
+  justify-content: space-between;
+
+  & > .img--lg {
+    margin: rem(48px) auto;
+    max-width: 75%;
+    height: auto;
   }
 }
 
 //===================
-//LARGE TILE STYLES
+//XL TILE STYLES
 //===================
 
-.tile--lg, .tile--xl {
+.tile--xl {
   display: flex;
   margin-bottom: rem(30px);
   justify-content: space-between;
+  @include max-breakpoint('lg'){
+    flex-direction: column;
+  }
 
   & > .tile--text-container {
     margin-top: rem(32px);
-
-    & > h1,
-    & > p,
-    & > div {
-      padding-left: rem(16px);
-    }
+    margin-left: rem(32px);
 
     & > p {
       line-height: rem(22px);
@@ -58,70 +61,45 @@
     }
   }
 
-  @include max-breakpoint('lg'){
-    flex-direction: column;
+  & > .img--lg {
+    margin-top: rem(48px);
+    margin-bottom: rem(48px);
+
+    @include max-breakpoint('lg'){
+      margin-top: rem(50px);
+    }
   }
 }
 
-.title--lg {
+.title--main {
   font-size: calc(24px + 18 * ((100vw - 320px) / 1264));
   color: $ibm-colors__black;
   font-weight: 600;
 }
 
-.tile--button.bx--btn {
-  display: flex;
-  justify-content: space-between;
-  width: rem(208px);
-  height: rem(65px);
-  padding-right: rem(16px);
-  margin-top: rem(42px);
-
-  @include max-breakpoint('lg'){
-    margin-top: rem(20px);
-  }
-
-  & > svg {
-    fill: $ibm-colors__white;
-  }
-}
-
-.title--two {
+.title--secondary {
   font-weight: 400;
   font-size: calc(24px + 18 * ((100vw - 320px) / 1264));
   color: $ibm-colors__black;
-  margin-bottom: rem(30px);
+  margin-bottom: rem(32px);
 
   @include max-breakpoint('lg'){
     margin-bottom: rem(20px);
   }
 }
 
-.img--lg {
-  margin-top: rem(48px);
-  margin-bottom: rem(48px);
-
-  @include max-breakpoint('lg'){
-    margin-top: rem(50px);
-  }
-}
-
-.ibm--col-lg-16.img--lg {
-  margin-bottom: 0;
-  margin-top: rem(100px);
-
-  @include max-breakpoint('lg'){
-    margin-top: rem(50px);
-  }
-}
+// .ibm--col-lg-16.img--lg {
+//   margin-bottom: 0;
+//   margin-top: rem(100px);
+//
+//   @include max-breakpoint('lg'){
+//     margin-top: rem(50px);
+//   }
+// }
 
 //===================
 //OPTIONS
 //===================
-.tile--no-gutter {
-  margin-bottom: 0;
-}
-
 .text--light {
   color: $ibm-colors__white;
 }
@@ -129,6 +107,10 @@
 //===================
 //OVERRIDES
 //===================
+.img--sm .gatsby-resp-image-wrapper {
+  max-width: rem(500px) !important;
+}
+
 .img--lg .gatsby-resp-image-wrapper {
   max-width: 100% !important;
 }

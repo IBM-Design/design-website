@@ -34,41 +34,36 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="12">
 
   <tile
-    size="large"
+    size="lg"
     background="#373737">
     <img src="../global/images/lg_design_language.png" alt="Geometric shapes"/>
   </tile>
 
 </column>
 </grid>
+
 <grid background="gray-10">
 <column offset_lg="4">
 <!-- -->
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
-  <tile
-    size="small"
-    background="#383838">
-    <img src="../global/images/tile-img-sm__plex.png" alt="Ven diagram emphasizing overlapping area"/>
+  <tile>
+    <img src="../global/images/tile-img-sm__plex.png" alt=""/>
   </tile>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
-  <tile
-    size="small"
-    background="#383838">
-    <img src="../global/images/tile-img-sm__plex.png" alt="Ven diagram emphasizing overlapping area"/>
+  <tile>
+    <img src="../global/images/tile-img-sm__plex.png" alt=""/>
   </tile>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
-  <tile
-    size="small"
-    background="#383838">
-    <img src="../global/images/tile-img-sm__plex.png" alt="Ven diagram emphasizing overlapping area"/>
+  <tile>
+    <img src="../global/images/tile-img-sm__plex.png" alt=""/>
   </tile>
 
 </column>
@@ -81,7 +76,7 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="12">
 
   <tile
-    size="large"
+    size="lg"
     background="#C5DEFF">
     <img src="../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
   </tile>
@@ -96,7 +91,7 @@ Tap into a growing collection of design tools, assets and resources to keep your
 <column lg="12">
 
   <tile
-    size="large"
+    size="lg"
     background="#F2BDD8">
     <img src="../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
   </tile>

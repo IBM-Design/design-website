@@ -19,7 +19,7 @@ Whether solving problems or serving clients, we put people at the center of ever
 </grid>
 
 <tile
-    size="large"
+    size="xl"
     background="black"
     light="true"
     title_one="Design Philosophy"
@@ -29,7 +29,7 @@ Whether solving problems or serving clients, we put people at the center of ever
   </tile>
 
   <tile
-    size="large"
+    size="xl"
     background="#E7E7E7"
     title_one="Design Thinking"
     title_two="Human-centered design at scale."
@@ -38,7 +38,7 @@ Whether solving problems or serving clients, we put people at the center of ever
   </tile>
 
   <tile
-    size="large"
+    size="xl"
     background="#373737"
     light="true"
     title_one="Design Services"

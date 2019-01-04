@@ -11,12 +11,8 @@ export default class Tile extends React.Component {
    */
     children: PropTypes.node,
     /**
-   * default=false, if true, large tiles will bleed at bottom
-   */
-    no_gutter: PropTypes.string,
-    /**
-   * specifies the version of tile component used.
-   default=small, other types include "large" and "xlarge"
+   * accepts sm, md, lg, xl, correlating to how many grid columns the tile is taking up (4, 8, 12, 16)
+   * default is size="4"
    */
     size: PropTypes.string,
     /**
@@ -42,47 +38,53 @@ export default class Tile extends React.Component {
     /**
    * Label for the clickable tile, default = "Learn more"
    */
-    link_name: PropTypes.string,
+    tile_name: PropTypes.string,
     /**
    * href for the clickable tile
    */
-    href: PropTypes.string,
-    dark_tile: PropTypes.string,
+    tile_href: PropTypes.string,
+    /**
+   * if true, makes tile dark. default=false
+   */
+    tile_dark: PropTypes.string,
+    /**
+   * optional secondary text for tile
+   */
+    tile_optional: PropTypes.string,
 
   };
 
   render() {
     const {
       children,
-      no_gutter,
       size,
       title_one,
       title_two,
       description,
       background,
       light,
-      link_name,
-      href,
-      dark_tile,
+      tile_name,
+      tile_href,
+      tile_dark,
+      tile_optional,
 
     } = this.props;
 
     const classNames = classnames({
-      'tile--sm': size === 'small',
-      'tile--lg': size === 'large',
-      'tile--xl': size === 'xlarge',
-      'tile--no-gutter': no_gutter === 'true',
+      'tile--sm': size === 'sm',
+      'tile--md': size === 'md',
+      'tile--lg': size === 'lg',
+      'tile--xl': size === 'xl',
     });
 
     const titleClassNames = classnames({
-      'title--sm': size === 'small',
-      'title--lg': size === 'large' || size === 'xlarge',
+      'title--main': size === 'xl' || size === 'md',
       'text--light': light === 'true',
     });
 
     const titleTwoClassNames = classnames({
+      'title--secondary': title_two,
       'text--light': light === 'true',
-      'title--two': title_two
     });
 
     const descClassName = classnames({
@@ -90,26 +92,28 @@ export default class Tile extends React.Component {
     });
 
     const lgImgClassNames = classnames({
-      'ibm--col-lg-8': size === 'large',
-      'ibm--col-lg-16': size === 'xlarge',
-      'img--lg': size === 'large' || size === 'xlarge',
+      'ibm--col-lg-8': size === 'xl',
+      'ibm--col-lg-16': size === 'lg',
+      'img--lg': size === 'lg' || size === 'xl',
     });
 
     return (
       <div className={classNames} style={{backgroundColor: background}}>
-        { size === "small" ? (
+        { size === "sm" ? (
           <div className='img--sm'>
             {children}
           </div>
         ) : null}
-        <section className='tile--text-container ibm--col-lg-4'>
-          <h1 className={titleClassNames}>{title_one}</h1>
-          {title_two ? (
-            <h1 className={titleTwoClassNames}>{title_two}</h1>
-          ) : null}
-          <p className={descClassName}>{description}</p>
-        </section>
-        { size !== "small" ? (
+        { title_one ? (
+          <section className='tile--text-container ibm--col-lg-4'>
+            <h1 className={titleClassNames}>{title_one}</h1>
+            {title_two ? (
+              <h1 className={titleTwoClassNames}>{title_two}</h1>
+            ) : null}
+            <p className={descClassName}>{description}</p>
+          </section>
+        ): null}
+        { size !== "sm" ? (
           <div className={lgImgClassNames}>
             {children}
           </div>
@@ -120,9 +124,8 @@ export default class Tile extends React.Component {
 }
 
 Tile.defaultProps = {
-  size: 'small',
-  no_gutter: 'false',
+  size: 'sm',
   light: 'false',
-  link_name: 'Learn more',
-  dark_tile: 'false',
+  tile_name: 'Learn more',
+  tile_dark: 'false',
 }
