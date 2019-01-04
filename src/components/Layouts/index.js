@@ -172,8 +172,8 @@ class Layout extends React.Component {
                 <HeaderMenuItem to="/teams" element={Link}>
                   Teams
                 </HeaderMenuItem>
-                <HeaderMenuItem to="/guidance" element={Link}>
-                  Guidance
+                <HeaderMenuItem to="/practices" element={Link}>
+                  Practices
                 </HeaderMenuItem>
                 <HeaderMenuItem to="/impact" element={Link}>
                   Impact

@@ -1,5 +1,5 @@
 ---
-title: Guidance
+title: Practices
 ---
 
 <title-block>
@@ -20,9 +20,9 @@ building bonds.</span>
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="10">
 
-<p size="lg">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
+<p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
 
 </column>
 </grid>

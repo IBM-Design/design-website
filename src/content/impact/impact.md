@@ -10,9 +10,9 @@ the means;<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="10">
 
-<p size="lg">The true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.</p>
+<p size="xl">The true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.</p>
 
 </column>
 </grid>
