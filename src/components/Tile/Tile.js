@@ -91,9 +91,8 @@ export default class Tile extends React.Component {
       'text--light': light === 'true',
     });
 
-    const lgImgClassNames = classnames({
+    const imgClassNames = classnames({
       'ibm--col-lg-8': size === 'xl',
-      'ibm--col-lg-16': size === 'lg',
       'img--lg': size === 'lg' || size === 'xl',
     });
 
@@ -114,7 +113,7 @@ export default class Tile extends React.Component {
           </section>
         ): null}
         { size !== "sm" ? (
-          <div className={lgImgClassNames}>
+          <div className={imgClassNames}>
             {children}
           </div>
         ) : null}

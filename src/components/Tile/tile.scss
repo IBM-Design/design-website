@@ -28,14 +28,14 @@
 //LG TILE STYLES
 //===================
 .tile--lg {
-  display: flex;
   margin-bottom: rem(32px);
   justify-content: space-between;
 
   & > .img--lg {
-    margin: rem(48px) auto;
-    max-width: 75%;
-    height: auto;
+    margin: auto;
+    width: 75%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -87,15 +87,6 @@
     margin-bottom: rem(20px);
   }
 }
-
-// .ibm--col-lg-16.img--lg {
-//   margin-bottom: 0;
-//   margin-top: rem(100px);
-//
-//   @include max-breakpoint('lg'){
-//     margin-top: rem(50px);
-//   }
-// }
 
 //===================
 //OPTIONS
