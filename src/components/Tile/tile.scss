@@ -25,6 +25,36 @@
 }
 
 //===================
+//MD TILE STYLES
+//===================
+
+.tile--md {
+}
+
+.img--md {
+  margin-top: rem(88px);
+  margin-bottom: rem(88px);
+}
+
+.img--md .gatsby-resp-image-wrapper {
+  left: rem(-150px) !important;
+  @include max-breakpoint('lg') {
+    left: -25% !important;
+  }
+}
+
+.tile--md_text-container {
+  background: $ibm-colors__black;
+  color: white;
+}
+
+.title--main_md {
+  font-size: calc(24px + 18 * ((100vw - 320px) / 1264));
+  font-weight: 400;
+  margin: rem(32px);
+}
+
+//===================
 //LG TILE STYLES
 //===================
 .tile--lg {
@@ -111,8 +141,4 @@
     flex: 0 0 26%;
     max-width: 26%;
   }
-}
-
-.tile--lg .ibm--col-lg-8.img--lg {
-  padding-right: 0rem;
 }

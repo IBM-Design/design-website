@@ -14,3 +14,9 @@ At IX, we blend design with innovative technologies and business strategy to off
 </column>
 </grid>
 
+<tile
+  size="md"
+  background="#E7E7E7"
+  title_one="Learn how your business can partner with us to build better business.">
+  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+</tile>

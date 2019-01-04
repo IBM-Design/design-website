@@ -72,7 +72,7 @@ export default class Tile extends React.Component {
 
     const classNames = classnames({
       'tile--sm': size === 'sm',
-      'tile--md': size === 'md',
+      'ibm--row tile--md': size === 'md',
       'tile--lg': size === 'lg',
       'tile--xl': size === 'xl',
     });
@@ -93,6 +93,7 @@ export default class Tile extends React.Component {
 
     const imgClassNames = classnames({
       'ibm--col-lg-8': size === 'xl',
+      'ibm--col-lg-8 img--md': size === 'md',
       'img--lg': size === 'lg' || size === 'xl',
     });
 
@@ -103,7 +104,7 @@ export default class Tile extends React.Component {
             {children}
           </div>
         ) : null}
-        { title_one ? (
+        { title_one && size !== "md" ? (
           <section className='tile--text-container ibm--col-lg-4'>
             <h1 className={titleClassNames}>{title_one}</h1>
             {title_two ? (
@@ -115,6 +116,11 @@ export default class Tile extends React.Component {
         { size !== "sm" ? (
           <div className={imgClassNames}>
             {children}
+          </div>
+        ) : null}
+        {size === "md" ? (
+          <div className='ibm--col-lg-8 tile--md_text-container'>
+            <h1 className='title--main_md'>{title_one}</h1>
           </div>
         ) : null}
       </div>
