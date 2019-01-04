@@ -25,67 +25,81 @@ building bonds.</span>
 Tap into a growing collection of design tools, assets and resources to keep your business moving forward.
 
 </column>
-<column lg="16">
+</grid>
 
-<tile
-    size="xlarge"
-    background="#171717"
-    light="true"
-    no_gutter="true"
-    title_one="IBM Design Language"
-    title_two="Principles, guidelines and ready-made assets to help you build exceptional experiences.">
-    <img src="../global/images/tile-img-xl__idl.png" alt="Geometric shapes"/>
-  </tile>
-
+<grid background="gray-10">
+<column offset_lg="4">
+<!-- -->
 </column>
-<column lg="16">
+<column lg="12">
 
   <tile
     size="large"
-    background="#252525"
-    light="true"
-    no_gutter="true"
-    title_one="Product"
-    title_two="Design System"
-    description="This collection of UI components, guidelines, code, and tooling ensures IBM products share a unified user experience.">
-    <img src="../global/images/tile-img-lg__product.png" alt="Geometric shapes"/>
+    background="#373737">
+    <img src="../global/images/lg_design_language.png" alt="Geometric shapes"/>
   </tile>
 
 </column>
-<column lg="16">
+</grid>
+<grid background="gray-10">
+<column offset_lg="4">
+<!-- -->
+</column>
+<column lg="4">
+
+  <tile
+    size="small"
+    background="#383838">
+    <img src="../global/images/tile-img-sm__plex.png" alt="Ven diagram emphasizing overlapping area"/>
+  </tile>
+
+</column>
+<column lg="4">
+
+  <tile
+    size="small"
+    background="#383838">
+    <img src="../global/images/tile-img-sm__plex.png" alt="Ven diagram emphasizing overlapping area"/>
+  </tile>
+
+</column>
+<column lg="4">
+
+  <tile
+    size="small"
+    background="#383838">
+    <img src="../global/images/tile-img-sm__plex.png" alt="Ven diagram emphasizing overlapping area"/>
+  </tile>
+
+</column>
+</grid>
+
+<grid background="gray-10">
+<column offset_lg="4">
+<!-- -->
+</column>
+<column lg="12">
 
   <tile
     size="large"
-    background="#383838"
-    light="true"
-    title_one="Digital"
-    title_two="Design System"
-    description="This collection of elements, components, guidelines, code, and tooling is used to create unified user journeys.">
-    <img src="../global/images/tile-img-lg__digital.png" alt="Ven diagram emphasizing overlapping area"/>
+    background="#C5DEFF">
+    <img src="../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
   </tile>
 
 </column>
-<column lg="16">
+</grid>
 
-<tile
-    size="xlarge"
-    background="white"
-    title_one="Enterprise Design Thinking"
-    title_two="A scalable learning approach that makes design thinking stick. ">
-    <img src="../global/images/tile-img-xl__edt.png" alt="Geometric shapes"/>
-  </tile>
-
+<grid background="gray-10">
+<column offset_lg="4">
+<!-- -->
 </column>
-<column lg="16">
+<column lg="12">
 
   <tile
-    size="xlarge"
-    background="#FFD2DD"
-    title_one="IBM Design Research"
-    title_two="Drive actionable user insights through observation, experience, and making.">
-    <img src="../global/images/tile-img-xl__idr.png" alt="Geometric shapes"/>
+    size="large"
+    background="#F2BDD8">
+    <img src="../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
   </tile>
 
 </column>
-
 </grid>
