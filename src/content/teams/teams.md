@@ -53,9 +53,51 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 </grid>
 <grid background="gray-10">
+<column lg="12" offset_lg="4">
+
+## The dimensions of diversity
+
+</column>
+<column lg="3" offset_lg="4">
+
+<p size="md">Identity</p>
+
+![teams](images/user.svg)  
+Age and Ability  
+Gender identity  
+Race and ethnicity
+
+</column>
+<column lg="3" offset_lg="1">
+
+<p size="md">Identity</p>
+
+![teams](images/globe.svg)  
+Age and Ability  
+Gender identity  
+Race and ethnicity
+
+</column>
+<column lg="3" offset_lg="1">
+
+<p size="md">Experience</p>
+
+![teams](images/education.svg)  
+Cultural upbringing  
+Geography  
+Language  
+
+</column>
+</grid>
+<grid background="gray-10">
 <column lg="4">
 
-**Business-embedded**
+<p size="md">Expertise</p>
+Education  
+Organization  
+Discipline  
+
+
 
 </column>
 <column lg="8">
