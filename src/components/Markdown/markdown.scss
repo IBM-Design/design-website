@@ -126,7 +126,6 @@
 // Blockquote
 //----------------------------
 blockquote {
-
 }
 
 blockquote:first-child {
@@ -146,7 +145,7 @@ blockquote:first-child {
 }
 
 blockquote .page-p {
-  @include type-style('body-long-02');
+  @include type-style('body-long-01');
   padding: 0 0 1rem 0;
 }
 
@@ -159,7 +158,10 @@ blockquote em {
   color: $ibm-colors__gray--40;
 }
 
-.background .ibm--col-lg-8 blockquote .page-p {
+.background .ibm--col-lg-9 blockquote .page-p,
+.background .ibm--col-lg-8 blockquote .page-p,
+.background .ibm--col-lg-7 blockquote .page-p,
+.background .ibm--col-lg-6 blockquote .page-p {
   @include type-style('heading-03');
   padding-top: 0;
   padding-left: 8%;
