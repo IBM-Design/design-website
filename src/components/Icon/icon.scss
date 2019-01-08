@@ -1,0 +1,43 @@
+.icon--inline {
+  display: inline;
+  vertical-align: middle;
+}
+
+.icon--inline.up-right {
+  position: relative;
+  top: rem(3px);
+}
+
+.icon--right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon--blue {
+  & > svg {
+    fill: $brand-01;
+  }
+}
+
+.icon--white {
+  & > svg {
+    fill: $ibm-colors__white;
+  }
+}
+
+.icon--upright20 {
+  padding: rem(2px);
+}
+
+//adds styles for link with icon
+.link--icon {
+  text-decoration: none;
+
+  &:hover span {
+    border-bottom: 1px solid $brand-01;
+  }
+}
+
+.page-content div * .link--icon {
+    font-weight: 400;
+}
