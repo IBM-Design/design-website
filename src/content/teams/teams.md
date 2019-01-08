@@ -43,12 +43,12 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="6" offset_lg="4">
 
-<img src="https://via.placeholder.com/800.png/ccc/ccc">
+<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
 
 </column>
 <column lg="6">
 
-<img src="https://via.placeholder.com/800.png/ccc/ccc">
+<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
 
 </column>
 </grid>
@@ -60,44 +60,43 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="3" offset_lg="4">
 
-<p size="md">Identity</p>
+### Identity
+
+Age and Ability  
+Gender identity  
+Race and ethnicity  
 
 ![teams](images/user.svg)  
-Age and Ability  
-Gender identity  
-Race and ethnicity
 
 </column>
 <column lg="3" offset_lg="1">
 
-<p size="md">Identity</p>
+### Experience
 
-![teams](images/globe.svg)  
-Age and Ability  
-Gender identity  
-Race and ethnicity
 
-</column>
-<column lg="3" offset_lg="1">
-
-<p size="md">Experience</p>
-
-![teams](images/education.svg)  
 Cultural upbringing  
 Geography  
 Language  
+
+![teams](images/globe.svg)  
+
+</column>
+<column lg="3" offset_lg="1">
+
+### Expertise
+
+Education  
+Organization  
+Discipline  
+
+![teams](images/education.svg)  
 
 </column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
 
-<p size="md">Expertise</p>
-Education  
-Organization  
-Discipline  
-
-
+### Business-embedded
 
 </column>
 <column lg="8">
@@ -108,19 +107,19 @@ Discipline
 </column>
 <column lg="8" offset_lg="4">
 
-<img src="https://via.placeholder.com/800x500.png/ccc/ccc">
+<img src="https://via.placeholder.com/800x500.png/e7e7e7/e7e7e7">
 
 </column>
 <column lg="4">
 
-<img src="https://via.placeholder.com/800x450.png/ccc/ccc">
+<img src="https://via.placeholder.com/800x450.png/e7e7e7/e7e7e7">
 
 </column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
 
-**Co-creators**
+### Co-creators
 
 </column>
 <column lg="8">
@@ -129,20 +128,31 @@ Discipline
 <p size="md">User-centered design goes far beyond just speaking with a few people before you get started; it’s about truly co-creating with your business users and stakeholders by making them integral members of the team.<br><br>From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.</p>
 
 </column>
-<column lg="12" offset_lg="4">
+<column lg="4" offset_lg="4">
 
-<img src="https://via.placeholder.com/1500x700.png/ccc/ccc">
+<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+
+</column>
+<column lg="4">
+
+<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+
+</column>
+<column lg="4">
+
+<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
 
 </column>
 </grid>
 <grid background="gray-100">
-<column lg="10">
+<column lg="7">
 
-<p size="xl">Ready to become part of the single-largest design initiative in the world? <br><br>We’re always looking for talented, ambitious individuals to join us in our mission. Check out the practices below and blah blah blah.</p>
+<p size="xl"><strong>Find your team</strong><br>Ready to become part of the single-largest design initiative in the world?
+We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways Design is practiced across IBM.</p>
 
 </column>
 
-<column offset_lg="2" lg="4">
+<column offset_lg="5" lg="4">
 
 <anchor-links>
 
@@ -154,13 +164,13 @@ Discipline
 </column>
 <column lg="4">
 
-**Product and digital**
+### Product and digital
 
 </column>
 <column lg="8">
 
 
-##Are you a sucker for screens, wireframes and user experience? 
+## Are you a sucker for screens, wireframes and user experience? 
 <p size="md">Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design (and, at times, redesign) some of IBM’s most foundational products and webpages.<br><br>Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management<br><br><a href="#">Open roles</a></p>
 
 </column>
@@ -180,7 +190,7 @@ Discipline
 <grid background="gray-100">
 <column lg="4">
 
-**Brand and marketing**
+### Brand and marketing
 
 </column>
 <column lg="8">
@@ -205,7 +215,7 @@ Discipline
 <grid background="gray-100">
 <column lg="4">
 
-**Service Design**
+### Service Design
 
 </column>
 <column lg="8">

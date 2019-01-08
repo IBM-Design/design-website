@@ -20,7 +20,7 @@ we serve.</span>
 <grid background="gray-10">
 <column lg="8">
 
-When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.
+<p size="xl">When you blend human-centered design with time-tested business acumen and deep domain expertise, the results are palpable.</p>
 
 </column>
 </grid>
@@ -28,7 +28,7 @@ When you blend human-centered design with time-tested business acumen and deep d
 <grid background="gray-10">
 <column lg="4">
 
-## Featured
+### Today
 <!-- -->
 </column>
 <column lg="4">

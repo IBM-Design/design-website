@@ -12,10 +12,12 @@ export class p extends React.Component {
     const { children, size } = this.props;
 
     const classNames = classnames({
-      'page-p': true,
+      'page-p': size !== 'xl',
+      'page-p--sm': size === 'sm',
       'page-p--md': size === 'md',
       'page-p--lg': size === 'lg',
       'page-p--xl': size === 'xl',
+      'bx--type-expressive-heading-04': size === 'xl',
     });
 
     return <p className={classNames}>{children}</p>;
@@ -39,7 +41,7 @@ export class h2 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <h2 className="page-h2" id={hash}>
+      <h2 className="page-h2 bx--type-expressive-heading-04" id={hash}>
         {this.props.children}
       </h2>
     );

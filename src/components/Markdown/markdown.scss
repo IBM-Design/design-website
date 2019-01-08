@@ -1,41 +1,37 @@
 //----------------------------
 // Paragraphs
 //----------------------------
-.page-p:empty{
+.page-p:empty {
   padding: 0;
 }
 
-.page-p { 
-  @include type-style('body-long-02');
-  padding: 0 0 $spacing-xl 0;
+.page-p { //md default
+  @include type-style('body-short-02');
   color: $text-01;
 }
 
-.page-p--md { //md
-  @include type-style('heading-03');
-  padding-right: 0;
+.page-p--sm { 
+  @include type-style('body-short-01');
+}
+
+.page-p--md { //md default
+  @include type-style('body-short-02');
 }
 
 .page-p--lg { //lg
-  padding-right: 0;
-  padding-bottom: 1.5rem;
-  //replace with type token
-  font-size: rem(28px); 
-  line-height: 1.125;
+  @include type-style('heading-03');
 }
 
 .page-p--xl { //xl
-  @include type-style('expressive-heading-05');
-  font-size: rem(42px);
-  line-height: 120%;
-  font-weight: 400;
-  padding-right: 0;
-  padding-bottom: 6rem;
+  // using exspressive heading 04
   color: $ibm-colors__gray--100;
+  font-weight: 300;
 }
 
 .background--black .page-p,
-.background--gray-100 .page-p {
+.background--gray-100 .page-p,
+.background--black .page-p--xl,
+.background--gray-100 .page-p--xl {
   color: $ibm-colors__white;
 }
 
@@ -50,16 +46,7 @@
 
 .page-h2 {
   //@include type-style('expressive-heading-05');
-  font-size: rem(32px);
-  font-weight: 400;
-  line-height: 120%;
   color: $text-01;
-  padding-bottom: 2.5rem;
-
-  strong {
-    font-weight: 600;
-    font-size: rem(42px);
-  }
 }
 
 .background--black .page-h2,
@@ -72,12 +59,8 @@
 //----------------------------
 
 .page-h3 {
-  //replace with type token
-  font-size: rem(28px); 
-  font-weight: 400;
-  line-height: 1.125;
+  @include type-style('heading-03');
   color: $text-01;
-  padding-top: 3rem;
 }
 
 .background--black .page-h3,
@@ -90,22 +73,13 @@
 //----------------------------
 
 .page-h4 {
-  @include type-style('heading-03');
+  @include type-style('heading-02');
   color: $text-01;
-  padding-top: 3rem;
 }
 
 .background--black .page-h4,
 .background--gray-100 .page-h4 {
   color: $ibm-colors__white;
-}
-
-//----------------------------
-// h5
-//----------------------------
-
-.page-h5 {
-// add styles
 }
 
 //----------------------------
@@ -152,8 +126,7 @@
 // Blockquote
 //----------------------------
 blockquote {
-  margin-left: -1rem;
-  padding-right: 2.5rem;
+
 }
 
 blockquote:first-child {
@@ -168,7 +141,7 @@ blockquote:first-child {
     background: $ibm-colors__gray--40;
     position: absolute;
     top: -24px;
-    left: -1rem;
+    left: -2rem;
   }
 }
 
