@@ -120,13 +120,15 @@ title: Design services
 
 </column>
 </grid>
-<grid background="black">
-<column lg="16">
 
-## insert full tile here
+<tile
+  size="md"
+  background="#E7E7E7"
+  title_one="Learn how your business can partner with us to build better business."
+  tile_name="IBM iX">
+  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+</tile>
 
-</column>
-</grid>
 <grid background="gray-10">
 <column lg="8">
 

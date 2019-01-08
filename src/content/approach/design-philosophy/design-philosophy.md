@@ -74,13 +74,15 @@ Like our brand values, our design ethos must be palpable in everything we produc
 
 </column>
 </grid>
-<grid background="black">
-<column lg="16">
 
-## insert full tile here
+<tile
+  size="md"
+  background="#E7E7E7"
+  title_one="Learn how your business can partner with us to build better business."
+  tile_name="IBM iX">
+  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+</tile>
 
-</column>
-</grid>
 <grid background="gray-10">
 <column lg="8">
 
@@ -104,3 +106,11 @@ Let’s define your strategy, create exceptional experiences, and drive better b
 
 </column>
 </grid>
+
+<tile
+  size="md"
+  background="#383838"
+  title_one="See how our design philosophy is influencing the way we design everything."
+  tile_name="IBM Design Language">
+  <img src="../../global/images/lg_design_language.png" alt="Geometric shapes"/>
+</tile>

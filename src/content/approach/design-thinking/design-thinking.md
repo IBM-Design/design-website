@@ -134,13 +134,15 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 
 </column>
 </grid>
-<grid background="black">
-<column lg="16">
 
-## insert full tile here
+<tile
+  size="md"
+  background="#C5DEFF"
+  title_one="Explore how you and your business can take advantage of our entire platform."
+  tile_name="Enterprise Design Thinking">
+  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+</tile>
 
-</column>
-</grid>
 <grid background="gray-10">
 <column lg="8">
 
@@ -162,3 +164,4 @@ The beliefs behind everything we do. Design is about moving people forward, both
 
 </column>
 </grid>
+

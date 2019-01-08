@@ -16,92 +16,90 @@ the means;<br>
 
 </column>
 </grid>
+
 <grid background="gray-10">
-<column lg="16">
-
-<hr>
-
-</column>
 <column lg="4">
 
 ### Security
+<!-- -->
+</column>
+
+<column lg="4" md="4">
+  <tile>
+    <img src="../global/images/tile-img-sm__ix-client.png" alt="" class="img--sm"/>
+  </tile>
 
 </column>
-<column lg="12">
+<column lg="4" md="4">
 
-## add tiles
-
-</column>
-</grid>
-<grid background="gray-10">
-<column lg="4">
-
-### Sports and <br>Entertainment
+  <tile>
+    <img src="../global/images/tile-img-sm__watson-iot.png" alt="" class="img--sm"/>    
+  </tile>
 
 </column>
-<column lg="12">
+<column lg="4" md="4">
 
-## add tiles
-
-</column>
-</grid>
-<grid background="gray-10">
-<column lg="4">
-
-### IBM Plex typeface
-
-</column>
-<column lg="12">
-
-## add tiles
+  <tile>
+    <img src="../global/images/tile-img-sm__plex.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+  </tile>
 
 </column>
 </grid>
+
 <grid background="gray-10">
 <column lg="4">
 
 ### Quantum
+<!-- -->
+</column>
+
+<column lg="4" md="4">
+  <tile>
+    <img src="../global/images/tile-img-sm__security.png" alt="A laptop showing security analytics" class="img--sm"/>
+  </tile>
 
 </column>
-<column lg="12">
+<column lg="4" md="4">
 
-## add tiles
-
-</column>
-</grid>
-<grid background="gray-10">
-<column lg="4">
-
-### Health
+  <tile>
+    <img src="../global/images/tile-img-sm__love.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+  </tile>
 
 </column>
-<column lg="12">
+<column lg="4" md="4">
 
-## add tiles
-
-</column>
-</grid>
-<grid background="gray-10">
-<column lg="4">
-
-### Energy
-
-</column>
-<column lg="12">
-
-## add tiles
+  <tile>
+    <img src="../global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>    
+  </tile>
 
 </column>
 </grid>
+
 <grid background="gray-10">
 <column lg="4">
 
-### Data and <br>Analytics
+### Brand
+<!-- -->
+</column>
+
+<column lg="4" md="4">
+  <tile>
+    <img src="../global/images/tile-img-sm__security.png" alt="A laptop showing security analytics" class="img--sm"/>
+  </tile>
 
 </column>
-<column lg="12">
+<column lg="4" md="4">
 
-## add tiles
+  <tile>
+    <img src="../global/images/tile-img-sm__love.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile>
+    <img src="../global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>    
+  </tile>
 
 </column>
 </grid>
