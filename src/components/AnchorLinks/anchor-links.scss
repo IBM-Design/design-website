@@ -55,12 +55,12 @@
     position: absolute; 
     left: auto;
     right: rem(20px);
-    bottom: 4rem;
+    bottom: 2rem;
     width: 25%;
     padding: 0;
   }
 
   @include breakpoint('lg') {
-    bottom: 2rem;
+    bottom: 4rem;
   }
 }
