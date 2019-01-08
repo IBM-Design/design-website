@@ -3,10 +3,19 @@ title: Approach
 ---
 
 <title-block>
+<anchor-links>
+
+- [Design philosophy](#design-philosophy)
+- [Enterprise design thinking](#enterprise-design-thinking)
+- [Design services](#design-services)
+
+</anchor-links>
+
 The key to solving<br>
 business problems
 <span>is to focus on the
 <br>human problems.</span>
+
 </title-block>
 
 <grid background="gray-10">
