@@ -8,6 +8,7 @@ import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
+import Tile from '../components/Tile';
 import AnchorLinks from '../components/AnchorLinks';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
@@ -34,6 +35,7 @@ const renderAst = new rehypeReact({
     table: PageTable,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
+    'tile': Tile,
     grid: Grid,
     column: Column,
   },
