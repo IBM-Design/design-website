@@ -8,6 +8,11 @@
   top: rem(3px);
 }
 
+.icon--right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .icon--blue {
   & > svg {
     fill: $brand-01;
@@ -24,6 +29,7 @@
   padding: rem(2px);
 }
 
+//adds styles for link with icon
 .link--icon {
   text-decoration: none;
 

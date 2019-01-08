@@ -21,6 +21,10 @@ export default class Icon extends React.Component {
    * adds class to display inline, default = false
    */
     inline: PropTypes.string,
+    /**
+   * accepts "right" or "left" to align icon
+   */
+    align: PropTypes.string,
   };
 
   render() {
@@ -28,6 +32,7 @@ export default class Icon extends React.Component {
       icon,
       color,
       inline,
+      align
     } = this.props;
 
     const classNames = classnames({
@@ -35,6 +40,8 @@ export default class Icon extends React.Component {
       'icon--blue': color === 'blue',
       'icon--white': color === 'white',
       'icon--inline': inline === 'true',
+      'icon--right': align === 'right' && inline !== 'true',
+      'icon--left': align === 'left' && inline !== 'true',
       'icon--inline up-right': inline === 'true' && icon === 'ArrowUpRight20',
     });
 
@@ -57,5 +64,6 @@ export default class Icon extends React.Component {
 Icon.defaultProps = {
   color: 'black',
   icon: 'ArrowRight16',
-  inline: 'false'
+  inline: 'false',
+  align: 'left'
 }
