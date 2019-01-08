@@ -93,14 +93,14 @@ Like our brand values, our design ethos must be palpable in everything we produc
 
 <p size="sm"><strong>Design thinking</strong><br>
 Get familiar with how to apply the framework that drives how we think and work every day.<br>
-<a href="#">Learn more</a></p>
+<a href="/approach/design-thinking">Learn more</a></p>
 
 </column>
 <column lg="4">
 
 ![](../images/design2.svg)
 <p size="sm"><strong>Design services</strong><br>
-Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="#">Learn more</a></p>
+Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
 
 </column>
 </grid>
