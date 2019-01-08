@@ -6,6 +6,10 @@
   padding-top: rem(56px);
 }
 
+.page-content > div div.background:first-child {
+  padding-top: 2rem;
+}
+
 .background:last-child {
   padding-bottom: rem(128px);
 }
