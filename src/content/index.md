@@ -25,22 +25,28 @@ When you blend human-centered design with time-tested business acumen and deep d
 </column>
 <column lg="4" md="4">
 
-  <tile>
+  <tile
+    tile_optional="Security"
+    tile_name="Threats are at an all time low">
     <img src="./global/images/tile-img-sm__security.png" alt="A laptop showing security analytics" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
+  <tile
+    tile_optional="Brand"
+    tile_name="Our typeface Plex is going global">
     <img src="./global/images/tile-img-sm__plex.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="./global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>    
+  <tile
+    tile_optional="Quantum"
+    tile_name="Everything we know is about to change">
+    <img src="./global/images/tile-img-sm__ix-migros.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
   </tile>
 
 </column>
