@@ -30,16 +30,9 @@
 //===================
 //MD TILE STYLES
 //===================
-
-.tile--md {
-}
-
-.img--md {
+.img--md .gatsby-resp-image-wrapper {
   margin-top: rem(88px);
   margin-bottom: rem(88px);
-}
-
-.img--md .gatsby-resp-image-wrapper {
   left: rem(-150px) !important;
   @include max-breakpoint('lg') {
     left: -25% !important;
@@ -47,8 +40,18 @@
 }
 
 .tile--md_text-container {
+  position: relative;
   background: $ibm-colors__black;
   color: white;
+  @include max-breakpoint('lg') {
+    min-height: rem(555px);
+  }
+  @include max-breakpoint('md') {
+    min-height: rem(490px);
+  }
+  @include max-breakpoint('bp--xs--major') {
+    min-height: rem(380px);
+  }
 }
 
 .title--main_md {
@@ -57,17 +60,25 @@
   margin: rem(32px);
 }
 
-.tile--md a.bx--tile {
-  right: 32px;
-  margin-left: auto;
+.tile--md .tile--md_text-container a.bx--tile {
+  right: rem(32px);
+  bottom: 0;
+  position: absolute;
+  @include max-breakpoint('bp--xs--major') {
+    right: 0;
+    width: rem(190px);
+  }
 }
 
 //===================
 //LG TILE STYLES
 //===================
 .tile--lg {
-  margin-bottom: rem(32px);
+  position: relative;
   justify-content: space-between;
+  @include max-breakpoint('md') {
+    margin-bottom: rem(152px);
+  }
 
   & > .img--lg {
     margin: auto;
@@ -79,7 +90,12 @@
 
 .tile--lg a.bx--tile {
   right: 0;
-  margin-left: auto;
+  bottom: 0;
+  position: absolute;
+  @include max-breakpoint('md') {
+    bottom: rem(-152px);
+    width: 100%;
+  }
 }
 
 //===================
@@ -87,6 +103,7 @@
 //===================
 
 .tile--xl {
+  position: relative;
   display: flex;
   margin-bottom: rem(30px);
   justify-content: space-between;
@@ -96,7 +113,10 @@
 
   & > .tile--text-container {
     margin-top: rem(32px);
-    margin-left: rem(32px);
+    margin-left: rem(16px);
+    @include max-breakpoint('md'){
+      width: 90%;
+    }
 
     & > p {
       line-height: rem(22px);
@@ -107,7 +127,6 @@
   & > .img--lg {
     margin-top: rem(48px);
     margin-bottom: rem(48px);
-
     @include max-breakpoint('lg'){
       margin-top: rem(50px);
     }
@@ -132,34 +151,17 @@
 }
 
 .tile--xl a.bx--tile {
+  right: rem(32px);
+  bottom: 0;
   position: absolute;
-  right: 32px;
-  margin-left: auto;
-  margin-top: auto;
-}
-
-//===================
-//OPTIONS
-//===================
-.text--light {
-  color: $ibm-colors__white;
-}
-
-//===================
-//OVERRIDES
-//===================
-.img--sm .gatsby-resp-image-wrapper {
-  max-width: rem(500px) !important;
-}
-
-.img--lg .gatsby-resp-image-wrapper {
-  max-width: 100% !important;
-}
-
-.tile--text-container.ibm--col-lg-4 {
-  @include breakpoint('lg'){
-    flex: 0 0 26%;
-    max-width: 26%;
+  // @include max-breakpoint('sm'){
+  //   right: 0;
+  //   width: rem(190px);
+  // }
+  //mixin above not working
+  @media (max-width: 500px) {
+    right: 0;
+    width: rem(190px);
   }
 }
 
@@ -207,8 +209,11 @@ a.bx--tile {
 }
 
 //===================
-//DARK CLICK TILE
+//OPTIONS
 //===================
+.text--light {
+  color: $ibm-colors__white;
+}
 
 a.tile--dark  {
   background: $ibm-colors__gray--90;
@@ -225,4 +230,30 @@ a.tile--dark .tile__info h5 {
 
 a.tile--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
+}
+
+//===================
+//OVERRIDES
+//===================
+.img--sm .gatsby-resp-image-wrapper {
+  max-width: 100% !important;
+}
+
+.tile--xl .ibm--col-lg-8.img--lg {
+  padding-right: 0;
+}
+
+.img--lg .gatsby-resp-image-wrapper {
+  max-width: 100% !important;
+}
+
+.tile--text-container.ibm--col-lg-4 {
+  @include breakpoint('lg'){
+    flex: 0 0 26%;
+    max-width: 26%;
+  }
+}
+
+.ibm--row.tile--md {
+  margin-right: 0;
 }
