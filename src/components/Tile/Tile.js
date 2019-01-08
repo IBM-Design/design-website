@@ -99,6 +99,7 @@ export default class Tile extends React.Component {
 
     const clickTileClassNames = classnames({
       'tile--dark': tile_dark === 'true',
+      'tile--optional' : tile_optional,
     });
 
     const tileId = (size === "xl") ? (title_one.toLowerCase().split(" ").join("-").toString()) : null;
@@ -148,6 +149,9 @@ export default class Tile extends React.Component {
               href={tile_href}
               className={clickTileClassNames}>
               <div className="tile__info">
+                {tile_optional ? (
+                  <p>{tile_optional}</p>
+                ) : null}
                 <h5>{tile_name}</h5>
               </div>
               <div className="tile__link-icon">

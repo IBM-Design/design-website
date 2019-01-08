@@ -25,6 +25,18 @@
 
 .tile--sm a.bx--tile {
   width: 100%;
+
+  & .tile__info > h5 {
+    font-size: rem(20px);
+    line-height: rem(26px);
+    max-width: rem(190px);
+  }
+
+  & .tile__info > p {
+    font-size: rem(14px);
+    line-height: rem(18px);
+    color: $ibm-colors__gray--60;
+  }
 }
 
 //===================
@@ -187,7 +199,6 @@ a.bx--tile {
 
 .tile__info {
   width: 100%;
-
   @include breakpoint('lg') {
     width: 75%;
   }
@@ -230,6 +241,10 @@ a.tile--dark .tile__info h5 {
 
 a.tile--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
+}
+
+.tile--optional .tile__info > h5:before {
+  height: 2.25rem;
 }
 
 //===================
