@@ -226,6 +226,10 @@ a.bx--tile {
   color: $ibm-colors__white;
 }
 
+.tile--arrow-upright {
+  padding: rem(2px);
+}
+
 a.tile--dark  {
   background: $ibm-colors__gray--90;
   color: $ibm-colors__white;

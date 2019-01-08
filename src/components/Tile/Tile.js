@@ -51,6 +51,11 @@ export default class Tile extends React.Component {
    * optional secondary text for tile
    */
     tile_optional: PropTypes.string,
+    /**
+   * accepts ArrowUpRight16, ArrowUpRight20
+   * changes icon of clickable tile, default = ArrowUpRight20
+   */
+    tile_icon: PropTypes.string,
 
   };
 
@@ -67,7 +72,7 @@ export default class Tile extends React.Component {
       tile_href,
       tile_dark,
       tile_optional,
-
+      tile_icon
     } = this.props;
 
     const classNames = classnames({
@@ -137,7 +142,11 @@ export default class Tile extends React.Component {
                   <h5>{tile_name}</h5>
                 </div>
                 <div className="tile__link-icon">
-                  <ArrowRight16 aria-label="Open resource" />
+                  { tile_icon === "ArrowUpRight20" ? (
+                    <ArrowUpRight20 className= "tile--arrow-upright" aria-label="Open resource"/>
+                  ) : (
+                    <ArrowRight16 aria-label="Open resource"/>
+                  )}
                 </div>
               </ClickableTile>
           </div>
@@ -155,7 +164,11 @@ export default class Tile extends React.Component {
                 <h5>{tile_name}</h5>
               </div>
               <div className="tile__link-icon">
-                <ArrowRight16 aria-label="Open resource" />
+                { tile_icon === "ArrowUpRight20" ? (
+                  <ArrowUpRight20 className= "tile--arrow-upright" aria-label="Open resource"/>
+                ) : (
+                  <ArrowRight16 aria-label="Open resource"/>
+                )}
               </div>
             </ClickableTile>
         ): null}
@@ -169,4 +182,5 @@ Tile.defaultProps = {
   light: 'false',
   tile_name: 'Learn more',
   tile_dark: 'false',
+  tile_icon: 'ArrowUpRight20'
 }

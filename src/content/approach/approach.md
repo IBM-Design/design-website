@@ -24,7 +24,8 @@ Whether solving problems or serving clients, we put people at the center of ever
     light="true"
     title_one="Design Philosophy"
     title_two="The beliefs behind everything we do."
-    description="Design is about moving people forward, both emotionally and functionally.">
+    description="Design is about moving people forward, both emotionally and functionally."
+    tile_icon="ArrowRight16">
     <img src="../global/images/xl_design_philosphy.png" alt="Geometric shapes"/>
   </tile>
 
@@ -33,7 +34,8 @@ Whether solving problems or serving clients, we put people at the center of ever
     background="#E7E7E7"
     title_one="Design Thinking"
     title_two="Human-centered design at scale."
-    description="Explore the framework that drives how we think and work every day.">
+    description="Explore the framework that drives how we think and work every day."
+    tile_icon="ArrowRight16">
     <img src="../global/images/xl_design_thinking.png" alt="Geometric shapes"/>
   </tile>
 
@@ -43,6 +45,7 @@ Whether solving problems or serving clients, we put people at the center of ever
     light="true"
     title_one="Design Services"
     title_two="Your business partner by design."
-    description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes.">
+    description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
+    tile_icon="ArrowRight16">
     <img src="../global/images/xl_design_services.png" alt="Ven diagram emphasizing overlapping area"/>
   </tile>
