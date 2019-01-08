@@ -133,25 +133,8 @@ export default class Tile extends React.Component {
         { size === "md" ? (
           <div className='ibm--col-lg-8 tile--md_text-container'>
             <h1 className='title--main_md'>{title_one}</h1>
-            <ClickableTile
-                target="_blank"
-                rel="noopener noreferrer"
-                href={tile_href}
-                className={clickTileClassNames}>
-                <div className="tile__info">
-                  <h5>{tile_name}</h5>
-                </div>
-                <div className="tile__link-icon">
-                  { tile_icon === "ArrowUpRight20" ? (
-                    <ArrowUpRight20 className= "tile--arrow-upright" aria-label="Open resource"/>
-                  ) : (
-                    <ArrowRight16 aria-label="Open resource"/>
-                  )}
-                </div>
-              </ClickableTile>
           </div>
         ) : null}
-        { size !== "md" ? (
           <ClickableTile
               target="_blank"
               rel="noopener noreferrer"
@@ -170,8 +153,7 @@ export default class Tile extends React.Component {
                   <ArrowRight16 aria-label="Open resource"/>
                 )}
               </div>
-            </ClickableTile>
-        ): null}
+          </ClickableTile>
       </div>
     );
   }
