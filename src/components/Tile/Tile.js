@@ -101,8 +101,10 @@ export default class Tile extends React.Component {
       'tile--dark': tile_dark === 'true',
     });
 
+    const tileId = (size === "xl") ? (title_one.toLowerCase().split(" ").join("-").toString()) : null;
+
     return (
-      <div className={classNames} style={{backgroundColor: background}}>
+      <div className={classNames} style={{backgroundColor: background}} id={tileId}>
         { size === "sm" ? (
           <div className='img--sm'>
             {children}
