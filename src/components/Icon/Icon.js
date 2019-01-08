@@ -35,6 +35,7 @@ export default class Icon extends React.Component {
       'icon--blue': color === 'blue',
       'icon--white': color === 'white',
       'icon--inline': inline === 'true',
+      'icon--inline up-right': inline === 'true' && icon === 'ArrowUpRight20',
     });
 
     return (

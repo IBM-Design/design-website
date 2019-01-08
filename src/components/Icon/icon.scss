@@ -3,6 +3,11 @@
   vertical-align: middle;
 }
 
+.icon--inline.up-right {
+  position: relative;
+  top: rem(3px);
+}
+
 .icon--blue {
   & > svg {
     fill: $brand-01;
