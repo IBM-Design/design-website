@@ -85,3 +85,11 @@ Like our brand values, our design ethos must be palpable in everything we produc
 
 </column>
 </grid>
+
+<tile
+  size="md"
+  background="#383838"
+  title_one="See how our design philosophy is influencing the way we design everything."
+  tile_name="IBM Design Language">
+  <img src="../../global/images/lg_design_language.png" alt="Geometric shapes"/>
+</tile>
