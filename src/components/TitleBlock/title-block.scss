@@ -25,6 +25,12 @@
   height: 100%;
 }
 
+.title-block .eye-bee-m {
+  height: 121px;
+  width: 67px;
+  margin-bottom: 2rem;
+}
+
 .title-block__content {
   display: flex;
   justify-content: flex-end;
@@ -44,7 +50,7 @@
   }
 
   @include breakpoint('lg') {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
 
   span {

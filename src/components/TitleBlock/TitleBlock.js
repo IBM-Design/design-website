@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const eyeBeeM = (
   <svg
+    className="eye-bee-m"
     xmlns="http://www.w3.org/2000/svg"
     enable-background="new 0 0 30 72"
     viewBox="0 0 30 72"

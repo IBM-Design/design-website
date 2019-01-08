@@ -3,7 +3,7 @@
 //----------------------------
 .background {
   padding-bottom: rem(80px);
-  padding-top: 2rem;
+  padding-top: rem(56px);
 }
 
 .background:last-child {
@@ -40,7 +40,7 @@
 
 .background--black-white {
   margin-top: -3rem;
-  background: linear-gradient(to bottom, $ibm-colors__black 50%, $ibm-colors__white 50%);
+  background: linear-gradient(to bottom,  #252525 50%, $ibm-colors__gray--10 50%);
 }
 
 // selects all columnns for testing

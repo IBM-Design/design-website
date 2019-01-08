@@ -8,6 +8,7 @@
 .page-p { //md default
   @include type-style('body-short-02');
   color: $text-01;
+  margin-bottom: 1.25rem;
 }
 
 .page-p--sm { 
@@ -26,6 +27,7 @@
   // using exspressive heading 04
   color: $ibm-colors__gray--100;
   font-weight: 300;
+  margin-bottom: 1.25rem;
 }
 
 .background--black .page-p,
@@ -49,6 +51,7 @@
 .page-h2 {
   //@include type-style('expressive-heading-05');
   color: $text-01;
+  margin-bottom: 1.25rem;
 }
 
 .background--black .page-h2,
@@ -64,6 +67,7 @@
 .page-h3 {
   @include type-style('heading-03');
   color: $text-01;
+  margin-bottom: 1.25rem;
 }
 
 .background--black .page-h3,
@@ -79,6 +83,7 @@
 .page-h4 {
   @include type-style('heading-02');
   color: $text-01;
+  margin-bottom: 1.25rem;
 }
 
 .background--black .page-h4,
