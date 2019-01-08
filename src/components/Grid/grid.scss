@@ -38,13 +38,12 @@
 
 .background--black {
   background: $ibm-colors__black;
-  background: #252525;
   color: $ibm-colors__white;
 }
 
 .background--black-white {
   margin-top: -3rem;
-  background: linear-gradient(to bottom,  #252525 50%, $ibm-colors__gray--10 50%);
+  background: linear-gradient(to bottom,  $ibm-colors__black 50%, $ibm-colors__gray--10 50%);
 }
 
 // selects all columnns for testing

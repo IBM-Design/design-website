@@ -21,7 +21,10 @@ business problems
 <grid background="gray-10">
 <column lg="10">
 
-<p size="xl">Whether solving problems or serving clients, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.</p>
+<p size="xl">Whatever problem we're solving, we put 
+people at the center of everything we do. 
+Design isn’t just a job; it’s a deep
+responsibility to the people we serve.</p>
 
 </column>
 
@@ -33,9 +36,9 @@ business problems
     light="true"
     title_one="Design Philosophy"
     title_two="The beliefs behind everything we do."
-    description="Design is about moving people forward, both emotionally and functionally."
+    description="Design is about giving people a path, both emotionally and functionally, towards their goals."
     tile_icon="ArrowRight16">
-    <img src="../global/images/xl_design_philosphy.png" alt="Geometric shapes"/>
+    <img src="images/Image_1.svg" alt="Geometric shapes"/>
   </tile>
 
   <tile
@@ -43,9 +46,9 @@ business problems
     background="#E7E7E7"
     title_one="Design Thinking"
     title_two="Human-centered design at scale."
-    description="Explore the framework that drives how we think and work every day."
+    description="Learn how you can apply the same framework our teams use every day."
     tile_icon="ArrowRight16">
-    <img src="../global/images/xl_design_thinking.png" alt="Geometric shapes"/>
+    <img src="images/Image_2.svg" alt="Geometric shapes"/>
   </tile>
 
   <tile
@@ -56,5 +59,5 @@ business problems
     title_two="Your business partner by design."
     description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
     tile_icon="ArrowRight16">
-    <img src="../global/images/xl_design_services.png" alt="Ven diagram emphasizing overlapping area"/>
+    <img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
   </tile>

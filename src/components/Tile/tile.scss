@@ -4,6 +4,7 @@
 .tile--sm {
   display: flex;
   flex-direction: column;
+  margin-left: -1rem;
 
   & > .tile--text-container {
     padding-left: 0;
@@ -28,9 +29,9 @@
 }
 
 .tile--optional .tile__info > p {
-  font-size: rem(14px);
-  line-height: rem(18px);
   color: $ibm-colors__gray--60;
+  display: block;
+  margin-top: auto;
 }
 
 .tile--optional .tile__info > h5:before {
@@ -52,8 +53,9 @@
 
   & .bx--tile {
     position: absolute;
-    right: rem(32px);
+    right: rem(16px);
     bottom: 0;
+
     @include max-breakpoint('bp--xs--major') {
       right: 0;
       width: rem(190px);
@@ -97,9 +99,8 @@
 .tile--lg {
   position: relative;
   justify-content: space-between;
-  @include max-breakpoint('md') {
-    margin-bottom: rem(152px);
-  }
+  margin-left: -1rem;
+  margin-bottom: 1rem;
 
   & > .img--lg {
     margin: auto;
@@ -113,6 +114,7 @@
   right: 0;
   bottom: 0;
   position: absolute;
+
   @include max-breakpoint('md') {
     bottom: rem(-152px);
     width: 100%;
@@ -172,7 +174,7 @@
 }
 
 .tile--xl a.bx--tile {
-  right: rem(32px);
+  right: 1rem;
   bottom: 0;
   position: absolute;
   @media (max-width: 500px) {
@@ -214,23 +216,26 @@ a.bx--tile {
 
 .tile__info {
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.tile__info h5 {
+.tile__info h3 {
   display: block;
   width: 100%;
   text-decoration: none;
   color: $text-01;
   margin: 0 0 $spacing-xs 0;
   padding: 0 0 0 0;
-  @include type-style('body-short-01');
-  font-size: calc(16px + 4 * ((100vw - 320px) / 1264));
-  line-height: rem(26px);
 }
 
 .tile__link-icon {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
 }
 
 //dark clickable tile

@@ -20,7 +20,10 @@ A solution’s quality<br>hinges directly on<br>
 <grid background="gray-10">
 <column lg="10">
 
-<p size="xl">The foundational unit of design is the team. Learn how we leverage diversity to strengthen our teams and explore the types of roles we hire for.</p>
+<p size="xl">The foundational unit of design is the
+team. Learn how we leverage diversity
+to strengthen our teams and explore
+the types of roles we hire for.</p>
 
 </column>
 </grid>
@@ -32,7 +35,7 @@ A solution’s quality<br>hinges directly on<br>
 </column>
 <column lg="4">
 
-**Diverse**
+### Diverse
 
 </column>
 <column lg="8">
@@ -41,14 +44,9 @@ A solution’s quality<br>hinges directly on<br>
 <p size="md">When tackling complex problems at scale, we rely on the strength of Diverse Multidisciplinary Teams to envision and execute on solutions that generate value for both our users and our clients.<br><br>Diversity comes in many forms—your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes. </p>
 
 </column>
-<column lg="6" offset_lg="4">
+<column lg="12" offset_lg="4">
 
-<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
-
-</column>
-<column lg="6">
-
-<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+![teams](images/Image_1.png)  
 
 </column>
 </grid>
@@ -177,13 +175,13 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 <column lg="8">
 
 
-## Are you a sucker for screens, wireframes and user experience? 
+## Are you passionate about designing great software and digital experiences?
 <p size="md">Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design (and, at times, redesign) some of IBM’s most foundational products and webpages.<br><br>Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management<br><br><a href="#">Open roles</a></p>
 
 </column>
 <column lg="8" offset_lg="4">
 
-![teams](images/teams_2.png)
+![teams](images/Image_5.png)
 
 </column>
 <column lg="3">
@@ -208,7 +206,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 </column>
 <column lg="8" offset_lg="4">
 
-![teams](images/teams_3.png)
+![teams](images/Image_6.png)
 
 </column>
 <column lg="3">
@@ -233,7 +231,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 </column>
 <column lg="8" offset_lg="4">
 
-![teams](images/teams_3.png)
+![teams](images/Image_7.png)
 
 </column>
 <column lg="3">

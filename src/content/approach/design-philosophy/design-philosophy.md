@@ -78,39 +78,33 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <tile
   size="md"
   background="#E7E7E7"
-  title_one="Learn how your business can partner with us to build better business."
-  tile_name="IBM iX">
-  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+  title_one="See how we bring our philosophy to bear in our design systems."
+  tile_name="Design Thinking"
+  tile_href="">
+  <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
 <grid background="gray-10">
 <column lg="8">
 
-### Keep exploring our appraoch
+<h3>Keep exploring<br>our approach</h3>
 
 </column>
 <column lg="4">
 
-![](../images/design1.svg)
+![](images/Image_3.png)
 
-<p size="sm"><strong>Design thinking</strong><br>
+<p size="sm"><br><strong>Design thinking</strong><br>
 Get familiar with how to apply the framework that drives how we think and work every day.<br>
 <a href="/approach/design-thinking">Learn more</a></p>
 
 </column>
 <column lg="4">
 
-![](../images/design2.svg)
-<p size="sm"><strong>Design services</strong><br>
+![](images/Image_4.png)
+
+<p size="sm"><br><strong>Design services</strong><br>
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
 
 </column>
 </grid>
-
-<tile
-  size="md"
-  background="#383838"
-  title_one="See how our design philosophy is influencing the way we design everything."
-  tile_name="IBM Design Language">
-  <img src="../../global/images/lg_design_language.png" alt="Geometric shapes"/>
-</tile>

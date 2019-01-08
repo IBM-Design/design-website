@@ -63,7 +63,7 @@ _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dyn
 </column>
 <column lg="12">
 
-<h2>A formalized structure<br>for rapid iteration.</h2>
+<h2>A process of<br>rapid iteration.</h2>
 
 </column>
 <column lg="4" offset_lg="4">
@@ -102,7 +102,7 @@ The only way to see an outcome is to make one – even if the idea isn’t fully
 </column>
 <column lg="12">
 
-<h2>Tactical strategies for<br>maintaining alignment.</h2>
+<h2>Tactics for<br>maintaining alignment.</h2>
 
 </column>
 <column lg="4" offset_lg="4">
@@ -140,26 +140,26 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
   background="#C5DEFF"
   title_one="Explore how you and your business can take advantage of our entire platform."
   tile_name="Enterprise Design Thinking">
-  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+  <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
 <grid background="gray-10">
 <column lg="8">
 
-### Keep exploring our appraoch
+<h3>Keep exploring<br>our approach</h3>
 
 </column>
 <column lg="4">
 
-![](../images/design2.svg)
-<p size="sm"><strong>Design services</strong><br>
+![](images/Image_3.png)
+<p size="sm"><strong><br>Design services</strong><br>
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
 
 </column>
 <column lg="4">
 
-![](../images/design1.svg)
-<p size="sm"><strong>Design philosphy</strong><br>
+![](images/Image_4.png)
+<p size="sm"><strong><br>Design philosphy</strong><br>
 The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br><a href="/approach/design-philosophy">Learn more</a></p>
 
 </column>

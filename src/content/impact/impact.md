@@ -4,8 +4,8 @@ title: Impact
 
 <title-block>
 Design is simply<br>
-the means;<br>
-<span>business outcomes
+the means.<br>
+<span>Business outcomes
 <br>are the end.</span>
 </title-block>
 
@@ -21,26 +21,82 @@ the means;<br>
 <column lg="4">
 
 ### Security
-<!-- -->
+
 </column>
 
 <column lg="4" md="4">
-  <tile>
-    <img src="../global/images/tile-img-sm__ix-client.png" alt="" class="img--sm"/>
+  <tile tile_name="Prioritizing both easy-of-use and security" tile_optional="medium.com" tile_href="http://www.google.com">
+    <img src="images/Image_1.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="../global/images/tile-img-sm__watson-iot.png" alt="" class="img--sm"/>    
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_2.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="../global/images/tile-img-sm__plex.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_3.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+</grid>
+<grid background="gray-10">
+<column lg="4">
+
+### Sports and Entertainment
+
+</column>
+
+<column lg="4" md="4">
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_4.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_5.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_6.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+</grid>
+<grid background="gray-10">
+<column lg="4">
+
+### IBM Plex Typeface
+
+</column>
+
+<column lg="4" md="4">
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_7.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_8.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_9.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
@@ -54,22 +110,22 @@ the means;<br>
 </column>
 
 <column lg="4" md="4">
-  <tile>
-    <img src="../global/images/tile-img-sm__security.png" alt="A laptop showing security analytics" class="img--sm"/>
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_10.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="../global/images/tile-img-sm__love.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_11.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="../global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>    
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_12.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
@@ -78,27 +134,55 @@ the means;<br>
 <grid background="gray-10">
 <column lg="4">
 
-### Brand
+### Health
 <!-- -->
 </column>
 
 <column lg="4" md="4">
-  <tile>
-    <img src="../global/images/tile-img-sm__security.png" alt="A laptop showing security analytics" class="img--sm"/>
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_13.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="../global/images/tile-img-sm__love.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_14.png" alt="" class="img--sm"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile>
-    <img src="../global/images/tile-img-sm__ix-migros.png" alt="an image of a little boy drinking from a mug" class="img--sm"/>    
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_15.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+</grid>
+<grid background="gray-10">
+<column lg="4">
+
+### Energy
+
+</column>
+
+<column lg="4" md="4">
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_16.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_17.png" alt="" class="img--sm"/>
+  </tile>
+
+</column>
+<column lg="4" md="4">
+
+  <tile tile_name="" tile_optional="" tile_href="">
+    <img src="images/Image_18.png" alt="" class="img--sm"/>
   </tile>
 
 </column>

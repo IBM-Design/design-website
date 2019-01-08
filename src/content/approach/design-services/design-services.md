@@ -7,7 +7,7 @@ title: Design services
 
 ## **Design services**
 
-<p size="md">Most companies make things for their clients; we prefer to co-create with them.<br><br>At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner. By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses.</p>
+<p size="md">Most companies make things for their clients. We prefer to co-create with you.<br><br>At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner. By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses.</p>
 
 </column>
 <column lg="9" offset_lg="2">
@@ -124,31 +124,33 @@ title: Design services
 <tile
   size="md"
   background="#E7E7E7"
-  title_one="Learn how your business can partner with us to build better business."
+  title_one="Learn how you can 
+partner with us to build
+better business."
   tile_name="IBM iX">
-  <img src="../../global/images/lg_design_thinking.png" alt="Geometric shapes"/>
+  <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
 <grid background="gray-10">
 <column lg="8">
 
-### Keep exploring our appraoch
+<h3>Keep exploring<br>our approach</h3>
 
 </column>
 <column lg="4">
 
-![](../images/design1.svg)
+![](images/Image_3.png)
 
-<p size="sm"><strong>Design thinking</strong><br>
-Get familiar with how to apply the framework that drives how we think and work every day.<br>
+<p size="sm"><br><strong>Design Philosophy</strong><br>
+The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br>
 <a href="/approach/design-thinking">Learn more</a></p>
 
 </column>
 <column lg="4">
 
-![](../images/design2.svg)
-<p size="sm"><strong>Design services</strong><br>
-Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
+![](images/Image_4.png)
+<p size="sm"><br><strong>Design Thinking</strong><br>
+Get familiar with how to apply the framework that drives how we think and work every day. <br><a href="/approach/design-services">Learn more</a></p>
 
 </column>
 </grid>
