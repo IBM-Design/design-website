@@ -40,10 +40,6 @@ body {
   }
 }
 
-a.bx--header__name {
-  padding-left: 2rem;
-}
-
 .bx--header__nav {
   margin-left: auto;
 }
@@ -56,19 +52,6 @@ a.bx--header__menu-item[role='menuitem'],
 
 a.bx--header__menu-item[role='menuitem'] {
   position: relative;
-}
-
-
-.bx--header__submenu:hover
-  .bx--header__menu
-  .bx--header__menu-item[role='menuitem']:before,
-.bx--header__menu .bx--header__menu-item[role='menuitem']:hover:before {
-  border: none;
-}
-
-.bx--header__menu-title[role='menuitem'][aria-expanded='true']
-  + .bx--header__menu {
-  z-index: 6002; //to allow the nav hack to sit on top
 }
 
 //---------------------------------------
