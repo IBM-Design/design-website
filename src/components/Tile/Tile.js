@@ -16,6 +16,11 @@ export default class Tile extends React.Component {
    */
     size: PropTypes.string,
     /**
+     * header text color for md/xl tiles
+     */
+    title_color: PropTypes.string,
+    /**
+    /**
    * only header for small tiles, first header for lg/xl tiles
    */
     title: PropTypes.string,
@@ -59,10 +64,21 @@ export default class Tile extends React.Component {
 
   };
 
+  colorContrast = ColorHEX => {
+    if (ColorHEX.charAt(0) === '#') {
+      const ConvertedHEX = color(ColorHEX);
+      return ConvertedHEX.luminosity() > 0.44
+        ? 'color-card__button--dark'
+        : 'color-card__button--light';
+    }
+    return 'color-card__button--dark';
+  };
+
   render() {
     const {
       children,
       size,
+      title_color,
       title,
       title_secondary,
       description,
@@ -74,6 +90,7 @@ export default class Tile extends React.Component {
       caption,
       icon
     } = this.props;
+    
 
     const classNames = classnames({
       'tile--sm': size === 'sm',
@@ -88,23 +105,25 @@ export default class Tile extends React.Component {
     const titleClassNames = classnames({
       'tile__title': size === 'xl' || size === 'md',
       'bx--type-expressive-heading-04': true,
+      'tile__text--dark': title_color === 'dark',
     });
 
     const titleTwoClassNames = classnames({
       'tile__title--secondary': title_secondary,
       'bx--type-expressive-heading-04': true,
+      'tile__text--dark': title_color === 'dark',
     });
 
     const descClassName = classnames({
-      'tile__description': true
+      'tile__description': true,
+      'tile__text--dark': title_color === 'dark',
     });
 
     const clickTileClassNames = classnames({
       'bx--tile--clickable--dark': dark === 'true',
     });
 
-    
-    //const tileId = title.toLowerCase().split(" ").join("-").toString();
+    const tileId = title.toLowerCase().split(" ").join("-").toString();
 
     const clickableTile = (
       
@@ -136,14 +155,14 @@ export default class Tile extends React.Component {
     
     if (size === 'md') {
       return (
-        <div className={classNames} style={{backgroundColor: background}}>
+        <div className={classNames} style={{backgroundColor: background}} id={tileId}>
           <div className="ibm--grid">
             <div className="ibm--row">
               <div className="tile__img">
                 {children}
               </div>
               <div className='tile__text-container'>
-                <h2 className='tile__title bx--type-expressive-heading-04'>{title}</h2>
+                <h2 className={titleClassNames}>{title}</h2> 
               </div>
               {clickableTile}
             </div>
@@ -154,13 +173,11 @@ export default class Tile extends React.Component {
     
     if (size === 'lg') {
       return (
-        <div className={classNames} style={{backgroundColor: background}}>    
+        <div className={classNames} style={{backgroundColor: background}} id={tileId}>   
           <div className="ibm--grid">
             <div className="ibm--row"> 
               <section className='tile__text-container ibm--col-lg-4'>
-                { title  ? (
-                  <h2 className={titleClassNames}>{title}</h2> 
-                  ): null}
+                <h2 className={titleClassNames}>{title}</h2> 
                 {title_secondary ? (
                   <h2 className={titleTwoClassNames}>{title_secondary}</h2>
                 ) : null}
@@ -180,13 +197,11 @@ export default class Tile extends React.Component {
 
     if (size === 'xl') {
       return (
-        <div className={classNames} style={{backgroundColor: background}}>    
+        <div className={classNames} style={{backgroundColor: background}} id={tileId}>  
           <div className="ibm--grid">
             <div className="ibm--row"> 
               <section className='tile__text-container ibm--col-lg-4 ibm--offset-lg-1'>
-                { title  ? (
-                  <h2 className={titleClassNames}>{title}</h2> 
-                  ): null}
+                <h2 className={titleClassNames}>{title}</h2> 
                 {title_secondary ? (
                   <h2 className={titleTwoClassNames}>{title_secondary}</h2>
                 ) : null}
@@ -221,5 +236,6 @@ Tile.defaultProps = {
   light: 'false',
   name: 'Learn more',
   dark: 'false',
-  icon: 'ArrowUpRight20'
+  icon: 'ArrowUpRight20',
+  title: 'Title'
 }

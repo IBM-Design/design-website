@@ -86,9 +86,9 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
 }
 
-.tile--dark .tile__description,
-.tile--dark .tile__title,
-.tile--dark .tile__title--secondary {
+.tile__text--dark.tile__description,
+.tile__text--dark.tile__title,
+.tile__text--dark.tile__title--secondary {
   color: $ibm-colors__gray--90;
 }
 
@@ -155,10 +155,13 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   margin-right: -1rem;
   position: relative;
   color: $ibm-colors__white;
+  background: $ibm-colors__black;
 }
 
 .tile--md  .tile__title {
   margin: rem(16px);
+  font-weight: 400;
+  padding-right: 25%;
 }
 
 

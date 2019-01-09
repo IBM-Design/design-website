@@ -35,7 +35,6 @@ responsibility to the people we serve.</p>
 <tile
     size="xl"
     background="black"
-    light="true"
     title="Design Philosophy"
     title_secondary="The beliefs behind everything we do."
     description="Design is about giving people a path, both emotionally and functionally, towards their goals."
@@ -47,6 +46,7 @@ responsibility to the people we serve.</p>
   <tile
     size="xl"
     background="#E7E7E7"
+    title_color="dark"
     title="Design Thinking"
     title_secondary="Human-centered design at scale."
     description="Learn how you can apply the same framework our teams use every day."
@@ -58,7 +58,6 @@ responsibility to the people we serve.</p>
   <tile
     size="xl"
     background="#373737"
-    light="true"
     title="Design Services"
     title_secondary="Your business partner by design."
     description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
