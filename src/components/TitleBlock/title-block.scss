@@ -2,9 +2,14 @@
   position: relative;
   height: calc(100vh - 48px);
   min-height: 470px;
+  
+  @include breakpoint('sm') {
+
+  }
 
   @include breakpoint('md') {
     min-height: 540px;
+    
   }
 
   @include breakpoint('lg') {
@@ -18,6 +23,12 @@
 
 .title-block .ibm--row {
   height: 100%;
+}
+
+.title-block .eye-bee-m {
+  height: 121px;
+  width: 67px;
+  margin-bottom: 2rem;
 }
 
 .title-block__content {

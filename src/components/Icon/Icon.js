@@ -11,7 +11,7 @@ export default class Icon extends React.Component {
    "ArrowUpRight20"
    "ArrowDown32"
    */
-    icon: PropTypes.string,
+    name: PropTypes.string,
     /**
    * defines color of icon, default is black,
     other options = "blue" "white"
@@ -29,7 +29,7 @@ export default class Icon extends React.Component {
 
   render() {
     const {
-      icon,
+      name,
       color,
       inline,
       align
@@ -42,18 +42,18 @@ export default class Icon extends React.Component {
       'icon--inline': inline === 'true',
       'icon--right': align === 'right' && inline !== 'true',
       'icon--left': align === 'left' && inline !== 'true',
-      'icon--inline up-right': inline === 'true' && icon === 'ArrowUpRight20',
+      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight20',
     });
 
     return (
       <div className={classNames}>
-        {icon === 'ArrowDown32' ? (
+        {name === 'ArrowDown32' ? (
           <ArrowDown32 className='icon--down32'/>
         ) : null}
-        {icon === 'ArrowUpRight20' ? (
+        {name === 'ArrowUpRight20' ? (
           <ArrowUpRight20 className='icon--upright20'/>
         ) : null}
-        {icon === 'ArrowRight16' ? (
+        {name === 'ArrowRight16' ? (
           <ArrowRight16 className='icon--right16'/>
         ) : null}
       </div>
@@ -63,7 +63,7 @@ export default class Icon extends React.Component {
 
 Icon.defaultProps = {
   color: 'black',
-  icon: 'ArrowRight16',
+  name: 'ArrowRight16',
   inline: 'false',
   align: 'left'
 }

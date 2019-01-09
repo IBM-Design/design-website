@@ -1,18 +1,43 @@
 //----------------------------
-// Flex
+// Paragraphs
 //----------------------------
-.container .flex-wrap {
-  @include breakpoint('md') {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.page-p:empty {
+  padding: 0;
 }
 
-//----------------------------
-// Bleed
-//----------------------------
-.container .ibm--col-bleed {
-  padding: 0;
+.page-p { //md default
+  @include type-style('body-short-02');
+  color: $text-01;
+  margin-bottom: 1.5rem;
+}
+
+.page-p--sm { 
+  @include type-style('body-short-01');
+}
+
+.page-p--md { //md default
+  @include type-style('body-short-02');
+}
+
+.page-p--lg { //lg
+  @include type-style('heading-03');
+}
+
+.page-p--xl { //xl
+  // using exspressive heading 04
+  color: $ibm-colors__gray--100;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.background--inverse .page-p,
+.background--inverse .page-p--xl {
+  color: $ibm-colors__white;
+}
+
+// Paragraph immediatly following title block. Removes top padding
+.title-block + .background > div > div > div .page-p--lg {
+  padding-top: 0;
 }
 
 //----------------------------
@@ -20,10 +45,13 @@
 //----------------------------
 
 .page-h2 {
-  @include type-style('expressive-heading-04');
-  font-size: rem(42px);
-  position: relative;
-  color: $ibm-colors__blue--60;
+  //@include type-style('expressive-heading-05');
+  color: $text-01;
+  margin-bottom: 1.5rem;
+}
+
+.background--inverse .page-h2 {
+  color: $ibm-colors__white;
 }
 
 //----------------------------
@@ -33,7 +61,11 @@
 .page-h3 {
   @include type-style('heading-03');
   color: $text-01;
-  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.background--inverse .page-h3 {
+  color: $ibm-colors__white;
 }
 
 //----------------------------
@@ -43,48 +75,11 @@
 .page-h4 {
   @include type-style('heading-02');
   color: $text-01;
-  position: relative;
+  margin-bottom: 1.5rem;
 }
 
-//----------------------------
-// h5
-//----------------------------
-
-.page-h5 {
-  position: relative;
-}
-
-//----------------------------
-// Anchor Link
-//----------------------------
-h2,
-h3,
-h4,
-h5 {
-  // This makes sure there is breathing room when
-  // you jump to the heading anchor link
-  &:before {
-    display: block;
-    content: ' ';
-    margin-top: rem(-56px);
-    height: rem(56px);
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  .anchor-link {
-    position: absolute;
-    left: rem(-24px);
-    opacity: 0;
-  }
-
-  .anchor-link__icon {
-    fill: $ibm-colors__blue--50;
-  }
-
-  &:hover .anchor-link {
-    opacity: 1;
-  }
+.background--inverse .page-h4 {
+  color: $ibm-colors__white;
 }
 
 //----------------------------
@@ -93,12 +88,12 @@ h5 {
 
 .page-ul,
 .page-ol {
-  margin: 0 0 $spacing-lg $spacing-lg;
+  margin: 0 0 6rem $spacing-lg;
   position: relative;
 }
 
 .page-ul > li {
-  font-weight: 400;
+  @include type-style('body-long-02');
   padding-left: 0.25rem;
   list-style-type: none;
 
@@ -109,58 +104,87 @@ h5 {
   }
 }
 
+.page-ol {
+  margin-bottom: 1.5rem;
+}
+
 .page-ol > li {
-  font-weight: 400;
+  @include type-style('body-long-02');
   padding-left: 0.25rem;
+  padding-bottom: 1rem;
   list-style-type: decimal;
 }
 
-// The following is a css hack because remark is nesting
-// tags inside of lists and causing double grid code
-.container .page-ol,
-.container .page-ul {
-  .ibm--row {
-    margin: 0;
-    width: 100%;
-  }
-
-  .ibm--col-lg-7,
-  .ibm--col-lg-8,
-  .ibm--col-lg-12 {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-width: 100%;
-  }
+.background--inverse .page-ul > li,
+.background--inverse  .page-ol > li {
+  color: $ibm-colors__white;
 }
-
-//----------------------------
-// Image
-//----------------------------
-
-/*
-.page-content img {
-  max-width: 100%;
-}
-
-.gatsby-resp-image-background-image {
-  background: transparent !important; // Need important to override inline style added by gatsby-remark-images
-}
-
-.container--component .gatsby-resp-image-image {
-  box-shadow: none !important; // Need important to override inline style added by gatsby-remark-images
-  border: none !important;
-}
-*/
 
 //----------------------------
 // Blockquote
 //----------------------------
+blockquote {
+}
+
+blockquote:first-child {
+  position: relative;
+  margin-top: -6px;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 35%;
+    height: 1px;
+    background: $ibm-colors__gray--40;
+    position: absolute;
+    top: -24px;
+    left: -2rem;
+  }
+}
+
+blockquote .page-p {
+  @include type-style('body-long-01');
+  padding: 0 0 1rem 0;
+}
+
+blockquote em {
+  font-style: italic;
+}
+
+.background--inverse blockquote .page-p {
+  color: $ibm-colors__gray--40;
+}
+
+.background--gray-80 blockquote .page-p {
+  color: $ibm-colors__gray--10;
+}
+
+.background .ibm--col-lg-9 blockquote .page-p,
+.background .ibm--col-lg-8 blockquote .page-p,
+.background .ibm--col-lg-7 blockquote .page-p,
+.background .ibm--col-lg-6 blockquote .page-p {
+  @include type-style('heading-03');
+  padding-top: 0;
+  padding-left: 8%;
+  padding-bottom: 1rem;
+  margin-left: 0;
+  color: $ibm-colors__blue--60;
+} 
+
 
 //----------------------------
-// Video Embed
+// HR
 //----------------------------
+hr {
+  border: none;
+  border-top: 1px solid $ibm-colors__gray--50;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
 
-iframe.embedVideoIframe {
-  //border: 1px solid $ui-03;
+.background--black blockquote hr,
+.background--gray-100 blockquote hr {
+  border-color: $ibm-colors__white;
 }

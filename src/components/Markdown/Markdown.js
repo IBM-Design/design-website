@@ -1,4 +1,46 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+
+export class p extends React.Component {
+  static propTypes = {
+    children: PropTypes.node,
+    size: PropTypes.string,
+  };
+
+  render() {
+    const { children, size } = this.props;
+
+    const classNames = classnames({
+      'page-p': size !== 'xl',
+      'page-p--sm': size === 'sm',
+      'page-p--md': size === 'md',
+      'page-p--lg': size === 'lg',
+      'page-p--xl': size === 'xl',
+      'bx--type-expressive-heading-04': size === 'xl',
+    });
+
+    return <p className={classNames}>{children}</p>;
+  }
+}
+
+export class a extends React.Component {
+  static propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
+    id: PropTypes.string,
+    href: PropTypes.string,
+    target: PropTypes.string,
+    tabindex: PropTypes.string,
+    rel: PropTypes.string,
+  };
+
+  render() {
+    const { children, className, id, href, target, tabindex, rel } = this.props;
+
+    return <a href={href} id={id} target={target} rel={rel} tabindex={tabindex} className={`bx--link ${className}`}>{children}</a>;
+  }
+}
 
 export class h1 extends React.Component {
   render() {
@@ -17,7 +59,7 @@ export class h2 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <h2 className="page-h2" id={hash}>
+      <h2 className="page-h2 bx--type-expressive-heading-04" id={hash}>
         {this.props.children}
       </h2>
     );

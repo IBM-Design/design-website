@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const eyeBeeM = (
   <svg
+    className="eye-bee-m"
     xmlns="http://www.w3.org/2000/svg"
     enable-background="new 0 0 30 72"
     viewBox="0 0 30 72"
@@ -40,9 +41,9 @@ export default class TitleBlock extends React.Component {
 
     return (
       <div className="title-block background--black">
-        <div className="ibm--grid">
+        <div className="ibm--grid  ">
           <div className="ibm--row">
-            <div class="title-block__content ibm--col-lg-12 ibm--col-md-7">
+            <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">
               {eyeBeeM}
               <h1 className="title-block__text">{children}</h1>
             </div>

@@ -20,6 +20,14 @@ body {
   max-width: rem(1584px);
 }
 
+.background--inverse a.bx--link:active {
+  color: $ibm-colors__white;
+
+  svg {
+    fill: $ibm-colors__white;
+  }
+}
+
 //---------------------------------------
 // Header styles (UI Shell overrides)
 //---------------------------------------
@@ -31,6 +39,10 @@ body {
   @include breakpoint('lg') {
     display: none;
   }
+}
+
+a.bx--header__name {
+  padding-left: 2rem;
 }
 
 .bx--header__nav {
@@ -83,78 +95,42 @@ a.bx--header__menu-item[role='menuitem']:hover:before {
 // Page styles
 //---------------------------------------
 
-button,
-.side-nav .bx--btn {
+button {
   font-family: $font-family;
 }
 
-.page-content {
-  // All paragraphs on Markdown pages
-  // And divs when markdown doesn't wrap text in paragraphs (when you have to use html for links to open in a new window)
-  p {
-    @include type-style('heading-03');
-    line-height: 1.5;
-    padding: 0 0 $spacing-lg;
-  }
+//---------------------------------------
+// Images
+//---------------------------------------
 
-  // All em on Markdown pages after images and image grid
-  .gatsby-resp-image-link + em,
-  .image-grid + p > em,
-  .image-component + p > em {
-    @include type-style('body-short-01');
-    color: $text-02;
-  }
+.gatsby-resp-image-wrapper {
+  max-width: 100% !important; //need to see why the plugin isn't respectinng the max width. this fixes for now. 🤔
+}
 
-  // Images on component pages
-  .image-component {
-    background: $ui-02;
-    //max-width: 38rem;
-    display: flex;
-    justify-content: center;
-    padding: $spacing-md 0;
+.page-p .gatsby-resp-image-wrapper {
+  margin-bottom: -2rem; // needed to remove bottom default paragraph spacing
+}
 
-    .gatsby-resp-image-link,
-    > img {
-      width: 50%;
-      height: 50%;
+.image--full {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+//----------------------------
+// Video Embed
+//----------------------------
+
+.page-content > div div.background:first-child {
+  .gatsby-resp-iframe-wrapper {
+    // removes the default paddinng around a video if its in the first grid container on a page
+    @include breakpoint('lg') {
+      margin-bottom: -100px;
+      margin-right: -60px;
+      margin-top: -58px;
     }
   }
-
-  // All links on Markdown pages but not inside component examples
-  & > div > * > a,
-  .page-table td a,
-  .page-ul a {
-    color: $brand-01;
-    font-weight: 600;
-  }
-
-  // Inline code
-  p > code,
-  li > code,
-  td > code {
-    @include reset;
-    font-family: $font-family-mono;
-    position: relative;
-    display: inline;
-    padding: rem(1px) $spacing-xs;
-    background: transparent;
-    font-size: inherit;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    background-color: $ibm-colors__white;
-    font-size: 85%;
-  }
-
-  // HR dividers
-  hr.divider {
-    display: block;
-    margin: 3rem 0;
-    height: 1px;
-    background: $ui-03;
-    border: 0px transparent;
-  }
 }
 
-.bx--platform-header {
-  z-index: 9999;
-}

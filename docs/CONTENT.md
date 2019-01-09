@@ -29,11 +29,11 @@ Required fields are:
 
 ## Markdown
 
-    ### This generates an H2 heading
+    ### This generates an H2 heading `expressive-heading-04`
 
-    ### This generates an H3 heading.
+    ### This generates an H3 heading. `heading-03`
 
-    #### This generates an H4 heading.
+    #### This generates an H4 heading. `heading-02` 
 
     **This is bold text.**
 
@@ -87,18 +87,18 @@ Quotes will be displayed differently depending on what column they are placed in
 
 ### Paragraph
 
-Paragraphs have four available sizes.
+Paragraphs have four available sizes. The default is 16px/1rem, or `size="md"`. This is the default for any text on the page and does not need to be wrapped in a  `<p>` tag. 
 
-- **sm:** font-size: 1rem padding-bottom 1.5rem   *default*
-- **md:** font-size: 1.25rem padding-bottom 1.5rem
-- **lg:** font-size: 1.75rem, padding-bottom 6rem
-- **xl:** font-size: 2.625rem, padding-bottom 6rem
+- **sm:** `body-short-01` 14px
+- **md:** `body-short-02` 16px
+- **lg:** `heading-03` 20px
+- **xl:** `expressive-heading-04` responsive type
 
 ```
-<p>This is a paragraph</p>
-<p size="md">This is a paragraph</p>
-<p size="lg">This is a paragraph</p>
-<p size="xl">This is a paragraph</p>
+<p size="sm">This is a paragraph with small text</p>
+<p size="md">This is the default paragraph size</p>
+<p size="lg">This is a large paragraph</p>
+<p size="xl">This is the largest responsive paragraph size</p>
 ```
 
 ## Custom Markdown Components
@@ -131,6 +131,52 @@ Adds ↳ as bullet for an anchor list of links. Used within the `<title-block>` 
 
 </anchor-links>
 ```
+
+## Icon
+
+Options:
+
+color: black (default), blue, white
+icon: ArrowRight16 (default), ArrowUpRight20, ArrowDown32
+inline: true or false (default)
+align: right or left(default)
+
+Inline styling for link w/ icon
+
+class link--icon updates <a> text-decoration
+<span> is to add border-bottom on hover, without adding a border under the icon (just text)
+class icon--inline displays inline and vertical-aligns icon
+
+    <!-- for links with icon -->
+    <a class="link--icon" href=#>
+        <span>View More</span> 
+        <icon color="blue" inline="true"></icon>
+    </a>
+
+    <a class="link--icon" href=#>
+        <span>View More</span> 
+        <icon color="blue" name="ArrowUpRight20" inline="true"></icon>
+    </a>
+
+    <!-- black icon options -->
+    <icon></icon>
+    <icon name="ArrowUpRight20"></icon>
+    <icon name="ArrowDown32"></icon>
+    <icon align="right"></icon>
+
+    <!-- white icon options -->
+    <icon color="white"></icon>
+    <icon color="white" icon="ArrowUpRight20"></icon>
+    <icon color="white" icon="ArrowDown32"></icon>
+    <icon color="white" align="right"></icon>
+
+    <!-- blue icon options -->
+    <icon color="blue"></icon>
+    <icon color="blue" icon="ArrowUpRight20"></icon>
+    <icon color="blue" icon="ArrowDown32"></icon>
+    <icon color="blue" align="right"></icon>
+
+![icon example](https://user-images.githubusercontent.com/32556167/50860068-9b008e00-135a-11e9-97a1-76b0244bdb0c.png)
 
 ## Custom Grid Components
 
