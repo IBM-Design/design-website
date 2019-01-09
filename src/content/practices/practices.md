@@ -6,9 +6,9 @@ title: Practices
 
 <anchor-links>
 
-- [IBM design language](#how-we-work)
-- [Enterprise design thinking](#dimensions-of-diversity)
-- [IBM design research](#work-with-us)
+- [IBM design language](#ibm-design-language)
+- [Enterprise design thinking](#enterprise-design-thinking)
+- [IBM design research](#ibm-design-research)
 
 </anchor-links>
 
@@ -23,6 +23,8 @@ building bonds.</span>
 <column lg="10">
 
 <p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
+
+<icon icon="ArrowDown32" color="white"></icon>
 
 </column>
 </grid>

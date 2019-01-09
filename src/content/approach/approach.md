@@ -6,7 +6,7 @@ title: Approach
 <anchor-links>
 
 - [Design philosophy](#design-philosophy)
-- [Enterprise design thinking](#enterprise-design-thinking)
+- [Design thinking](#design-thinking)
 - [Design services](#design-services)
 
 </anchor-links>
@@ -25,6 +25,8 @@ business problems
 people at the center of everything we do. 
 Design isn’t just a job; it’s a deep
 responsibility to the people we serve.</p>
+
+<icon icon="ArrowDown32"></icon>
 
 </column>
 

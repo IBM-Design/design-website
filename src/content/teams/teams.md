@@ -6,9 +6,10 @@ title: Teams
 
 <anchor-links>
 
-- [How we work](#how-we-work)
-- [Dimensions of diversity](#dimensions-of-diversity)
-- [Work with us](#work-with-us)
+- [Diverse](#diverse)
+- [Business-embedded](#business-embeddedg)
+- [Co-creators](#co-creators)
+- [Find your team](#find-your-team)
 
 </anchor-links>
 
@@ -24,6 +25,8 @@ A solution’s quality<br>hinges directly on<br>
 team. Learn how we leverage diversity
 to strengthen our teams and explore
 the types of roles we hire for.</p>
+
+<icon icon="ArrowDown32"></icon>
 
 </column>
 </grid>
