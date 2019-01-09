@@ -1,6 +1,8 @@
 .icon--inline {
   display: inline;
   vertical-align: middle;
+  position: relative;
+  top: 1px;
 }
 
 .icon--inline.up-right {
@@ -27,17 +29,4 @@
 
 .icon--upright20 {
   padding: rem(2px);
-}
-
-//adds styles for link with icon
-.link--icon {
-  text-decoration: none;
-
-  &:hover span {
-    border-bottom: 1px solid $brand-01;
-  }
-}
-
-.page-content div * .link--icon {
-    font-weight: 400;
 }

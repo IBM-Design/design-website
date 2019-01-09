@@ -24,6 +24,24 @@ export class p extends React.Component {
   }
 }
 
+export class a extends React.Component {
+  static propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
+    id: PropTypes.string,
+    href: PropTypes.string,
+    target: PropTypes.string,
+    tabindex: PropTypes.string,
+    rel: PropTypes.string,
+  };
+
+  render() {
+    const { children, className, id, href, target, tabindex, rel } = this.props;
+
+    return <a href={href} id={id} target={target} rel={rel} tabindex={tabindex} className={`bx--link ${className}`}>{children}</a>;
+  }
+}
+
 export class h1 extends React.Component {
   render() {
     return <h1 className="page-h1">{this.props.children}</h1>;

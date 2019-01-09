@@ -14,7 +14,7 @@ the means.<br>
 
 <p size="xl">The true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.</p>
 
-<icon icon="ArrowDown32"></icon>
+<icon name="ArrowDown32"></icon>
 
 </column>
 </grid>

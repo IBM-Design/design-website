@@ -7,7 +7,9 @@ title: Design services
 
 ## **Design services**
 
-<p size="md">Most companies make things for their clients. We prefer to co-create with you.<br><br>At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner. By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses.</p>
+Most companies make things for their clients. We prefer to co-create with you.
+
+At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner. By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses.
 
 </column>
 <column lg="9" offset_lg="2">
@@ -41,7 +43,7 @@ title: Design services
 </column>
 <column lg="7" offset_lg="4">
 
-<p size="md">Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.</p>
+Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
 </column>
 <column lg="4" offset_lg="1">
@@ -73,7 +75,7 @@ title: Design services
 </column>
 <column lg="7" offset_lg="4">
 
-<p size="md">A business strategy that fails to account for the constantly changing needs and behaviors of its customers isn’t much of a strategy at all. We forge versatile, enduring strategies by reimagining how an organization innovates, operates, and engages with its environment, employees, customers, and partners.</p>
+A business strategy that fails to account for the constantly changing needs and behaviors of its customers isn’t much of a strategy at all. We forge versatile, enduring strategies by reimagining how an organization innovates, operates, and engages with its environment, employees, customers, and partners.
 
 
 </column>
@@ -106,7 +108,7 @@ title: Design services
 </column>
 <column lg="7" offset_lg="4">
 
-<p size="md">In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of “Consult to Operate’” services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.</p>
+In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of “Consult to Operate’” services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.
 
 </column>
 <column lg="4" offset_lg="1">

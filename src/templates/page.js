@@ -13,6 +13,7 @@ import AnchorLinks from '../components/AnchorLinks';
 import Icon from '../components/Icon';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
+  a,
   p,
   h1,
   h2,
@@ -26,6 +27,7 @@ import {
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
+    a: a,
     p: p,
     h1: h1,
     h2: h2,

@@ -7,7 +7,9 @@ title: Design thinking
 
 ## **Design thinking framework**
 
-<p size="md">At its core, design thinking is the idea of putting human problems first.<br><br>We built on that idea, adding strategies, tactics and activities to create a framework uniquely tailored to address the challenges and scale of the modern enterprise.</p>
+At its core, design thinking is the idea of putting human problems first.
+
+We built on that idea, adding strategies, tactics and activities to create a framework uniquely tailored to address the challenges and scale of the modern enterprise.
 
 </column>
 <column lg="9" offset_lg="2">

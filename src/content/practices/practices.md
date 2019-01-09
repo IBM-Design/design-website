@@ -24,7 +24,7 @@ building bonds.</span>
 
 <p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
 
-<icon icon="ArrowDown32" color="white"></icon>
+<icon name="ArrowDown32" color="white"></icon>
 
 </column>
 </grid>

@@ -26,7 +26,7 @@ people at the center of everything we do.
 Design isn’t just a job; it’s a deep
 responsibility to the people we serve.</p>
 
-<icon icon="ArrowDown32"></icon>
+<icon name="ArrowDown32"></icon>
 
 </column>
 

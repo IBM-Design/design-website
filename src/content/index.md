@@ -23,7 +23,7 @@ people we serve.</span>
 <p size="xl">When we blend human-centered design
 with time-tested business acumen and deep domain expertise, the results speak for themselves.</p>
 
-<icon icon="ArrowDown32"></icon>
+<icon name="ArrowDown32"></icon>
 
 </column>
 </grid>

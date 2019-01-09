@@ -20,6 +20,14 @@ body {
   max-width: rem(1584px);
 }
 
+.background--inverse a.bx--link:active {
+  color: $ibm-colors__white;
+
+  svg {
+    fill: $ibm-colors__white;
+  }
+}
+
 //---------------------------------------
 // Header styles (UI Shell overrides)
 //---------------------------------------

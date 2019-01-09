@@ -7,7 +7,9 @@ title: Design philosophy
 
 ## **Design philosophy**
 
-<p size="md">IBMers believe in progress—that application of intelligence, reason and science can improve business, society and the human condition.<br><br>Given our scale and scope, ‘good design’ is not only a requirement, it’s a deeper responsibility to relationships we seek to serve.</p>
+IBMers believe in progress—that application of intelligence, reason and science can improve business, society and the human condition.
+
+Given our scale and scope, ‘good design’ is not only a requirement, it’s a deeper responsibility to relationships we seek to serve.
 
 </column>
 <column lg="9" offset_lg="2">
@@ -25,11 +27,13 @@ Today, the talent, techniques, thinking and tools of design, like technology, ha
 </column>
 <column lg="7" offset_lg="4">
 
-<p size="md">Paradoxically, decisions are more distributed, and experiences can become less and less distinctive. The rapid, relentless pace to produce can create an uneven emphasis on immediacy and incrementalism over individuality and innovation.<br><br>It is more important than ever that we own our own ethos, make palpable our brand values, and incorporate an instantly identifiable IBMness in everything we do.</p>
+Paradoxically, decisions are more distributed, and experiences can become less and less distinctive. The rapid, relentless pace to produce can create an uneven emphasis on immediacy and incrementalism over individuality and innovation.
+
+It is more important than ever that we own our own ethos, make palpable our brand values, and incorporate an instantly identifiable IBMness in everything we do.
 
 > _Without aesthetic, design is either the humdrum repetition of familiar clichés or a wild scramble for novelty. Without aesthetic, the computer is but a mindless speed machine, producing effects without substance, form without relevant content, or content without meaningful form. <br><br>– Paul Rand_
 
-<p size="md">Aesthetic is defined as the philosophical theory or set of principles governing outward appearance or actions. This characteristic applied to any experience is essential to its effectiveness. Everything we do (and don’t do) communicates. The care and craft we put into every experience is equal to any confidence or consideration we should expect in return.</p>
+Aesthetic is defined as the philosophical theory or set of principles governing outward appearance or actions. This characteristic applied to any experience is essential to its effectiveness. Everything we do (and don’t do) communicates. The care and craft we put into every experience is equal to any confidence or consideration we should expect in return.
 
 </column>
 

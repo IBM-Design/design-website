@@ -26,7 +26,7 @@ team. Learn how we leverage diversity
 to strengthen our teams and explore
 the types of roles we hire for.</p>
 
-<icon icon="ArrowDown32"></icon>
+<icon name="ArrowDown32"></icon>
 
 </column>
 </grid>
@@ -44,7 +44,9 @@ the types of roles we hire for.</p>
 <column lg="8">
 
 ## Complex, multi-faceted challenges demand complex, multi-faceted teams.
-<p size="md">When tackling complex problems at scale, we rely on the strength of Diverse Multidisciplinary Teams to envision and execute on solutions that generate value for both our users and our clients.<br><br>Diversity comes in many forms—your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes. </p>
+When tackling complex problems at scale, we rely on the strength of Diverse Multidisciplinary Teams to envision and execute on solutions that generate value for both our users and our clients.
+
+Diversity comes in many forms—your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
 <column lg="12" offset_lg="4">
@@ -103,7 +105,9 @@ Discipline
 <column lg="8">
 
 ## Good design requires a deep understanding of the business domain being designed for.
-<p size="md">Rather than siloing designers into a single organization, we distribute them throughout teams and business units across IBM.<br><br>Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.</p>
+Rather than siloing designers into a single organization, we distribute them throughout teams and business units across IBM.
+
+Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.
 
 </column>
 <column lg="8" offset_lg="4">
@@ -126,7 +130,9 @@ Discipline
 <column lg="8">
 
 ## When users are intimately involved in the design process, you’re all but guaranteed to create something they love. 
-<p size="md">User-centered design goes far beyond just speaking with a few people before you get started; it’s about truly co-creating with your business users and stakeholders by making them integral members of the team.<br><br>From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.</p>
+User-centered design goes far beyond just speaking with a few people before you get started; it’s about truly co-creating with your business users and stakeholders by making them integral members of the team.
+
+From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
 
 </column>
 <column lg="4" offset_lg="4">
@@ -179,7 +185,11 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 
 
 ## Are you passionate about designing great software and digital experiences?
-<p size="md">Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design (and, at times, redesign) some of IBM’s most foundational products and webpages.<br><br>Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management<br><br><a href="#">Open roles</a></p>
+Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design (and, at times, redesign) some of IBM’s most foundational products and webpages.
+
+Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management
+
+<p><a href=#><span>Open roles</span> <icon color="blue" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -204,7 +214,11 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 <column lg="8">
 
 ## Do you get excited by the idea of influencing how one of the world’s largest and most storied companies shows up in the world?
-<p size="md">Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to help sharpen and promote IBM’s brand identity.<br><br>Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing<br><br><a href="#">Open roles</a></p>
+Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to help sharpen and promote IBM’s brand identity.
+
+Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing
+
+<p><a href=#><span>Open roles</span> <icon color="blue" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -229,7 +243,11 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 <column lg="8">
 
 ## Are you a creative critical thinker with a strong passion for business?
-<p size="md">Work directly with clients, partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.<br><br>Types of role: graphic design, content design, business strategy, user and market research, consulting<br><br><a href="#">Open roles</a></p>
+Work directly with clients, partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.
+
+Types of role: graphic design, content design, business strategy, user and market research, consulting
+
+<p><a href=#><span>Open roles</span> <icon color="blue" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
