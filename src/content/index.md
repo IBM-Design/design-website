@@ -39,7 +39,7 @@ with time-tested business acumen and deep domain expertise, the results speak fo
   <tile
     caption="Security"
     name="Threats are at an all time low">
-    <img src="images/Image_1.png" alt="A laptop showing security analytics" class="img--sm"/>
+    <img src="images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
   </tile>
 
 </column>
@@ -48,7 +48,7 @@ with time-tested business acumen and deep domain expertise, the results speak fo
   <tile
     caption="Brand"
     name="Our typeface Plex is going global">
-    <img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+    <img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
   </tile>
 
 </column>
@@ -57,7 +57,7 @@ with time-tested business acumen and deep domain expertise, the results speak fo
   <tile
     caption="Quantum"
     name="Everything we know is about to change">
-    <img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface" class="img--sm"/>
+    <img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
   </tile>
 
 </column>

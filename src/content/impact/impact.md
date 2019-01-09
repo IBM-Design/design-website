@@ -28,21 +28,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="Prioritizing both easy-of-use and security" caption="medium.com" href="http://www.google.com">
-    <img src="images/Image_1.png" alt="" class="img--sm"/>
+    <img src="images/Image_1.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_2.png" alt="" class="img--sm"/>
+    <img src="images/Image_2.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_3.png" alt="" class="img--sm"/>
+    <img src="images/Image_3.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
@@ -56,21 +56,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="" caption="" href="">
-    <img src="images/Image_4.png" alt="" class="img--sm"/>
+    <img src="images/Image_4.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_5.png" alt="" class="img--sm"/>
+    <img src="images/Image_5.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_6.png" alt="" class="img--sm"/>
+    <img src="images/Image_6.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
@@ -84,21 +84,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="" caption="" href="">
-    <img src="images/Image_7.png" alt="" class="img--sm"/>
+    <img src="images/Image_7.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_8.png" alt="" class="img--sm"/>
+    <img src="images/Image_8.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_9.png" alt="" class="img--sm"/>
+    <img src="images/Image_9.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
@@ -113,21 +113,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="" caption="" href="">
-    <img src="images/Image_10.png" alt="" class="img--sm"/>
+    <img src="images/Image_10.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_11.png" alt="" class="img--sm"/>
+    <img src="images/Image_11.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_12.png" alt="" class="img--sm"/>
+    <img src="images/Image_12.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
@@ -142,21 +142,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="" caption="" href="">
-    <img src="images/Image_13.png" alt="" class="img--sm"/>
+    <img src="images/Image_13.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_14.png" alt="" class="img--sm"/>
+    <img src="images/Image_14.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_15.png" alt="" class="img--sm"/>
+    <img src="images/Image_15.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
@@ -170,21 +170,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="" caption="" href="">
-    <img src="images/Image_16.png" alt="" class="img--sm"/>
+    <img src="images/Image_16.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_17.png" alt="" class="img--sm"/>
+    <img src="images/Image_17.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="" caption="" href="">
-    <img src="images/Image_18.png" alt="" class="img--sm"/>
+    <img src="images/Image_18.png" alt="" class="tile__img"/>
   </tile>
 
 </column>

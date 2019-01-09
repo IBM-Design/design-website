@@ -80,27 +80,30 @@ export default class Tile extends React.Component {
       'tile--md': size === 'md',
       'tile--lg': size === 'lg',
       'tile--xl': size === 'xl',
+      'tile--bleed': size === 'xl' | size === 'md',
+      'tile--dark': dark === 'true',
+      'tile--light': light === 'true'
     });
 
     const titleClassNames = classnames({
-      'title--main': size === 'xl' || size === 'md',
+      'tile__title': size === 'xl' || size === 'md',
       'text--light': light === 'true',
       'bx--type-expressive-heading-04': true,
     });
 
     const titleTwoClassNames = classnames({
-      'title--secondary': title_secondary,
+      'tile__title--secondary': title_secondary,
       'text--light': light === 'true',
       'bx--type-expressive-heading-04': true,
     });
 
     const descClassName = classnames({
       'text--light': light === 'true',
+      'tile__description': true
     });
 
     const clickTileClassNames = classnames({
       'tile--dark': dark === 'true',
-      'tile--optional' : caption,
     });
 
     
@@ -116,9 +119,9 @@ export default class Tile extends React.Component {
           <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
             <div className="bx--aspect-ratio--object">
               <div className="tile__info">
-                <h3 className="page-h3">{name}</h3>
+                <h3 className="page-h3 tile__name">{name}</h3>
                 {caption ? (
-                  <p className="page-p--sm">{caption}</p>
+                  <p className="page-p--sm tile__caption">{caption}</p>
                 ) : null}
               </div>
               <div className="tile__link-icon">
@@ -139,11 +142,11 @@ export default class Tile extends React.Component {
         <div className={classNames} style={{backgroundColor: background}}>
           <div className="ibm--grid">
             <div className="ibm--row">
-              <div className="img--md">
+              <div className="tile__img">
                 {children}
               </div>
-              <div className='tile--md_text-container'>
-                <h2 className='title--main_md bx--type-expressive-heading-04'>{title}</h2>
+              <div className='tile__text-container'>
+                <h2 className='tile__title bx--type-expressive-heading-04'>{title}</h2>
               </div>
               {clickableTile}
             </div>
@@ -157,7 +160,7 @@ export default class Tile extends React.Component {
         <div className={classNames} style={{backgroundColor: background}}>    
           <div className="ibm--grid">
             <div className="ibm--row"> 
-              <section className='tile--text-container ibm--col-lg-4'>
+              <section className='tile__text-container ibm--col-lg-4'>
                 { title  ? (
                   <h2 className={titleClassNames}>{title}</h2> 
                   ): null}
@@ -168,7 +171,7 @@ export default class Tile extends React.Component {
                   <p className={descClassName}>{description}</p>
                 ) : null}
               </section>
-              <div className="img--lg">
+              <div className="tile__img">
                 {children}
               </div>
               {clickableTile}
@@ -183,7 +186,7 @@ export default class Tile extends React.Component {
         <div className={classNames} style={{backgroundColor: background}}>    
           <div className="ibm--grid">
             <div className="ibm--row"> 
-              <section className='tile--text-container ibm--col-lg-4 ibm--offset-lg-1'>
+              <section className='tile__text-container ibm--col-lg-4 ibm--offset-lg-1'>
                 { title  ? (
                   <h2 className={titleClassNames}>{title}</h2> 
                   ): null}
@@ -194,7 +197,7 @@ export default class Tile extends React.Component {
                   <p className={descClassName}>{description}</p>
                 ) : null}
               </section>
-              <div className="img--lg  ibm--offset-lg-3 ibm--col-lg-8">
+              <div className="tile__img  ibm--offset-lg-3 ibm--col-lg-8">
                 {children}
               </div>
               {clickableTile}
