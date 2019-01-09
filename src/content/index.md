@@ -32,7 +32,7 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 <column lg="4">
 
 ### Today
-<!-- -->
+
 </column>
 <column lg="4" md="4">
 

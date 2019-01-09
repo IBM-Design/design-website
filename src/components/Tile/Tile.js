@@ -87,23 +87,20 @@ export default class Tile extends React.Component {
 
     const titleClassNames = classnames({
       'tile__title': size === 'xl' || size === 'md',
-      'text--light': light === 'true',
       'bx--type-expressive-heading-04': true,
     });
 
     const titleTwoClassNames = classnames({
       'tile__title--secondary': title_secondary,
-      'text--light': light === 'true',
       'bx--type-expressive-heading-04': true,
     });
 
     const descClassName = classnames({
-      'text--light': light === 'true',
       'tile__description': true
     });
 
     const clickTileClassNames = classnames({
-      'tile--dark': dark === 'true',
+      'bx--tile--clickable--dark': dark === 'true',
     });
 
     

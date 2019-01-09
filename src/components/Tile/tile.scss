@@ -68,21 +68,21 @@ a.bx--tile {
 }
 
 // Dark
-a.tile--dark  {
+a.bx--tile--clickable--dark  {
   background: $ibm-colors__gray--90;
   color: $ibm-colors__white;
 }
 
-a.tile--dark:hover {
+a.bx--tile--clickable--dark:hover {
   background: $ibm-colors__gray--80;
 }
 
-a.tile--dark .tile__name,
-a.tile--dark .tile__caption {
+a.bx--tile--clickable--dark .tile__name,
+a.bx--tile--clickable--dark .tile__caption {
   color: $ibm-colors__white;
 }
 
-a.tile--dark .tile__link-icon svg {
+a.bx--tile--clickable--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
 }
 
