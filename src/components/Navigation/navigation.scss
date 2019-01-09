@@ -13,9 +13,6 @@
   
   .bx--header__nav {
     margin-left: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
 
     @include breakpoint('md') {
 
@@ -25,7 +22,9 @@
   a.bx--header__menu-item[role='menuitem'],
   .bx--header__menu-title[role='menuitem'][aria-expanded='true']
     + .bx--header__menu {
-    width: rem(160px);
+        @include breakpoint('md') {
+            width: rem(160px);
+        }
   }
   
   a.bx--header__menu-item[role='menuitem'] {
@@ -51,15 +50,15 @@ a.bx--header__menu-item[role='menuitem'][aria-current=page]:after {
     .bx--header__menu
     .bx--header__menu-item[role='menuitem']:after,
   .bx--header__menu .bx--header__menu-item[role='menuitem']:hover:after {
-    border: none;
+    //border: none;
   }
 
   //different focus state for website vs ui shell
   a.bx--header__menu-item[role='menuitem']:focus {
-    border-color: transparent;
+    //border-color: transparent;
   }
 
   .bx--header__menu .bx--header__menu-item[role='menuitem']:focus {
-      outline: 1px solid $focus;
-      outline-offset: -1px;
+      //outline: 1px solid $focus;
+      //outline-offset: -1px;
   }
