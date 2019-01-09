@@ -140,8 +140,8 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 <tile
   size="md"
   background="#C5DEFF"
-  title_one="Explore how you and your business can take advantage of our entire platform."
-  tile_name="Enterprise Design Thinking">
+  title="Explore how you and your business can take advantage of our entire platform."
+  name="Enterprise Design Thinking">
   <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 

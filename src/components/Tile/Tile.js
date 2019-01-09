@@ -12,17 +12,17 @@ export default class Tile extends React.Component {
     children: PropTypes.node,
     /**
    * accepts sm, md, lg, xl, correlating to how many grid columns the tile is taking up (4, 8, 12, 16)
-   * default is size="4"
+   * default is size="sm"
    */
     size: PropTypes.string,
     /**
    * only header for small tiles, first header for lg/xl tiles
    */
-    title_one: PropTypes.string,
+    title: PropTypes.string,
     /**
    * second header for lg/xl tiles
    */
-    title_two: PropTypes.string,
+    title_secondary: PropTypes.string,
     /**
    * description paragraph if needed
    */
@@ -38,24 +38,24 @@ export default class Tile extends React.Component {
     /**
    * Label for the clickable tile, default = "Learn more"
    */
-    tile_name: PropTypes.string,
+    name: PropTypes.string,
     /**
    * href for the clickable tile
    */
-    tile_href: PropTypes.string,
+    href: PropTypes.string,
     /**
    * if true, makes tile dark. default=false
    */
-    tile_dark: PropTypes.string,
+    dark: PropTypes.string,
     /**
    * optional secondary text for tile
    */
-    tile_optional: PropTypes.string,
+    caption: PropTypes.string,
     /**
    * accepts ArrowUpRight16, ArrowUpRight20
    * changes icon of clickable tile, default = ArrowUpRight20
    */
-    tile_icon: PropTypes.string,
+    icon: PropTypes.string,
 
   };
 
@@ -63,21 +63,21 @@ export default class Tile extends React.Component {
     const {
       children,
       size,
-      title_one,
-      title_two,
+      title,
+      title_secondary,
       description,
       background,
       light,
-      tile_name,
-      tile_href,
-      tile_dark,
-      tile_optional,
-      tile_icon
+      name,
+      href,
+      dark,
+      caption,
+      icon
     } = this.props;
 
     const classNames = classnames({
       'tile--sm': size === 'sm',
-      'ibm--row tile--md': size === 'md',
+      'tile--md': size === 'md',
       'tile--lg': size === 'lg',
       'tile--xl': size === 'xl',
     });
@@ -85,84 +85,141 @@ export default class Tile extends React.Component {
     const titleClassNames = classnames({
       'title--main': size === 'xl' || size === 'md',
       'text--light': light === 'true',
+      'bx--type-expressive-heading-04': true,
     });
 
     const titleTwoClassNames = classnames({
-      'title--secondary': title_two,
+      'title--secondary': title_secondary,
       'text--light': light === 'true',
+      'bx--type-expressive-heading-04': true,
     });
 
     const descClassName = classnames({
       'text--light': light === 'true',
     });
 
-    const imgClassNames = classnames({
-      'ibm--col-lg-8': size === 'xl',
-      'ibm--col-lg-8 img--md': size === 'md',
-      'img--lg': size === 'lg' || size === 'xl',
-    });
-
     const clickTileClassNames = classnames({
-      'tile--dark': tile_dark === 'true',
-      'tile--optional' : tile_optional,
+      'tile--dark': dark === 'true',
+      'tile--optional' : caption,
     });
 
-    const tileId = (size === "xl") ? (title_one.toLowerCase().split(" ").join("-").toString()) : null;
+    
+    //const tileId = title.toLowerCase().split(" ").join("-").toString();
 
-    return (
-      <div className={classNames} style={{backgroundColor: background}} id={tileId}>
-        { size === "sm" ? (
-          <div className='img--sm'>
-            {children}
-          </div>
-        ) : null}
-        { title_one && size !== "md" ? (
-          <section className='tile--text-container ibm--col-lg-4'>
-            <h1 className={titleClassNames}>{title_one}</h1>
-            {title_two ? (
-              <h1 className={titleTwoClassNames}>{title_two}</h1>
-            ) : null}
-            <p className={descClassName}>{description}</p>
-          </section>
-        ): null}
-        { size !== "sm" ? (
-          <div className={imgClassNames}>
-            {children}
-          </div>
-        ) : null}
-        { size === "md" ? (
-          <div className='ibm--col-lg-8 tile--md_text-container'>
-            <h1 className='title--main_md'>{title_one}</h1>
-          </div>
-        ) : null}
-          <ClickableTile
-              target="_blank"
-              rel="noopener noreferrer"
-              href={tile_href}
-              className={clickTileClassNames}>
+    const clickableTile = (
+      
+      <ClickableTile
+          target="_blank"
+          rel="noopener noreferrer"
+          href={href}
+          className={clickTileClassNames}>
+          <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
+            <div className="bx--aspect-ratio--object">
               <div className="tile__info">
-                <h3 className="page-h3">{tile_name}</h3>
-                {tile_optional ? (
-                  <p className="page-p--sm">{tile_optional}</p>
+                <h3 className="page-h3">{name}</h3>
+                {caption ? (
+                  <p className="page-p--sm">{caption}</p>
                 ) : null}
               </div>
               <div className="tile__link-icon">
-                { tile_icon === "ArrowUpRight20" ? (
+                { icon === "ArrowUpRight20" ? (
                   <ArrowUpRight20 className= "tile--arrow-upright" aria-label="Open resource"/>
                 ) : (
                   <ArrowRight16 aria-label="Open resource"/>
                 )}
               </div>
-          </ClickableTile>
-      </div>
+              </div>
+        </div>
+      </ClickableTile>
+
     );
+    
+    if (size === 'md') {
+      return (
+        <div className={classNames} style={{backgroundColor: background}}>
+          <div className="ibm--grid">
+            <div className="ibm--row">
+              <div className="img--md">
+                {children}
+              </div>
+              <div className='tile--md_text-container'>
+                <h2 className='title--main_md bx--type-expressive-heading-04'>{title}</h2>
+              </div>
+              {clickableTile}
+            </div>
+          </div>
+        </div>
+      );
+    } 
+    
+    if (size === 'lg') {
+      return (
+        <div className={classNames} style={{backgroundColor: background}}>    
+          <div className="ibm--grid">
+            <div className="ibm--row"> 
+              <section className='tile--text-container ibm--col-lg-4'>
+                { title  ? (
+                  <h2 className={titleClassNames}>{title}</h2> 
+                  ): null}
+                {title_secondary ? (
+                  <h2 className={titleTwoClassNames}>{title_secondary}</h2>
+                ) : null}
+                { description  ? (
+                  <p className={descClassName}>{description}</p>
+                ) : null}
+              </section>
+              <div className="img--lg">
+                {children}
+              </div>
+              {clickableTile}
+            </div>
+          </div>
+        </div>
+      );
+    } 
+
+    if (size === 'xl') {
+      return (
+        <div className={classNames} style={{backgroundColor: background}}>    
+          <div className="ibm--grid">
+            <div className="ibm--row"> 
+              <section className='tile--text-container ibm--col-lg-4 ibm--offset-lg-1'>
+                { title  ? (
+                  <h2 className={titleClassNames}>{title}</h2> 
+                  ): null}
+                {title_secondary ? (
+                  <h2 className={titleTwoClassNames}>{title_secondary}</h2>
+                ) : null}
+                { description  ? (
+                  <p className={descClassName}>{description}</p>
+                ) : null}
+              </section>
+              <div className="img--lg  ibm--offset-lg-3 ibm--col-lg-8">
+                {children}
+              </div>
+              {clickableTile}
+            </div>
+          </div>
+        </div>
+      );
+    } 
+
+    // Small tile is the default if no size is added
+    else {
+      return (
+        <div className={classNames} style={{backgroundColor: background}}>
+            <div>{children}</div>
+            {clickableTile}
+        </div>
+      );
+    }
   }
 }
 
 Tile.defaultProps = {
   size: 'sm',
   light: 'false',
-  tile_name: 'Learn more',
-  tile_dark: 'false',
-  tile_icon: 'ArrowUpRight20'
+  name: 'Learn more',
+  dark: 'false',
+  icon: 'ArrowUpRight20'
 }
