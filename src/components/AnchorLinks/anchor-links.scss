@@ -3,29 +3,14 @@
 //----------------------------
 
 .anchor-links {
-  @include breakpoint('sm') {
-    padding: $spacing-md 0 $spacing-xs 0;
-  }
-
-  @include breakpoint('md') {
-    position: absolute; 
-    right: rem(20px);
-    bottom: 2rem;
-    width: 25%;
-    padding: 0;
-  }
-
-  @include breakpoint('lg') {
-    bottom: 4rem;
-  }
-
   .page-ul {
     position: relative;
     margin-bottom: 0;
   }
 
   .page-ul > li {
-    @include type-style('body-short-02');
+    @include type-style('heading-03');
+    font-size: rem(22px);
     list-style: none;
     cursor: pointer;
     padding-bottom: $spacing-3xs;
@@ -39,7 +24,8 @@
     }
 
     a {
-      @include type-style('body-short-02');
+      @include type-style('heading-03');
+      font-size: rem(22px);
       color: $ibm-colors__white;
       text-decoration: none;
 
@@ -58,5 +44,23 @@
         color: $ibm-colors__white;
       }
     }
+  }
+}
+
+//----------------------------
+// Anchor Links inside TitleBlock
+//----------------------------
+.title-block .anchor-links {
+  @include breakpoint('md') {
+    position: absolute; 
+    left: auto;
+    right: rem(20px);
+    bottom: 2rem;
+    width: 25%;
+    padding: 0;
+  }
+
+  @include breakpoint('lg') {
+    bottom: 4rem;
   }
 }

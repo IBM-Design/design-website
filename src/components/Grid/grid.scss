@@ -2,8 +2,16 @@
 // Background
 //----------------------------
 .background {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: rem(80px);
+  padding-top: rem(56px);
+}
+
+.page-content > div div.background:first-child {
+  padding-top: 2rem;
+}
+
+.background:last-child {
+  padding-bottom: rem(128px);
 }
 
 .background--white {
@@ -18,11 +26,31 @@
   background: $ibm-colors__gray--20;
 }
 
+.background--gray-80 {
+  background: $ibm-colors__gray--80;
+  color: $ibm-colors__white;
+}
+
+.background--gray-100 {
+  background: $ibm-colors__gray--100;
+  color: $ibm-colors__white;
+}
+
 .background--black {
   background: $ibm-colors__black;
   color: $ibm-colors__white;
 }
 
-.ibm--col-* {
-  outline: 1px dotted yellow;
+.background--black-white {
+  padding-bottom: 0;
+  margin-top: -3rem;
+  background: linear-gradient(to bottom,  $ibm-colors__black 50%, $ibm-colors__gray--10 50%);
+}
+
+// selects all columnns for testing
+.background div[class^="ibm--col-"] {
+  position: relative;
+  //outline: 1px dotted red;
+  //outline-offset: -1px;
+  //padding: 4rem 0 8rem 0;
 }

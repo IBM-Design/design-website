@@ -2,6 +2,9 @@
   "approach": {
     "title": "Approach",
     "sub-nav": {
+      "approach": {
+        "title": "Overview"
+      },
       "design-thinking": {
         "title": "Design thinking"
       },
@@ -16,8 +19,8 @@
   "teams": {
     "title": "Teams"
   },
-  "guidance": {
-    "title": "Guidance"
+  "practices": {
+    "title": "Practices"
   },
   "impact": {
     "title": "Impact"

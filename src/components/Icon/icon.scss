@@ -1,0 +1,32 @@
+.icon--inline {
+  display: inline;
+  vertical-align: middle;
+  position: relative;
+  top: 1px;
+}
+
+.icon--inline.up-right {
+  position: relative;
+  top: rem(3px);
+}
+
+.icon--right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon--blue {
+  & > svg {
+    fill: $brand-01;
+  }
+}
+
+.icon--white {
+  & > svg {
+    fill: $ibm-colors__white;
+  }
+}
+
+.icon--upright20 {
+  padding: rem(2px);
+}

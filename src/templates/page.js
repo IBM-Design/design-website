@@ -8,21 +8,27 @@ import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
+import Tile from '../components/Tile';
 import AnchorLinks from '../components/AnchorLinks';
+import Icon from '../components/Icon';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
+  a,
+  p,
   h1,
   h2,
   h3,
   h4,
   h5,
   ul,
-  ol,
+  ol
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
+    a: a,
+    p: p,
     h1: h1,
     h2: h2,
     h3: h3,
@@ -34,6 +40,8 @@ const renderAst = new rehypeReact({
     table: PageTable,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
+    'icon': Icon,
+    'tile': Tile,
     grid: Grid,
     column: Column,
   },

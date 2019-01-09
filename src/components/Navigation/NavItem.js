@@ -32,10 +32,11 @@ export default class NavItem extends React.Component {
       // zeroeth indexed normalized path array item. This is so we avoid conflicting
       // children with similar names but disimilar parents.
       const isNavItemActive = locationContainsPath(location, [itemSlug, item]);
+      const navLink =  this.props.itemSlug === item ? ( `/${item}` ) : (`/${this.props.itemSlug}/${item}`);
 
       const navItemProps = {
         element: Link,
-        to: `/${this.props.itemSlug}/${item}`,
+        to: navLink,
         key: item,
       };
 
@@ -64,10 +65,6 @@ export default class NavItem extends React.Component {
       <>
         {hasSubNav ? (
           <HeaderMenu {...menuItemProps} aria-label={item.title}>
-            {/* this is a hack, need to update the core component to allow top level item as a link */}
-            <HeaderMenuItem to={`/${itemSlug}`} element={Link} className="nav-hack">
-              {item.title}
-            </HeaderMenuItem>
             {this.renderSubNavItems(item['sub-nav'], location, itemSlug)}
           </HeaderMenu>
           

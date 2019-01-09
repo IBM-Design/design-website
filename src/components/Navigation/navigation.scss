@@ -1,0 +1,65 @@
+//---------------------------------------
+// Header styles (UI Shell overrides)
+//---------------------------------------
+.bx--header {
+    z-index: 9999;
+  }
+  
+  .bx--header__menu-trigger {
+    @include breakpoint('lg') {
+      display: none;
+    }
+  }
+  
+  .bx--header__nav {
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include breakpoint('md') {
+
+    }
+  }
+  
+  a.bx--header__menu-item[role='menuitem'],
+  .bx--header__menu-title[role='menuitem'][aria-expanded='true']
+    + .bx--header__menu {
+    width: rem(160px);
+  }
+  
+  a.bx--header__menu-item[role='menuitem'] {
+    position: relative;
+  }
+
+  a.bx--header__menu-item[role='menuitem']:hover {
+    background-color: #333;
+}
+  
+a.bx--header__menu-item[role='menuitem']:focus:after,
+a.bx--header__menu-item[role='menuitem'][aria-current=page]:after {
+    content: '';
+    width: calc(100% + 8px);
+    position: absolute;
+    bottom: -4px;
+    left: -4px;
+    border-top: 3px solid $focus;
+    }
+  
+  // Hide border for submenu nav items
+  .bx--header__submenu:hover
+    .bx--header__menu
+    .bx--header__menu-item[role='menuitem']:after,
+  .bx--header__menu .bx--header__menu-item[role='menuitem']:hover:after {
+    border: none;
+  }
+
+  //different focus state for website vs ui shell
+  a.bx--header__menu-item[role='menuitem']:focus {
+    border-color: transparent;
+  }
+
+  .bx--header__menu .bx--header__menu-item[role='menuitem']:focus {
+      outline: 1px solid $focus;
+      outline-offset: -1px;
+  }
