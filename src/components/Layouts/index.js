@@ -155,7 +155,7 @@ class Layout extends React.Component {
                     className="nav-hack"
                     to="/approach"
                     element={Link}>
-                    Approach
+                    Overview
                   </HeaderMenuItem>
                   <HeaderMenuItem to="/approach/design-thinking" element={Link}>
                     Design thinking
