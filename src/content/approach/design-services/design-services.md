@@ -126,10 +126,10 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 <tile
   size="md"
   background="#E7E7E7"
-  title_one="Learn how you can 
+  title="Learn how you can 
 partner with us to build
 better business."
-  tile_name="IBM iX">
+  name="IBM iX">
   <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 

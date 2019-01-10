@@ -82,9 +82,9 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <tile
   size="md"
   background="#E7E7E7"
-  title_one="See how we bring our philosophy to bear in our design systems."
-  tile_name="Design Thinking"
-  tile_href="">
+  title="See how we bring our philosophy to bear in our design systems."
+  name="Design Thinking"
+  href="">
   <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 

@@ -16,7 +16,6 @@ body {
 }
 
 .container .ibm--grid {
-  margin: 0;
   max-width: rem(1584px);
 }
 
@@ -41,10 +40,6 @@ body {
   }
 }
 
-a.bx--header__name {
-  padding-left: 2rem;
-}
-
 .bx--header__nav {
   margin-left: auto;
 }
@@ -57,38 +52,6 @@ a.bx--header__menu-item[role='menuitem'],
 
 a.bx--header__menu-item[role='menuitem'] {
   position: relative;
-}
-
-.bx--header__submenu:hover a.bx--header__menu-item[role='menuitem']:before,
-a.bx--header__menu-item[role='menuitem']:hover:before {
-  content: '';
-  width: calc(100% + 8px);
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  border-top: 3px solid $focus;
-}
-
-.bx--header__submenu:hover
-  .bx--header__menu
-  .bx--header__menu-item[role='menuitem']:before,
-.bx--header__menu .bx--header__menu-item[role='menuitem']:hover:before {
-  border: none;
-}
-
-/* hack to make nav item clickable */
-.nav-hack {
-  margin-top: -48px;
-  opacity: 0;
-
-  a.bx--header__menu-item[role='menuitem'] {
-    background: transparent !important;
-  }
-}
-
-.bx--header__menu-title[role='menuitem'][aria-expanded='true']
-  + .bx--header__menu {
-  z-index: 6002; //to allow the nav hack to sit on top
 }
 
 //---------------------------------------

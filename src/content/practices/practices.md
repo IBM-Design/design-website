@@ -49,8 +49,8 @@ building bonds.</span>
 <tile
     size="lg"
     background="#373737"
-    tile_dark="true"
-    tile_name="IBM Design Language">
+    dark="true"
+    name="IBM Design Language">
     <img src="images/Image_1.png" alt="Geometric shapes"/>
   </tile>
 
@@ -58,8 +58,8 @@ building bonds.</span>
 <column lg="4" md="4" offset_lg="4">
 
   <tile
-    tile_dark="true"
-    tile_name="Product Design System">
+    dark="true"
+    name="Product Design System">
     <img src="images/Image_2.png" alt=""/>
   </tile>
 
@@ -67,8 +67,8 @@ building bonds.</span>
 <column lg="4" md="4">
 
   <tile
-    tile_dark="true"
-    tile_name="Digital Design System">
+    dark="true"
+    name="Digital Design System">
     <img src="images/Image_3.png" alt=""/>
   </tile>
 
@@ -76,8 +76,8 @@ building bonds.</span>
 <column lg="4" md="4">
 
   <tile
-    tile_dark="true"
-    tile_name="IBM Plex typeface">
+    dark="true"
+    name="IBM Plex typeface">
     <img src="images/Image_4.png" alt=""/>
   </tile>
 
@@ -104,8 +104,8 @@ building bonds.</span>
 <tile
     size="lg"
     background="#C5DEFF"
-    tile_dark="true"
-    tile_name="Enterprise Design Thinking">
+    dark="true"
+    name="Enterprise Design Thinking">
     <img src="images/Image_5.png" alt="Geometric shapes"/>
   </tile>
 
@@ -132,8 +132,8 @@ building bonds.</span>
 <tile
     size="lg"
     background="#F2BDD8"
-    tile_dark="true"
-    tile_name="IBM Design Research">
+    dark="true"
+    name="IBM Design Research">
     <img src="images/Image_6.png" alt="Geometric shapes"/>
   </tile>
 
