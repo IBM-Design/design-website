@@ -56,15 +56,14 @@ export default class NavItem extends React.Component {
     const { item, itemSlug } = this.props;
     const hasSubNav = !(item['sub-nav'] === undefined);
 
-    const menuItemProps = {
+  /*   const menuItemProps = {
       title: item.title,
-      className: 'test'
-    };
+    }; */
 
     return (
       <>
         {hasSubNav ? (
-          <HeaderMenu {...menuItemProps} aria-label={item.title}>
+          <HeaderMenu title={item.title} aria-label={item.title}>
             {this.renderSubNavItems(item['sub-nav'], location, itemSlug)}
           </HeaderMenu>
           
