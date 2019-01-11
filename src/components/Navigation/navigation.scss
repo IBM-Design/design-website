@@ -6,6 +6,11 @@
 
 .bx--header__action {
   border-width: 2px;
+  display: block;
+
+  @include breakpoint('md') {
+    display: none;
+  }
 }
 
 a.bx--header__name:focus {
