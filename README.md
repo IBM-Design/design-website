@@ -1,4 +1,4 @@
-# 
+#
 
 This is the IBM.com.design website; built with GatsbyJS.
 

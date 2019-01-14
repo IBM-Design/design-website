@@ -44,11 +44,15 @@
 .background--black-white {
   padding-bottom: 0;
   margin-top: -3rem;
-  background: linear-gradient(to bottom,  $ibm-colors__black 50%, $ibm-colors__gray--10 50%);
+  background: linear-gradient(
+    to bottom,
+    $ibm-colors__black 50%,
+    $ibm-colors__gray--10 50%
+  );
 }
 
 // selects all columnns for testing
-.background div[class^="ibm--col-"] {
+.background div[class^='ibm--col-'] {
   position: relative;
   //outline: 1px dotted red;
   //outline-offset: -1px;

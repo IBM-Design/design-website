@@ -23,7 +23,7 @@ a.bx--header__name {
   border-width: 2px;
   display: block;
 
-  @include breakpoint('md') {
+  @include breakpoint('lg') {
     display: none;
   }
 }
@@ -40,7 +40,7 @@ a.bx--header__name:focus {
   margin-left: auto;
   display: none;
 
-  @include breakpoint('md') {
+  @include breakpoint('lg') {
     display: block;
   }
 }
@@ -48,9 +48,7 @@ a.bx--header__name:focus {
 a.bx--header__menu-item[role='menuitem'],
 .bx--header__menu-title[role='menuitem'][aria-expanded='true']
   + .bx--header__menu {
-  @include breakpoint('md') {
-    width: rem(160px);
-  }
+  width: rem(160px);
 }
 
 a.bx--header__menu-item[role='menuitem'] {
@@ -131,7 +129,7 @@ a.bx--header__menu-item[role='menuitem'][aria-current='page']:after {
 .bx--side-nav {
   width: 0;
 
-  @include breakpoint('md') {
+  @include breakpoint('lg') {
     display: none;
   }
 }
