@@ -1,107 +1,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql, Link } from 'gatsby';
+import classnames from 'classnames';
+import { StaticQuery, graphql } from 'gatsby';
 
 import favicon32 from '../../content/global/images/favicon-32.png';
-import {
-  Header,
-  HeaderMenuButton,
-  HeaderName,
-  HeaderNavigation,
-  HeaderMenu,
-  HeaderMenuItem,
-  SkipToContent,
-} from 'carbon-components-react/lib/components/UIShell';
+import SiteHeader from '../SiteHeader';
 import { WebsiteFooter } from '@carbon/addons-website';
-import navigation from '../../data/navigation/navigation.json';
 
 import '../../styles/index.scss';
 
 class Layout extends React.Component {
+  state = {
+    isExpanded: false,
+  };
+
+  toggleClick = () => {
+    this.setState(state => ({ isExpanded: !state.isExpanded }));
+  };
+
+  closeClick = () => {
+    if (this.state.isExpanded) {
+      this.setState({ isExpanded: false,});
+    }
+  };
+
   static propTypes = {
     children: PropTypes.any,
-  };
-
-  state = {
-    isOpen: false,
-    isFinal: false,
-  };
-
-  componentDidMount() {
-    this.checkWidth();
-  }
-
-  onToggleBtnClick = () => {
-    if (this.state.isOpen) {
-      this.setState({
-        isOpen: false,
-      });
-      setTimeout(() => {
-        this.setState({
-          isFinal: true,
-        });
-      }, 5);
-    } else {
-      this.setState({
-        isFinal: false,
-      });
-      setTimeout(() => {
-        this.setState({
-          isOpen: true,
-        });
-      }, 5);
-    }
-  };
-
-  handleClose = evt => {
-    let isTarget = false;
-    // `<svg>` in IE11 does not have `.classList`
-    if (
-      evt.target.classList &&
-      evt.target.classList.contains('main-nav-item__heading') &&
-      evt.target.classList.contains('main-nav-item__list')
-    ) {
-      isTarget = true;
-    }
-    const isSmallerScreen = window.innerWidth < 1056 || screen.width < 1056;
-    if (!isTarget && isSmallerScreen) {
-      this.setState({
-        isOpen: false,
-      });
-    }
-  };
-
-  clickToClose = () => {
-    this.setState({
-      isOpen: false,
-    });
-  };
-
-  checkWidth = () => {
-    if (typeof window !== 'undefined') {
-      const width = window.innerWidth;
-
-      if (width < 1056) {
-        this.setState({
-          isOpen: false,
-        });
-      }
-
-      document.addEventListener('keydown', evt => {
-        if (evt.which === 27 && this.state.isOpen) {
-          this.setState({
-            isOpen: false,
-          });
-        }
-      });
-    }
   };
 
   render() {
     const { children } = this.props;
     const currentYear = new Date().getFullYear();
     const lastUpdated = 'December 19, 2018';
+    const { isExpanded } = this.state;
 
     return (
       <StaticQuery
@@ -139,45 +71,8 @@ class Layout extends React.Component {
               ]}>
               <html lang="en" />
             </Helmet>
-            <Header aria-label="Header">
-              <SkipToContent />
-              <HeaderMenuButton
-                aria-label="Open menu"
-                onClick={this.onToggleBtnClick}
-              />
-              <HeaderName prefix="IBM" to="/" element={Link}>
-                Design
-              </HeaderName>
-
-              <HeaderNavigation aria-label="IBM [Platform]">
-                <HeaderMenu aria-label="Approach">
-                  <HeaderMenuItem to="/approach" element={Link}>
-                    Overview
-                  </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>
-                    Design thinking
-                  </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-services" element={Link}>
-                    Design services
-                  </HeaderMenuItem>
-                  <HeaderMenuItem
-                    to="/approach/design-philosophy"
-                    element={Link}>
-                    Design philosophy
-                  </HeaderMenuItem>
-                </HeaderMenu>
-                <HeaderMenuItem to="/teams" element={Link}>
-                  Teams
-                </HeaderMenuItem>
-                <HeaderMenuItem to="/practices" element={Link}>
-                  Practices
-                </HeaderMenuItem>
-                <HeaderMenuItem to="/impact" element={Link}>
-                  Impact
-                </HeaderMenuItem>
-              </HeaderNavigation>
-            </Header>
-            <div className="container">
+            <SiteHeader isExpanded={isExpanded} onToggle={this.toggleClick} />
+            <div className="container" onClick={this.closeClick}>
               {children}
               <WebsiteFooter
                 logoOffset={false}
