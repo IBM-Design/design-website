@@ -23,6 +23,8 @@ const SiteHeader = ({
 }) => {
   const sideNavclassNames = classnames({
     'bx--side-nav--open': isExpanded,
+    'bx--side-nav--website': true,
+    'bx--side-nav--website--with-header-nav': true,
   });
   
     return (

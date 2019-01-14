@@ -126,18 +126,18 @@ a.bx--header__menu-item[role='menuitem'][aria-current='page']:after {
 //----------------------------
 // Side Navigation
 //----------------------------
-.bx--side-nav {
+.bx--side-nav--website--with-header-nav {
   width: 0;
 
   @include breakpoint('lg') {
-    display: none;
+      display: none;
   }
 }
 
-.bx--side-nav.bx--side-nav--open {
+.bx--side-nav--website--with-header-nav.bx--side-nav--open {
   width: 16rem;
 }
 
-.bx--side-nav__footer {
+.bx--side-nav--website--with-header-nav .bx--side-nav__footer {
   display: none;
 }
