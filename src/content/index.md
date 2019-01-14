@@ -12,7 +12,7 @@ people we serve.</span>
 <grid background="black-white">
 <column lg="16">
 
-`vimeo: https://vimeo.com/293453905`
+`vimeo: 293453905`
 
 </column>
 </grid>
@@ -30,35 +30,43 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 
 <grid background="gray-10">
 <column lg="4">
+</column>
+
+<column lg="16">
+<hr>
+
+<grid background="gray-10">
+<column lg="4">
 
 ### Today
 
 </column>
+
 <column lg="4" md="4">
 
-  <tile
+<tile
     caption="Security"
     name="Threats are at an all time low">
-    <img src="images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
-  </tile>
+<img src="images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
+</tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile
+<tile
     caption="Brand"
     name="Our typeface Plex is going global">
-    <img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
-  </tile>
+<img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
+</tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile
+<tile
     caption="Quantum"
     name="Everything we know is about to change">
-    <img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
-  </tile>
+<img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
+</tile>
 
 </column>
 </grid>

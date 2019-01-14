@@ -68,7 +68,7 @@ a.bx--tile {
 }
 
 // Dark
-a.bx--tile--clickable--dark  {
+a.bx--tile--clickable--dark {
   background: $ibm-colors__gray--90;
   color: $ibm-colors__white;
 }
@@ -106,7 +106,6 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   max-width: 100% !important;
 }
 
-
 //----------------------------
 // Small Tile
 //----------------------------
@@ -114,6 +113,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   display: flex;
   flex-direction: column;
   margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 .tile__img {
@@ -132,7 +132,6 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 .tile--optional .tile__info h5 {
   max-width: rem(190px);
 }
-
 
 //----------------------------
 // Medium Tile
@@ -158,12 +157,11 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   background: $ibm-colors__black;
 }
 
-.tile--md  .tile__title {
+.tile--md .tile__title {
   margin: rem(16px);
   font-weight: 400;
   padding-right: 25%;
 }
-
 
 //----------------------------
 // Large Tile
@@ -229,4 +227,3 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
     height: 100%;
   }
 }
-
