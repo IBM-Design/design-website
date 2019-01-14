@@ -16,6 +16,7 @@ import {
   SideNavMenuItem,
   SideNavItems,
 } from 'carbon-components-react/lib/components/UIShell';
+import { Awake16 } from '@carbon/icons-react';
 
 const SiteHeader = ({
   isExpanded,
@@ -34,6 +35,7 @@ const SiteHeader = ({
           <HeaderMenuButton
             aria-label="Open menu"
             onClick={onToggle}
+            isActive={isExpanded}
           />
           <HeaderName prefix="IBM" to="/" element={Link}>
             Design
