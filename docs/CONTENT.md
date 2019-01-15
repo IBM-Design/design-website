@@ -33,7 +33,7 @@ Required fields are:
 
     ### This generates an H3 heading. `heading-03`
 
-    #### This generates an H4 heading. `heading-02` 
+    #### This generates an H4 heading. `heading-02`
 
     **This is bold text.**
 
@@ -58,6 +58,7 @@ If you need a link to open in a new window you will have to use standard html to
 `vimeo: https://vimeo.com/293453905`
 
 ### Lists
+
 ```
 - This is a bulleted list
 - List item 2
@@ -67,7 +68,6 @@ If you need a link to open in a new window you will have to use standard html to
 ```
 
 ### Tables
-
 
     | COL 1      | COL 2   |  COL 3     |
     |------------|---------|------------|
@@ -87,7 +87,7 @@ Quotes will be displayed differently depending on what column they are placed in
 
 ### Paragraph
 
-Paragraphs have four available sizes. The default is 16px/1rem, or `size="md"`. This is the default for any text on the page and does not need to be wrapped in a  `<p>` tag. 
+Paragraphs have four available sizes. The default is 16px/1rem, or `size="md"`. This is the default for any text on the page and does not need to be wrapped in a `<p>` tag.
 
 - **sm:** `body-short-01` 14px
 - **md:** `body-short-02` 16px
@@ -112,9 +112,10 @@ Paragraphs have four available sizes. The default is 16px/1rem, or `size="md"`. 
 
 </component>
 ```
+
 ### Title Block
 
-A wrapper component for the full height black title blocks at the top of the main pages. 
+A wrapper component for the full height black title blocks at the top of the main pages.
 
 `<title-block>`
 
@@ -149,12 +150,12 @@ class icon--inline displays inline and vertical-aligns icon
 
     <!-- for links with icon -->
     <a class="link--icon" href=#>
-        <span>View More</span> 
+        <span>View More</span>
         <icon color="blue" inline="true"></icon>
     </a>
 
     <a class="link--icon" href=#>
-        <span>View More</span> 
+        <span>View More</span>
         <icon color="blue" name="ArrowUpRight20" inline="true"></icon>
     </a>
 
@@ -180,11 +181,11 @@ class icon--inline displays inline and vertical-aligns icon
 
 ## Custom Grid Components
 
-This website uses the default Carbon grid, in order to to this you will need to wrap your content inside custom grid components. 
+This website uses the default Carbon grid, in order to to this you will need to wrap your content inside custom grid components.
 
 ### Grid
 
-All content and componnents will need to be wrapped innside a `<grid>` component **except** the `<title-block>`, which utilizes its own grid code. 
+All content and componnents will need to be wrapped innside a `<grid>` component **except** the `<title-block>`, which utilizes its own grid code.
 
 The grid component has one prop, background which is used to tell the section what background color to use. The following colors are available.
 
@@ -204,9 +205,10 @@ Markdown, html, custom components
 ```
 
 ### Column
-Columns are used inside of the `<grid>` component to create your page layouts. Layout is based on the Carbon 16 column grid. 
 
-*There 16 columns at large breakpoint, 8 columns at medium an 4 columns at small*
+Columns are used inside of the `<grid>` component to create your page layouts. Layout is based on the Carbon 16 column grid.
+
+_There 16 columns at large breakpoint, 8 columns at medium an 4 columns at small_
 
 The following options are available
 

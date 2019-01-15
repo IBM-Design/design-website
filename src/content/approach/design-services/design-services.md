@@ -77,7 +77,6 @@ Customers and employees are won and lost by the quality of your experience, not 
 
 A business strategy that fails to account for the constantly changing needs and behaviors of its customers isn’t much of a strategy at all. We forge versatile, enduring strategies by reimagining how an organization innovates, operates, and engages with its environment, employees, customers, and partners.
 
-
 </column>
 <column lg="4" offset_lg="1">
 
@@ -130,7 +129,7 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 partner with us to build
 better business."
   name="IBM iX">
-  <img src="images/Image_2.png" alt="Geometric shapes"/>
+<img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
 <grid background="gray-10">
@@ -151,6 +150,7 @@ The beliefs behind everything we do. Design is about moving people forward, both
 <column lg="4">
 
 ![](images/Image_4.png)
+
 <p size="sm"><br><strong>Design Thinking</strong><br>
 Get familiar with how to apply the framework that drives how we think and work every day. <br><a href="/approach/design-services">Learn more</a></p>
 

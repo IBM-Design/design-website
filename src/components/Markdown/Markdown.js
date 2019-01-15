@@ -38,7 +38,17 @@ export class a extends React.Component {
   render() {
     const { children, className, id, href, target, tabindex, rel } = this.props;
 
-    return <a href={href} id={id} target={target} rel={rel} tabindex={tabindex} className={`bx--link ${className}`}>{children}</a>;
+    return (
+      <a
+        href={href}
+        id={id}
+        target={target}
+        rel={rel}
+        tabindex={tabindex}
+        className={`bx--link ${className}`}>
+        {children}
+      </a>
+    );
   }
 }
 

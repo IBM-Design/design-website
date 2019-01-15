@@ -2,14 +2,12 @@
   position: relative;
   height: calc(100vh - 48px);
   min-height: 470px;
-  
-  @include breakpoint('sm') {
 
+  @include breakpoint('sm') {
   }
 
   @include breakpoint('md') {
     min-height: 540px;
-    
   }
 
   @include breakpoint('lg') {

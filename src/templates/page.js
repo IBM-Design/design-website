@@ -21,7 +21,7 @@ import {
   h4,
   h5,
   ul,
-  ol
+  ol,
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
@@ -40,8 +40,8 @@ const renderAst = new rehypeReact({
     table: PageTable,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
-    'icon': Icon,
-    'tile': Tile,
+    icon: Icon,
+    tile: Tile,
     grid: Grid,
     column: Column,
   },
@@ -55,7 +55,7 @@ export default ({ data }) => {
   return (
     <Layout>
       {/*<h1>{post.frontmatter.title}</h1>*/}
-      <main className="page-content" id="maincontent">
+      <main className="page-content" id="main-content">
         {renderAst(post.htmlAst)}
       </main>
       <BackToTop />
