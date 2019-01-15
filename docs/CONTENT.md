@@ -210,10 +210,11 @@ Columns are used inside of the `<grid>` component to create your page layouts. L
 
 The following options are available
 
-- `lg` _how many columns the content should span at the large breakpoint
-- `md` _how many columns the content should span at the large breakpoint
-- `sm` _how many columns the content should span at the large breakpoint
-- `offset_lg` _how many columns you want to content offset by at the large breakpoint
+- `border` _default to false, true sets a left border and aligns svg to bottom, see Design Thinking page for example_
+- `lg` _how many columns the content should span at the large breakpoint_
+- `md` _how many columns the content should span at the large breakpoint_
+- `sm` _how many columns the content should span at the large breakpoint_
+- `offset_lg` _how many columns you want to content offset by at the large breakpoint_
 
 If you only add a value for the large breakpoint then the columnn will default to full width at smaller breakpoints.
 
