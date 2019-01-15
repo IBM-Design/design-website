@@ -92,7 +92,7 @@ Paragraphs have four available sizes. The default is 16px/1rem, or `size="md"`. 
 - **sm:** `body-short-01` 14px
 - **md:** `body-short-02` 16px
 - **lg:** `heading-03` 20px
-- **xl:** `expressive-heading-04` responsive type
+- **xl:** `expressive-paragraph-01` responsive type
 
 ```
 <p size="sm">This is a paragraph with small text</p>
