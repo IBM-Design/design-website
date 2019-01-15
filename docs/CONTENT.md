@@ -92,7 +92,7 @@ Paragraphs have four available sizes. The default is 16px/1rem, or `size="md"`. 
 - **sm:** `body-short-01` 14px
 - **md:** `body-short-02` 16px
 - **lg:** `heading-03` 20px
-- **xl:** `expressive-heading-04` responsive type
+- **xl:** `expressive-paragraph-01` responsive type
 
 ```
 <p size="sm">This is a paragraph with small text</p>
@@ -212,10 +212,11 @@ _There 16 columns at large breakpoint, 8 columns at medium an 4 columns at small
 
 The following options are available
 
-- `lg` \_how many columns the content should span at the large breakpoint
-- `md` \_how many columns the content should span at the large breakpoint
-- `sm` \_how many columns the content should span at the large breakpoint
-- `offset_lg` \_how many columns you want to content offset by at the large breakpoint
+- `border` _default to false, true sets a left border and aligns svg to bottom, see Design Thinking page for example_
+- `lg` _how many columns the content should span at the large breakpoint_
+- `md` _how many columns the content should span at the large breakpoint_
+- `sm` _how many columns the content should span at the large breakpoint_
+- `offset_lg` _how many columns you want to content offset by at the large breakpoint_
 
 If you only add a value for the large breakpoint then the columnn will default to full width at smaller breakpoints.
 

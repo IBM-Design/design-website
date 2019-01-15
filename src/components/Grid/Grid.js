@@ -28,7 +28,7 @@ export class Grid extends React.Component {
 
     return (
       <div className={classNames}>
-        <div className="ibm--grid ">
+        <div className="ibm--grid">
           <div className="ibm--row">{children}</div>
         </div>
       </div>
@@ -55,16 +55,21 @@ export class Column extends React.Component {
      * Specify the col offset at large breakpoint
      */
     offset_lg: PropTypes.string,
+    /**
+   * Specify a left border
+   */
+    border: PropTypes.string,
   };
 
   render() {
-    const { children, sm, md, lg, offset_lg } = this.props;
-
-    let classNames = '';
-    if (lg) classNames += `ibm--col-lg-${lg} `;
-    if (md) classNames += `ibm--col-md-${md} `;
-    if (sm) classNames += `ibm--col-sm-${sm} `;
-    if (offset_lg) classNames += `ibm--offset-lg-${offset_lg} `;
+    const { children, sm, md, lg, offset_lg, border } = this.props;
+    
+    let classNames = "";
+    if(border) classNames += `ibm--col-border `;
+    if(lg) classNames += `ibm--col-lg-${lg} `;
+    if(md) classNames += `ibm--col-md-${md} `;
+    if(sm) classNames += `ibm--col-sm-${sm} `;
+    if(offset_lg) classNames += `ibm--offset-lg-${offset_lg} `;
 
     return <div className={classNames}>{children}</div>;
   }
