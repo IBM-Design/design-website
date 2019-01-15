@@ -88,11 +88,11 @@ img {
 
 .page-content > div div.background:first-child {
   .gatsby-resp-iframe-wrapper {
-    // removes the default paddinng around a video if its in the first grid container on a page
+    // removes the default padding around a video if its in the first grid container on a page
     @include breakpoint('lg') {
-      margin-bottom: -100px;
-      margin-right: -60px;
-      margin-top: -58px;
+      //margin-bottom: -100px;
+      //margin-right: -60px;
+      //margin-top: -58px;
     }
   }
 }

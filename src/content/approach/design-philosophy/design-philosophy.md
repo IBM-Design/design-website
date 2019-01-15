@@ -14,7 +14,7 @@ Given our scale and scope, ‘good design’ is not only a requirement, it’s a
 </column>
 <column lg="9" offset_lg="2">
 
-`vimeo: https://vimeo.com/293453905`
+<iframe src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 </column>
 </grid>
