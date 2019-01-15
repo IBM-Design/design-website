@@ -21,7 +21,7 @@ class Layout extends React.Component {
 
   closeClick = () => {
     if (this.state.isExpanded) {
-      this.setState({ isExpanded: false,});
+      this.setState({ isExpanded: false });
     }
   };
 

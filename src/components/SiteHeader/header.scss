@@ -122,7 +122,6 @@ a.bx--header__menu-item[role='menuitem'][aria-current='page']:after {
   background: #353535;
 }
 
-
 //----------------------------
 // Side Navigation
 //----------------------------
@@ -130,7 +129,7 @@ a.bx--header__menu-item[role='menuitem'][aria-current='page']:after {
   width: 0;
 
   @include breakpoint('lg') {
-      display: none;
+    display: none;
   }
 }
 
