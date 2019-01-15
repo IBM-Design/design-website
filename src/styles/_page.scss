@@ -88,9 +88,6 @@ img {
 
 .page-content > div div.background:first-child {
   .gatsby-resp-iframe-wrapper {
-    @include breakpoint('md') {
-
-    }
     // removes the default padding around a video if its in the first grid container on a page
     @include breakpoint('lg') {
       margin-right: -2rem;
