@@ -29,13 +29,11 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 </grid>
 
 <grid background="gray-10">
-<column lg="4">
-</column>
-
 <column lg="16">
+
 <hr>
 
-<grid background="gray-10">
+</column>
 <column lg="4">
 
 ### Today
@@ -69,4 +67,11 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 </tile>
 
 </column>
+
+<column sm="4" offset_lg="13">
+
+[View more stories](https://)
+
+</column>
+
 </grid>

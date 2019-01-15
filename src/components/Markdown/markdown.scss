@@ -74,14 +74,6 @@
   color: $ibm-colors__white;
 }
 
-#today {
-  transform: translateX(-1rem);
-
-  @media (min-width: 672px) {
-    transform: translateX(-2rem);
-  }
-}
-
 //----------------------------
 // h4
 //----------------------------
@@ -137,8 +129,6 @@
 //----------------------------
 // Blockquote
 //----------------------------
-blockquote {
-}
 
 blockquote:first-child {
   position: relative;
@@ -197,4 +187,13 @@ hr {
 .background--black blockquote hr,
 .background--gray-100 blockquote hr {
   border-color: $ibm-colors__white;
+}
+
+//----------------------------
+// Links
+//----------------------------
+
+.page-p a.bx--link {
+  padding-top: 2rem;
+  display: inline-block;
 }
