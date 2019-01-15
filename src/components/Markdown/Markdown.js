@@ -17,7 +17,7 @@ export class p extends React.Component {
       'page-p--md': size === 'md',
       'page-p--lg': size === 'lg',
       'page-p--xl': size === 'xl',
-      'bx--type-expressive-heading-04': size === 'xl',
+      'bx--type-expressive-paragraph-01': size === 'xl',
     });
 
     return <p className={classNames}>{children}</p>;
