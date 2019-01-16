@@ -73,6 +73,7 @@
   @include breakpoint('lg') {
     margin: 0;
     padding-top: 0;
+    padding-left: 1rem;
     border-top: 0;
     border-left: 1px solid $ui-04;
     padding-bottom: rem(112px);
@@ -94,5 +95,11 @@
       bottom: 0;
       left: 1rem;
     }
+  }
+}
+
+.container .ibm--col-border.ibm--col-lg-4.ibm--offset-lg-4 {
+  @include breakpoint('lg') {
+    margin-left: 25%;
   }
 }
