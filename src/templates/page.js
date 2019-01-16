@@ -21,7 +21,7 @@ import {
   h4,
   h5,
   ul,
-  ol
+  ol,
 } from '../components/Markdown/Markdown';
 
 const renderAst = new rehypeReact({
@@ -40,8 +40,8 @@ const renderAst = new rehypeReact({
     table: PageTable,
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
-    'icon': Icon,
-    'tile': Tile,
+    icon: Icon,
+    tile: Tile,
     grid: Grid,
     column: Column,
   },

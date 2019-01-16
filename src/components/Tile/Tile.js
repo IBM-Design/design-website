@@ -7,13 +7,13 @@ import { ArrowRight16, ArrowUpRight20 } from '@carbon/icons-react';
 export default class Tile extends React.Component {
   static propTypes = {
     /**
-   * for tile images
-   */
+     * for tile images
+     */
     children: PropTypes.node,
     /**
-   * accepts sm, md, lg, xl, correlating to how many grid columns the tile is taking up (4, 8, 12, 16)
-   * default is size="sm"
-   */
+     * accepts sm, md, lg, xl, correlating to how many grid columns the tile is taking up (4, 8, 12, 16)
+     * default is size="sm"
+     */
     size: PropTypes.string,
     /**
      * header text color for md/xl tiles
@@ -25,43 +25,42 @@ export default class Tile extends React.Component {
    */
     title: PropTypes.string,
     /**
-   * second header for lg/xl tiles
-   */
+     * second header for lg/xl tiles
+     */
     title_secondary: PropTypes.string,
     /**
-   * description paragraph if needed
-   */
+     * description paragraph if needed
+     */
     description: PropTypes.string,
     /**
-   * string that sets hex value for background color, if not included, bg is transparent
-   */
+     * string that sets hex value for background color, if not included, bg is transparent
+     */
     background: PropTypes.string,
     /**
-   * makes title 2 and description text white if bg is dark, default = false,
-   */
+     * makes title 2 and description text white if bg is dark, default = false,
+     */
     light: PropTypes.string,
     /**
-   * Label for the clickable tile, default = "Learn more"
-   */
+     * Label for the clickable tile, default = "Learn more"
+     */
     name: PropTypes.string,
     /**
-   * href for the clickable tile
-   */
+     * href for the clickable tile
+     */
     href: PropTypes.string,
     /**
-   * if true, makes tile dark. default=false
-   */
+     * if true, makes tile dark. default=false
+     */
     dark: PropTypes.string,
     /**
-   * optional secondary text for tile
-   */
+     * optional secondary text for tile
+     */
     caption: PropTypes.string,
     /**
-   * accepts ArrowUpRight16, ArrowUpRight20
-   * changes icon of clickable tile, default = ArrowUpRight20
-   */
+     * accepts ArrowUpRight16, ArrowUpRight20
+     * changes icon of clickable tile, default = ArrowUpRight20
+     */
     icon: PropTypes.string,
-
   };
 
   colorContrast = ColorHEX => {
@@ -88,22 +87,21 @@ export default class Tile extends React.Component {
       href,
       dark,
       caption,
-      icon
+      icon,
     } = this.props;
-    
 
     const classNames = classnames({
       'tile--sm': size === 'sm',
       'tile--md': size === 'md',
       'tile--lg': size === 'lg',
       'tile--xl': size === 'xl',
-      'tile--bleed': size === 'xl' | size === 'md',
+      'tile--bleed': (size === 'xl') | (size === 'md'),
       'tile--dark': dark === 'true',
-      'tile--light': light === 'true'
+      'tile--light': light === 'true',
     });
 
     const titleClassNames = classnames({
-      'tile__title': size === 'xl' || size === 'md',
+      tile__title: size === 'xl' || size === 'md',
       'bx--type-expressive-heading-04': true,
       'tile__text--dark': title_color === 'dark',
     });
@@ -115,7 +113,7 @@ export default class Tile extends React.Component {
     });
 
     const descClassName = classnames({
-      'tile__description': true,
+      tile__description: true,
       'tile__text--dark': title_color === 'dark',
     });
 
@@ -123,89 +121,99 @@ export default class Tile extends React.Component {
       'bx--tile--clickable--dark': dark === 'true',
     });
 
-    const tileId = title.toLowerCase().split(" ").join("-").toString();
+    const tileId = title
+      .toLowerCase()
+      .split(' ')
+      .join('-')
+      .toString();
 
     const clickableTile = (
-      
       <ClickableTile
-          target="_blank"
-          rel="noopener noreferrer"
-          href={href}
-          className={clickTileClassNames}>
-          <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
-            <div className="bx--aspect-ratio--object">
-              <div className="tile__info">
-                <h3 className="page-h3 tile__name">{name}</h3>
-                {caption ? (
-                  <p className="page-p--sm tile__caption">{caption}</p>
-                ) : null}
-              </div>
-              <div className="tile__link-icon">
-                { icon === "ArrowUpRight20" ? (
-                  <ArrowUpRight20 className= "tile--arrow-upright" aria-label="Open resource"/>
-                ) : (
-                  <ArrowRight16 aria-label="Open resource"/>
-                )}
-              </div>
-              </div>
+        target="_blank"
+        rel="noopener noreferrer"
+        href={href}
+        className={clickTileClassNames}>
+        <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
+          <div className="bx--aspect-ratio--object">
+            <div className="tile__info">
+              <h3 className="page-h3 tile__name">{name}</h3>
+              {caption ? (
+                <p className="page-p--sm tile__caption">{caption}</p>
+              ) : null}
+            </div>
+            <div className="tile__link-icon">
+              {icon === 'ArrowUpRight20' ? (
+                <ArrowUpRight20
+                  className="tile--arrow-upright"
+                  aria-label="Open resource"
+                />
+              ) : (
+                <ArrowRight16 aria-label="Open resource" />
+              )}
+            </div>
+          </div>
         </div>
       </ClickableTile>
-
     );
-    
+
     if (size === 'md') {
       return (
-        <div className={classNames} style={{backgroundColor: background}} id={tileId}>
+        <div
+          className={classNames}
+          style={{ backgroundColor: background }}
+          id={tileId}>
           <div className="ibm--grid">
             <div className="ibm--row">
-              <div className="tile__img">
-                {children}
-              </div>
-              <div className='tile__text-container'>
-                <h2 className={titleClassNames}>{title}</h2> 
+              <div className="tile__img">{children}</div>
+              <div className="tile__text-container">
+                <h2 className={titleClassNames}>{title}</h2>
               </div>
               {clickableTile}
             </div>
           </div>
         </div>
       );
-    } 
-    
+    }
+
     if (size === 'lg') {
       return (
-        <div className={classNames} style={{backgroundColor: background}} id={tileId}>   
+        <div
+          className={classNames}
+          style={{ backgroundColor: background }}
+          id={tileId}>
           <div className="ibm--grid">
-            <div className="ibm--row"> 
-              <section className='tile__text-container ibm--col-lg-4'>
-                <h2 className={titleClassNames}>{title}</h2> 
+            <div className="ibm--row">
+              <section className="tile__text-container ibm--col-lg-4">
+                <h2 className={titleClassNames}>{title}</h2>
                 {title_secondary ? (
                   <h2 className={titleTwoClassNames}>{title_secondary}</h2>
                 ) : null}
-                { description  ? (
+                {description ? (
                   <p className={descClassName}>{description}</p>
                 ) : null}
               </section>
-              <div className="tile__img">
-                {children}
-              </div>
+              <div className="tile__img">{children}</div>
               {clickableTile}
             </div>
           </div>
         </div>
       );
-    } 
+    }
 
     if (size === 'xl') {
       return (
-        <div className={classNames} style={{backgroundColor: background}} id={tileId}>  
+        <div
+          className={classNames}
+          style={{ backgroundColor: background }}
+          id={tileId}>
           <div className="ibm--grid">
-            <div className="ibm--row"> 
-              <section className='tile__text-container ibm--col-lg-4 ibm--offset-lg-1'>
-                <h2 className={titleClassNames}>{title}</h2> 
+            <div className="ibm--row">
+              <section className="tile__text-container ibm--col-lg-4 ibm--offset-lg-1">
+                <h2 className={titleClassNames}>{title}</h2>
                 {title_secondary ? (
                   <h2 className={titleTwoClassNames}>{title_secondary}</h2>
                 ) : null}
-                { description  ? (
+                {description ? (
                   <p className={descClassName}>{description}</p>
                 ) : null}
               </section>
@@ -217,14 +225,14 @@ export default class Tile extends React.Component {
           </div>
         </div>
       );
-    } 
+    }
 
     // Small tile is the default if no size is added
     else {
       return (
-        <div className={classNames} style={{backgroundColor: background}}>
-            <div>{children}</div>
-            {clickableTile}
+        <div className={classNames} style={{ backgroundColor: background }}>
+          <div>{children}</div>
+          {clickableTile}
         </div>
       );
     }
@@ -237,5 +245,5 @@ Tile.defaultProps = {
   name: 'Learn more',
   dark: 'false',
   icon: 'ArrowUpRight20',
-  title: 'Title'
-}
+  title: 'Title',
+};

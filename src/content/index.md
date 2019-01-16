@@ -68,7 +68,7 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 
 </column>
 
-<column sm="4" offset_lg="13">
+<column sm="4" offset_lg="12">
 
 [View more stories](https://)
 

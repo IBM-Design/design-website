@@ -11,8 +11,8 @@ title: Demo
     caption="caption"
     name="name"
     href="#">
-    <img src="../images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
-  </tile>
+<img src="../images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
+</tile>
 
 </column>
 <column lg="4">
@@ -24,8 +24,8 @@ title: Demo
     name="name"
     dark="true"
     href="#">
-    <img src="../images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
-  </tile>
+<img src="../images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
+</tile>
 
 </column>
 <column lg="4">
@@ -36,7 +36,7 @@ title: Demo
     caption="caption"
     name="name"
     href="#">
-  </tile>
+</tile>
 
 </column>
 </grid>
@@ -59,9 +59,8 @@ title: Demo
     description="description"
     icon="ArrowRight16"
     href="/approach/design-philosophy">
-    <img src="../approach/design-services/images/Image_2.png" alt="alt"/>
-  </tile>
-
+<img src="../approach/design-services/images/Image_2.png" alt="alt"/>
+</tile>
 
 <grid background="white">
 <column lg="16">
@@ -82,9 +81,8 @@ title: Demo
     description="description"
     icon="ArrowRight16"
     href="/approach/design-philosophy">
-    <img src="../approach/design-services/images/Image_2.png" alt="alt"/>
-  </tile>
-
+<img src="../approach/design-services/images/Image_2.png" alt="alt"/>
+</tile>
 
 <grid background="gray-10">
 <column lg="12" offset_lg="4">
@@ -97,9 +95,8 @@ title: Demo
     light="true"
     caption="caption"
     name="name">
-    <img src="../practices/images/Image_5.png" alt="Geometric shapes"/>
-  </tile>
-
+<img src="../practices/images/Image_5.png" alt="Geometric shapes"/>
+</tile>
 
 </column>
 </grid>
@@ -115,9 +112,8 @@ title: Demo
     dark="true"
     caption="caption"
     name="name">
-    <img src="../practices/images/Image_5.png" alt="Geometric shapes"/>
-  </tile>
-
+<img src="../practices/images/Image_5.png" alt="Geometric shapes"/>
+</tile>
 
 </column>
 </grid>
@@ -133,11 +129,10 @@ title: Demo
     description="description"
     icon="ArrowRight16"
     href="/approach/design-philosophy">
-    <img src="../approach/images/Image_1.svg" alt="Geometric shapes"/>
-  </tile>
-  
+<img src="../approach/images/Image_1.svg" alt="Geometric shapes"/>
+</tile>
 
-  ## XL dark
+## XL dark
 
 <tile
     size="xl"
@@ -148,6 +143,5 @@ title: Demo
     description="description"
     icon="ArrowRight16"
     href="/approach/design-philosophy">
-    <img src="../approach/images/Image_1.svg" alt="Geometric shapes"/>
-  </tile>
-  
+<img src="../approach/images/Image_1.svg" alt="Geometric shapes"/>
+</tile>

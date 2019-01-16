@@ -52,7 +52,7 @@
 //----------------------------
 .title-block .anchor-links {
   @include breakpoint('md') {
-    position: absolute; 
+    position: absolute;
     left: auto;
     right: rem(20px);
     bottom: 2rem;
