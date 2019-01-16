@@ -209,6 +209,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 .tile--xl a.bx--tile {
   bottom: 0;
   position: absolute;
+
   @include breakpoint('lg') {
     right: 1rem;
   }
