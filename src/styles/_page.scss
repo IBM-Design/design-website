@@ -4,8 +4,6 @@
 
 body {
   background: $ui-01;
-  line-height: 1.5;
-  font-family: $font-family;
 }
 
 .container {
@@ -25,41 +23,6 @@ body {
   svg {
     fill: $ibm-colors__white;
   }
-}
-
-//---------------------------------------
-// Header styles (UI Shell overrides)
-//---------------------------------------
-.bx--header {
-  z-index: 9999;
-}
-
-.bx--header__menu-trigger {
-  @include breakpoint('lg') {
-    display: none;
-  }
-}
-
-.bx--header__nav {
-  margin-left: auto;
-}
-
-a.bx--header__menu-item[role='menuitem'],
-.bx--header__menu-title[role='menuitem'][aria-expanded='true']
-  + .bx--header__menu {
-  width: rem(160px);
-}
-
-a.bx--header__menu-item[role='menuitem'] {
-  position: relative;
-}
-
-//---------------------------------------
-// Page styles
-//---------------------------------------
-
-button {
-  font-family: $font-family;
 }
 
 //---------------------------------------
@@ -96,4 +59,3 @@ img {
     }
   }
 }
-

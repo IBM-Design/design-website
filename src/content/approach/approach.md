@@ -40,10 +40,10 @@ responsibility to the people we serve.</p>
     description="Design is about giving people a path, both emotionally and functionally, towards their goals."
     icon="ArrowRight16"
     href="/approach/design-philosophy">
-    <img src="images/Image_1.svg" alt="Geometric shapes"/>
-  </tile>
+<img src="images/Image_1.svg" alt="Geometric shapes"/>
+</tile>
 
-  <tile
+<tile
     size="xl"
     background="#E7E7E7"
     title_color="dark"
@@ -52,10 +52,10 @@ responsibility to the people we serve.</p>
     description="Learn how you can apply the same framework our teams use every day."
     icon="ArrowRight16"
     href="/approach/design-thinking">
-    <img src="images/Image_2.svg" alt="Geometric shapes"/>
-  </tile>
+<img src="images/Image_2.svg" alt="Geometric shapes"/>
+</tile>
 
-  <tile
+<tile
     size="xl"
     background="#373737"
     title="Design Services"
@@ -63,5 +63,5 @@ responsibility to the people we serve.</p>
     description="Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes."
     icon="ArrowRight16"
     href="/approach/design-services">
-    <img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
-  </tile>
+<img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
+</tile>

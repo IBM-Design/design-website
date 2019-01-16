@@ -85,7 +85,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
   title="See how we bring our philosophy to bear in our design systems."
   name="Design Thinking"
   href="">
-  <img src="images/Image_2.png" alt="Geometric shapes"/>
+<img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
 <grid background="gray-10">

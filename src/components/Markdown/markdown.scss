@@ -3,31 +3,36 @@
 //----------------------------
 .page-p:empty {
   padding: 0;
+  margin: 0;
 }
 
-.page-p { //md default
+.page-p {
+  //md default
   @include type-style('body-short-02');
   color: $text-01;
   margin-bottom: 1.5rem;
 }
 
-.page-p--sm { 
+.page-p--sm {
   @include type-style('body-short-01');
 }
 
-.page-p--md { //md default
+.page-p--md {
+  //md default
   @include type-style('body-short-02');
 }
 
-.page-p--lg { //lg
+.page-p--lg {
+  //lg
   @include type-style('heading-03');
 }
 
-.page-p--xl { //xl
-  // using exspressive paragraph 01
+.page-p--xl {
+  //xl
   color: $ibm-colors__gray--100;
   font-weight: 300;
   margin-bottom: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .background--inverse .page-p,
@@ -116,15 +121,13 @@
 }
 
 .background--inverse .page-ul > li,
-.background--inverse  .page-ol > li {
+.background--inverse .page-ol > li {
   color: $ibm-colors__white;
 }
 
 //----------------------------
 // Blockquote
 //----------------------------
-blockquote {
-}
 
 blockquote:first-child {
   position: relative;
@@ -169,8 +172,7 @@ blockquote em {
   padding-bottom: 1rem;
   margin-left: 0;
   color: $ibm-colors__blue--60;
-} 
-
+}
 
 //----------------------------
 // HR
@@ -178,13 +180,19 @@ blockquote em {
 hr {
   border: none;
   border-top: 1px solid $ibm-colors__gray--50;
-  margin-left: -4px;
-  margin-right: -4px;
   margin-top: -2rem;
-  margin-bottom: 2rem;
 }
 
 .background--black blockquote hr,
 .background--gray-100 blockquote hr {
   border-color: $ibm-colors__white;
+}
+
+//----------------------------
+// Links
+//----------------------------
+
+.page-p a.bx--link {
+  padding-top: 2rem;
+  display: inline-block;
 }

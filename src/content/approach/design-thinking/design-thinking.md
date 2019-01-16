@@ -142,7 +142,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
   background="#C5DEFF"
   title="Explore how you and your business can take advantage of our entire platform."
   name="Enterprise Design Thinking">
-  <img src="images/Image_2.png" alt="Geometric shapes"/>
+<img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
 <grid background="gray-10">
@@ -154,6 +154,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 <column lg="4">
 
 ![](images/Image_3.png)
+
 <p size="sm"><strong><br>Design services</strong><br>
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
 
@@ -161,6 +162,7 @@ Let’s define your strategy, create exceptional experiences, and drive better b
 <column lg="4">
 
 ![](images/Image_4.png)
+
 <p size="sm"><strong><br>Design philosphy</strong><br>
 The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br><a href="/approach/design-philosophy">Learn more</a></p>
 
