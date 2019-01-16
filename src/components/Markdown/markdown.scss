@@ -3,6 +3,7 @@
 //----------------------------
 .page-p:empty {
   padding: 0;
+  margin: 0;
 }
 
 .page-p {
@@ -28,10 +29,10 @@
 
 .page-p--xl {
   //xl
-  // using expressive paragraph 01
   color: $ibm-colors__gray--100;
   font-weight: 300;
   margin-bottom: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .background--inverse .page-p,
@@ -127,8 +128,6 @@
 //----------------------------
 // Blockquote
 //----------------------------
-blockquote {
-}
 
 blockquote:first-child {
   position: relative;
@@ -181,13 +180,19 @@ blockquote em {
 hr {
   border: none;
   border-top: 1px solid $ibm-colors__gray--50;
-  margin-left: -4px;
-  margin-right: -4px;
   margin-top: -2rem;
-  margin-bottom: 2rem;
 }
 
 .background--black blockquote hr,
 .background--gray-100 blockquote hr {
   border-color: $ibm-colors__white;
+}
+
+//----------------------------
+// Links
+//----------------------------
+
+.page-p a.bx--link {
+  padding-top: 2rem;
+  display: inline-block;
 }

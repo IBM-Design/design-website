@@ -63,7 +63,6 @@ export class Column extends React.Component {
 
   render() {
     const { children, sm, md, lg, offset_lg, border } = this.props;
-
     let classNames = '';
     if (border) classNames += `ibm--col-border `;
     if (lg) classNames += `ibm--col-lg-${lg} `;

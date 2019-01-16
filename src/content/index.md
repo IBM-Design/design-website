@@ -12,7 +12,7 @@ people we serve.</span>
 <grid background="black-white">
 <column lg="16">
 
-`vimeo: https://vimeo.com/293453905`
+`vimeo: 293453905`
 
 </column>
 </grid>
@@ -29,11 +29,17 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 </grid>
 
 <grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4">
 
 ### Today
 
 </column>
+
 <column lg="4" md="4">
 
 <tile
@@ -61,4 +67,11 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 </tile>
 
 </column>
+
+<column sm="4" offset_lg="12">
+
+[View more stories](https://)
+
+</column>
+
 </grid>
