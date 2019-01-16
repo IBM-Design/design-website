@@ -3,7 +3,7 @@ title: Homepage
 ---
 
 <title-block>
-The purpose of<br>
+Something<br>
 everything we do<br>
 <span>is to guide the<br>
 people we serve.</span>
