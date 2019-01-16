@@ -29,7 +29,7 @@ We built on that idea, adding strategies, tactics and activities to create a fra
 <h2>These are the foundational<br>elements of our approach.</h2>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" offset_lg="4" border="true">
 
 ### Restless reinvention
 
@@ -38,7 +38,7 @@ _When’s the last time you rethought what you’re making?_ <br><br>Everything 
 ![](images/think.svg)
 
 </column>
-<column lg="4">
+<column lg="4" border="true">
 
 ### A focus on user outcomes
 
@@ -47,7 +47,7 @@ _Who are you designing for?_ <br><br>We measure success by how well we fulfill h
 ![](images/think_3circles.svg)
 
 </column>
-<column lg="4">
+<column lg="4" border="true">
 
 ### Diverse empowered teams
 
@@ -68,7 +68,7 @@ _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dyn
 <h2>A process of<br>rapid iteration.</h2>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" offset_lg="4" border="true">
 
 ### Observe
 
@@ -77,7 +77,7 @@ To drive meaningful outcomes for our users, we must first gain a deep understand
 ![](images/think.svg)
 
 </column>
-<column lg="4">
+<column lg="4" border="true">
 
 ### Reflect
 
@@ -86,7 +86,7 @@ Different people can interpret the same situation in very different ways. Coming
 ![](images/think_3circles.svg)
 
 </column>
-<column lg="4">
+<column lg="4" border="true">
 
 ### Make
 
@@ -107,7 +107,7 @@ The only way to see an outcome is to make one – even if the idea isn’t fully
 <h2>Tactics for<br>maintaining alignment.</h2>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" offset_lg="4" border="true">
 
 ### Hills
 
@@ -117,7 +117,7 @@ the goals we aim to help our users accomplish. By making these goals explicit an
 ![](images/think.svg)
 
 </column>
-<column lg="4">
+<column lg="4" border="true">
 
 ### Playbacks
 
@@ -126,7 +126,7 @@ Playbacks are regular check-ins that bring users, stakeholders and teams togethe
 ![](images/think_3circles.svg)
 
 </column>
-<column lg="4">
+<column lg="4" border="true">
 
 ### Sponsor users
 

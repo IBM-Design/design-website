@@ -62,34 +62,35 @@ Diversity comes in many forms—your job role, your educational history, your cu
 ## The dimensions of diversity
 
 </column>
-<column lg="3" offset_lg="4">
+<column lg="4" offset_lg="4" border="true">
 
 ### Identity
 
-Age and Ability
-Gender identity
+Age and Ability  
+Gender identity  
 Race and ethnicity
 
 ![teams](images/user.svg)
 
 </column>
-<column lg="3" offset_lg="1">
+<column lg="4" border="true">
 
 ### Experience
 
-Cultural upbringing
-Geography
+Cultural upbringing  
+Geography  
 Language
 
 ![teams](images/globe.svg)
 
 </column>
-<column lg="3" offset_lg="1">
+<column lg="4" border="true">
 
 ### Expertise
 
-Education
-Organization
+=======
+Education  
+Organization  
 Discipline
 
 ![teams](images/education.svg)

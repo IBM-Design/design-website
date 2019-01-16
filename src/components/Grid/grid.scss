@@ -58,3 +58,41 @@
   //outline-offset: -1px;
   //padding: 4rem 0 8rem 0;
 }
+
+//----------------------------
+// Columns
+//----------------------------
+.container .ibm--col-border {
+  position: relative;
+  border-top: 1px solid $ui-04;
+  margin: 0 1rem;
+  padding-bottom: rem(120px);
+  padding-top: 2rem;
+  padding-left: 0;
+
+  @include breakpoint('lg') {
+    margin: 0;
+    padding-top: 0;
+    border-top: 0;
+    border-left: 1px solid $ui-04;
+    padding-bottom: rem(112px);
+  }
+
+  .page-p,
+  .page-h3 {
+    padding-right: 10%;
+  }
+
+  img[src*='svg'] {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 48px;
+    height: auto;
+
+    @include breakpoint('lg') {
+      bottom: 0;
+      left: 1rem;
+    }
+  }
+}
