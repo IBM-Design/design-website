@@ -4,6 +4,9 @@ title: Teams
 
 <title-block>
 
+A solution’s quality<br>hinges directly on<br>
+<span>the diversity of the<br>team delivering it.</span>
+
 <anchor-links>
 
 - [Diverse](#diverse)
@@ -12,9 +15,6 @@ title: Teams
 - [Find your team](#find-your-team)
 
 </anchor-links>
-
-A solution’s quality<br>hinges directly on<br>
-<span>the diversity of the<br>team delivering it.</span>
 
 </title-block>
 
@@ -66,8 +66,8 @@ Diversity comes in many forms—your job role, your educational history, your cu
 
 ### Identity
 
-Age and Ability  
-Gender identity  
+Age and Ability
+Gender identity
 Race and ethnicity
 
 ![teams](images/user.svg)
@@ -77,8 +77,8 @@ Race and ethnicity
 
 ### Experience
 
-Cultural upbringing  
-Geography  
+Cultural upbringing
+Geography
 Language
 
 ![teams](images/globe.svg)
@@ -88,8 +88,8 @@ Language
 
 ### Expertise
 
-Education  
-Organization  
+Education
+Organization
 Discipline
 
 ![teams](images/education.svg)
@@ -170,6 +170,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 - [Service design](#service-design)
 
 </anchor-links>
+
 </column>
 </grid>
 <grid background="gray-100">
