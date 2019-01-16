@@ -4,7 +4,7 @@ title: Homepage
 
 <title-block>
 The purpose of<br>
-everything we do<br>
+everything we design<br>
 <span>is to guide the<br>
 people we serve.</span>
 </title-block>
