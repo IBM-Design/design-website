@@ -11,6 +11,7 @@
   @include type-style('body-short-02');
   color: $text-01;
   margin-bottom: 1.5rem;
+  padding-right: 9%;
 }
 
 .page-p--sm {
@@ -53,6 +54,7 @@
   //@include type-style('expressive-heading-05');
   color: $text-01;
   margin-bottom: 1.5rem;
+  padding-right: 9%;
 }
 
 .background--inverse .page-h2 {
@@ -67,6 +69,7 @@
   @include type-style('heading-03');
   color: $text-01;
   margin-bottom: 1.5rem;
+  padding-right: 9%;
 }
 
 .background--inverse .page-h3 {
@@ -81,6 +84,7 @@
   @include type-style('heading-02');
   color: $text-01;
   margin-bottom: 1.5rem;
+  padding-right: 9%;
 }
 
 .background--inverse .page-h4 {
