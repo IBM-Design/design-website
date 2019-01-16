@@ -22,12 +22,13 @@ the means.<br>
 <grid background="gray-10">
 <column lg="4">
 
-### Security
+### Quantum
 
 </column>
 
 <column lg="4" md="4">
-  <tile name="Prioritizing both easy-of-use and security" caption="medium.com" href="http://www.google.com">
+  
+  <tile name="Prioritizing both easy-of-use and security" caption="medium.com" href="#">
     <img src="images/Image_1.png" alt="" class="tile__img"/>
   </tile>
 
