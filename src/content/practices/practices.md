@@ -19,7 +19,7 @@ building bonds.</span>
 
 </title-block>
 
-<grid background="black">
+<grid background="gray-100">
 <column lg="8">
 
 <p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
@@ -28,7 +28,7 @@ building bonds.</span>
 
 </column>
 </grid>
-<grid background="black">
+<grid background="gray-100">
 <column lg="16">
 
 <hr>
@@ -42,6 +42,33 @@ building bonds.</span>
 <column lg="7">
 
 ## Principles, guidelines and ready-made assets to help you build exceptional experiences.
+
+</column>
+<column lg="2" offset_lg="4">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Gallery">
+</tile>
+
+</column>
+<column lg="2">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Elements">
+</tile>
+
+</column>
+<column lg="2">
+
+<tile
+    dark="true"
+    size="xs"
+    name="System">
+</tile>
 
 </column>
 <column lg="12" offset_lg="4">
@@ -83,7 +110,7 @@ building bonds.</span>
 
 </column>
 </grid>
-<grid background="black">
+<grid background="gray-100">
 <column lg="16">
 
 <hr>
@@ -99,6 +126,33 @@ building bonds.</span>
 ## A scalable learning approach that combines online learning with in-person activation to make design thinking stick.
 
 </column>
+<column lg="2" offset_lg="4">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Badges">
+</tile>
+
+</column>
+<column lg="2">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Toolkit">
+</tile>
+
+</column>
+<column lg="2">
+
+<tile
+    dark="true"
+    size="xs"
+    name="FAQ">
+</tile>
+
+</column>
 <column lg="12" offset_lg="4">
 
 <tile
@@ -111,7 +165,7 @@ building bonds.</span>
 
 </column>
 </grid>
-<grid background="black">
+<grid background="gray-100">
 <column lg="16">
 
 <hr>
@@ -125,6 +179,33 @@ building bonds.</span>
 <column lg="7">
 
 ## Resources and guidance to help you drive actionable user insights through observation, experience, and making.
+
+</column>
+<column lg="2" offset_lg="4">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Principles">
+</tile>
+
+</column>
+<column lg="2">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Foundation">
+</tile>
+
+</column>
+<column lg="2">
+
+<tile
+    dark="true"
+    size="xs"
+    name="Resources">
+</tile>
 
 </column>
 <column lg="12" offset_lg="4">

@@ -107,6 +107,16 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 }
 
 //----------------------------
+// XS Tile
+//----------------------------
+.tile--xs {
+  margin-left: -1rem;
+  margin-right: -15px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+//----------------------------
 // Small Tile
 //----------------------------
 .tile--sm {
@@ -114,6 +124,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   flex-direction: column;
   margin-left: -1rem;
   margin-right: -1rem;
+  margin-bottom: 1rem;
 
   @include breakpoint('md') {
     margin-right: -15px;
@@ -143,6 +154,10 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 //----------------------------
 // Medium Tile
 //----------------------------
+.tile--md {
+  margin-bottom: 1rem;
+}
+
 .tile--md .bx--tile {
   position: absolute;
   right: rem(16px);
@@ -177,6 +192,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   position: relative;
   justify-content: space-between;
   margin-left: -1rem;
+  margin-bottom: 1rem;
 }
 
 .tile--lg .tile__img {

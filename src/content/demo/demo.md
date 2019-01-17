@@ -50,7 +50,7 @@ title: Demo
 
 <tile
     size="md"
-    background="black"
+    background="gray-100"
     light="true"
     title="title"
     name="name"
@@ -122,7 +122,7 @@ title: Demo
 
 <tile
     size="xl"
-    background="black"
+    background="gray-100"
     light="true"
     title="title"
     title_secondary="title_secondary"

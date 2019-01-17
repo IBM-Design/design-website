@@ -91,6 +91,7 @@ export default class Tile extends React.Component {
     } = this.props;
 
     const classNames = classnames({
+      'tile--xs': size === 'xs',
       'tile--sm': size === 'sm',
       'tile--md': size === 'md',
       'tile--lg': size === 'lg',
@@ -223,6 +224,15 @@ export default class Tile extends React.Component {
               {clickableTile}
             </div>
           </div>
+        </div>
+      );
+    }
+
+    if (size === 'xs') {
+      return (
+        <div className={classNames} style={{ backgroundColor: background }}>
+          <div>{children}</div>
+          {clickableTile}
         </div>
       );
     }
