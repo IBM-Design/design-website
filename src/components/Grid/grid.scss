@@ -41,12 +41,12 @@
   color: $ibm-colors__white;
 }
 
-.background--black-white {
+.background--gray-white {
   padding-bottom: 0;
   margin-top: -3rem;
   background: linear-gradient(
     to bottom,
-    $ibm-colors__black 50%,
+    $ibm-colors__gray--100 50%,
     $ibm-colors__gray--10 50%
   );
 }
