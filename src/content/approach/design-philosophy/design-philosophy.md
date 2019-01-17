@@ -2,7 +2,7 @@
 title: Design philosophy
 ---
 
-<grid background="black">
+<grid background="gray-100">
 <column lg="5">
 
 ## **Design philosophy**

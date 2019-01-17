@@ -9,7 +9,7 @@ everything we do<br>
 people we serve.</span>
 </title-block>
 
-<grid background="black-white">
+<grid background="gray-white">
 <column lg="16">
 
 <iframe src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
@@ -67,10 +67,9 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 </tile>
 
 </column>
-
 <column sm="4" offset_lg="12">
 
-[View more stories](https://)
+[View more stories](/impact)
 
 </column>
 

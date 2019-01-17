@@ -91,6 +91,7 @@ export default class Tile extends React.Component {
     } = this.props;
 
     const classNames = classnames({
+      'tile--xs': size === 'xs',
       'tile--sm': size === 'sm',
       'tile--md': size === 'md',
       'tile--lg': size === 'lg',
@@ -227,6 +228,15 @@ export default class Tile extends React.Component {
       );
     }
 
+    if (size === 'xs') {
+      return (
+        <div className={classNames} style={{ backgroundColor: background }}>
+          <div>{children}</div>
+          {clickableTile}
+        </div>
+      );
+    }
+
     // Small tile is the default if no size is added
     else {
       return (
@@ -245,5 +255,5 @@ Tile.defaultProps = {
   name: 'Learn more',
   dark: 'false',
   icon: 'ArrowUpRight20',
-  title: 'Title',
+  title: '',
 };

@@ -44,6 +44,7 @@ module.exports = {
           `gatsby-remark-smartypants`,
           `gatsby-remark-component`,
           `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-unwrap-images`,
           {
             resolve: `gatsby-remark-images`,
             options: {

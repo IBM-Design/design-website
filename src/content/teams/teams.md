@@ -5,7 +5,7 @@ title: Teams
 <title-block>
 
 A solution’s quality<br>hinges directly on<br>
-<span>the diversity of the<br>team delivering it.</span>
+<span>the quality of the<br>team delivering it.</span>
 
 <anchor-links>
 
@@ -19,7 +19,7 @@ A solution’s quality<br>hinges directly on<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="10">
+<column lg="8">
 
 <p size="xl">The foundational unit of design is the
 team. Learn how we leverage diversity
@@ -192,7 +192,7 @@ Work with multi-disciplinary teams of designers, developers, offering managers a
 
 Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management
 
-<p><a href=#><span>Open roles</span> <icon color="blue" inline="true"></icon></a></p>
+<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -209,6 +209,11 @@ Types of role: visual design, UX design, user research, front-end development, c
 </column>
 </grid>
 <grid background="gray-100">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4">
 
 ### Brand and marketing
@@ -222,7 +227,7 @@ Team up with talented graphic designers, creative copywriters and some of the sh
 
 Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing
 
-<p><a href=#><span>Open roles</span> <icon color="blue" inline="true"></icon></a></p>
+<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -239,6 +244,11 @@ Types of role: graphic design, content and copywriting, front-end development, c
 </column>
 </grid>
 <grid background="gray-100">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4">
 
 ### Service Design
@@ -252,7 +262,7 @@ Work directly with clients, partnering with IBM consultants and business strateg
 
 Types of role: graphic design, content design, business strategy, user and market research, consulting
 
-<p><a href=#><span>Open roles</span> <icon color="blue" inline="true"></icon></a></p>
+<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">

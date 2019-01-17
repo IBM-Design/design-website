@@ -40,7 +40,7 @@ export default class TitleBlock extends React.Component {
     const { children } = this.props;
 
     return (
-      <div className="title-block background--black">
+      <div className="title-block background--gray-100">
         <div className="ibm--grid">
           <div className="ibm--row">
             <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">

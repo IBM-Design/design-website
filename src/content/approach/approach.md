@@ -20,7 +20,7 @@ business problems
 </title-block>
 
 <grid background="gray-10">
-<column lg="10">
+<column lg="8">
 
 <p size="xl">Whatever problem we're solving, we put
 people at the center of everything we do.
@@ -35,7 +35,7 @@ responsibility to the people we serve.</p>
 
 <tile
     size="xl"
-    background="black"
+    background="gray-100"
     title="Design Philosophy"
     title_secondary="The beliefs behind everything we do."
     description="Design is about giving people a path, both emotionally and functionally, towards their goals."
