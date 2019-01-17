@@ -44,7 +44,7 @@ building bonds.</span>
 ## Principles, guidelines and ready-made assets to help you build exceptional experiences.
 
 </column>
-<column lg="2" offset_lg="4">
+<column lg="2" md="2" offset_lg="4">
 
 <tile
     dark="true"
@@ -53,7 +53,7 @@ building bonds.</span>
 </tile>
 
 </column>
-<column lg="2">
+<column lg="2" md="2">
 
 <tile
     dark="true"
@@ -62,7 +62,7 @@ building bonds.</span>
 </tile>
 
 </column>
-<column lg="2">
+<column lg="2" md="2">
 
 <tile
     dark="true"
@@ -126,7 +126,7 @@ building bonds.</span>
 ## A scalable learning approach that combines online learning with in-person activation to make design thinking stick.
 
 </column>
-<column lg="2" offset_lg="4">
+<column lg="2" md="2" offset_lg="4">
 
 <tile
     dark="true"
@@ -135,7 +135,7 @@ building bonds.</span>
 </tile>
 
 </column>
-<column lg="2">
+<column lg="2" md="2">
 
 <tile
     dark="true"
@@ -144,7 +144,7 @@ building bonds.</span>
 </tile>
 
 </column>
-<column lg="2">
+<column lg="2" md="2">
 
 <tile
     dark="true"
@@ -181,7 +181,7 @@ building bonds.</span>
 ## Resources and guidance to help you drive actionable user insights through observation, experience, and making.
 
 </column>
-<column lg="2" offset_lg="4">
+<column lg="2" md="2" offset_lg="4">
 
 <tile
     dark="true"
@@ -190,7 +190,7 @@ building bonds.</span>
 </tile>
 
 </column>
-<column lg="2">
+<column lg="2" md="2">
 
 <tile
     dark="true"
@@ -199,7 +199,7 @@ building bonds.</span>
 </tile>
 
 </column>
-<column lg="2">
+<column lg="2" md="2" md="2">
 
 <tile
     dark="true"
