@@ -4,6 +4,11 @@ title: Practices
 
 <title-block>
 
+Spend less time<br>
+building buttons<br>
+<span>and more time<br>
+building bonds.</span>
+
 <anchor-links>
 
 - [IBM design language](#ibm-design-language)
@@ -11,11 +16,6 @@ title: Practices
 - [IBM design research](#ibm-design-research)
 
 </anchor-links>
-
-Spend less time<br>
-building buttons<br>
-<span>and more time<br>
-building bonds.</span>
 
 </title-block>
 

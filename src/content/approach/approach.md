@@ -3,6 +3,12 @@ title: Approach
 ---
 
 <title-block>
+
+The key to solving<br>
+business problems
+<span>is to focus on the
+<br>human problems.</span>
+
 <anchor-links>
 
 - [Design philosophy](#design-philosophy)
@@ -11,18 +17,13 @@ title: Approach
 
 </anchor-links>
 
-The key to solving<br>
-business problems
-<span>is to focus on the
-<br>human problems.</span>
-
 </title-block>
 
 <grid background="gray-10">
 <column lg="10">
 
-<p size="xl">Whatever problem we're solving, we put 
-people at the center of everything we do. 
+<p size="xl">Whatever problem we're solving, we put
+people at the center of everything we do.
 Design isn’t just a job; it’s a deep
 responsibility to the people we serve.</p>
 

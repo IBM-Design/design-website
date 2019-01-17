@@ -3,6 +3,7 @@
 //----------------------------
 
 .anchor-links {
+  padding-left: 0.75rem;
   .page-ul {
     position: relative;
     margin-bottom: 0;
@@ -51,10 +52,13 @@
 // Anchor Links inside TitleBlock
 //----------------------------
 .title-block .anchor-links {
-  @include breakpoint('md') {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0.8rem;
+  @include breakpoint('lg') {
     position: absolute;
     left: auto;
-    right: rem(20px);
+    right: -1.27rem;
     bottom: 2rem;
     width: 25%;
     padding: 0;

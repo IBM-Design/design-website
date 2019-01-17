@@ -97,7 +97,7 @@
 
 .page-ul,
 .page-ol {
-  margin: 0 0 6rem $spacing-lg;
+  // margin: 0 0 6rem 0.8rem;
   position: relative;
 }
 
@@ -145,7 +145,7 @@ blockquote:first-child {
     background: $ibm-colors__gray--40;
     position: absolute;
     top: -24px;
-    left: -2rem;
+    left: -1rem;
   }
 }
 
