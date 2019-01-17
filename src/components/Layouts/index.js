@@ -95,7 +95,7 @@ class Layout extends React.Component {
                   },
                 ]}>
                 <p>
-                  Have questions? Email us or open an issue in{' '}
+                  Have questions? Email us or open an issue<br /> in{' '}
                   <a
                     href="https://github.com/IBM-Design/design-website/issues/new"
                     target="_blank">
