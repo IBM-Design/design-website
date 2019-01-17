@@ -174,9 +174,17 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .tile--md .bx--tile {
   position: absolute;
-  right: rem(16px);
+  right: 0;
   bottom: 0;
-  width: 25%;
+  width: 50%;
+
+  @include breakpoint('md') {
+    width: 25%;
+  }
+
+  @include breakpoint('lg') {
+    right: rem(16px);
+  }
 }
 
 .tile__img {
