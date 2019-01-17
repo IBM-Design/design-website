@@ -27,7 +27,7 @@ const SiteHeader = ({ isExpanded, onToggle }) => {
 
   return (
     <>
-      <Header aria-label="Header">
+      <Header aria-label="Header" className="bx--header--website">
         <SkipToContent />
         <HeaderMenuButton
           aria-label="Open menu"
