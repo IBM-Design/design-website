@@ -33,8 +33,8 @@ our messages. While practical, these over-leveraged z lacked distinction; we nee
 <p size="xl">We focused on three specific groups of users as we envisioned, prototyped and iterated on the Plex typeface:</p>
 
 1. **Rank-and-file designers.** It was crucial that Plex integrated seamlessly with the components and systems our designers were already using.
-2. **Marketing practitioners.** One of the most important roles a typeface has to play 	is representing the brand to potential clients; integrating the perspectives of our marketers was critical to the development of Plex.
-3. **Events teams.** In our highly-digital world, we often forget that typefaces have to 	work in physical contexts as well. Working closely with our events teams 	helped us prototype and iterate quickly to ensure that Plex worked well in physical environments.
+2. **Marketing practitioners.** One of the most important roles a typeface has to play is representing the brand to potential clients; integrating the perspectives of our marketers was critical to the development of Plex.
+3. **Events teams.** In our highly-digital world, we often forget that typefaces have to work in physical contexts as well. Working closely with our events teams helped us prototype and iterate quickly to ensure that Plex worked well in physical environments.
 
 </column>
 <column lg="8" offset_lg="4">
@@ -85,7 +85,7 @@ our messages. While practical, these over-leveraged z lacked distinction; we nee
 <column lg="7" offset_lg="4">
 
 **Unified look and feel.** With Plex, we now have a universal font that can
-be applied to anything everything IBM does. This consistency helps build brand equity externally while simultaneously driving unity internally. 
+be applied to anything everything IBM does. This consistency helps build brand equity externally while simultaneously driving unity internally.
 
 **Instantly identifiable IBM-ness.** The use of Plex allows IBMers from across the business to create experiences that are immediately recognizable as coming from IBM. The importance of this distinctness cannot be overstates.
 
@@ -96,8 +96,8 @@ be applied to anything everything IBM does. This consistency helps build brand e
 
 > **Related links**  
 > Fusce condimentum tortor de ipsum gravida finibus. condimentum tortor at ipsum gravida finib  
-> [Link 01 →](#)   
-> [Link 02 →](#)    
+> [Link 01 →](#)  
+> [Link 02 →](#)
 
 </column>
 </grid>
