@@ -10,7 +10,7 @@ the means.<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="10">
+<column lg="8">
 
 <p size="xl">The true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.</p>
 
@@ -28,21 +28,21 @@ the means.<br>
 
 <column lg="4" md="4">
   
-  <tile name="Prioritizing both easy-of-use and security" caption="medium.com" href="#">
+  <tile name="Prioritizing both easy-of-use and security" caption="medium.com" href="/impact/template/">
     <img src="images/Image_1.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_2.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_3.png" alt="" class="tile__img"/>
   </tile>
 
@@ -51,26 +51,26 @@ the means.<br>
 <grid background="gray-10">
 <column lg="4">
 
-### Sports and Entertainment
+### Security
 
 </column>
 
 <column lg="4" md="4">
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_4.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_5.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_6.png" alt="" class="tile__img"/>
   </tile>
 
@@ -79,26 +79,26 @@ the means.<br>
 <grid background="gray-10">
 <column lg="4">
 
-### IBM Plex Typeface
+### Think
 
 </column>
 
 <column lg="4" md="4">
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_7.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_8.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_9.png" alt="" class="tile__img"/>
   </tile>
 
@@ -108,86 +108,27 @@ the means.<br>
 <grid background="gray-10">
 <column lg="4">
 
-### Quantum
+### Plex
 
-<!-- -->
 </column>
 
 <column lg="4" md="4">
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_10.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_11.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="" caption="" href="">
+  <tile name="Title" caption="source" href="/impact/template/">
     <img src="images/Image_12.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-</grid>
-
-<grid background="gray-10">
-<column lg="4">
-
-### Health
-
-<!-- -->
-</column>
-
-<column lg="4" md="4">
-  <tile name="" caption="" href="">
-    <img src="images/Image_13.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-<column lg="4" md="4">
-
-  <tile name="" caption="" href="">
-    <img src="images/Image_14.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-<column lg="4" md="4">
-
-  <tile name="" caption="" href="">
-    <img src="images/Image_15.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-</grid>
-<grid background="gray-10">
-<column lg="4">
-
-### Energy
-
-</column>
-
-<column lg="4" md="4">
-  <tile name="" caption="" href="">
-    <img src="images/Image_16.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-<column lg="4" md="4">
-
-  <tile name="" caption="" href="">
-    <img src="images/Image_17.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-<column lg="4" md="4">
-
-  <tile name="" caption="" href="">
-    <img src="images/Image_18.png" alt="" class="tile__img"/>
   </tile>
 
 </column>

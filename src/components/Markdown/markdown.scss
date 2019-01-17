@@ -150,7 +150,7 @@ blockquote:first-child {
 }
 
 blockquote .page-p {
-  @include type-style('body-long-01');
+  @include type-style('body-long-02');
   padding: 0 0 1rem 0;
 }
 
@@ -190,13 +190,4 @@ hr {
 .background--black blockquote hr,
 .background--gray-100 blockquote hr {
   border-color: $ibm-colors__white;
-}
-
-//----------------------------
-// Links
-//----------------------------
-
-.page-p a.bx--link {
-  padding-top: 2rem;
-  display: inline-block;
 }

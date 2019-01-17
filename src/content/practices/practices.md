@@ -20,7 +20,7 @@ building bonds.</span>
 </title-block>
 
 <grid background="black">
-<column lg="10">
+<column lg="8">
 
 <p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
 

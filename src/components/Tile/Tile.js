@@ -245,5 +245,5 @@ Tile.defaultProps = {
   name: 'Learn more',
   dark: 'false',
   icon: 'ArrowUpRight20',
-  title: 'Title',
+  title: '',
 };

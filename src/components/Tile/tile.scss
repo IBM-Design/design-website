@@ -176,6 +176,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 .tile--lg {
   position: relative;
   justify-content: space-between;
+  margin-left: -1rem;
 }
 
 .tile--lg .tile__img {
@@ -189,7 +190,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   right: 0;
   bottom: 0;
   position: absolute;
-  width: 33%;
+  width: 32.4%;
 }
 
 //----------------------------
