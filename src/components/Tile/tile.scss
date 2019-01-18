@@ -172,6 +172,18 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   margin-bottom: 1rem;
 }
 
+.tile--md .ibm--row {
+  flex-direction: row-reverse;
+}
+
+.tile--md .bx--aspect-ratio--2x1 {
+  padding-bottom: 100%;
+
+  @include breakpoint('md') {
+    padding-bottom: 50%;
+  }
+}
+
 .tile--md .bx--tile {
   position: absolute;
   right: 0;
@@ -189,16 +201,25 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .tile__img {
   padding: 0;
-  margin-left: -2rem;
-  width: calc(50% + 2rem);
+
+  @include breakpoint('md') {
+    margin-left: -2rem;
+    width: calc(50% + 2rem);
+  }
 }
 
 .tile--md .tile__text-container {
-  width: calc(50% + 1rem);
-  margin-right: -1rem;
+  width: 100%;
   position: relative;
   color: $ibm-colors__white;
   background: $ibm-colors__black;
+  padding-bottom: rem(80px);
+
+  @include breakpoint('lg') {
+    width: calc(50% + 1rem);
+    margin-right: -1rem;
+    padding-bottom: 0;
+  }
 }
 
 .tile--md .tile__title {

@@ -166,10 +166,10 @@ export default class Tile extends React.Component {
           id={tileId}>
           <div className="ibm--grid">
             <div className="ibm--row">
-              <div className="tile__img">{children}</div>
               <div className="tile__text-container">
                 <h2 className={titleClassNames}>{title}</h2>
               </div>
+              <div className="tile__img">{children}</div>
               {clickableTile}
             </div>
           </div>
