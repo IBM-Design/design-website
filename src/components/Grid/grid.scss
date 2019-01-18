@@ -2,8 +2,13 @@
 // Background
 //----------------------------
 .background {
-  padding-bottom: rem(80px);
-  padding-top: rem(56px);
+  padding-bottom: rem(32px);
+  padding-top: rem(32px);
+
+  @include breakpoint('lg') {
+    padding-bottom: rem(80px);
+    padding-top: rem(56px);
+  }
 }
 
 .page-content > div div.background:first-child {

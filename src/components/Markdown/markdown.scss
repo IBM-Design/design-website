@@ -135,17 +135,27 @@
 
 blockquote:first-child {
   position: relative;
-  margin-top: -6px;
+  margin-top: 2rem;
+
+  @include breakpoint('lg') {
+    margin-top: -6px;
+  }
 
   &:before {
     content: '';
     display: block;
-    width: 35%;
+    width: 20%;
     height: 1px;
     background: $ibm-colors__gray--40;
     position: absolute;
     top: -24px;
-    left: -1rem;
+    left: 0;
+
+    @include breakpoint('lg') {
+      width: 35%;
+      top: -24px;
+      left: -1rem;
+    }
   }
 }
 

@@ -82,7 +82,7 @@ Quotes will be displayed differently depending on what column they are placed in
 ```
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
-> — Amritha Prasad, Product Designer
+> Amritha Prasad, Product Designer
 ```
 
 ### Paragraph
