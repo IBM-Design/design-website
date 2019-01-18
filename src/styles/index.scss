@@ -46,3 +46,8 @@ $feature-flags: (
 @import '../components/Icon/icon.scss';
 @import '../components/Tile/tile.scss';
 @import '../components/SiteHeader/header.scss';
+
+//---------------------------------------
+// External
+//---------------------------------------
+@import './animate.css/animate';
