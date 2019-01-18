@@ -11,9 +11,9 @@ building bonds.</span>
 
 <anchor-links>
 
-- [IBM design language](#ibm-design-language)
-- [Enterprise design thinking](#enterprise-design-thinking)
-- [IBM design research](#ibm-design-research)
+- [IBM Design Language](#ibm-design-language)
+- [Enterprise Design Thinking](#enterprise-design-thinking)
+- [IBM Design Research](#ibm-design-research)
 
 </anchor-links>
 

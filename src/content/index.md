@@ -43,8 +43,8 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 <column lg="4" md="4">
 
 <tile
-    caption="Security"
-    name="Threats are at an all time low">
+    caption="impact/quantum"
+    name="IBM Q, System One">
 <img src="images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
 </tile>
 
@@ -52,8 +52,8 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 <column lg="4" md="4">
 
 <tile
-    caption="Brand"
-    name="Our typeface Plex is going global">
+    caption="impact/security"
+    name="Security Design at IBM">
 <img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
 </tile>
 
@@ -61,8 +61,8 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 <column lg="4" md="4">
 
 <tile
-    caption="Quantum"
-    name="Everything we know is about to change">
+    caption="tdc/news"
+    name="Why a 2018 Typeface Design Competition judge voted for Plex  ">
 <img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
 </tile>
 

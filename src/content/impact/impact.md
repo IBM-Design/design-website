@@ -22,56 +22,43 @@ the means.<br>
 <grid background="gray-10">
 <column lg="4">
 
-### Quantum
+### Think
 
 </column>
 
 <column lg="4" md="4">
   
-  <tile name="Prioritizing both easy-of-use and security" caption="medium.com" href="/impact/template/">
+  <tile name="Not what you expect from a tech conference" caption="impact/think" href="/impact/template/">
     <img src="images/Image_1.png" alt="" class="tile__img"/>
   </tile>
 
 </column>
-<column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_2.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
-<column lg="4" md="4">
-
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_3.png" alt="" class="tile__img"/>
-  </tile>
-
-</column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
 
-### Security
+### Quantum
 
 </column>
 
 <column lg="4" md="4">
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_4.png" alt="" class="tile__img"/>
+  <tile name="IBM Q, System One" caption="impact/quantum" href="/impact/template/">
+    <img src="images/Image_2.png" alt="quantum computer" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_5.png" alt="" class="tile__img"/>
+  <tile name="Glimpses of an actual quantum computer" caption="fossbytes" href="/impact/template/">
+    <img src="images/Image_3.png" alt="two people examing quantum-ness" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_6.png" alt="" class="tile__img"/>
+  <tile name="This mobile app teaches quantum computing through a puzzle game" caption="thenextweb" href="/impact/template/">
+    <img src="images/Image_4.png" alt="quantum puzzle game" class="tile__img"/>
   </tile>
 
 </column>
@@ -84,22 +71,22 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_7.png" alt="" class="tile__img"/>
+  <tile name="Security Design at IBM" caption="impact/security" href="/impact/template/">
+    <img src="images/Image_5.png" alt="Purple gradient" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_8.png" alt="" class="tile__img"/>
+  <tile name="Using data visualization to spot cyber threats" caption="quartz" href="/impact/template/">
+    <img src="images/Image_6.png" alt="circles on a blackground" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_9.png" alt="" class="tile__img"/>
+  <tile name="X-Force Command takes their immersive cybersecurity training on the road" caption="nytimes" href="/impact/template/">
+    <img src="images/Image_7.png" alt="xforce dashboard" class="tile__img"/>
   </tile>
 
 </column>
@@ -113,22 +100,22 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_10.png" alt="" class="tile__img"/>
+  <tile name="A typeface with a story" caption="impact/plex" href="/impact/template/">
+    <img src="images/Image_8.png" alt="Plex" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_11.png" alt="" class="tile__img"/>
+  <tile name="Why a 2018 Typeface Design Competition judge voted for Plex" caption="tdc/news" href="/impact/template/">
+    <img src="images/Image_9.png" alt="Random white glyphs on a black background" class="tile__img"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Title" caption="source" href="/impact/template/">
-    <img src="images/Image_12.png" alt="" class="tile__img"/>
+  <tile name="The business case for our open source font" caption="source" href="/impact/template/">
+    <img src="images/Image_10.png" alt="Mike looking at Plex on a table" class="tile__img"/>
   </tile>
 
 </column>

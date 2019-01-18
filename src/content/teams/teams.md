@@ -165,8 +165,8 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 
 <anchor-links>
 
-- [Product and digital](#product-and-digital)
-- [Brand and marketing](#brand-and-marketing)
+- [Product and Digital](#product-and-digital)
+- [Brand and Marketing](#brand-and-marketing)
 - [Service design](#service-design)
 
 </anchor-links>
@@ -190,7 +190,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 
 Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design (and, at times, redesign) some of IBM’s most foundational products and webpages.
 
-Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management
+Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management.
 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
@@ -225,7 +225,7 @@ Types of role: visual design, UX design, user research, front-end development, c
 
 Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to help sharpen and promote IBM’s brand identity.
 
-Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing
+Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing.
 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
@@ -260,7 +260,7 @@ Types of role: graphic design, content and copywriting, front-end development, c
 
 Work directly with clients, partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.
 
-Types of role: graphic design, content design, business strategy, user and market research, consulting
+Types of role: graphic design, content design, business strategy, user and market research, consulting.
 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 

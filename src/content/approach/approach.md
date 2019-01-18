@@ -35,7 +35,7 @@ responsibility to the people we serve.</p>
 
 <tile
     size="xl"
-    background="gray-100"
+    background="#121212"
     title="Design Philosophy"
     title_secondary="The beliefs behind everything we do."
     description="Design is about giving people a path, both emotionally and functionally, towards their goals."
