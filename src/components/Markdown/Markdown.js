@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import Fade from 'react-reveal/Fade';
 
 export class p extends React.Component {
   static propTypes = {
@@ -20,7 +21,11 @@ export class p extends React.Component {
       'bx--type-expressive-paragraph-01': size === 'xl',
     });
 
-    return <p className={classNames}>{children}</p>;
+    return (
+      <Fade bottom distance="25%">
+        <p className={classNames}>{children}</p>
+      </Fade>
+    );
   }
 }
 
@@ -54,7 +59,11 @@ export class a extends React.Component {
 
 export class h1 extends React.Component {
   render() {
-    return <h1 className="page-h1">{this.props.children}</h1>;
+    return (
+      <Fade bottom distance="25%">
+        <h1 className="page-h1">{this.props.children}</h1>
+      </Fade>
+    );
   }
 }
 
@@ -69,9 +78,11 @@ export class h2 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <h2 className="page-h2 bx--type-expressive-heading-04" id={hash}>
-        {this.props.children}
-      </h2>
+      <Fade bottom distance="25%">
+        <h2 className="page-h2 bx--type-expressive-heading-04" id={hash}>
+          {this.props.children}
+        </h2>
+      </Fade>
     );
   }
 }
@@ -87,9 +98,11 @@ export class h3 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <h3 className="page-h3" id={hash}>
-        {this.props.children}
-      </h3>
+      <Fade bottom distance="25%">
+        <h3 className="page-h3" id={hash}>
+          {this.props.children}
+        </h3>
+      </Fade>
     );
   }
 }
@@ -106,16 +119,22 @@ export class h4 extends React.Component {
             .join('-');
 
     return (
-      <h4 className="page-h4" id={hash}>
-        {this.props.children}
-      </h4>
+      <Fade bottom distance="25%">
+        <h4 className="page-h4" id={hash}>
+          {this.props.children}
+        </h4>
+      </Fade>
     );
   }
 }
 
 export class h5 extends React.Component {
   render() {
-    return <h5 className="page-h5">{this.props.children}</h5>;
+    return (
+      <Fade bottom distance="25%">
+        <h5 className="page-h5">{this.props.children}</h5>
+      </Fade>
+    );
   }
 }
 

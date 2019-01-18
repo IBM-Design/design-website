@@ -4,7 +4,6 @@ import classnames from 'classnames';
 import { ClickableTile } from 'carbon-components-react';
 import { ArrowRight16, ArrowUpRight20 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
-// import { Animated } from 'react-animated-css';
 
 export default class Tile extends React.Component {
   static propTypes = {

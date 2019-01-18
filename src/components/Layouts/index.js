@@ -70,10 +70,7 @@ class Layout extends React.Component {
                 },
               ]}>
               <html lang="en" />
-              <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-              />
+              <link rel="stylesheet" href="animate.min.css" />
             </Helmet>
             <SiteHeader isExpanded={isExpanded} onToggle={this.toggleClick} />
             <div className="container" onClick={this.closeClick}>
@@ -99,7 +96,8 @@ class Layout extends React.Component {
                   },
                 ]}>
                 <p>
-                  Have questions? Email us or open an issue<br /> in{' '}
+                  Have questions? Email us or open an issue
+                  <br /> in{' '}
                   <a
                     href="https://github.com/IBM-Design/design-website/issues/new"
                     target="_blank">
