@@ -221,9 +221,7 @@ export default class Tile extends React.Component {
                   <p className={descClassName}>{description}</p>
                 ) : null}
               </section>
-              <div className="tile__img ibm--offset-lg-3 ibm--col-lg-8">
-                {children}
-              </div>
+              <div className="tile__img ibm--col-lg-11">{children}</div>
               {clickableTile}
             </div>
           </div>

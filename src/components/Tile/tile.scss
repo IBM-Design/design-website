@@ -293,6 +293,9 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   margin: 2rem 0;
 
   @include breakpoint('lg') {
+    display: flex;
+    justify-content: flex-end;
+
     img {
       position: relative;
       right: -48px;
