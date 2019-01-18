@@ -156,7 +156,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 ![](images/Image_3.png)
 
 <p size="sm"><strong><br>Design services</strong><br>
-Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
+Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 <column lg="4">
@@ -164,7 +164,7 @@ Let’s define your strategy, create exceptional experiences, and drive better b
 ![](images/Image_4.png)
 
 <p size="sm"><strong><br>Design philosphy</strong><br>
-The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br><a href="/approach/design-philosophy">Learn more</a></p>
+The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br><br><a href="/approach/design-philosophy">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 </grid>
