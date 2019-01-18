@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { ClickableTile } from 'carbon-components-react';
 import { ArrowRight16, ArrowUpRight20 } from '@carbon/icons-react';
+import Fade from 'react-reveal/Fade';
 
 export default class Tile extends React.Component {
   static propTypes = {
@@ -178,26 +179,28 @@ export default class Tile extends React.Component {
 
     if (size === 'lg') {
       return (
-        <div
-          className={classNames}
-          style={{ backgroundColor: background }}
-          id={tileId}>
-          <div className="ibm--grid">
-            <div className="ibm--row">
-              <section className="tile__text-container ibm--col-lg-4">
-                <h2 className={titleClassNames}>{title}</h2>
-                {title_secondary ? (
-                  <h2 className={titleTwoClassNames}>{title_secondary}</h2>
-                ) : null}
-                {description ? (
-                  <p className={descClassName}>{description}</p>
-                ) : null}
-              </section>
-              <div className="tile__img">{children}</div>
-              {clickableTile}
+        <Fade bottom distance="10%">
+          <div
+            className={classNames}
+            style={{ backgroundColor: background }}
+            id={tileId}>
+            <div className="ibm--grid">
+              <div className="ibm--row">
+                <section className="tile__text-container ibm--col-lg-4">
+                  <h2 className={titleClassNames}>{title}</h2>
+                  {title_secondary ? (
+                    <h2 className={titleTwoClassNames}>{title_secondary}</h2>
+                  ) : null}
+                  {description ? (
+                    <p className={descClassName}>{description}</p>
+                  ) : null}
+                </section>
+                <div className="tile__img">{children}</div>
+                {clickableTile}
+              </div>
             </div>
           </div>
-        </div>
+        </Fade>
       );
     }
 
@@ -230,20 +233,24 @@ export default class Tile extends React.Component {
 
     if (size === 'xs') {
       return (
-        <div className={classNames} style={{ backgroundColor: background }}>
-          <div>{children}</div>
-          {clickableTile}
-        </div>
+        <Fade bottom distance="10%">
+          <div className={classNames} style={{ backgroundColor: background }}>
+            <div>{children}</div>
+            {clickableTile}
+          </div>
+        </Fade>
       );
     }
 
     // Small tile is the default if no size is added
     else {
       return (
-        <div className={classNames} style={{ backgroundColor: background }}>
-          <div>{children}</div>
-          {clickableTile}
-        </div>
+        <Fade bottom distance="10%">
+          <div className={classNames} style={{ backgroundColor: background }}>
+            <div>{children}</div>
+            {clickableTile}
+          </div>
+        </Fade>
       );
     }
   }
