@@ -22,6 +22,7 @@ Given our scale and scope, ‘good design’ is not only a requirement, it’s a
 <column lg="7" offset_lg="4">
 
 <h2>Design is how <br>we <em>build</em> bonds.</h2>
+
 Today, the talent, techniques, thinking and tools of design, like technology, have become more and more abundant and accessible to all alike.
 
 </column>
@@ -99,8 +100,8 @@ Like our brand values, our design ethos must be palpable in everything we produc
 ![](images/Image_3.png)
 
 <p size="sm"><br><strong>Design thinking</strong><br>
-Get familiar with how to apply the framework that drives how we think and work every day.<br>
-<a href="/approach/design-thinking">Learn more</a></p>
+Get familiar with how to apply the framework that drives how we think and work every day.<br><br>
+<a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 <column lg="4">
@@ -108,7 +109,7 @@ Get familiar with how to apply the framework that drives how we think and work e
 ![](images/Image_4.png)
 
 <p size="sm"><br><strong>Design services</strong><br>
-Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><a href="/approach/design-services">Learn more</a></p>
+Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 </grid>

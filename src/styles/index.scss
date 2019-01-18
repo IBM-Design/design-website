@@ -51,3 +51,12 @@ $feature-flags: (
 // External
 //---------------------------------------
 @import './animate.css/animate';
+
+//remove this when updating add-on footer component
+.bx--website-footer__content.ibm--col-lg-5.ibm--col-md-4.ibm--offset-lg-2 {
+  @include breakpoint('lg') {
+    margin-left: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

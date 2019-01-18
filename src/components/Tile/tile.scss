@@ -142,6 +142,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
   @include breakpoint('md') {
     margin-right: -15px;
+    margin-bottom: 2rem;
   }
   @include breakpoint('lg') {
     margin-right: 0px;
@@ -172,6 +173,18 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   margin-bottom: 1rem;
 }
 
+.tile--md .ibm--row {
+  flex-direction: row-reverse;
+}
+
+.tile--md .bx--aspect-ratio--2x1 {
+  padding-bottom: 100%;
+
+  @include breakpoint('md') {
+    padding-bottom: 50%;
+  }
+}
+
 .tile--md .bx--tile {
   position: absolute;
   right: 0;
@@ -189,16 +202,25 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .tile__img {
   padding: 0;
-  margin-left: -2rem;
-  width: calc(50% + 2rem);
+
+  @include breakpoint('md') {
+    margin-left: -2rem;
+    width: calc(50% + 2rem);
+  }
 }
 
 .tile--md .tile__text-container {
-  width: calc(50% + 1rem);
-  margin-right: -1rem;
+  width: 100%;
   position: relative;
   color: $ibm-colors__white;
   background: $ibm-colors__black;
+  padding-bottom: rem(80px);
+
+  @include breakpoint('lg') {
+    width: calc(50% + 1rem);
+    margin-right: -1rem;
+    padding-bottom: 0;
+  }
 }
 
 .tile--md .tile__title {
@@ -253,41 +275,53 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 //----------------------------
 
 .tile--xl {
-  margin-bottom: rem(30px);
-}
-
-.tile--xl,
-.tile--xl .ibm--grid,
-.tile--xl .ibm--row {
-  min-height: 550px;
+  @include breakpoint('md') {
+    margin-bottom: rem(30px);
+  }
 }
 
 .tile--xl a.bx--tile {
   bottom: 0;
+  right: 0;
   position: absolute;
+  width: 50%;
 
   @include breakpoint('lg') {
     right: 1rem;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+  }
+}
+
+.tile--xl .bx--aspect-ratio--2x1 {
+  padding-bottom: 100%;
+
+  @include breakpoint('md') {
+    padding-bottom: 50%;
   }
 }
 
 .tile--xl .tile__text-container {
-  padding-top: rem(64px);
-}
+  padding-top: rem(32px);
 
-.tile--xl .bx--tile {
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  width: 25%;
+  @include breakpoint('lg') {
+    padding-top: rem(64px);
+  }
 }
 
 .tile--xl .tile__img {
   height: 100%;
+  margin: 2rem 0;
 
-  img {
-    position: relative;
-    right: -48px;
-    height: 100%;
+  @include breakpoint('lg') {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      position: relative;
+      right: -48px;
+      height: 100%;
+    }
   }
 }

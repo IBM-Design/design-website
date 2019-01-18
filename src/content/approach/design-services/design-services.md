@@ -143,8 +143,8 @@ better business."
 ![](images/Image_3.png)
 
 <p size="sm"><br><strong>Design Philosophy</strong><br>
-The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br>
-<a href="/approach/design-thinking">Learn more</a></p>
+The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br><br>
+<a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 <column lg="4">
@@ -152,7 +152,7 @@ The beliefs behind everything we do. Design is about moving people forward, both
 ![](images/Image_4.png)
 
 <p size="sm"><br><strong>Design Thinking</strong><br>
-Get familiar with how to apply the framework that drives how we think and work every day. <br><a href="/approach/design-services">Learn more</a></p>
+Get familiar with how to apply the framework that drives how we think and work every day. <br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 </grid>
