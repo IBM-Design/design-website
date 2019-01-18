@@ -22,6 +22,7 @@ Given our scale and scope, ‘good design’ is not only a requirement, it’s a
 <column lg="7" offset_lg="4">
 
 <h2>Design is how <br>we <em>build</em> bonds.</h2>
+
 Today, the talent, techniques, thinking and tools of design, like technology, have become more and more abundant and accessible to all alike.
 
 </column>
