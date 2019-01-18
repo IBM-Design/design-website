@@ -142,6 +142,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
   @include breakpoint('md') {
     margin-right: -15px;
+    margin-bottom: 2rem;
   }
   @include breakpoint('lg') {
     margin-right: 0px;

@@ -59,12 +59,17 @@ export class Column extends React.Component {
      * Specify a left border
      */
     border: PropTypes.string,
+    /**
+     * Specify a text align, default is left
+     */
+    text_align: PropTypes.string,
   };
 
   render() {
-    const { children, sm, md, lg, offset_lg, border } = this.props;
+    const { children, sm, md, lg, offset_lg, border, text_align } = this.props;
     let classNames = '';
     if (border) classNames += `ibm--col-border `;
+    if (text_align === 'right') classNames += `ibm--col-right `;
     if (lg) classNames += `ibm--col-lg-${lg} `;
     if (md) classNames += `ibm--col-md-${md} `;
     if (sm) classNames += `ibm--col-sm-${sm} `;
