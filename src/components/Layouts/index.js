@@ -70,6 +70,10 @@ class Layout extends React.Component {
                 },
               ]}>
               <html lang="en" />
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+              />
             </Helmet>
             <SiteHeader isExpanded={isExpanded} onToggle={this.toggleClick} />
             <div className="container" onClick={this.closeClick}>
