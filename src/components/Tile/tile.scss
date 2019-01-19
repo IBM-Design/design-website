@@ -109,6 +109,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
   @include breakpoint('md') {
     display: block;
+    margin-left: -1rem;
   }
 }
 
