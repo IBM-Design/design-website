@@ -104,7 +104,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 // Tile inside 4
 //----------------------------
 .ibm--col-lg-4 .tile {
-  margin-top: rem(32px);
+  margin-bottom: rem(32px);
   display: flex;
 
   @include breakpoint('md') {
@@ -129,7 +129,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 .ibm--col-lg-16 {
   .tile {
     @include breakpoint('md') {
-      margin: 0;
+      margin: 0 0 0 -1rem;
     }
   }
 
@@ -154,9 +154,11 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 }
 
 .ibm--col-lg-12 {
+  margin-bottom: rem(32px);
+
   @include breakpoint('lg') {
     a.bx--tile {
-      width: 30.99%;
+      width: 32%;
     }
   }
 }
