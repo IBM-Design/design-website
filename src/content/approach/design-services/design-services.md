@@ -121,18 +121,19 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 
 </column>
 </grid>
+<grid background="gray-10">
+<column lg="16">
 
 <tile
-  size="md"
-  background="#E7E7E7"
-  title="Learn how you can 
-partner with us to build
-better business."
-  name="IBM iX">
+    href="#"
+    title="IBM iX"
+    feature="true"
+    feature_heading="Learn how you can partner with us to build better business."
+    feature_background="black">
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
-<grid background="gray-10">
+</column>
 <column lg="8">
 
 <h3>Keep exploring<br>our approach</h3>

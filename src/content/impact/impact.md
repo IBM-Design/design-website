@@ -26,10 +26,10 @@ the means.<br>
 
 </column>
 
-<column lg="4" md="4">
+<column lg="12">
   
   <tile name="Not what you expect from a tech conference" caption="impact/think" href="/impact/template/">
-    <img src="images/Image_1.png" alt="" class="tile__img"/>
+    <img src="images/Image_1.png" alt=""/>
   </tile>
 
 </column>
@@ -43,22 +43,22 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile name="IBM Q, System One" caption="impact/quantum" href="/impact/template/">
-    <img src="images/Image_2.png" alt="quantum computer" class="tile__img"/>
+  <tile name="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
+    <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="Glimpses of an actual quantum computer" caption="fossbytes" href="/impact/template/">
-    <img src="images/Image_3.png" alt="two people examing quantum-ness" class="tile__img"/>
+    <img src="images/Image_3.png" alt="two people examing quantum-ness"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="This mobile app teaches quantum computing through a puzzle game" caption="thenextweb" href="/impact/template/">
-    <img src="images/Image_4.png" alt="quantum puzzle game" class="tile__img"/>
+    <img src="images/Image_4.png" alt="quantum puzzle game"/>
   </tile>
 
 </column>
@@ -72,21 +72,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="Security Design at IBM" caption="impact/security" href="/impact/template/">
-    <img src="images/Image_5.png" alt="Purple gradient" class="tile__img"/>
+    <img src="images/Image_5.png" alt="Purple gradient"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="Using data visualization to spot cyber threats" caption="quartz" href="/impact/template/">
-    <img src="images/Image_6.png" alt="circles on a blackground" class="tile__img"/>
+    <img src="images/Image_6.png" alt="circles on a blackground"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="X-Force Command takes their immersive cybersecurity training on the road" caption="nytimes" href="/impact/template/">
-    <img src="images/Image_7.png" alt="xforce dashboard" class="tile__img"/>
+    <img src="images/Image_7.png" alt="xforce dashboard"/>
   </tile>
 
 </column>
@@ -101,21 +101,21 @@ the means.<br>
 
 <column lg="4" md="4">
   <tile name="A typeface with a story" caption="impact/plex" href="/impact/template/">
-    <img src="images/Image_8.png" alt="Plex" class="tile__img"/>
+    <img src="images/Image_8.png" alt="Plex"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="Why a 2018 Typeface Design Competition judge voted for Plex" caption="tdc/news" href="/impact/template/">
-    <img src="images/Image_9.png" alt="Random white glyphs on a black background" class="tile__img"/>
+    <img src="images/Image_9.png" alt="Random white glyphs on a black background"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
   <tile name="The business case for our open source font" caption="source" href="/impact/template/">
-    <img src="images/Image_10.png" alt="Mike looking at Plex on a table" class="tile__img"/>
+    <img src="images/Image_10.png" alt="Mike looking at Plex on a table"/>
   </tile>
 
 </column>

@@ -38,7 +38,7 @@
 
 .background--inverse .page-p,
 .background--inverse .page-p--xl {
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 // Paragraph immediatly following title block. Removes top padding
@@ -58,7 +58,7 @@
 }
 
 .background--inverse .page-h2 {
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 //----------------------------
@@ -73,7 +73,7 @@
 }
 
 .background--inverse .page-h3 {
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 //----------------------------
@@ -88,7 +88,7 @@
 }
 
 .background--inverse .page-h4 {
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 //----------------------------
@@ -126,7 +126,7 @@
 
 .background--inverse .page-ul > li,
 .background--inverse .page-ol > li {
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 //----------------------------
@@ -199,5 +199,5 @@ hr {
 
 .background--black blockquote hr,
 .background--gray-100 blockquote hr {
-  border-color: $ibm-colors__white;
+  border-color: $ibm-colors__gray--10;
 }
