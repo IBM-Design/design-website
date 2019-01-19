@@ -14,7 +14,7 @@ the means.<br>
 
 <p size="xl">The true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.</p>
 
-<icon name="ArrowDown32"></icon>
+<icon title="ArrowDown32"></icon>
 
 </column>
 </grid>
@@ -28,7 +28,7 @@ the means.<br>
 
 <column lg="12">
   
-  <tile name="Not what you expect from a tech conference" caption="impact/think" href="/impact/template/">
+  <tile title="Not what you expect from a tech conference" caption="impact/think" href="/impact/template/">
     <img src="images/Image_1.png" alt=""/>
   </tile>
 
@@ -36,28 +36,28 @@ the means.<br>
 
 </grid>
 <grid background="gray-10">
-<column lg="4">
+<column lg="4" md="4">
 
 ### Quantum
 
 </column>
 
-<column lg="4" md="4">
-  <tile name="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
+<column lg="4"  md="4">
+  <tile title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
     <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 
 </column>
-<column lg="4" md="4">
+<column lg="4"  md="4">
 
-  <tile name="Glimpses of an actual quantum computer" caption="fossbytes" href="/impact/template/">
+  <tile title="Glimpses of an actual quantum computer" caption="fossbytes" href="/impact/template/">
     <img src="images/Image_3.png" alt="two people examing quantum-ness"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="This mobile app teaches quantum computing through a puzzle game" caption="thenextweb" href="/impact/template/">
+  <tile title="This mobile app teaches quantum computing through a puzzle game" caption="thenextweb" href="/impact/template/">
     <img src="images/Image_4.png" alt="quantum puzzle game"/>
   </tile>
 
@@ -71,21 +71,21 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile name="Security Design at IBM" caption="impact/security" href="/impact/template/">
+  <tile title="Security Design at IBM" caption="impact/security" href="/impact/template/">
     <img src="images/Image_5.png" alt="Purple gradient"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Using data visualization to spot cyber threats" caption="quartz" href="/impact/template/">
+  <tile title="Using data visualization to spot cyber threats" caption="quartz" href="/impact/template/">
     <img src="images/Image_6.png" alt="circles on a blackground"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="X-Force Command takes their immersive cybersecurity training on the road" caption="nytimes" href="/impact/template/">
+  <tile title="X-Force Command takes their immersive cybersecurity training on the road" caption="nytimes" href="/impact/template/">
     <img src="images/Image_7.png" alt="xforce dashboard"/>
   </tile>
 
@@ -100,21 +100,21 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile name="A typeface with a story" caption="impact/plex" href="/impact/template/">
+  <tile title="A typeface with a story" caption="impact/plex" href="/impact/template/">
     <img src="images/Image_8.png" alt="Plex"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="Why a 2018 Typeface Design Competition judge voted for Plex" caption="tdc/news" href="/impact/template/">
+  <tile title="Why a 2018 Typeface Design Competition judge voted for Plex" caption="tdc/news" href="/impact/template/">
     <img src="images/Image_9.png" alt="Random white glyphs on a black background"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile name="The business case for our open source font" caption="source" href="/impact/template/">
+  <tile title="The business case for our open source font" caption="source" href="/impact/template/">
     <img src="images/Image_10.png" alt="Mike looking at Plex on a table"/>
   </tile>
 

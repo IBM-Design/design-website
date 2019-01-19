@@ -7,6 +7,7 @@
   position: relative;
 
   @include breakpoint('md') {
+    display: block;
     margin-left: 0;
     margin-right: 0;
   }
@@ -54,6 +55,14 @@ a.bx--tile {
   height: 20px;
 }
 
+.tile__img {
+  min-width: 50%;
+
+  @include breakpoint('md') {
+    width: 100%;
+  }
+}
+
 .tile__img img {
   width: 100%;
 }
@@ -96,6 +105,19 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 //----------------------------
 .ibm--col-lg-4 .tile {
   margin-top: rem(32px);
+  display: flex;
+
+  @include breakpoint('md') {
+    display: block;
+  }
+}
+
+.ibm--col-lg-4 a.bx--tile {
+  width: 50%;
+
+  @include breakpoint('md') {
+    width: 100%;
+  }
 }
 
 //----------------------------

@@ -87,7 +87,7 @@ towards their goals.
 
 </column>
 
-<column lg="4" sm="2">
+<column lg="4">
 
 <tile
     caption="caption"
@@ -97,7 +97,7 @@ towards their goals.
 </tile>
 
 </column>
-<column lg="4" sm="2">
+<column lg="4">
 
 <tile
     caption="caption"
@@ -108,7 +108,7 @@ towards their goals.
 </tile>
 
 </column>
-<column lg="4" sm="2">
+<column lg="4">
 
 <tile
     caption="caption"
