@@ -21,7 +21,7 @@ people we serve.</span>
 <column lg="8">
 
 <p size="xl">When we blend human-centered design
-with time-tested business acumen and deep domain expertise, the results speak for themselves.</p>
+with time-tested business acumen, the results speak for themselves.</p>
 
 <icon name="ArrowDown32"></icon>
 
@@ -69,7 +69,7 @@ with time-tested business acumen and deep domain expertise, the results speak fo
 </column>
 <column lg="4" offset_lg="12" text_align="right">
 
-[View more stories](/impact)
+[View more](/impact)
 
 </column>
 
