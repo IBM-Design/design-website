@@ -84,7 +84,7 @@ By constantly immersing ourselves in the worlds of our users, we ensure that our
 ### Reflect
 
 Different people can interpret the same situation in very different ways. 
-
+<br><br>
 Coming together to Reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
 
 ![](images/think_3circles.svg)
