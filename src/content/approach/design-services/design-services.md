@@ -127,14 +127,12 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 <column lg="16">
 
 <tile
-
     href="#"
     title="IBM iX"
     feature="true"
     feature_heading="Partner with us to build
     better experiences for your clients and users."
     feature_background="black">
-
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
