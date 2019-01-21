@@ -73,7 +73,7 @@ _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dyn
 ### Observe
 
 To drive meaningful outcomes for our users, we must first gain a deep understanding of the challenges they face. 
-
+<br><br>
 By constantly immersing ourselves in the worlds of our users, we ensure that our solutions always address real-world needs.
 
 ![](images/think.svg)
@@ -95,7 +95,7 @@ Coming together to Reflect on our observations helps us synthesize and analyze f
 ### Make
 
 The only way to see an outcome is to make one – even if the idea isn’t fully baked yet. 
-
+<br><br>
 Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses quickly and cheaply. The end result: solutions that are robust, effective, and battle-tested.
 
 ![](images/think_circle.svg)
