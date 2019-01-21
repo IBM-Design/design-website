@@ -72,7 +72,7 @@ _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dyn
 
 ### Observe
 
-To drive meaningful outcomes for our users, we must first gain a deep understanding of the challenges they face. 
+To drive meaningful outcomes for our users, we must first gain a deep understanding of the challenges they face.
 <br><br>
 By constantly immersing ourselves in the worlds of our users, we ensure that our solutions always address real-world needs.
 
@@ -83,7 +83,7 @@ By constantly immersing ourselves in the worlds of our users, we ensure that our
 
 ### Reflect
 
-Different people can interpret the same situation in very different ways. 
+Different people can interpret the same situation in very different ways.
 <br><br>
 Coming together to Reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
 
@@ -94,7 +94,7 @@ Coming together to Reflect on our observations helps us synthesize and analyze f
 
 ### Make
 
-The only way to see an outcome is to make one – even if the idea isn’t fully baked yet. 
+The only way to see an outcome is to make one – even if the idea isn’t fully baked yet.
 <br><br>
 Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses quickly and cheaply. The end result: solutions that are robust, effective, and battle-tested.
 
@@ -151,7 +151,6 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
     feature="true"
     feature_heading="Explore our platform and start driving outcomes for your business."
     feature_background="black">
-
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
