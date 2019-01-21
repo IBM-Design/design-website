@@ -4,10 +4,10 @@ title: Practices
 
 <title-block>
 
-Spend less time<br>
-building buttons<br>
-<span>and more time<br>
-building bonds.</span>
+The strongest<br>
+bonds are formed<br>
+<span>when aesthetic<br>
+meets pragmatic.</span>
 
 <anchor-links>
 
