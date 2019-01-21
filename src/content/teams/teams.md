@@ -5,12 +5,12 @@ title: Teams
 <title-block>
 
 A solution’s quality<br>hinges directly on<br>
-<span>the quality of the<br>team delivering it.</span>
+<span>the qualities of the<br>team delivering it.</span>
 
 <anchor-links>
 
 - [Diverse](#diverse)
-- [Business-embedded](#business-embeddedg)
+- [Embedded](#embedded)
 - [Co-creators](#co-creators)
 - [Find your team](#find-your-team)
 
@@ -23,8 +23,7 @@ A solution’s quality<br>hinges directly on<br>
 
 <p size="xl">The foundational unit of design is the
 team. Learn how we leverage diversity
-to strengthen our teams and explore
-the types of roles we hire for.</p>
+to strengthen our teams and deliver meaningful outcomes.</p>
 
 <icon name="ArrowDown32"></icon>
 
@@ -43,11 +42,11 @@ the types of roles we hire for.</p>
 </column>
 <column lg="8">
 
-## Complex, multi-faceted challenges demand complex, multi-faceted teams.
+## Complex, multi-faceted challenges demand diverse, multi-talented teams.
 
 When tackling complex problems at scale, we rely on the strength of Diverse Multidisciplinary Teams to envision and execute on solutions that generate value for both our users and our clients.
 
-Diversity comes in many forms—your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
+Diversity comes in many forms: your job role, your educational history, your cultural background — all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
 <column lg="12" offset_lg="4">
@@ -66,7 +65,7 @@ Diversity comes in many forms—your job role, your educational history, your cu
 
 ### Identity
 
-Age and Ability  
+Age and ability  
 Gender identity  
 Race and ethnicity
 
@@ -99,7 +98,7 @@ Discipline
 <grid background="gray-10">
 <column lg="4">
 
-### Business-embedded
+### Embedded
 
 </column>
 <column lg="8">
@@ -157,6 +156,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 <column lg="7">
 
 <p size="xl"><strong>Find your team</strong><br>Ready to become part of the single-largest design initiative in the world?
+  
 We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways Design is practiced across IBM.</p>
 
 </column>
@@ -165,9 +165,9 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 
 <anchor-links>
 
-- [Product and Digital](#product-and-digital)
-- [Brand and Marketing](#brand-and-marketing)
-- [Service design](#service-design)
+- [Product](#product)
+- [Brand](#brand)
+- [Services](#services)
 
 </anchor-links>
 
@@ -181,16 +181,16 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 </column>
 <column lg="4">
 
-### Product and digital
+### Product
 
 </column>
 <column lg="8">
 
 ## Are you passionate about designing great software and digital experiences?
 
-Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design (and, at times, redesign) some of IBM’s most foundational products and webpages.
+Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design some of IBM’s most foundational products and webpages.
 
-Types of role: visual design, UX design, user research, front-end development, content design and strategy, offering management.
+Types of roles: visual design, UX design, user research, front-end development, content design and strategy, offering management
 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
@@ -216,16 +216,16 @@ Types of role: visual design, UX design, user research, front-end development, c
 </column>
 <column lg="4">
 
-### Brand and marketing
+### Brand
 
 </column>
 <column lg="8">
 
 ## Do you get excited by the idea of influencing how one of the world’s largest and most storied companies shows up in the world?
 
-Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to help sharpen and promote IBM’s brand identity.
+Team up with talented graphic designers, creative copywriters and some of the sharpest marketing minds out there to build and promote IBM’s brand identity.
 
-Types of role: graphic design, content and copywriting, front-end development, communications, PR, marketing.
+Types of roles: graphic design, content and copywriting, front-end development, communications, PR, marketing
 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
@@ -251,7 +251,7 @@ Types of role: graphic design, content and copywriting, front-end development, c
 </column>
 <column lg="4">
 
-### Service Design
+### Services
 
 </column>
 <column lg="8">
@@ -260,7 +260,7 @@ Types of role: graphic design, content and copywriting, front-end development, c
 
 Work directly with clients, partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.
 
-Types of role: graphic design, content design, business strategy, user and market research, consulting.
+Types of role: graphic design, content design, business strategy, user and market research, consulting
 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
