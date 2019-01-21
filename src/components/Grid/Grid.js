@@ -6,13 +6,19 @@ export class Grid extends React.Component {
   static propTypes = {
     children: PropTypes.node,
     background: PropTypes.string,
+
+    /**
+     * Default to true, set to false to remove grid spacinng
+     */
+    margin: PropTypes.string,
   };
 
   render() {
-    const { children, background } = this.props;
+    const { children, background, margin } = this.props;
 
     const classNames = classnames({
       background: true,
+      'background--nomargin': margin === 'false',
       'background--black': background === 'black',
       'background--white': background === 'white',
       'background--gray-10': background === 'gray-10',

@@ -44,8 +44,8 @@ with time-tested business acumen, the results speak for themselves.</p>
 
 <tile
     caption="impact/quantum"
-    name="IBM Q, System One">
-<img src="images/Image_1.png" alt="A laptop showing security analytics" class="tile__img"/>
+    title="IBM Q, System One">
+<img src="images/Image_1.png" alt="A laptop showing security analytics"/>
 </tile>
 
 </column>
@@ -53,8 +53,8 @@ with time-tested business acumen, the results speak for themselves.</p>
 
 <tile
     caption="impact/security"
-    name="Security Design at IBM">
-<img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
+    title="Security Design at IBM">
+<img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface"/>
 </tile>
 
 </column>
@@ -62,8 +62,8 @@ with time-tested business acumen, the results speak for themselves.</p>
 
 <tile
     caption="tdc/news"
-    name="Why a 2018 Typeface Design Competition judge voted for Plex  ">
-<img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface" class="tile__img"/>
+    title="Why a 2018 Typeface Design Competition judge voted for Plex  ">
+<img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface"/>
 </tile>
 
 </column>

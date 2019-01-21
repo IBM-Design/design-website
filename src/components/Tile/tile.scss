@@ -1,8 +1,16 @@
 //----------------------------
 // Tile
 //----------------------------
-.tile--bleed .ibm--grid {
+.tile {
+  margin-left: -1rem;
+  margin-right: -1rem;
   position: relative;
+
+  @include breakpoint('md') {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 a.bx--tile {
@@ -14,32 +22,29 @@ a.bx--tile {
   padding: $spacing-md;
   position: relative;
   background: $ibm-colors__white;
+  z-index: 1;
 
   &:hover {
     background: $ibm-colors__gray--20;
   }
 }
 
-.tile__info {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.tile__name {
+.tile__title {
+  @include type-style('heading-03');
   display: block;
   width: 100%;
   text-decoration: none;
   color: $text-01;
   margin: 0 0 $spacing-xs 0;
-  padding: 0 0 0 0;
+  padding: 0 9% 0 0;
 }
 
 .tile__caption {
   color: $ibm-colors__gray--60;
   display: block;
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .tile__link-icon {
@@ -50,36 +55,31 @@ a.bx--tile {
   height: 20px;
 }
 
-// large title used in large and medium tiles
-.tile__title {
-  color: $ibm-colors__white;
-  font-weight: 600;
+.tile__img {
+  min-width: 50%;
+
+  @include breakpoint('md') {
+    width: 100%;
+  }
 }
 
-.tile__title--secondary {
-  font-weight: 400;
-  color: $ibm-colors__white;
-  margin-bottom: rem(20px);
-}
-
-.tile__description {
-  @include type-style('body-short-02');
-  color: $ibm-colors__white;
+.tile__img img {
+  width: 100%;
 }
 
 // Dark
 a.bx--tile--clickable--dark {
   background: $ibm-colors__gray--90;
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 a.bx--tile--clickable--dark:hover {
   background: $ibm-colors__gray--80;
 }
 
-a.bx--tile--clickable--dark .tile__name,
+a.bx--tile--clickable--dark .tile__title,
 a.bx--tile--clickable--dark .tile__caption {
-  color: $ibm-colors__white;
+  color: $ibm-colors__gray--10;
 }
 
 a.bx--tile--clickable--dark .tile__link-icon svg {
@@ -92,92 +92,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   color: $ibm-colors__gray--90;
 }
 
-//changes ArrowUpRight20 to 16x16
-.tile--arrow-upright {
-  padding: rem(2px);
-}
-
-// Overrides
-.tile__img .gatsby-resp-image-wrapper {
-  max-width: 100% !important;
-}
-
-.tile__img .gatsby-resp-image-wrapper {
-  max-width: 100% !important;
-}
-
-//----------------------------
-// XS Tile
-//----------------------------
-.tile--xs {
-  margin-left: -1rem;
-  margin-right: -1rem;
-  margin-bottom: 1px;
-
-  @include breakpoint('md') {
-    margin-left: -1rem;
-    margin-right: -15px;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-  }
-}
-
-.tile--xs .bx--aspect-ratio--2x1 {
-  padding-bottom: 6%;
-
-  @include breakpoint('md') {
-    padding-bottom: 50%;
-  }
-}
-
-//----------------------------
-// Small Tile
-//----------------------------
-.tile--sm {
-  display: flex;
-  flex-direction: column;
-  margin-left: -1rem;
-  margin-right: -1rem;
-  margin-bottom: 1rem;
-
-  @include breakpoint('md') {
-    margin-right: -15px;
-    margin-bottom: 2rem;
-  }
-  @include breakpoint('lg') {
-    margin-right: 0px;
-  }
-}
-
-.tile__img {
-  width: 100%;
-  height: auto;
-}
-
-.tile--sm a.bx--tile {
-  width: 100%;
-}
-
-.tile--optional .tile__info > h5:before {
-  height: 2.25rem;
-}
-
-.tile--optional .tile__info h5 {
-  max-width: rem(190px);
-}
-
-//----------------------------
-// Medium Tile
-//----------------------------
-.tile--md {
-  margin-bottom: 1rem;
-}
-
-.tile--md .ibm--row {
-  flex-direction: row-reverse;
-}
-
-.tile--md .bx--aspect-ratio--2x1 {
+.bx--aspect-ratio--2x1 {
   padding-bottom: 100%;
 
   @include breakpoint('md') {
@@ -185,143 +100,125 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   }
 }
 
-.tile--md .bx--tile {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 50%;
+//----------------------------
+// Tile inside 4
+//----------------------------
+.ibm--col-lg-4 .tile {
+  margin-bottom: rem(32px);
+  display: flex;
 
   @include breakpoint('md') {
-    width: 25%;
-  }
-
-  @include breakpoint('lg') {
-    right: rem(16px);
+    display: block;
+    margin-left: -1rem;
   }
 }
 
-.tile__img {
-  padding: 0;
+.ibm--col-lg-4 a.bx--tile {
+  width: 50%;
+
+  @include breakpoint('md') {
+    width: 100%;
+  }
+}
+
+//----------------------------
+// Tile inside 12 or 16
+//----------------------------
+.ibm--col-lg-8,
+.ibm--col-lg-12,
+.ibm--col-lg-16 {
+  .tile {
+    @include breakpoint('md') {
+      margin: 0 0 0 -1rem;
+    }
+  }
+
+  a.bx--tile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+
+    @include breakpoint('lg') {
+      width: calc(50% - 2rem);
+    }
+  }
+}
+
+.ibm--col-lg-8 {
+  @include breakpoint('lg') {
+    a.bx--tile {
+      width: 47.5%;
+    }
+  }
+}
+
+.ibm--col-lg-12 {
+  margin-bottom: rem(32px);
+
+  @include breakpoint('lg') {
+    a.bx--tile {
+      width: 32%;
+    }
+  }
+}
+
+.ibm--col-lg-16 {
+  @include breakpoint('lg') {
+    a.bx--tile {
+      width: calc(25% - 2rem);
+    }
+  }
+}
+
+//----------------------------
+// Tile feature
+//----------------------------
+.ibm--grid .tile.tile--feature {
+  margin-bottom: rem(32px);
 
   @include breakpoint('md') {
     margin-left: -2rem;
-    width: calc(50% + 2rem);
+    margin-right: -2rem;
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
 
-.tile--md .tile__text-container {
-  width: 100%;
-  position: relative;
-  color: $ibm-colors__white;
-  background: $ibm-colors__black;
-  padding-bottom: rem(80px);
+.tile__feature-content {
+  padding: 1rem 1rem 4rem 1rem;
+
+  @include breakpoint('md') {
+    width: 50%;
+    padding-right: 12%;
+    padding-bottom: 1rem;
+  }
 
   @include breakpoint('lg') {
-    width: calc(50% + 1rem);
-    margin-right: -1rem;
-    padding-bottom: 0;
+    padding-right: 25%;
   }
 }
 
-.tile--md .tile__title {
-  margin: rem(16px);
-  font-weight: 400;
-  padding-right: 25%;
-}
-
-//----------------------------
-// Large Tile
-//----------------------------
-.tile--lg {
-  position: relative;
-  justify-content: space-between;
-  margin-left: -1rem;
-  margin-right: -1rem;
-  margin-bottom: 1rem;
-
-  @include breakpoint('lg') {
-    margin-right: 0;
-  }
-}
-
-.tile--lg .tile__img {
-  margin: auto;
-  width: 100%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-
-  @include breakpoint('lg') {
-    width: 75%;
-  }
-}
-
-.tile--lg .bx--tile {
+.tile__feature-img {
   width: 100%;
 
   @include breakpoint('md') {
-    right: 0;
-    bottom: 0;
-    position: absolute;
     width: 50%;
   }
-
-  @include breakpoint('lg') {
-    width: 32.4%;
-  }
 }
 
-//----------------------------
-// XL Tile
-//----------------------------
-
-.tile--xl {
-  @include breakpoint('md') {
-    margin-bottom: rem(30px);
-  }
-}
-
-.tile--xl a.bx--tile {
+.tile--feature a.bx--tile {
+  position: absolute;
   bottom: 0;
   right: 0;
-  position: absolute;
   width: 50%;
 
-  @include breakpoint('lg') {
-    right: 1rem;
-    right: 0;
-    bottom: 0;
-    width: 25%;
-  }
-}
-
-.tile--xl .bx--aspect-ratio--2x1 {
-  padding-bottom: 100%;
-
   @include breakpoint('md') {
-    padding-bottom: 50%;
+    right: 1rem;
+    width: calc(50% - 1rem);
   }
-}
-
-.tile--xl .tile__text-container {
-  padding-top: rem(32px);
 
   @include breakpoint('lg') {
-    padding-top: rem(64px);
-  }
-}
-
-.tile--xl .tile__img {
-  height: 100%;
-  margin: 2rem 0;
-
-  @include breakpoint('lg') {
-    display: flex;
-    justify-content: flex-end;
-
-    img {
-      position: relative;
-      right: -48px;
-      height: 100%;
-    }
+    width: calc(25% - 1rem);
   }
 }

@@ -79,17 +79,19 @@ Like our brand values, our design ethos must be palpable in everything we produc
 
 </column>
 </grid>
+<grid background="gray-10">
+<column lg="16">
 
 <tile
-  size="md"
-  background="#E7E7E7"
-  title="See how we bring our philosophy to bear in our design systems."
-  name="Design Thinking"
-  href="">
+    href="#"
+    title="Design Thinking"
+    feature="true"
+    feature_heading="See how we bring our philosophy to bear in our design systems."
+    feature_background="black">
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
-<grid background="gray-10">
+</column>
 <column lg="8">
 
 <h3>Keep exploring<br>our approach</h3>

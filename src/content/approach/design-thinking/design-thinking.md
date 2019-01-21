@@ -142,16 +142,20 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 
 </column>
 </grid>
+<grid background="gray-10">
+<column lg="16">
 
 <tile
-  size="md"
-  background="#C5DEFF"
-  title="Explore our platform and start driving outcomes for your business."
-  name="Enterprise Design Thinking">
+    href="#"
+    title="Enterprise Design Thinking"
+    feature="true"
+    feature_heading="Explore our platform and start driving outcomes for your business."
+    feature_background="black">
+
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
 
-<grid background="gray-10">
+</column>
 <column lg="8">
 
 <h3>Keep exploring<br>our Approach</h3>
