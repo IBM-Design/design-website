@@ -11,9 +11,9 @@ business problems
 
 <anchor-links>
 
-- [Design philosophy](#design-philosophy)
-- [Design thinking](#design-thinking)
-- [Design services](#design-services)
+- [Design Philosophy](#design-philosophy)
+- [Design Thinking](#design-thinking)
+- [Design Services](#design-services)
 
 </anchor-links>
 
