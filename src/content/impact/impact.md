@@ -6,13 +6,13 @@ title: Impact
 Design is simply<br>
 the means.<br>
 <span>Business outcomes
-<br>are the end.</span>
+<br>are the goal.</span>
 </title-block>
 
 <grid background="gray-10">
 <column lg="8">
 
-<p size="xl">The true measure of design is the extent to which it solves real problems for real people. Explore some of the outcomes we’ve driven for our users and clients below.</p>
+<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different types of outcomes we’ve delivered for our clients and users below.</p>
 
 <icon title="ArrowDown32"></icon>
 
@@ -27,9 +27,10 @@ the means.<br>
 </column>
 
 <column lg="12">
-  
-  <tile title="Not what you expect from a tech conference" caption="impact/think" href="/impact/template/">
+
+  <tile title="Business leaders, visionaries, and innovators unite for a singular experience" caption="impact/think" href="/impact/template/">
     <img src="images/Image_1.png" alt=""/>
+
   </tile>
 
 </column>

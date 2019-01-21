@@ -1,15 +1,15 @@
 ---
-title: Design philosophy
+title: Design Philosophy
 ---
 
 <grid background="gray-100">
 <column lg="5">
 
-## **Design philosophy**
+## **Design Philosophy**
 
-IBMers believe in progress—that application of intelligence, reason and science can improve business, society and the human condition.
+IBMers believe in progress — that by applying intelligence, reason and science we can improve business, society and the human condition.
 
-Given our scale and scope, ‘good design’ is not only a requirement, it’s a deeper responsibility to relationships we seek to serve.
+Given our scale and scope, good design is not just a requirement, it’s a deeper responsibility to the relationships we seek to serve.
 
 </column>
 <column lg="9" offset_lg="2">
@@ -23,7 +23,7 @@ Given our scale and scope, ‘good design’ is not only a requirement, it’s a
 
 <h2>Design is how <br>we <em>build</em> bonds.</h2>
 
-Today, the talent, techniques, thinking and tools of design, like technology, have become more and more abundant and accessible to all alike.
+Today, as with technology, the talent, techniques, thinking and tools of design have become more and more abundant and accessible to all.
 
 </column>
 <column lg="7" offset_lg="4">
