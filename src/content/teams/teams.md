@@ -51,11 +51,7 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="12" offset_lg="4">
 
-<image-block>
-
 ![teams](images/Image_1.png)
-
-</image-block>
 
 </column>
 </grid>
