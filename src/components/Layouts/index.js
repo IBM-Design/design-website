@@ -12,16 +12,27 @@ import '../../styles/index.scss';
 
 class Layout extends React.Component {
   state = {
-    isExpanded: false,
+    isNavExpanded: false,
+    isSwitcherExpanded: false,
   };
 
   toggleClick = () => {
-    this.setState(state => ({ isExpanded: !state.isExpanded }));
+    this.setState(state => ({ isNavExpanded: !state.isNavExpanded }));
+    if (this.state.isSwitcherExpanded) {
+      this.setState({ isSwitcherExpanded: false });
+    }
+  };
+
+  toggleSwitcher = () => {
+    this.setState(state => ({ isSwitcherExpanded: !state.isSwitcherExpanded }));
+    if (this.state.isNavExpanded) {
+      this.setState({ isNavExpanded: false });
+    }
   };
 
   closeClick = () => {
-    if (this.state.isExpanded) {
-      this.setState({ isExpanded: false });
+    if (this.state.isNavExpanded) {
+      this.setState({ isNavExpanded: false });
     }
   };
 
@@ -33,7 +44,7 @@ class Layout extends React.Component {
     const { children } = this.props;
     const currentYear = new Date().getFullYear();
     const lastUpdated = 'December 19, 2018';
-    const { isExpanded } = this.state;
+    const { isNavExpanded, isSwitcherExpanded } = this.state;
 
     return (
       <StaticQuery
@@ -71,7 +82,12 @@ class Layout extends React.Component {
               ]}>
               <html lang="en" />
             </Helmet>
-            <SiteHeader isExpanded={isExpanded} onToggle={this.toggleClick} />
+            <SiteHeader
+              isNavExpanded={isNavExpanded}
+              isSwitcherExpanded={isSwitcherExpanded}
+              onToggleNav={this.toggleClick}
+              onToggleSwitcher={this.toggleSwitcher}
+            />
             <div className="container" onClick={this.closeClick}>
               {children}
               <WebsiteFooter

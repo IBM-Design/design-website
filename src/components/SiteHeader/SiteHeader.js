@@ -15,12 +15,20 @@ import {
   SideNavLink,
   SideNavMenuItem,
   SideNavItems,
+  HeaderGlobalBar,
+  HeaderGlobalAction,
 } from 'carbon-components-react/lib/components/UIShell';
-import { Awake16 } from '@carbon/icons-react';
+import { WebsiteSwitcher } from '@carbon/addons-website';
+import { AppSwitcher20, Close20 } from '@carbon/icons-react';
 
-const SiteHeader = ({ isExpanded, onToggle }) => {
+const SiteHeader = ({
+  isNavExpanded,
+  onToggleNav,
+  onToggleSwitcher,
+  isSwitcherExpanded,
+}) => {
   const sideNavclassNames = classnames({
-    'bx--side-nav--open': isExpanded,
+    'bx--side-nav--open': isNavExpanded,
     'bx--side-nav--website': true,
     'bx--side-nav--website--with-header-nav': true,
   });
@@ -30,9 +38,10 @@ const SiteHeader = ({ isExpanded, onToggle }) => {
       <Header aria-label="Header" className="bx--header--website">
         <SkipToContent />
         <HeaderMenuButton
+          className="bx--header__action--menu"
           aria-label="Open menu"
-          onClick={onToggle}
-          isActive={isExpanded}
+          onClick={onToggleNav}
+          isActive={isNavExpanded}
         />
         <HeaderName prefix="IBM" to="/" element={Link}>
           Design
@@ -63,6 +72,14 @@ const SiteHeader = ({ isExpanded, onToggle }) => {
             Impact
           </HeaderMenuItem>
         </HeaderNavigation>
+        <HeaderGlobalBar>
+          <HeaderGlobalAction
+            className="bx--header__action--switcher"
+            aria-label="Switch"
+            onClick={onToggleSwitcher}>
+            {isSwitcherExpanded ? <Close20 /> : <AppSwitcher20 />}
+          </HeaderGlobalAction>
+        </HeaderGlobalBar>
       </Header>
       <SideNav aria-label="Navigation" className={sideNavclassNames}>
         <SideNavItems>
@@ -91,6 +108,23 @@ const SiteHeader = ({ isExpanded, onToggle }) => {
           </SideNavLink>
         </SideNavItems>
       </SideNav>
+      <WebsiteSwitcher
+        isSwitcherOpen={isSwitcherExpanded}
+        links={[
+          {
+            href: 'https://www.ibm.com/design/language/',
+            linkText: 'IBM Design Language',
+          },
+          {
+            href: 'https://www.ibm.com/standards/web/',
+            linkText: 'IBM Digital Design',
+          },
+          {
+            href: 'https://www.ibm.com/design/product',
+            linkText: 'IBM Product Design',
+          },
+        ]}
+      />
     </>
   );
 };
@@ -99,13 +133,24 @@ SiteHeader.propTypes = {
   /**
    * Specify whether the side navigation is expanded or collapsed
    */
-  isExpanded: PropTypes.bool.isRequired,
+  isNavExpanded: PropTypes.bool.isRequired,
+
+  /**
+   * Specify whether the switcher is expanded or collapsed
+   */
+  isSwitcherExpanded: PropTypes.bool.isRequired,
 
   /**
    * Provide a function that is called when the toggle button is interacted
    * with. Useful for controlling the expansion state of the side navigation.
    */
-  onToggle: PropTypes.func.isRequired,
+  onToggleNavNav: PropTypes.func.isRequired,
+
+  /**
+   * Provide a function that is called when the toggle button is interacted
+   * with. Useful for controlling the expansion state of the switcher.
+   */
+  onToggleSwitcher: PropTypes.func.isRequired,
 };
 
 export default SiteHeader;
