@@ -51,10 +51,10 @@
 //----------------------------
 
 .page-h2 {
-  //@include type-style('expressive-heading-05');
   color: $text-01;
   margin-bottom: 1.5rem;
   padding-right: 9%;
+  font-weight: 300;
 }
 
 .background--inverse .page-h2 {

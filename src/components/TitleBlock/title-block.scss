@@ -37,6 +37,7 @@
 
 .title-block__text {
   @include type-style('display-03');
+  font-weight: 300;
   font-size: calc(36px + 56 * ((100vw - 320px) / 1264));
 
   @include breakpoint('sm') {
