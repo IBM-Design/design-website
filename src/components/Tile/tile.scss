@@ -154,8 +154,6 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 }
 
 .ibm--col-lg-12 {
-  margin-bottom: rem(32px);
-
   @include breakpoint('lg') {
     a.bx--tile {
       width: 32%;
