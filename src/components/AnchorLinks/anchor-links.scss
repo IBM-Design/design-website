@@ -55,6 +55,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 0.8rem;
+
   @include breakpoint('lg') {
     position: absolute;
     left: auto;
@@ -62,9 +63,5 @@
     bottom: 2rem;
     width: 25%;
     padding: 0;
-  }
-
-  @include breakpoint('lg') {
-    bottom: 4rem;
   }
 }

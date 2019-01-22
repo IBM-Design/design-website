@@ -40,16 +40,8 @@
   font-weight: 300;
   font-size: calc(36px + 56 * ((100vw - 320px) / 1264));
 
-  @include breakpoint('sm') {
-    padding-bottom: 1rem;
-  }
-
-  @include breakpoint('md') {
-    padding-bottom: 2rem;
-  }
-
   @include breakpoint('lg') {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 
   span {
