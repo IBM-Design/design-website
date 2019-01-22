@@ -29,7 +29,7 @@ Required fields are:
 
 ## Markdown
 
-    ### This generates an H2 heading `expressive-heading-04`
+    ### This generates an H2 heading `expressive-paragraph-01`
 
     ### This generates an H3 heading. `heading-03`
 
