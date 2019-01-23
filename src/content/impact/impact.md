@@ -66,7 +66,7 @@ the means.<br>
   </tile>
 
 </column>
-<column lg="4" md="4" offset_md="4">
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
 
   <tile title="This mobile app teaches quantum computing through a puzzle game" caption="thenextweb" href="/impact/template/">
     <img src="images/Image_4.png" alt="quantum puzzle game"/>
@@ -99,7 +99,7 @@ the means.<br>
   </tile>
 
 </column>
-<column lg="4" md="4" offset_md="4">
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
 
   <tile title="X-Force Command takes their immersive cybersecurity training on the road" caption="nytimes" href="/impact/template/">
     <img src="images/Image_7.png" alt="xforce dashboard"/>
@@ -133,7 +133,7 @@ the means.<br>
   </tile>
 
 </column>
-<column lg="4" md="4" offset_md="4">
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
 
   <tile title="The business case for our open source font" caption="source" href="/impact/template/">
     <img src="images/Image_10.png" alt="Mike looking at Plex on a table"/>

@@ -58,7 +58,7 @@ with time-tested business acumen, the results speak for themselves.</p>
 </tile>
 
 </column>
-<column lg="4" md="4" offset_md="4">
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile
     caption="tdc/news"
