@@ -74,7 +74,7 @@ meets pragmatic.</span>
 </tile>
 
 </column>
-<column lg="4" md="4">
+<column lg="4" md="4" offset_md="4">
 
 <tile
     dark="true"

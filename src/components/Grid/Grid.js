@@ -70,6 +70,10 @@ export class Column extends React.Component {
      */
     offset_lg: PropTypes.string,
     /**
+     * Specify the col offset at medium breakpoint
+     */
+    offset_md: PropTypes.string,
+    /**
      * Specify a left border
      */
     border: PropTypes.string,
@@ -80,7 +84,16 @@ export class Column extends React.Component {
   };
 
   render() {
-    const { children, sm, md, lg, offset_lg, border, text_align } = this.props;
+    const {
+      children,
+      sm,
+      md,
+      lg,
+      offset_lg,
+      offset_md,
+      border,
+      text_align,
+    } = this.props;
     let classNames = '';
     if (border) classNames += `ibm--col-border `;
     if (text_align === 'right') classNames += `ibm--col-right `;
@@ -88,6 +101,7 @@ export class Column extends React.Component {
     if (md) classNames += `ibm--col-md-${md} `;
     if (sm) classNames += `ibm--col-sm-${sm} `;
     if (offset_lg) classNames += `ibm--offset-lg-${offset_lg} `;
+    if (offset_md) classNames += `ibm--offset-md-${offset_md} `;
 
     return <div className={classNames}>{children}</div>;
   }

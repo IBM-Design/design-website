@@ -13,6 +13,9 @@
 }
 
 .background--tile .tile {
+  margin-bottom: 0;
+  margin-left: 0;
+
   @include breakpoint('lg') {
     height: 496px;
   }
@@ -23,14 +26,11 @@
 //----------------------------
 
 .tile {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-bottom: 1rem;
   position: relative;
 
   @include breakpoint('md') {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -1rem;
   }
 }
 
@@ -77,11 +77,7 @@ a.bx--tile {
 }
 
 .tile__img {
-  min-width: 50%;
-
-  @include breakpoint('md') {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 .tile__img img {
@@ -113,55 +109,40 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   color: $ibm-colors__gray--90;
 }
 
-.bx--aspect-ratio--2x1 {
-  padding-bottom: 100%;
-
-  @include breakpoint('md') {
-    padding-bottom: 50%;
-  }
-}
-
 //----------------------------
 // Tile inside 4
 //----------------------------
-.ibm--col-lg-4 .tile {
-  margin-bottom: rem(32px);
-  display: flex;
-
-  @include breakpoint('md') {
-    display: block;
-    margin-left: -1rem;
-  }
-}
-
-.ibm--col-lg-4 a.bx--tile {
-  width: 50%;
-
-  @include breakpoint('md') {
-    width: 100%;
-  }
-}
+/* .ibm--col-lg-4 .tile {
+  margin-bottom: 1rem;
+} */
 
 //----------------------------
 // Tile inside 12 or 16
 //----------------------------
+
 .ibm--col-lg-8,
 .ibm--col-lg-12,
 .ibm--col-lg-16 {
   .tile {
     @include breakpoint('md') {
-      margin: 0 0 0 -1rem;
+      margin-right: -1rem;
+    }
+
+    @include breakpoint('lg') {
+      margin-right: 0;
     }
   }
 
   a.bx--tile {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
+    @include breakpoint('md') {
+      position: absolute;
+      bottom: 0;
+      right: 1rem;
+      width: calc(50% - 1rem);
+    }
 
     @include breakpoint('lg') {
-      width: calc(50% - 2rem);
+      right: 0;
     }
   }
 }
