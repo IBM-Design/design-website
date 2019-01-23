@@ -14,7 +14,7 @@ At IX, we blend design with innovative technologies and business strategy to off
 </column>
 <column lg="9" offset_lg="3">
 
-<iframe src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 </column>
 </grid>
