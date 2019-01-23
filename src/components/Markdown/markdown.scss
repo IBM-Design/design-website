@@ -95,6 +95,18 @@
   color: $ibm-colors__gray--10;
 }
 
+.page-h2,
+.page-h3 {
+  &:before {
+    display: block;
+    content: ' ';
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
 //----------------------------
 // ul / ol
 //----------------------------
