@@ -16,6 +16,9 @@ body {
 .container .ibm--grid {
   max-width: rem(1584px);
 }
+.background--inverse a.bx--link {
+  color: $ibm-colors__blue--40;
+}
 
 .background--inverse a.bx--link:active {
   color: $ibm-colors__gray--10;
