@@ -2,7 +2,7 @@
 // Background
 //----------------------------
 .background {
-  padding-bottom: rem(32px);
+  padding-bottom: rem(64px);
   padding-top: rem(32px);
 
   @include breakpoint('lg') {

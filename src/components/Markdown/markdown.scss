@@ -68,8 +68,12 @@
 .page-h3 {
   @include type-style('heading-03');
   color: $text-01;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding-right: 9%;
+
+  @include breakpoint('md') {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .background--inverse .page-h3 {
@@ -194,7 +198,11 @@ blockquote em {
 hr {
   border: none;
   border-top: 1px solid $ibm-colors__gray--50;
-  margin-top: -2rem;
+  margin-top: -1rem;
+
+  @include breakpoint('md') {
+    margin-top: -2rem;
+  }
 }
 
 .background--black blockquote hr,
