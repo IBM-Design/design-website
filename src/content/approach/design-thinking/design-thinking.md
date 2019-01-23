@@ -160,7 +160,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 <h3>Keep exploring<br>our Approach</h3>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 ![add alt](images/Image_3.png)
 
@@ -168,7 +168,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 ![add alt](images/Image_4.png)
 
