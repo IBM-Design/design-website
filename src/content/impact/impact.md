@@ -14,12 +14,17 @@ the means.<br>
 
 <p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different types of outcomes we’ve delivered for our clients and users below.</p>
 
-<icon title="ArrowDown32"></icon>
+<icon name="ArrowDown32"></icon>
 
 </column>
 </grid>
 
 <grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4">
 
 ### Think
@@ -37,6 +42,11 @@ the means.<br>
 
 </grid>
 <grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4" md="4">
 
 ### Quantum
@@ -65,6 +75,11 @@ the means.<br>
 </column>
 </grid>
 <grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4">
 
 ### Security
@@ -94,6 +109,11 @@ the means.<br>
 </grid>
 
 <grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
 <column lg="4">
 
 ### Plex
