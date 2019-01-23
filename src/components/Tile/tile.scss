@@ -1,6 +1,27 @@
 //----------------------------
+// Tile background
+//----------------------------
+.background--tile {
+  padding-top: rem(64px);
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+
+  &:last-child {
+    padding-bottom: 0;
+    margin-bottom: rem(128px);
+  }
+}
+
+.background--tile .tile {
+  @include breakpoint('lg') {
+    height: 496px;
+  }
+}
+
+//----------------------------
 // Tile
 //----------------------------
+
 .tile {
   margin-left: -1rem;
   margin-right: -1rem;

@@ -15,18 +15,12 @@
   }
 }
 
-.background--nomargin {
-  padding-top: rem(32px);
-  padding-bottom: 0;
-
-  &:last-child {
-    padding-bottom: 0;
-    margin-bottom: rem(128px);
-  }
-}
-
-.page-content > div div.background:first-child {
+.background--header {
   padding-top: 2rem;
+
+  @include breakpoint('lg') {
+    height: 560px;
+  }
 }
 
 .background--white {
