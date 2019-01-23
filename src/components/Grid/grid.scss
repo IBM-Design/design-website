@@ -2,31 +2,29 @@
 // Background
 //----------------------------
 .background {
-  padding-bottom: rem(32px);
+  padding-bottom: rem(64px);
   padding-top: rem(32px);
 
   @include breakpoint('lg') {
     padding-bottom: rem(80px);
     padding-top: rem(56px);
   }
+}
 
-  &:last-child {
+.background:last-child {
+  padding-bottom: rem(48px);
+
+  @include breakpoint('lg') {
     padding-bottom: rem(128px);
   }
 }
 
-.background--nomargin {
-  padding-top: rem(32px);
-  padding-bottom: 0;
-
-  &:last-child {
-    padding-bottom: 0;
-    margin-bottom: rem(128px);
-  }
-}
-
-.page-content > div div.background:first-child {
+.background--header {
   padding-top: 2rem;
+
+  @include breakpoint('lg') {
+    height: 560px;
+  }
 }
 
 .background--white {
@@ -78,7 +76,13 @@
 // Columns
 //----------------------------
 .ibm--col-right {
-  text-align: right;
+  @include breakpoint('md') {
+    text-align: right;
+
+    .page-p {
+      padding-right: 0;
+    }
+  }
 }
 
 .container .ibm--col-border {

@@ -32,7 +32,7 @@ responsibility to the people we serve.</p>
 </column>
 
 </grid>
-<grid background="black" margin="false">
+<grid background="black" classname="background--tile">
 <column lg="4" offset_lg="1">
 
 <h2><strong>Design Philosophy</strong><br>The beliefs behind everything we do.</h2>
@@ -44,14 +44,13 @@ Design is about giving people a path, both emotionally and functionally, towards
 
 <tile
     href="/approach/design-philosophy"
-    caption="caption"
-    title="title">
+    title="Learn more">
 <img src="images/Image_1.svg" alt="Geometric shapes"/>
 </tile>
 
 </column>
 </grid>
-<grid background="gray-20" margin="false">
+<grid background="gray-20" classname="background--tile">
 <column lg="4" offset_lg="1">
 
 <h2><strong>Design Thinking</strong><br>Human-centered design at scale.</h2>
@@ -63,14 +62,13 @@ Learn how you can apply the same framework our teams use every day.
 
 <tile
     href="/approach/design-thinking"
-    caption="caption"
-    title="title">
+    title="Learn more">
 <img src="images/Image_2.svg" alt="Geometric shapes"/>
 </tile>
 
 </column>
 </grid>
-<grid background="gray-80" margin="false">
+<grid background="gray-80" classname="background--tile">
 <column lg="4" offset_lg="1">
 
 <h2><strong>Design Services</strong><br>Your business partner by design.</h2>
@@ -82,8 +80,7 @@ Partner with us to help define your strategy, create exceptional experiences, an
 
 <tile
     href="/approach/design-services"
-    caption="caption"
-    title="title">
+    title="Learn more">
 <img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
 </tile>
 

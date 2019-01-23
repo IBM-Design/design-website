@@ -12,7 +12,7 @@ people we serve.</span>
 <grid background="gray-white">
 <column lg="16">
 
-<iframe src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<iframe title="video" src="https://player.vimeo.com/video/293453905?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 </column>
 </grid>
@@ -58,7 +58,7 @@ with time-tested business acumen, the results speak for themselves.</p>
 </tile>
 
 </column>
-<column lg="4" md="4">
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile
     caption="tdc/news"

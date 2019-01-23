@@ -187,7 +187,7 @@ This website uses the default Carbon grid, in order to to this you will need to 
 
 All content and componnents will need to be wrapped innside a `<grid>` component **except** the `<title-block>`, which utilizes its own grid code.
 
-The grid component has one prop, background which is used to tell the section what background color to use. The following colors are available.
+The grid component has a prop, background, which is used to tell the section what background color to use. The following colors are available.
 
 - `black`
 - `white`
@@ -196,8 +196,13 @@ The grid component has one prop, background which is used to tell the section wh
 - `gray-100`
 - `gray-white` _50/50 gray-100 and white, gray-100 on top_
 
+The other prop available is `classname` which alows you to add a class you can target via css to the wrapping div. We are using the following classnames.
+
+`background--header`
+`background--tile`
+
 ```
-<grid background="gray-10">
+<grid background="gray-10" classname="background--header">
 
 Markdown, html, custom components
 

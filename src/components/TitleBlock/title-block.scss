@@ -24,9 +24,10 @@
 }
 
 .title-block .eye-bee-m {
-  height: 67px;
-  width: 28px;
+  height: 72px;
+  width: 30px;
   margin-bottom: 2rem;
+  margin-left: rem(8px);
 }
 
 .title-block__content {
@@ -39,6 +40,7 @@
   @include type-style('display-03');
   font-weight: 300;
   font-size: calc(36px + 56 * ((100vw - 320px) / 1264));
+  padding-bottom: 1.5rem;
 
   @include breakpoint('lg') {
     padding-bottom: 2rem;

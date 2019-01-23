@@ -27,6 +27,13 @@ $feature-flags: (
 @import 'carbon-components/scss/globals/scss/styles.scss';
 @import '@carbon/addons-website/scss/styles';
 
+// temp grid fix
+.container .ibm--offset-lg-0 {
+  @include breakpoint('lg') {
+    margin-left: 0;
+  }
+}
+
 //---------------------------------------
 // Page styles
 //---------------------------------------
