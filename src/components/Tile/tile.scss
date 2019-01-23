@@ -21,6 +21,11 @@
   }
 }
 
+.background--tile h2 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
 //----------------------------
 // Tile
 //----------------------------
@@ -46,7 +51,7 @@ a.bx--tile {
   z-index: 1;
 
   &:hover {
-    background: $ibm-colors__gray--20;
+    background: $ui-03;
   }
 }
 
@@ -61,7 +66,7 @@ a.bx--tile {
 }
 
 .tile__caption {
-  color: $ibm-colors__gray--60;
+  color: $text-02;
   display: block;
   position: absolute;
   bottom: 0;

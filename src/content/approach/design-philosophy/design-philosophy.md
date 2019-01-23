@@ -97,7 +97,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <h3>Keep exploring<br>our approach</h3>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 ![](images/Image_3.png)
 
@@ -106,7 +106,7 @@ Get familiar with how to apply the framework that drives how we think and work e
 <a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 ![](images/Image_4.png)
 

@@ -47,7 +47,7 @@ const SiteHeader = ({
           Design
         </HeaderName>
 
-        <HeaderNavigation aria-label="Navigation">
+        <HeaderNavigation aria-label="Main Navigation">
           <HeaderMenu aria-label="Approach">
             <HeaderMenuItem to="/approach" element={Link}>
               Overview
@@ -81,7 +81,7 @@ const SiteHeader = ({
           </HeaderGlobalAction>
         </HeaderGlobalBar>
       </Header>
-      <SideNav aria-label="Navigation" className={sideNavclassNames}>
+      <SideNav aria-label="Mobile Navigation" className={sideNavclassNames}>
         <SideNavItems>
           <SideNavMenu title="Approach">
             <SideNavMenuItem to="/approach" element={Link}>
@@ -109,6 +109,8 @@ const SiteHeader = ({
         </SideNavItems>
       </SideNav>
       <WebsiteSwitcher
+        role="navigation"
+        aria-label="Site switcher"
         isSwitcherOpen={isSwitcherExpanded}
         links={[
           {

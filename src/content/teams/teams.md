@@ -112,12 +112,12 @@ Embedding designers directly into the business allows them to build a rigorous u
 </column>
 <column lg="8" offset_lg="4">
 
-<img src="https://via.placeholder.com/800x500.png/e7e7e7/e7e7e7">
+<img alt="add alt" src="https://via.placeholder.com/800x500.png/e7e7e7/e7e7e7">
 
 </column>
 <column lg="4">
 
-<img src="https://via.placeholder.com/800x450.png/e7e7e7/e7e7e7">
+<img alt="add alt" src="https://via.placeholder.com/800x450.png/e7e7e7/e7e7e7">
 
 </column>
 </grid>
@@ -138,17 +138,17 @@ From the initial visioning stages through to delivery and beyond, we work closel
 </column>
 <column lg="4" offset_lg="4">
 
-<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+<img alt="add alt" src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
 
 </column>
 <column lg="4">
 
-<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+<img alt="add alt" src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
 
 </column>
 <column lg="4">
 
-<img src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+<img alt="add alt" src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
 
 </column>
 </grid>

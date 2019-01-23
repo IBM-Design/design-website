@@ -35,7 +35,8 @@ responsibility to the people we serve.</p>
 <grid background="black" classname="background--tile">
 <column lg="4" offset_lg="1">
 
-<h2><strong>Design Philosophy</strong><br>The beliefs behind everything we do.</h2>
+<h2>Design Philosophy</h2>
+<p size="xl">The beliefs behind everything we do.</p>
 
 Design is about giving people a path, both emotionally and functionally, towards their goals.
 
@@ -53,7 +54,8 @@ Design is about giving people a path, both emotionally and functionally, towards
 <grid background="gray-20" classname="background--tile">
 <column lg="4" offset_lg="1">
 
-<h2><strong>Design Thinking</strong><br>Human-centered design at scale.</h2>
+<h2>Design Thinking</h2>
+<p size="xl">Human-centered design at scale.</p>
 
 Learn how you can apply the same framework our teams use every day.
 
@@ -71,7 +73,8 @@ Learn how you can apply the same framework our teams use every day.
 <grid background="gray-80" classname="background--tile">
 <column lg="4" offset_lg="1">
 
-<h2><strong>Design Services</strong><br>Your business partner by design.</h2>
+<h2>Design Services</h2>
+<p size="xl">Your business partner by design.</p>
 
 Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes.
 

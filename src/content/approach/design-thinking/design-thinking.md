@@ -33,9 +33,9 @@ We built on that idea, adding strategies, tactics and activities to create a fra
 
 ### Restless reinvention
 
-_When’s the last time you rethought what you’re making?_ <br><br>Everything is a prototype. Being essential – and staying essential – requires a continuous conversation with our users and clients, responding to their changing needs through rapid prototyping and constant iteration.
+_When’s the last time you rethought what you’re making?_ <br><br>Everything is a prototype. Being essential—and staying essential—requires a continuous conversation with our users and clients, responding to their changing needs through rapid prototyping and constant iteration.
 
-![](images/think.svg)
+![add alt](images/think.svg)
 
 </column>
 <column lg="4" border="true">
@@ -44,7 +44,7 @@ _When’s the last time you rethought what you’re making?_ <br><br>Everything 
 
 _Who are you designing for, and what do they need?_ <br><br>We measure success by how well we fulfill human needs. Our users are more than just the people we make for, they’re our partners in design.
 
-![](images/think_3circles.svg)
+![add alt](images/think_3circles.svg)
 
 </column>
 <column lg="4" border="true">
@@ -53,7 +53,7 @@ _Who are you designing for, and what do they need?_ <br><br>We measure success b
 
 _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dynamic team. By empowering people with different skillsets, backgrounds and perspectives to bring their unique points of view to the table, we generate more breakthrough ideas faster.
 
-![](images/think_circle.svg)
+![add alt](images/think_circle.svg)
 
 </column>
 </grid>
@@ -76,7 +76,7 @@ To drive meaningful outcomes for our users, we must first gain a deep understand
 <br><br>
 By constantly immersing ourselves in the worlds of our users, we ensure that our solutions always address real-world needs.
 
-![](images/think.svg)
+![add alt](images/think.svg)
 
 </column>
 <column lg="4" border="true">
@@ -87,18 +87,18 @@ Different people can interpret the same situation in very different ways.
 <br><br>
 Coming together to Reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
 
-![](images/think_3circles.svg)
+![add alt](images/think_3circles.svg)
 
 </column>
 <column lg="4" border="true">
 
 ### Make
 
-The only way to see an outcome is to make one – even if the idea isn’t fully baked yet.
+The only way to see an outcome is to make one—even if the idea isn’t fully baked yet.
 <br><br>
 Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses quickly and cheaply. The end result: solutions that are robust, effective, and battle-tested.
 
-![](images/think_circle.svg)
+![add alt](images/think_circle.svg)
 
 </column>
 </grid>
@@ -120,7 +120,7 @@ Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses 
 Hills are concise statements of
 the goals we aim to help our users accomplish. By making these goals explicit and evaluating them regularly, we align teams around a single shared mission.
 
-![](images/think.svg)
+![add alt](images/think.svg)
 
 </column>
 <column lg="4" border="true">
@@ -129,7 +129,7 @@ the goals we aim to help our users accomplish. By making these goals explicit an
 
 Playbacks are regular check-ins that bring users, stakeholders and teams together to tell stories and exchange feedback. They allow us to measure progress on a regular basis while uncovering and addressing any misalignment that may exist.
 
-![](images/think_3circles.svg)
+![add alt](images/think_3circles.svg)
 
 </column>
 <column lg="4" border="true">
@@ -138,7 +138,7 @@ Playbacks are regular check-ins that bring users, stakeholders and teams togethe
 
 Sponsor users are real-world users that provide teams with deep expertise and knowledge on the problems they’re facing. They are crucial to keeping us aligned with our users' reality throughout the course of a project.
 
-![](images/think_circle.svg)
+![add alt](images/think_circle.svg)
 
 </column>
 </grid>
@@ -160,17 +160,17 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 <h3>Keep exploring<br>our Approach</h3>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
-![](images/Image_3.png)
+![add alt](images/Image_3.png)
 
 <p size="sm"><strong><br>Design Services</strong><br>
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
-![](images/Image_4.png)
+![add alt](images/Image_4.png)
 
 <p size="sm"><strong><br>Design Philosphy</strong><br>
 Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br><a href="/approach/design-philosophy">Learn more</a> <icon color="blue" inline="true"></icon></p>

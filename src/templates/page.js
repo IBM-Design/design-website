@@ -55,9 +55,10 @@ export default ({ data }) => {
   return (
     <Layout>
       {/*<h1>{post.frontmatter.title}</h1>*/}
-      <main className="page-content" id="main-content">
+      <div className="page-content" id="main-content">
         {renderAst(post.htmlAst)}
-      </main>
+      </div>
+
       <BackToTop />
     </Layout>
   );
