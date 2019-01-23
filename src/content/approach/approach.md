@@ -22,10 +22,7 @@ business problems
 <grid background="gray-10">
 <column lg="8">
 
-<p size="xl">Whatever problem we're solving, we put
-people at the center of everything we do.
-Design isn’t just a job; it’s a deep
-responsibility to the people we serve.</p>
+## Whatever problem we're solving, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.
 
 <icon name="ArrowDown32"></icon>
 
