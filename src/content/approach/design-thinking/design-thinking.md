@@ -33,7 +33,7 @@ We built on that idea, adding strategies, tactics and activities to create a fra
 
 ### Restless reinvention
 
-_When’s the last time you rethought what you’re making?_ <br><br>Everything is a prototype. Being essential – and staying essential – requires a continuous conversation with our users and clients, responding to their changing needs through rapid prototyping and constant iteration.
+_When’s the last time you rethought what you’re making?_ <br><br>Everything is a prototype. Being essential—and staying essential—requires a continuous conversation with our users and clients, responding to their changing needs through rapid prototyping and constant iteration.
 
 ![add alt](images/think.svg)
 
@@ -94,7 +94,7 @@ Coming together to Reflect on our observations helps us synthesize and analyze f
 
 ### Make
 
-The only way to see an outcome is to make one – even if the idea isn’t fully baked yet.
+The only way to see an outcome is to make one—even if the idea isn’t fully baked yet.
 <br><br>
 Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses quickly and cheaply. The end result: solutions that are robust, effective, and battle-tested.
 
