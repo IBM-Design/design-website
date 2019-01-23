@@ -82,6 +82,7 @@ a.bx--tile {
   position: relative;
   padding-bottom: 100%;
   overflow: hidden;
+  z-index: 1;
 
   @include breakpoint('md') {
     height: auto;
