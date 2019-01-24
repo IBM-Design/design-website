@@ -2,8 +2,13 @@
 title: Design Thinking
 ---
 
-<grid background="gray-20" classname="background--header">
-<column lg="4">
+<grid background="gray-20" classname="background--header background--thinking">
+<column lg="8" offset_lg="4" md="4">
+
+<iframe title="video" src="https://player.vimeo.com/video/303560967?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+</column>
+<column lg="4" md="4">
 
 ## **Design Thinking**
 
@@ -12,11 +17,7 @@ Design thinking shouldn't be controversial – it's simply the idea that everyon
 We built on that idea, adding strategies, tactics and activities to create a framework that uniquely scales design thinking across teams of all shapes and sizes, whether they are co-located or widely dispersed.
 
 </column>
-<column lg="9" offset_lg="3">
 
-<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-</column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
