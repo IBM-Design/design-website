@@ -25,7 +25,7 @@ A solution’s quality<br>hinges directly on<br>
 team. Learn how we leverage diversity
 to strengthen our teams and deliver meaningful outcomes.</p>
 
-<icon name="ArrowDown32"></icon>
+<icon name="PlexArrowDown"></icon>
 
 </column>
 </grid>
