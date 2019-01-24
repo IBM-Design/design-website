@@ -15,6 +15,8 @@ body {
 
 .container .ibm--grid {
   max-width: rem(1584px);
+  margin-left: 0;
+  margin-right: 0;
 }
 .background--inverse a.bx--link {
   color: $ibm-colors__blue--40;
@@ -52,7 +54,6 @@ img {
 // Video Embed
 //----------------------------
 .gatsby-resp-iframe-wrapper {
-  background: $ibm-colors__gray--100;
   margin-left: -1rem;
   margin-right: -1rem;
 }

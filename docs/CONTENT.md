@@ -138,7 +138,7 @@ Adds ↳ as bullet for an anchor list of links. Used within the `<title-block>` 
 Options:
 
 color: black (default), blue, white
-icon: ArrowRight16 (default), ArrowUpRight20, ArrowDown32
+icon: ArrowRight16 (default), ArrowUpRight20, PlexArrowDown
 inline: true or false (default)
 align: right or left(default)
 
@@ -162,19 +162,19 @@ class icon--inline displays inline and vertical-aligns icon
     <!-- black icon options -->
     <icon></icon>
     <icon name="ArrowUpRight20"></icon>
-    <icon name="ArrowDown32"></icon>
+    <icon name="PlexArrowDown"></icon>
     <icon align="right"></icon>
 
     <!-- white icon options -->
     <icon color="white"></icon>
     <icon color="white" icon="ArrowUpRight20"></icon>
-    <icon color="white" icon="ArrowDown32"></icon>
+    <icon color="white" icon="PlexArrowDown"></icon>
     <icon color="white" align="right"></icon>
 
     <!-- blue icon options -->
     <icon color="blue"></icon>
     <icon color="blue" icon="ArrowUpRight20"></icon>
-    <icon color="blue" icon="ArrowDown32"></icon>
+    <icon color="blue" icon="PlexArrowDown"></icon>
     <icon color="blue" align="right"></icon>
 
 ![icon example](https://user-images.githubusercontent.com/32556167/50860068-9b008e00-135a-11e9-97a1-76b0244bdb0c.png)
@@ -240,4 +240,60 @@ Content here
 
 </column>
 </grid>
+```
+
+## Tiles
+
+There are several tile styles used across the site.
+
+The following options are available
+
+- `caption` optional secondary text for clickable tile
+- `title` clickable tile title
+- `href` tile link
+- `dark` default to false, show dark clickable tile
+- `feature` efault to false, display as feature tile, with text options
+- `feature_heading` feature heading, only displas if feature is true
+- `feature_heading_secondary` feature heading, only displays if feature is true for alt style
+- `feature_description` feature description, only displas if feature is true
+- `feature_background` feature block background color, accepts same values as grid
+- `feature_style` feature style, default or alt
+
+#### Standard tile, will display differently depending on col wrapper component (see Impact page)
+
+```
+  <tile title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
+    <img src="images/Image_2.png" alt="quantum computer"/>
+  </tile>
+```
+
+#### Feature
+
+```
+<tile
+    href="#"
+    title="Design Thinking"
+    feature="true"
+    feature_heading="See how we bring our philosophy to bear in our design systems."
+    feature_background="black">
+<img src="images/Image_2.png" alt="Geometric shapes"/>
+</tile>
+```
+
+#### Feature alt (used on Approach page)
+
+This is the only style that does not live inside a grid wrapper, the grid code is contained in the tile component.
+
+```
+<tile
+    feature="true"
+    feature_style="alt"
+    feature_heading="Design Philosophy"
+    feature_heading_secondary="The beliefs behind everything we do."
+    feature_background="black"
+    feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
+    href="/approach/design-philosophy"
+    title="Learn more">
+<img src="images/Image_1.svg" alt="Geometric shapes"/>
+</tile>
 ```
