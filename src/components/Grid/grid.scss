@@ -22,8 +22,13 @@
 .background--header {
   padding-top: 2rem;
   padding-bottom: 0;
+  //height: 480px;
 
   @include breakpoint('md') {
+    height: 338px;
+  }
+
+  @include breakpoint('lg') {
     height: 560px;
   }
 }
@@ -31,22 +36,16 @@
 //----------------------------
 // Background approach sub pages
 //----------------------------
-.background--thinking {
+.background--thinking .ibm--col-lg-8 {
   background-image: url(../content/approach/images/thinking.svg);
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
-.background--philosophy {
+.background--philosophy .ibm--col-lg-8 {
   background-image: url(../content/approach/images/philosophy.svg);
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
-.background--services {
+.background--services .ibm--col-lg-8 {
   background-image: url(../content/approach/images/services.svg);
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .background--thinking,
@@ -61,12 +60,20 @@
     height: 100%;
   }
 
-  .ibm--col-lg-7 {
+  .ibm--col-lg-8 {
     height: 100%;
     display: flex;
+    top: -1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+
+    @include breakpoint('md') {
+      right: -1rem;
+    }
   }
 
-  .ibm--col-lg-7 > div {
+  .ibm--col-lg-8 > div {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -74,9 +81,14 @@
 
   .gatsby-resp-iframe-wrapper {
     width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    top: -1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    @include breakpoint('md') {
+      top: -1rem;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
   }
 
   iframe {

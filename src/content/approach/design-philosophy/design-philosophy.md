@@ -3,7 +3,7 @@ title: Design Philosophy
 ---
 
 <grid background="gray-100" classname="background--header background--philosophy">
-<column lg="7" offset_lg="5" md="4">
+<column lg="8" offset_lg="4" md="4">
 
 <iframe title="video" src="https://player.vimeo.com/video/313055439?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
