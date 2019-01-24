@@ -31,7 +31,6 @@ business problems
 </grid>
 
 <tile
-    href="#"
     feature="true"
     feature_style="alt"
     feature_heading="Design Philosophy"
@@ -43,7 +42,6 @@ business problems
 <img src="images/Image_1.svg" alt="Geometric shapes"/>
 </tile>
 <tile
-    href="#"
     feature="true"
     feature_style="alt"
     feature_heading="Design Thinking"
@@ -55,7 +53,6 @@ business problems
 <img src="images/Image_2.svg" alt="Geometric shapes"/>
 </tile>
 <tile
-    href="#"
     feature="true"
     feature_style="alt"
     feature_heading="Design Services"

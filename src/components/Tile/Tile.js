@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { ClickableTile } from 'carbon-components-react';
@@ -27,11 +26,6 @@ export default class Tile extends React.Component {
      * href for external links
      */
     href: PropTypes.string,
-
-    /**
-     * link to internal pages
-     */
-    link: PropTypes.string,
 
     /**
      * default to false, show dark clickable tile
@@ -70,7 +64,6 @@ export default class Tile extends React.Component {
       caption,
       title,
       href,
-      link,
       dark,
       feature,
       feature_heading,
