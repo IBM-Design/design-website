@@ -5,11 +5,11 @@ title: Design Thinking
 <grid background="gray-20" classname="background--header">
 <column lg="4">
 
-## **Design Thinking Framework**
+## **Design Thinking**
 
-At its core, design thinking is the idea of putting human problems first.
+Design thinking shouldn't be controversial – it's simply the idea that everyone on a team should be focused on their users, first and foremost.
 
-We built on that idea, adding strategies, tactics and activities to create a framework uniquely tailored to address the challenges and scale of the modern enterprise.
+We built on that idea, adding strategies, tactics and activities to create a framework that uniquely scales design thinking across teams of all shapes and sizes, whether they are co-located or widely dispersed.
 
 </column>
 <column lg="9" offset_lg="3">

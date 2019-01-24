@@ -45,14 +45,18 @@ a.bx--tile {
   justify-content: space-between;
   text-decoration: none;
   color: $text-01;
-  padding: $spacing-md;
   position: relative;
   background: $ibm-colors__white;
   z-index: 1;
+  padding: 0; //needs to stay zero for aspect ratio to be correct
 
   &:hover {
     background: $ui-03;
   }
+}
+
+.bx--tile .bx--aspect-ratio--object {
+  padding: $spacing-md;
 }
 
 .tile__title {
@@ -69,14 +73,14 @@ a.bx--tile {
   color: $text-02;
   display: block;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 .tile__link-icon {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 1rem;
+  right: 1rem;
   width: 20px;
   height: 20px;
 }
