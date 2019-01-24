@@ -156,7 +156,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 <column lg="7">
 
 <p size="xl"><strong>Find your team</strong><br>Ready to become part of the single-largest design initiative in the world?
-  
+
 We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways Design is practiced across IBM.</p>
 
 </column>
@@ -197,7 +197,12 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="8" offset_lg="4">
 
-![teams](images/Image_5.png)
+<!-- ![teams](images/Image_5.png) -->
+<carousel>
+  <img src="images/Image_5.png" alt="Teams"/>
+  <img src="images/Image_5.png" alt="Teams"/>
+  <img src="images/Image_5.png" alt="Teams"/>
+</carousel>
 
 </column>
 <column lg="3">

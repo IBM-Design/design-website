@@ -11,6 +11,7 @@ import TitleBlock from '../components/TitleBlock';
 import Tile from '../components/Tile';
 import AnchorLinks from '../components/AnchorLinks';
 import Icon from '../components/Icon';
+import Carousel from '../components/Carousel';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
   a,
@@ -44,6 +45,7 @@ const renderAst = new rehypeReact({
     tile: Tile,
     grid: Grid,
     column: Column,
+    carousel: Carousel,
   },
 }).Compiler;
 
