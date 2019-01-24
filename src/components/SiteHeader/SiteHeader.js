@@ -52,14 +52,14 @@ const SiteHeader = ({
             <HeaderMenuItem to="/approach" element={Link}>
               Overview
             </HeaderMenuItem>
+            <HeaderMenuItem to="/approach/design-philosophy" element={Link}>
+              Design Philosophy
+            </HeaderMenuItem>
             <HeaderMenuItem to="/approach/design-thinking" element={Link}>
               Design Thinking
             </HeaderMenuItem>
             <HeaderMenuItem to="/approach/design-services" element={Link}>
               Design Services
-            </HeaderMenuItem>
-            <HeaderMenuItem to="/approach/design-philosophy" element={Link}>
-              Design Philosophy
             </HeaderMenuItem>
           </HeaderMenu>
           <HeaderMenuItem to="/teams" element={Link}>
@@ -87,14 +87,14 @@ const SiteHeader = ({
             <SideNavMenuItem to="/approach" element={Link}>
               Overview
             </SideNavMenuItem>
+            <SideNavMenuItem to="/approach/design-philosophy" element={Link}>
+              Design Philosophy
+            </SideNavMenuItem>
             <SideNavMenuItem to="/approach/design-thinking" element={Link}>
               Design Thinking
             </SideNavMenuItem>
             <SideNavMenuItem to="/approach/design-services" element={Link}>
               Design Services
-            </SideNavMenuItem>
-            <SideNavMenuItem to="/approach/design-philosophy" element={Link}>
-              Design Philosophy
             </SideNavMenuItem>
           </SideNavMenu>
           <SideNavLink to="/teams" element={Link}>
