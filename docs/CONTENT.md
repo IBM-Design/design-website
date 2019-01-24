@@ -138,7 +138,7 @@ Adds ↳ as bullet for an anchor list of links. Used within the `<title-block>` 
 Options:
 
 color: black (default), blue, white
-icon: ArrowRight16 (default), ArrowUpRight20, ArrowDown32
+icon: ArrowRight16 (default), ArrowUpRight20, PlexArrowDown
 inline: true or false (default)
 align: right or left(default)
 
@@ -162,19 +162,19 @@ class icon--inline displays inline and vertical-aligns icon
     <!-- black icon options -->
     <icon></icon>
     <icon name="ArrowUpRight20"></icon>
-    <icon name="ArrowDown32"></icon>
+    <icon name="PlexArrowDown"></icon>
     <icon align="right"></icon>
 
     <!-- white icon options -->
     <icon color="white"></icon>
     <icon color="white" icon="ArrowUpRight20"></icon>
-    <icon color="white" icon="ArrowDown32"></icon>
+    <icon color="white" icon="PlexArrowDown"></icon>
     <icon color="white" align="right"></icon>
 
     <!-- blue icon options -->
     <icon color="blue"></icon>
     <icon color="blue" icon="ArrowUpRight20"></icon>
-    <icon color="blue" icon="ArrowDown32"></icon>
+    <icon color="blue" icon="PlexArrowDown"></icon>
     <icon color="blue" align="right"></icon>
 
 ![icon example](https://user-images.githubusercontent.com/32556167/50860068-9b008e00-135a-11e9-97a1-76b0244bdb0c.png)
