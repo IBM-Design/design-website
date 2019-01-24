@@ -47,6 +47,21 @@ export default class Tile extends React.Component {
      * feature heading, only displas if feature is true
      */
     feature_heading: PropTypes.string,
+
+    /**
+     * feature heading, only displas if feature is true
+     */
+    feature_heading_secondary: PropTypes.string,
+
+    /**
+     * feature description, only displas if feature is true
+     */
+    feature_description: PropTypes.string,
+
+    /**
+     * feature style, default or alt
+     */
+    feature_style: PropTypes.string,
   };
 
   render() {
@@ -59,23 +74,32 @@ export default class Tile extends React.Component {
       dark,
       feature,
       feature_heading,
+      feature_heading_secondary,
+      feature_description,
       feature_background,
+      feature_style,
     } = this.props;
 
     const classNames = classnames({
       tile: true,
       'tile--dark': dark === 'true',
-      'tile--feature': feature === 'true',
+      'tile--feature': (feature_style === 'default') & (feature === 'true'),
+      'tile--feature--alt': (feature_style === 'alt') & (feature === 'true'),
     });
 
     const backgroundClassnames = classnames({
-      'tile__feature-content': true,
+      tile_background: true,
+      'tile__feature-content': feature_style === 'default',
       'background--black': feature_background === 'black',
       'background--white': feature_background === 'white',
       'background--gray-10': feature_background === 'gray-10',
       'background--gray-20': feature_background === 'gray-20',
       'background--gray-80': feature_background === 'gray-80',
       'background--gray-100': feature_background === 'gray-100',
+      'background--inverse':
+        feature_background === 'gray-100' ||
+        feature_background === 'gray-80' ||
+        feature_background === 'black',
     });
 
     const clickTileClassNames = classnames({
@@ -104,7 +128,7 @@ export default class Tile extends React.Component {
       </ClickableTile>
     );
 
-    if (feature === 'true') {
+    if ((feature === 'true') & (feature_style === 'default')) {
       return (
         <Fade bottom distance="10%">
           <div className={classNames}>
@@ -115,6 +139,30 @@ export default class Tile extends React.Component {
               {clickableTile}
             </div>
             <div className="tile__feature-img">{children}</div>
+          </div>
+        </Fade>
+      );
+    }
+
+    if ((feature === 'true') & (feature_style === 'alt')) {
+      return (
+        <Fade bottom distance="10%">
+          <div className="ibm--grid tile-grid">
+            <div className={classNames}>
+              <div className={backgroundClassnames}>
+                <div className="ibm--col-lg-4 ibm--offset-lg-1 ibm--col-md-3">
+                  <h2 className="bx--type-expressive-paragraph-01">
+                    <strong>{feature_heading}</strong>
+                    {feature_heading_secondary}
+                  </h2>
+                  <p className="page-p">{feature_description}</p>
+                </div>
+                <div className="ibm--col-lg-8 ibm--col-md-4 ibm--offset-md-1 ibm--offset-lg-3 tile__feature-img">
+                  {children}
+                </div>
+              </div>
+              {clickableTile}
+            </div>
           </div>
         </Fade>
       );
@@ -136,4 +184,5 @@ Tile.defaultProps = {
   dark: 'false',
   feature: 'false',
   href: '',
+  feature_style: 'default',
 };

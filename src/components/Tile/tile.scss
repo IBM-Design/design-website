@@ -269,3 +269,88 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
     padding-bottom: 50%;
   }
 }
+
+//----------------------------
+// Tile feature alt
+//----------------------------
+.tile-grid:last-child {
+  @include breakpoint('md') {
+    margin-bottom: rem(80px);
+  }
+}
+
+.tile.tile--feature--alt {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: 0;
+
+  @include breakpoint('md') {
+    margin-bottom: 1rem;
+  }
+}
+
+.tile--feature--alt .tile_background {
+  @include breakpoint('md') {
+    display: flex;
+  }
+
+  @include breakpoint('lg') {
+    height: 560px;
+  }
+}
+
+.tile--feature--alt h2 {
+  margin-bottom: 1.5rem;
+}
+
+.tile--feature--alt h2 strong {
+  display: block;
+  padding-top: 2rem;
+
+  @include breakpoint('lg') {
+    padding-top: 4rem;
+  }
+}
+
+.tile--feature--alt .tile__feature-img {
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+
+  img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.tile--feature--alt a.bx--tile {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+
+  @include breakpoint('md') {
+    right: 1rem;
+    width: calc(50% - 1rem);
+  }
+
+  @include breakpoint('lg') {
+    width: calc(25% - 1rem);
+  }
+}
+
+.tile--feature--alt .bx--aspect-ratio--2x1 {
+  padding-bottom: 100%;
+
+  @include breakpoint('md') {
+    padding-bottom: 50%;
+  }
+}
+
+.tile__img img {
+  max-width: unset;
+  height: 100%;
+  width: auto !important;
+}
