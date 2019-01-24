@@ -96,20 +96,3 @@
   .bx--radio-button__appearance:before {
   display: none;
 }
-
-//selected slide state
-.first {
-  transform: translate(0, 0);
-}
-
-.second {
-  transform: translate(-100%, 0);
-}
-
-.third {
-  transform: translate(-200%, 0);
-}
-
-.fourth {
-  transform: translate(-300%, 0);
-}

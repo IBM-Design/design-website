@@ -202,6 +202,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
   <img src="images/Image_5.png" alt="Teams"/>
   <img src="images/Image_5.png" alt="Teams"/>
   <img src="images/Image_5.png" alt="Teams"/>
+  <img src="images/Image_5.png" alt="Teams"/>
 </carousel>
 
 </column>

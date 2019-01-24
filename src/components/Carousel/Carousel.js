@@ -15,42 +15,10 @@ export default class Carousel extends React.Component {
   onChange = e => {
     const slide = document.querySelector('.ibm--carousel-slide');
     const images = slide.querySelectorAll('img');
-    console.log(images);
-    console.log(e);
 
-    if (e === 1) {
-      images.forEach(img => {
-        img.classList.add('first');
-        img.classList.remove('second');
-        img.classList.remove('third');
-        img.classList.remove('fourth');
-      });
-    } else if (e === 2) {
-      images.forEach(img => {
-        img.classList.add('second');
-        img.classList.remove('first');
-        img.classList.remove('third');
-        img.classList.remove('fourth');
-      });
-    } else if (e === 3) {
-      images.forEach(img => {
-        img.classList.add('third');
-        img.classList.remove('first');
-        img.classList.remove('second');
-        img.classList.remove('fourth');
-      });
-    } else if (e === 4) {
-      images.forEach(img => {
-        img.classList.add('fourth');
-        img.classList.remove('first');
-        img.classList.remove('second');
-        img.classList.remove('third');
-      });
-    }
-  };
-
-  updateRadioValue = () => {
-    console.log('Radio button changed');
+    images.forEach(img => {
+      img.style.transform = `translate(${e * -100 + 100}%, 0)`;
+    });
   };
 
   render() {
@@ -58,6 +26,7 @@ export default class Carousel extends React.Component {
     const img = children[1].props.children[3].props;
     const img2 = children[3].props.children[3].props;
     const img3 = children[5].props.children[3].props;
+    const img4 = children[7].props.children[3].props;
 
     return (
       <div className="ibm--carousel">
@@ -67,6 +36,7 @@ export default class Carousel extends React.Component {
             <img src={img.src} alt={img.alt} className={img.className} />
             <img src={img2.src} alt={img2.alt} className={img2.className} />
             <img src={img3.src} alt={img3.alt} className={img3.className} />
+            <img src={img4.src} alt={img4.alt} className={img4.className} />
           </div>
           <button className="ibm--carousel-slide-nav left">
             <ChevronLeft32 aria-label="Carousel slide left button" />
@@ -84,25 +54,21 @@ export default class Carousel extends React.Component {
             className="ibm--carousel-nav-item"
             value={1}
             labelText=""
-            onChange={this.updateRadioValue}
           />
           <RadioButton
             className="ibm--carousel-nav-item"
             value={2}
             labelText=""
-            onChange={this.updateRadioValue}
           />
           <RadioButton
             className="ibm--carousel-nav-item"
             value={3}
             labelText=""
-            onChange={this.updateRadioValue}
           />
           <RadioButton
             className="ibm--carousel-nav-item"
             value={4}
             labelText=""
-            onChange={this.updateRadioValue}
           />
         </RadioButtonGroup>
       </div>
