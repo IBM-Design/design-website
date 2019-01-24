@@ -38,16 +38,16 @@ with time-tested business acumen, the results speak for themselves.</p>
 </column>
 <column lg="4">
 
-### Today
+### Featured Outcomes
 
 </column>
 
 <column lg="4" md="4">
 
 <tile
-    href="http://www.google.com"
+    href="/impact/quantum"
     caption="impact/quantum"
-    title="IBM Q, System One">
+    title="Gallery: Quantum Computing">
 <img src="images/Image_1.png" alt="A laptop showing security analytics"/>
 </tile>
 
@@ -55,9 +55,9 @@ with time-tested business acumen, the results speak for themselves.</p>
 <column lg="4" md="4">
 
 <tile
-    href="http://www.google.com"
-    caption="impact/security"
-    title="Security Design at IBM">
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a Security Operations Center on wheels">
 <img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface"/>
 </tile>
 
@@ -65,9 +65,9 @@ with time-tested business acumen, the results speak for themselves.</p>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile
-    href="http://www.google.com"
-    caption="tdc/news"
-    title="Why a 2018 Typeface Design Competition judge voted for Plex  ">
+    href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
+    caption="Quartz"
+    title="The business case for an open-source font">
 <img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface"/>
 </tile>
 
