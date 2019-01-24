@@ -14,7 +14,7 @@ title: Impact story template
 fonts like Arial and Helvetica to convey
 our messages. While practical, these over-leveraged z lacked distinction; we needed a typeface that was unmistakably IBM.</p>
 
-<icon name="ArrowDown32"></icon>
+<icon name="PlexArrowDown"></icon>
 
 </column>
 </grid>
