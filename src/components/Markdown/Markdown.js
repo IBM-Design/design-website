@@ -77,11 +77,14 @@ export class h2 extends React.Component {
             .toLowerCase()
             .split(' ')
             .join('-');
+
     return (
       <Fade bottom distance="25%">
-        <h2 className="page-h2 bx--type-expressive-paragraph-01" id={hash}>
-          {this.props.children}
-        </h2>
+        <div>
+          <h2 className="page-h2 bx--type-expressive-paragraph-01" id={hash}>
+            {this.props.children}
+          </h2>
+        </div>
       </Fade>
     );
   }

@@ -2,8 +2,8 @@
 title: Design Philosophy
 ---
 
-<grid background="gray-100">
-<column lg="5">
+<grid background="gray-100" classname="background--header">
+<column lg="4">
 
 ## **Design Philosophy**
 
@@ -12,9 +12,9 @@ IBMers believe in progress — that by applying intelligence, reason and science
 Given our scale and scope, good design is not just a requirement, it’s a deeper responsibility to the relationships we seek to serve.
 
 </column>
-<column lg="9" offset_lg="2">
+<column lg="9" offset_lg="3">
 
-<iframe src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 </column>
 </grid>
@@ -97,7 +97,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <h3>Keep exploring<br>our approach</h3>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 ![](images/Image_3.png)
 
@@ -106,7 +106,7 @@ Get familiar with how to apply the framework that drives how we think and work e
 <a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">
 
 ![](images/Image_4.png)
 

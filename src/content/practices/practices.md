@@ -24,7 +24,7 @@ meets pragmatic.</span>
 
 <p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
 
-<icon title="ArrowDown32" color="white"></icon>
+<icon name="ArrowDown32" color="white"></icon>
 
 </column>
 </grid>
@@ -74,7 +74,7 @@ meets pragmatic.</span>
 </tile>
 
 </column>
-<column lg="4" md="4">
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile
     dark="true"

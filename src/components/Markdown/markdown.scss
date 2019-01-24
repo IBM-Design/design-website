@@ -68,8 +68,12 @@
 .page-h3 {
   @include type-style('heading-03');
   color: $text-01;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding-right: 9%;
+
+  @include breakpoint('md') {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .background--inverse .page-h3 {
@@ -89,6 +93,18 @@
 
 .background--inverse .page-h4 {
   color: $ibm-colors__gray--10;
+}
+
+.page-h2,
+.page-h3 {
+  &:before {
+    display: block;
+    content: ' ';
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
 
 //----------------------------
@@ -194,7 +210,11 @@ blockquote em {
 hr {
   border: none;
   border-top: 1px solid $ibm-colors__gray--50;
-  margin-top: -2rem;
+  margin-top: -1rem;
+
+  @include breakpoint('md') {
+    margin-top: -2rem;
+  }
 }
 
 .background--black blockquote hr,

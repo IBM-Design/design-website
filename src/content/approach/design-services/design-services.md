@@ -2,8 +2,8 @@
 title: Design Services
 ---
 
-<grid background="gray-80">
-<column lg="5">
+<grid background="gray-80" classname="background--header">
+<column lg="4">
 
 ## **Design services**
 
@@ -12,9 +12,9 @@ Most companies make things for their clients. We prefer to co-create with you.
 At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner.
 
 </column>
-<column lg="9" offset_lg="2">
+<column lg="9" offset_lg="3">
 
-<iframe src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 </column>
 </grid>
@@ -55,12 +55,12 @@ Customers and employees are won and lost by the quality of your experience, not 
 </column>
 <column lg="6" offset_lg="4">
 
-<img src="https://via.placeholder.com/800.png/ccc/ccc">
+<img alt="add alt" src="https://via.placeholder.com/800.png/ccc/ccc">
 
 </column>
 <column lg="6">
 
-<img src="https://via.placeholder.com/800.png/ccc/ccc">
+<img alt="add alt" src="https://via.placeholder.com/800.png/ccc/ccc">
 
 </column>
 </grid>
@@ -87,12 +87,12 @@ A business strategy that fails to account for the constantly changing needs and 
 </column>
 <column lg="8" offset_lg="4">
 
-<img src="https://via.placeholder.com/800x500.png/ccc/ccc">
+<img alt="add alt" src="https://via.placeholder.com/800x500.png/ccc/ccc">
 
 </column>
 <column lg="4">
 
-<img src="https://via.placeholder.com/800x450.png/ccc/ccc">
+<img alt="add alt" src="https://via.placeholder.com/800x450.png/ccc/ccc">
 
 </column>
 </grid>
@@ -119,7 +119,7 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 </column>
 <column lg="12" offset_lg="4">
 
-<img src="https://via.placeholder.com/1500x700.png/ccc/ccc">
+<img alt="add alt" src="https://via.placeholder.com/1500x700.png/ccc/ccc">
 
 </column>
 </grid>
@@ -142,18 +142,18 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 <h3>Keep exploring<br>our Approach</h3>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">>
 
-![](images/Image_3.png)
+![add alt](images/Image_3.png)
 
 <p size="sm"><br><strong>Design Philosophy</strong><br>
 Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br>
 <a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
-<column lg="4">
+<column lg="4" md="4">>
 
-![](images/Image_4.png)
+![add alt](images/Image_4.png)
 
 <p size="sm"><br><strong>Design Thinking</strong><br>
 Get familiar with how to apply the framework that drives how we think and work every day. <br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>

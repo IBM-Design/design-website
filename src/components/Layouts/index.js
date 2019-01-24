@@ -88,7 +88,11 @@ class Layout extends React.Component {
               onToggleNav={this.toggleClick}
               onToggleSwitcher={this.toggleSwitcher}
             />
-            <div className="container" onClick={this.closeClick}>
+            <div
+              className="container"
+              role="main"
+              aria-label="Main content area"
+              onClick={this.closeClick}>
               {children}
               <WebsiteFooter
                 logoOffset={false}

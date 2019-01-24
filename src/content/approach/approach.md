@@ -22,20 +22,18 @@ business problems
 <grid background="gray-10">
 <column lg="8">
 
-<p size="xl">Whatever problem we're solving, we put
-people at the center of everything we do.
-Design isn’t just a job; it’s a deep
-responsibility to the people we serve.</p>
+## Whatever problem we're solving, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.
 
 <icon name="ArrowDown32"></icon>
 
 </column>
 
 </grid>
-<grid background="black" margin="false">
+<grid background="black" classname="background--tile">
 <column lg="4" offset_lg="1">
 
-<h2><strong>Design Philosophy</strong><br>The beliefs behind everything we do.</h2>
+<h2>Design Philosophy</h2>
+<p size="xl">The beliefs behind everything we do.</p>
 
 Design is about giving people a path, both emotionally and functionally, towards their goals.
 
@@ -44,17 +42,17 @@ Design is about giving people a path, both emotionally and functionally, towards
 
 <tile
     href="/approach/design-philosophy"
-    caption="caption"
-    title="title">
+    title="Learn more">
 <img src="images/Image_1.svg" alt="Geometric shapes"/>
 </tile>
 
 </column>
 </grid>
-<grid background="gray-20" margin="false">
+<grid background="gray-20" classname="background--tile">
 <column lg="4" offset_lg="1">
 
-<h2><strong>Design Thinking</strong><br>Human-centered design at scale.</h2>
+<h2>Design Thinking</h2>
+<p size="xl">Human-centered design at scale.</p>
 
 Learn how you can apply the same framework our teams use every day.
 
@@ -63,17 +61,17 @@ Learn how you can apply the same framework our teams use every day.
 
 <tile
     href="/approach/design-thinking"
-    caption="caption"
-    title="title">
+    title="Learn more">
 <img src="images/Image_2.svg" alt="Geometric shapes"/>
 </tile>
 
 </column>
 </grid>
-<grid background="gray-80" margin="false">
+<grid background="gray-80" classname="background--tile">
 <column lg="4" offset_lg="1">
 
-<h2><strong>Design Services</strong><br>Your business partner by design.</h2>
+<h2>Design Services</h2>
+<p size="xl">Your business partner by design.</p>
 
 Partner with us to help define your strategy, create exceptional experiences, and drive better business outcomes.
 
@@ -82,8 +80,7 @@ Partner with us to help define your strategy, create exceptional experiences, an
 
 <tile
     href="/approach/design-services"
-    caption="caption"
-    title="title">
+    title="Learn more">
 <img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
 </tile>
 
