@@ -197,11 +197,10 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="8" offset_lg="4">
 
-<!-- ![teams](images/Image_5.png) -->
 <carousel>
   <img src="images/Image_5.png" alt="Teams"/>
-  <img src="images/Image_5.png" alt="Teams"/>
-  <img src="images/Image_5.png" alt="Teams"/>
+  <img src="images/Image_6.png" alt="Teams"/>
+  <img src="images/Image_7.png" alt="Teams"/>
   <img src="images/Image_5.png" alt="Teams"/>
 </carousel>
 
