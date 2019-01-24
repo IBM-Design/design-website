@@ -215,6 +215,8 @@
   }
 }
 
+//Impact subpage large rectangle image container
+
 .container .ibm--col-bleed {
   margin-bottom: 2rem;
   padding-left: 0;
@@ -224,4 +226,10 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
+
+//Impact subpage medium rectangle image container
+
+.container .ibm--col-bleed.ibm--col-md-5 {
+  padding-right: 0.5rem;
 }
