@@ -21,36 +21,108 @@
 
 .background--header {
   padding-top: 2rem;
+  padding-bottom: 0;
+  //height: 480px;
+
+  @include breakpoint('md') {
+    height: 338px;
+  }
 
   @include breakpoint('lg') {
     height: 560px;
   }
 }
 
+//----------------------------
+// Background approach sub pages
+//----------------------------
+.background--thinking .ibm--col-lg-8 {
+  background-image: url(../content/approach/images/thinking.svg);
+}
+
+.background--philosophy .ibm--col-lg-8 {
+  background-image: url(../content/approach/images/philosophy.svg);
+}
+
+.background--services .ibm--col-lg-8 {
+  background-image: url(../content/approach/images/services.svg);
+}
+
+.background--thinking,
+.background--services,
+.background--philosophy {
+  .ibm--grid {
+    height: 100%;
+  }
+
+  .ibm--row {
+    flex-direction: row-reverse;
+    height: 100%;
+  }
+
+  .ibm--col-lg-8 {
+    height: 100%;
+    display: flex;
+    top: -1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+
+    @include breakpoint('md') {
+      right: -1rem;
+    }
+  }
+
+  .ibm--col-lg-8 > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .gatsby-resp-iframe-wrapper {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    @include breakpoint('md') {
+      top: -1rem;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+//----------------------------
+// Background colors
+//----------------------------
 .background--white {
-  background: $ibm-colors__white;
+  background-color: $ibm-colors__white;
 }
 
 .background--gray-10 {
-  background: $ibm-colors__gray--10;
+  background-color: $ibm-colors__gray--10;
 }
 
 .background--gray-20 {
-  background: $ibm-colors__gray--20;
+  background-color: $ibm-colors__gray--20;
 }
 
 .background--gray-80 {
-  background: $ibm-colors__gray--80;
+  background-color: $ibm-colors__gray--80;
   color: $ibm-colors__gray--10;
 }
 
 .background--gray-100 {
-  background: $ibm-colors__gray--100;
+  background-color: $ibm-colors__gray--100;
   color: $ibm-colors__gray--10;
 }
 
 .background--black {
-  background: $ibm-colors__black;
+  background-color: $ibm-colors__black;
   color: $ibm-colors__gray--10;
 }
 
