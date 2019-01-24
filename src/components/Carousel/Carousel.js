@@ -19,7 +19,7 @@ export default class Carousel extends React.Component {
     /**
      * unique id for each carousel, required
      */
-    id: PropTypes.string,
+    id: PropTypes.string.isRequired,
   };
 
   onChange = e => {
