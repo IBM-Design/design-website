@@ -2,13 +2,15 @@
 title: Think
 ---
 
+<grid className="background--nopadding">
 <column lg="16">
 
-[Impact Stories](/impact)
+<p><icon color="blue" name="ArrowLeft20" inline="true"></icon>  <a href="/Impact"><span>Impact Stories</span></a></p>
 
 </column>
+</grid>
 
-<img alt="add alt" src="./images/Impact_1.png">
+![add alt](/images/Impact_1.png)
 
 <grid background="gray-10">
 <column md="2" lg="4">
@@ -19,7 +21,8 @@ title: Think
 
 <column md="6" lg="8">
 
-<p size="md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p size="md">Once a year, all of IBM unites for a one-week event that brings together clients, partners, IBMers and visionaries from around the world.</p>
+<p size="md">The experiences offered at Think are as diverse as they are numerous, including interactive exhibitions, Think tanks, research demos, live entertainment and beyond. By leveraging the IBM Design Language for everything from the layout of the expo floor to iconography and booth design, Think unifies thousands of individual sessions, creating a cohesive end-to-end experience that is distinctly IBM.</p>
 
 <icon name="ArrowDown32"></icon>
 

@@ -64,6 +64,22 @@
   );
 }
 
+.background-bleed {
+  padding: 0;
+
+  .ibm--grid {
+    padding: 0;
+  }
+
+  .ibm-col-lg-16 {
+    padding: 0;
+  }
+}
+
+.background--nopadding {
+  padding: 1.5rem 0 0 0;
+}
+
 // selects all columnns for testing
 .background div[class^='ibm--col-'] {
   position: relative;

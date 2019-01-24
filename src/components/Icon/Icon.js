@@ -1,7 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { ArrowRight16, ArrowDown32, ArrowUpRight20 } from '@carbon/icons-react';
+import {
+  ArrowRight20,
+  ArrowDown32,
+  ArrowUpRight20,
+  ArrowLeft20,
+} from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
 export default class Icon extends React.Component {
@@ -50,8 +55,11 @@ export default class Icon extends React.Component {
           {name === 'ArrowUpRight20' ? (
             <ArrowUpRight20 className="icon--upright20" />
           ) : null}
-          {name === 'ArrowRight16' ? (
-            <ArrowRight16 className="icon--right16" />
+          {name === 'ArrowRight20' ? (
+            <ArrowRight20 className="icon--right20" />
+          ) : null}
+          {name === 'ArrowLeft20' ? (
+            <ArrowLeft20 className="icon--left20" />
           ) : null}
         </div>
       </Fade>
