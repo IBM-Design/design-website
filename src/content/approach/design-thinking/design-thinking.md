@@ -2,7 +2,12 @@
 title: Design Thinking
 ---
 
-<grid background="gray-20" classname="background--header">
+<grid background="gray-20" classname="background--header background--thinking">
+<column lg="7" offset_lg="5">
+
+<iframe title="video" src="https://player.vimeo.com/video/303560967?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+</column>
 <column lg="4">
 
 ## **Design Thinking Framework**
@@ -12,11 +17,7 @@ At its core, design thinking is the idea of putting human problems first.
 We built on that idea, adding strategies, tactics and activities to create a framework uniquely tailored to address the challenges and scale of the modern enterprise.
 
 </column>
-<column lg="9" offset_lg="3">
 
-<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-</column>
 </grid>
 <grid background="gray-10">
 <column lg="4">

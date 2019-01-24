@@ -2,8 +2,15 @@
 title: Design Philosophy
 ---
 
-<grid background="gray-100" classname="background--header">
-<column lg="4">
+<grid background="gray-100" classname="background--header background--philosophy">
+<column lg="7" offset_lg="5" md="4">
+
+<iframe title="video" src="https://player.vimeo.com/video/313055439?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+<!--<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />-->
+
+</column>
+<column lg="4" md="4">
 
 ## **Design Philosophy**
 
@@ -12,11 +19,7 @@ IBMers believe in progress — that by applying intelligence, reason and science
 Given our scale and scope, good design is not just a requirement, it’s a deeper responsibility to the relationships we seek to serve.
 
 </column>
-<column lg="9" offset_lg="3">
 
-<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-</column>
 </grid>
 <grid background="gray-10">
 <column lg="7" offset_lg="4">

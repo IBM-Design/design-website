@@ -43,7 +43,7 @@ Design is about giving people a path, both emotionally and functionally, towards
 <tile
     href="/approach/design-philosophy"
     title="Learn more">
-<img src="images/Image_1.svg" alt="Geometric shapes"/>
+<img src="images/philosophy.svg" alt="Geometric shapes"/>
 </tile>
 
 </column>
@@ -62,7 +62,7 @@ Learn how you can apply the same framework our teams use every day.
 <tile
     href="/approach/design-thinking"
     title="Learn more">
-<img src="images/Image_2.svg" alt="Geometric shapes"/>
+<img src="images/thinking.svg" alt="Geometric shapes"/>
 </tile>
 
 </column>
@@ -81,7 +81,7 @@ Partner with us to help define your strategy, create exceptional experiences, an
 <tile
     href="/approach/design-services"
     title="Learn more">
-<img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
+<img src="images/services.svg" alt="Ven diagram emphasizing overlapping area"/>
 </tile>
 
 </column>
