@@ -777,7 +777,7 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@carbon/addons-website@^0.0.1-alpha.9":
+"@carbon/addons-website@^0.0.1-alpha.8":
   version "0.0.1-alpha.8"
   resolved "https://registry.yarnpkg.com/@carbon/addons-website/-/addons-website-0.0.1-alpha.8.tgz#daf8a27c75ff00d8c6ba7f6a16a545c280c7e08f"
   integrity sha512-DeY4nuYu6yoztAdbPIK1cN4EcI3wMU3UjnFqyzyduTH0ND2zAinpWhSIvXgDVHq3+DMuGdkrt+xIOsAYIPKhHQ==
