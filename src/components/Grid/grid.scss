@@ -233,3 +233,25 @@
 .container .ibm--col-bleed.ibm--col-md-5 {
   padding-right: 0.5rem;
 }
+
+//Impact subpage square image container on the left
+.container .ibm--col-bleed.ibm--col-lg-6.ibm--col-md-4.ibm--offset-lg-4 {
+  padding-left: 0;
+  padding-right: 1rem;
+
+  @include breakpoint('lg') {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+//Impact subpage square image container on the right
+.container .ibm--col-bleed.ibm--col-lg-6.ibm--col-md-4 {
+  padding-left: 1rem;
+  padding-right: 0;
+
+  @include breakpoint('lg') {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
