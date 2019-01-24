@@ -253,11 +253,12 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   width: 50%;
 
   @include breakpoint('md') {
-    width: 50%;
+    right: 1rem;
+    width: calc(50% - 1rem);
   }
 
   @include breakpoint('lg') {
-    width: 25%;
+    width: calc(25% - 1rem);
   }
 }
 
@@ -330,13 +331,8 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   right: 0;
   width: 50%;
 
-  @include breakpoint('md') {
-    right: 1rem;
-    width: calc(50% - 1rem);
-  }
-
   @include breakpoint('lg') {
-    width: calc(25% - 1rem);
+    width: 25%;
   }
 }
 
