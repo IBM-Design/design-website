@@ -213,12 +213,14 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 //----------------------------
 .ibm--grid .tile.tile--feature {
   margin-bottom: rem(32px);
+  margin-left: -1rem;
+  margin-right: -1rem;
 
   @include breakpoint('md') {
-    margin-left: -2rem;
-    margin-right: -2rem;
     display: flex;
     flex-direction: row-reverse;
+    margin-left: -2rem;
+    margin-right: -2rem;
   }
 }
 
@@ -257,5 +259,13 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
   @include breakpoint('lg') {
     width: calc(25% - 1rem);
+  }
+}
+
+.tile--feature .bx--aspect-ratio--2x1 {
+  padding-bottom: 100%;
+
+  @include breakpoint('md') {
+    padding-bottom: 50%;
   }
 }
