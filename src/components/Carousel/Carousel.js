@@ -30,7 +30,6 @@ export default class Carousel extends React.Component {
 
     return (
       <div className="ibm--carousel">
-        Carousel Component:
         <div className="ibm--carousel-slide-wrapper">
           <div className="ibm--carousel-slide">
             <img src={img.src} alt={img.alt} className={img.className} />
