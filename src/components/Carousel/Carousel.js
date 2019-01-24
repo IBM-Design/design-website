@@ -37,12 +37,6 @@ export default class Carousel extends React.Component {
             <img src={img3.src} alt={img3.alt} className={img3.className} />
             <img src={img4.src} alt={img4.alt} className={img4.className} />
           </div>
-          <button className="ibm--carousel-slide-nav left">
-            <ChevronLeft32 aria-label="Carousel slide left button" />
-          </button>
-          <button className="ibm--carousel-slide-nav right">
-            <ChevronRight32 aria-label="Carousel slide right button" />
-          </button>
         </div>
         <RadioButtonGroup
           className="ibm--carousel-nav-wrapper"
