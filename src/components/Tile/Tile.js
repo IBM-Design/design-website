@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { ClickableTile } from 'carbon-components-react';
-import { ArrowRight16, ArrowUpRight20 } from '@carbon/icons-react';
+import { ArrowRight20, ArrowUpRight20 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
 export default class Tile extends React.Component {
@@ -94,7 +94,7 @@ export default class Tile extends React.Component {
             {caption ? <p className="tile__caption">{caption}</p> : null}
             <div className="tile__link-icon">
               {href.startsWith('/') ? (
-                <ArrowRight16 aria-label={`Open ${title}`} />
+                <ArrowRight20 aria-label={`Open ${title}`} />
               ) : (
                 <ArrowUpRight20 aria-label={`Open ${title}`} />
               )}

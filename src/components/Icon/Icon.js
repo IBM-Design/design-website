@@ -13,7 +13,7 @@ export default class Icon extends React.Component {
   static propTypes = {
     /**
    * defines which icon to use, options:
-   "ArrowRight16" - default
+   "ArrowRight20" - default
    "ArrowUpRight20"
    "ArrowDown32"
    */
@@ -69,7 +69,7 @@ export default class Icon extends React.Component {
 
 Icon.defaultProps = {
   color: 'black',
-  name: 'ArrowRight16',
+  name: 'ArrowRight20',
   inline: 'false',
   align: 'left',
 };
