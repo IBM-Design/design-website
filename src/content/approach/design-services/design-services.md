@@ -143,7 +143,7 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 <h3>Keep exploring<br>our Approach</h3>
 
 </column>
-<column lg="4" md="4">>
+<column lg="4" md="4">
 
 ![add alt](images/Image_3.png)
 
@@ -152,7 +152,7 @@ Our beliefs drive everything we do. Design is about moving people forward, both 
 <a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
-<column lg="4" md="4">>
+<column lg="4" md="4">
 
 ![add alt](images/Image_4.png)
 
