@@ -39,7 +39,7 @@ business problems
     feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
     href="/approach/design-philosophy"
     title="Learn more">
-<img src="images/Image_1.svg" alt="Geometric shapes"/>
+<img src="images/philosophy.svg" alt="Geometric shapes"/>
 </tile>
 <tile
     feature="true"
@@ -50,7 +50,7 @@ business problems
     feature_description="Learn how you can apply the same framework our teams use every day."
     href="/approach/design-thinking"
     title="Learn more">
-<img src="images/Image_2.svg" alt="Geometric shapes"/>
+<img src="images/thinking.svg" alt="Geometric shapes"/>
 </tile>
 <tile
     feature="true"
@@ -61,5 +61,5 @@ business problems
     feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
     href="/approach/design-philosophy"
     title="Learn more">
-<img src="images/Image_3.svg" alt="Ven diagram emphasizing overlapping area"/>
+<img src="images/services.svg" alt="Ven diagram emphasizing overlapping area"/>
 </tile>

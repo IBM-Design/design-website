@@ -2,8 +2,13 @@
 title: Design Services
 ---
 
-<grid background="gray-80" classname="background--header">
-<column lg="4">
+<grid background="gray-80" classname="background--header background--services">
+<column lg="8" offset_lg="4" md="4">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J727tCXTggk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</column>
+<column lg="4" md="4">
 
 ## **Design services**
 
@@ -12,11 +17,7 @@ Most companies make things for their clients. We prefer to co-create with you.
 At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner.
 
 </column>
-<column lg="9" offset_lg="3">
 
-<iframe title="video" src="https://player.vimeo.com/video/293453905?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-</column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
