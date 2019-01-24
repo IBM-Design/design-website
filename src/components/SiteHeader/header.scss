@@ -1,0 +1,19 @@
+.bx--header .submenu--active {
+  > a.bx--header__menu-item {
+    background: $ibm-colors__gray--80;
+    color: $ibm-colors__gray--10;
+
+    &:after {
+      content: '';
+      width: calc(100% + 4px);
+      position: absolute;
+      left: -2px;
+      bottom: -2px;
+      border-top: 4px solid $ibm-colors__blue--60;
+    }
+  }
+}
+
+.bx--side-nav .submenu--active {
+  border: 2px solid red;
+}
