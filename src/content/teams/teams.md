@@ -197,7 +197,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="8" offset_lg="4">
 
-<carousel>
+<carousel id="c1">
   <img src="images/Image_5.png" alt="Teams"/>
   <img src="images/Image_6.png" alt="Teams"/>
   <img src="images/Image_7.png" alt="Teams"/>
@@ -237,7 +237,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="8" offset_lg="4">
 
-<carousel>
+<carousel id="c2">
   <img src="images/Image_6.png" alt="Teams"/>
   <img src="images/Image_6.png" alt="Teams"/>
   <img src="images/Image_6.png" alt="Teams"/>
@@ -277,7 +277,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="8" offset_lg="4">
 
-<carousel>
+<carousel id="c3">
   <img src="images/Image_7.png" alt="Teams"/>
   <img src="images/Image_7.png" alt="Teams"/>
   <img src="images/Image_7.png" alt="Teams"/>
