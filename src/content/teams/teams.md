@@ -129,12 +129,24 @@ Embedding designers directly into the business allows them to build a rigorous u
 </column>
 <column lg="8" offset_lg="4">
 
-<img alt="add alt" src="https://via.placeholder.com/800x500.png/e7e7e7/e7e7e7">
+![teams](images/photo_5.png)
 
 </column>
 <column lg="4">
 
-<img alt="add alt" src="https://via.placeholder.com/800x450.png/e7e7e7/e7e7e7">
+![teams](images/photo_6.png)
+
+</column>
+
+</column>
+<column lg="4" offset_lg="4">
+
+![teams](images/photo_7.png)
+
+</column>
+<column lg="8">
+
+![teams](images/photo_8.png)
 
 </column>
 </grid>
@@ -153,19 +165,26 @@ User-centered design goes far beyond just speaking with a few people before you 
 From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
 
 </column>
+<column lg="8" offset_lg="4">
+
+![teams](images/photo_9.png)
+
+</column>
+<column lg="4">
+
+![teams](images/photo_10.png)
+
+</column>
+
+</column>
 <column lg="4" offset_lg="4">
 
-<img alt="add alt" src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+![teams](images/photo_11.png)
 
 </column>
-<column lg="4">
+<column lg="8">
 
-<img alt="add alt" src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
-
-</column>
-<column lg="4">
-
-<img alt="add alt" src="https://via.placeholder.com/800.png/e7e7e7/e7e7e7">
+![teams](images/photo_12.png)
 
 </column>
 </grid>
