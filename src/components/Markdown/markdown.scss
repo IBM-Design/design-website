@@ -177,7 +177,7 @@ blockquote:first-child {
 
 blockquote .page-p {
   @include type-style('body-long-02');
-  padding: 0 0 1rem 0;
+  padding-bottom: 1rem;
 }
 
 blockquote em {

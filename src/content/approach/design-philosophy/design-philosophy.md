@@ -21,7 +21,7 @@ Given our scale and scope, good design is not just a requirement, it’s a deepe
 </column>
 
 </grid>
-<grid background="gray-10">
+<grid background="gray-10" classname="background--tight">
 <column lg="7" offset_lg="4">
 
 <h2>Design is how <br>we <em>build</em> bonds.</h2>
@@ -47,7 +47,7 @@ Aesthetic is defined as the philosophical theory or set of principles governing 
 
 </column>
 </grid>
-<grid background="gray-10">
+<grid background="gray-10" classname="background--tight">
 <column lg="12" offset_lg="4">
 
 <h2>Stand for = <br> Stand out</h2>
@@ -64,7 +64,7 @@ IBM has always served as a medium between mankind and machine, science, service 
 
 </column>
 </grid>
-<grid background="gray-10">
+<grid background="gray-10" classname="background--tight">
 <column lg="12" offset_lg="4">
 
 ## Think → Guide
