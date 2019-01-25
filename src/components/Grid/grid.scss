@@ -174,7 +174,7 @@
   padding-left: 0;
 
   @include breakpoint('lg') {
-    margin: 0;
+    margin: 2rem 0 0 0;
     padding-top: 0;
     padding-left: 1rem;
     border-top: 0;
@@ -193,6 +193,17 @@
     left: 0;
     width: 48px;
     height: auto;
+
+    @include breakpoint('lg') {
+      bottom: 0;
+      left: 1rem;
+    }
+  }
+
+  em:last-child {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
 
     @include breakpoint('lg') {
       bottom: 0;
