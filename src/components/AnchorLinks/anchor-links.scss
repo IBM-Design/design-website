@@ -18,7 +18,6 @@
     color: $ibm-colors__gray--10;
 
     &:before {
-      @include type-style('heading-03');
       content: '\21B3'; //"↳"
       position: absolute;
       left: -1rem;
