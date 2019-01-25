@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import {
   ArrowRight16,
   PlexArrowDown,
-  ArrowUpRight20,
+  ArrowUpRight24,
 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
@@ -13,7 +13,7 @@ export default class Icon extends React.Component {
     /**
    * defines which icon to use, options:
    "ArrowRight16" - default
-   "ArrowUpRight20"
+   "ArrowUpRight24"
    "PlexArrowDown"
    */
     name: PropTypes.string,
@@ -42,7 +42,7 @@ export default class Icon extends React.Component {
       'icon--inline': inline === 'true',
       'icon--right': align === 'right' && inline !== 'true',
       'icon--left': align === 'left' && inline !== 'true',
-      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight20',
+      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight24',
     });
 
     return (
@@ -51,8 +51,8 @@ export default class Icon extends React.Component {
           {name === 'PlexArrowDown' ? (
             <span className="icon--arrowDown">↓</span>
           ) : null}
-          {name === 'ArrowUpRight20' ? (
-            <ArrowUpRight20 className="icon--upright20" />
+          {name === 'ArrowUpRight24' ? (
+            <ArrowUpRight24 className="icon--upright20" />
           ) : null}
           {name === 'ArrowRight16' ? (
             <ArrowRight16 className="icon--right16" />
