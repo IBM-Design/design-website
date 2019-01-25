@@ -65,12 +65,12 @@ class Layout extends React.Component {
                 {
                   name: 'description',
                   content:
-                    'Carbon is the design system for IBM web and product. It is a series of individual styles, components, and guidelines used for creating unified UI.',
+                    'At IBM, our design philosophy is to help guide people so they can do their best work. Our human-centered design practices help us deliver on that goal.',
                 },
                 {
                   name: 'keywords',
                   content:
-                    'IBM, design, system, Carbon, design system, Bluemix, styleguide, style, guide, components, library, pattern, kit, component, cloud',
+                    'IBM, design, design thinking, design system, human-centered design, user-centered design, design services',
                 },
               ]}
               link={[
