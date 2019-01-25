@@ -127,17 +127,17 @@ a.bx--tile {
 
 // Dark
 a.bx--tile--clickable--dark {
-  background: $ibm-colors__gray--90;
-  color: $ibm-colors__gray--10;
+  background: $ibm-colors__gray-90;
+  color: $ibm-colors__gray-10;
 }
 
 a.bx--tile--clickable--dark:hover {
-  background: $ibm-colors__gray--80;
+  background: $ibm-colors__gray-80;
 }
 
 a.bx--tile--clickable--dark .tile__title,
 a.bx--tile--clickable--dark .tile__caption {
-  color: $ibm-colors__gray--10;
+  color: $ibm-colors__gray-10;
 }
 
 a.bx--tile--clickable--dark .tile__link-icon svg {
@@ -147,7 +147,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 .tile__text--dark.tile__description,
 .tile__text--dark.tile__title,
 .tile__text--dark.tile__title--secondary {
-  color: $ibm-colors__gray--90;
+  color: $ibm-colors__gray-90;
 }
 
 //----------------------------
@@ -262,7 +262,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   }
 
   @include breakpoint('lg') {
-    width: calc(25% - 1rem);
+    width: calc(25% - 8px);
   }
 }
 
