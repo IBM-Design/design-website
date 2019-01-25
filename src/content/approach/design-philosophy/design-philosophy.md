@@ -102,7 +102,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
 </column>
 <column lg="4" md="4">
 
-![](images/Image_3.png)
+![Design thinking artwork](../images/thinking-sm.svg)
 
 <p size="sm"><br><strong>Design Thinking</strong><br>
 Get familiar with how to apply the framework that drives how we think and work every day.<br><br>
@@ -111,7 +111,7 @@ Get familiar with how to apply the framework that drives how we think and work e
 </column>
 <column lg="4" md="4">
 
-![](images/Image_4.png)
+![Design services artwork](../images/services-sm.svg)
 
 <p size="sm"><br><strong>Design Services</strong><br>
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
