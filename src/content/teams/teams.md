@@ -51,7 +51,25 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="12" offset_lg="4">
 
-![teams](images/Image_1.png)
+![teams](images/image_1.png)
+
+</column>
+<column lg="4">
+
+![teams](images/image_2.png)
+
+</column>
+
+
+</column>
+<column lg="4" offset_lg="8">
+
+![teams](images/image_3.png)
+
+</column>
+<column lg="8">
+
+![teams](images/image_4.png)
 
 </column>
 </grid>
@@ -267,7 +285,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="8" offset_lg="4">
 
-![teams](images/Image_7.png)
+![teams](Images/Image_7.png)
 
 </column>
 <column lg="3">
