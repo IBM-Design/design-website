@@ -51,12 +51,12 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="12" offset_lg="4">
 
-![teams](images/image_1.png)
+![teams](images/photo_1.png)
 
 </column>
 <column lg="4">
 
-![teams](images/image_2.png)
+![teams](images/photo_2.png)
 
 </column>
 
@@ -64,12 +64,12 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="4" offset_lg="8">
 
-![teams](images/image_3.png)
+![teams](images/photo_3.png)
 
 </column>
 <column lg="8">
 
-![teams](images/image_4.png)
+![teams](images/photo_4.png)
 
 </column>
 </grid>
