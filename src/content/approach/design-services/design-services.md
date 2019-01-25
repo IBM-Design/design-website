@@ -20,20 +20,6 @@ At iX, we blend design with innovative technologies and business strategy to off
 
 </grid>
 <grid background="gray-10">
-<column lg="10">
-
-<p size="xl">By combining design thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses. 
-  
-Our work focuses on three foundational areas of client success.</p>
-
-</column>
-</grid>
-<grid background="gray-10">
-<column lg="16">
-
-<hr>
-
-</column>
 <column lg="4">
 
 ### Capabilities
