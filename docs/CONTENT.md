@@ -138,7 +138,7 @@ Adds ↳ as bullet for an anchor list of links. Used within the `<title-block>` 
 Options:
 
 color: black (default), blue, white
-icon: ArrowRight16 (default), ArrowUpRight24, PlexArrowDown
+icon: ArrowRight24 (default), ArrowUpRight24, PlexArrowDown
 inline: true or false (default)
 align: right or left(default)
 
