@@ -120,7 +120,7 @@ Plex is IBM’s first official typeface. It comes with four distinct sub-familie
 
 <img src="https://via.placeholder.com/290x150.png/e7e7e7/e7e7e7">
 
-<p size="sm"><br><strong>Lorem ipsum</strong><br>
+<p size="sm"><strong>Lorem ipsum</strong><br>
 The beliefs behind everything we do. Design is about moving people forward, both emotionally and functionally.<br>
 <a href="#">Learn more</a></p>
 
@@ -129,7 +129,7 @@ The beliefs behind everything we do. Design is about moving people forward, both
 
 <img src="https://via.placeholder.com/290x150.png/e7e7e7/e7e7e7">
 
-<p size="sm"><br><strong>Lorem ipsum</strong><br>
+<p size="sm"><strong>Lorem ipsum</strong><br>
 Get familiar with how to apply the framework that drives how we think and work every day. <br><a href="#">Learn more</a></p>
 
 </column>
