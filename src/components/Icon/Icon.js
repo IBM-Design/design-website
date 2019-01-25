@@ -5,6 +5,7 @@ import {
   ArrowRight24,
   ArrowLeft24,
   ArrowUpRight24,
+  ArrowUpRight20,
   PlexArrowDown,
 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
@@ -57,8 +58,9 @@ export default class Icon extends React.Component {
           {name === 'ArrowUpRight24' ? (
             <ArrowUpRight24 className="icon--upright24" />
           ) : null}
-          {name === 'ArrowRight24' ? (
-            <ArrowRight24 className="icon--right24" />
+
+          {name === 'ArrowUpRight20' ? (
+            <ArrowUpRight20 className="icon--upright20" />
           ) : null}
           {name === 'ArrowLeft24' ? (
             <ArrowLeft24 className="icon--left24" />
