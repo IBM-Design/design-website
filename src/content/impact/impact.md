@@ -87,7 +87,7 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile title="Gallery: IBM Security" caption="impact/security" href="/impact/template/">
+  <tile title="Gallery: IBM Security" caption="impact/security" href="/impact/security/">
     <img src="images/Image_5.png" alt="Purple gradient"/>
   </tile>
 
@@ -121,7 +121,7 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile title="Gallery: Plex Typeface" caption="impact/plex" href="/impact/template/">
+  <tile title="Gallery: Plex Typeface" caption="impact/plex" href="/impact/plex/">
     <img src="images/Image_8.png" alt="Plex"/>
   </tile>
 
