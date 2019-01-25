@@ -89,14 +89,4 @@ title: Plex
 <img alt="THINK logo written in sand with a blue backdrop." src="images/Impact_11.png">
 
 </column>
-<column bleed={true} md="3" lg="4">
-
-<img alt="A gentlemen speaking at THINK 2018" src="images/Impact_12.png">
-
-</column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
-
-<img alt="Photo of the conference space from Think 2018." src="images/Impact_13.png">
-
-</column>
 </grid>
