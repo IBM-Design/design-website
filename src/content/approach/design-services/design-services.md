@@ -36,11 +36,6 @@ Our work focuses on three foundational areas of client success.</p>
 </column>
 <column lg="4">
 
-### 01
-
-</column>
-<column lg="4">
-
 ### Capabilities
 
 </column>
@@ -84,25 +79,6 @@ Customer relationship management</em>
 </column>
 </grid>
 
-## Putting customer platforms to work
-
-</column>
-<column lg="7" offset_lg="4">
-
-In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of consult-to-operate services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.
-
-</column>
-<column lg="4" offset_lg="1">
-
-> Marketing Operations<br>Omni-channel Commerce<br>Customer Relationship Management (CRM)
-
-</column>
-<column lg="12" offset_lg="4">
-
-<img alt="add alt" src="https://via.placeholder.com/1500x700.png/ccc/ccc">
-
-</column>
-</grid>
 <grid background="gray-10">
 <column lg="16">
 
