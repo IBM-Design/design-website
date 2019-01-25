@@ -192,7 +192,7 @@ Work with multi-disciplinary teams of designers, developers, offering managers a
 
 Types of roles: visual design, UX design, user research, front-end development, content design and strategy, offering management
 
-<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
+<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -227,7 +227,7 @@ Team up with talented graphic designers, creative copywriters and some of the sh
 
 Types of roles: graphic design, content and copywriting, front-end development, communications, PR, marketing
 
-<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
+<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -262,7 +262,7 @@ Work directly with clients while partnering with IBM consultants and business st
 
 Types of role: graphic design, content design, business strategy, user and market research, consulting
 
-<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
+<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">

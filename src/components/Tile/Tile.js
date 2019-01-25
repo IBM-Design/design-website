@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { ClickableTile } from 'carbon-components-react';
-import { ArrowUpRight20 } from '@carbon/icons-react';
+import { ArrowUpRight24 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
 export default class Tile extends React.Component {
@@ -110,7 +110,7 @@ export default class Tile extends React.Component {
             <h3 className="tile__title">{title}</h3>
             {caption ? <p className="tile__caption">{caption}</p> : null}
             <div className="tile__link-icon">
-              <ArrowUpRight20 aria-label={`Open ${title}`} />
+              <ArrowUpRight24 aria-label={`Open ${title}`} />
             </div>
           </div>
         </div>
