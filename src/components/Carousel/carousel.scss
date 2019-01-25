@@ -37,6 +37,9 @@
   + .bx--radio-button__label
   .bx--radio-button__appearance {
   background-color: $ibm-colors__gray--80;
+  border: none;
+  height: 0.5rem;
+  width: 0.5rem;
 
   &:hover {
     background-color: $ibm-colors__gray--10;
