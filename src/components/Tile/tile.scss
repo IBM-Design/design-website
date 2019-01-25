@@ -262,7 +262,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   }
 
   @include breakpoint('lg') {
-    width: calc(25% - 1rem);
+    width: calc(25% - 8px);
   }
 }
 
