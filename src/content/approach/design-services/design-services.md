@@ -83,7 +83,7 @@ Customer relationship management</em>
 <column lg="16">
 
 <tile
-    href="#"
+    href="https://www.ibm.com/services/ibmix/"
     title="IBM iX"
     feature="true"
     feature_heading="Learn how you can partner with us to build better business."
@@ -103,7 +103,7 @@ Customer relationship management</em>
 
 <p size="sm"><br><strong>Design Philosophy</strong><br>
 Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br>
-<a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
+<a href="/approach/design-philosophy">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 <column lg="4" md="4">
@@ -111,7 +111,7 @@ Our beliefs drive everything we do. Design is about moving people forward, both 
 ![add alt](images/Image_4.png)
 
 <p size="sm"><br><strong>Design Thinking</strong><br>
-Get familiar with how to apply the framework that drives how we think and work every day. <br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
+Get familiar with how to apply the framework that drives how we think and work every day. <br><br><a href="/approach/design-thinking">Learn more</a> <icon color="blue" inline="true"></icon></p>
 
 </column>
 </grid>
