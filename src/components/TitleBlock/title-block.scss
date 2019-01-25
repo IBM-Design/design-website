@@ -1,8 +1,8 @@
 .title-block {
   position: relative;
   height: 50vh;
-  height: calc(100vh - 200px);
-  background: red;
+  height: calc(100vh - 69px);
+  background: yellow;
 
   @include breakpoint('sm') {
   }
