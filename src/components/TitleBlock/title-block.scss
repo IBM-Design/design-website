@@ -1,6 +1,7 @@
 .title-block {
   position: relative;
   height: calc(100vh - 48px);
+  outline: 5px solid red;
 
   @include breakpoint('sm') {
   }
