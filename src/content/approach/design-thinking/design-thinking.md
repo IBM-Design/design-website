@@ -77,7 +77,7 @@ To drive meaningful outcomes for our users, we must first gain a deep understand
 <br><br>
 By constantly immersing ourselves in the worlds of our users, we ensure that our solutions always address real-world needs.
 
-![add alt](images/think.svg)
+![add alt](images/observe_loop.svg)
 
 </column>
 <column lg="4" border="true">
@@ -86,9 +86,9 @@ By constantly immersing ourselves in the worlds of our users, we ensure that our
 
 Different people can interpret the same situation in very different ways.
 <br><br>
-Coming together to Reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
+Coming together to reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
 
-![add alt](images/think_3circles.svg)
+![add alt](images/reflect_loop.svg)
 
 </column>
 <column lg="4" border="true">
@@ -99,14 +99,14 @@ The only way to see an outcome is to make one—even if the idea isn’t fully b
 <br><br>
 Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses quickly and cheaply. The end result: solutions that are robust, effective, and battle-tested.
 
-![add alt](images/think_circle.svg)
+![add alt](images/make_loop.svg)
 
 </column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
 
-### The keys
+### The Keys
 
 </column>
 <column lg="12">
@@ -121,7 +121,7 @@ Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses 
 Hills are concise statements of
 the goals we aim to help our users accomplish. By making these goals explicit and evaluating them regularly, we align teams around a single shared mission.
 
-![add alt](images/think.svg)
+![add alt](images/hills.svg)
 
 </column>
 <column lg="4" border="true">
@@ -130,7 +130,7 @@ the goals we aim to help our users accomplish. By making these goals explicit an
 
 Playbacks are regular check-ins that bring users, stakeholders and teams together to tell stories and exchange feedback. They allow us to measure progress on a regular basis while uncovering and addressing any misalignment that may exist.
 
-![add alt](images/think_3circles.svg)
+![add alt](images/playbacks.svg)
 
 </column>
 <column lg="4" border="true">
@@ -139,7 +139,7 @@ Playbacks are regular check-ins that bring users, stakeholders and teams togethe
 
 Sponsor users are real-world users that provide teams with deep expertise and knowledge on the problems they’re facing. They are crucial to keeping us aligned with our users' reality throughout the course of a project.
 
-![add alt](images/think_circle.svg)
+![add alt](images/sponsor_users.svg)
 
 </column>
 </grid>
@@ -147,10 +147,10 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 <column lg="16">
 
 <tile
-    href="#"
+    href="https://www.ibm.com/design/thinking/"
     title="Enterprise Design Thinking"
     feature="true"
-    feature_heading="Explore our platform and start driving outcomes for your business."
+    feature_heading="Explore our framework and start driving better, user-centered outcomes for your business."
     feature_background="black">
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
@@ -158,7 +158,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 </column>
 <column lg="8">
 
-<h3>Keep exploring<br>our Approach</h3>
+<h3>Keep exploring<br>our approach</h3>
 
 </column>
 <column lg="4" md="4">
