@@ -22,7 +22,7 @@ meets pragmatic.</span>
 <grid background="gray-100">
 <column lg="8">
 
-<p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
+<p size="xl">Tap into a growing collection of design tools, assets, and resources to keep your business moving forward.</p>
 
 <icon name="PlexArrowDown" color="white"></icon>
 
@@ -41,7 +41,7 @@ meets pragmatic.</span>
 </column>
 <column lg="7">
 
-## Principles, guidelines and ready-made assets to help you build exceptional experiences.
+## Principles, guidelines, and ready-made assets to help you build exceptional experiences.
 
 </column>
 
