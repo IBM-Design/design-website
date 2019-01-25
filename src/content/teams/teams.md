@@ -69,7 +69,7 @@ Age and ability
 Gender identity  
 Race and ethnicity
 
-![teams](images/user.svg)
+![teams](images/identity.svg)
 
 </column>
 <column lg="4" border="true">
@@ -80,7 +80,7 @@ Cultural upbringing
 Geography  
 Language
 
-![teams](images/globe.svg)
+![teams](images/experience.svg)
 
 </column>
 <column lg="4" border="true">
@@ -91,7 +91,7 @@ Education
 Organization  
 Discipline
 
-![teams](images/education.svg)
+![teams](images/expertise.svg)
 
 </column>
 </grid>
