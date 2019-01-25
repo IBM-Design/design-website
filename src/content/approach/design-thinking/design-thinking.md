@@ -77,7 +77,7 @@ To drive meaningful outcomes for our users, we must first gain a deep understand
 <br><br>
 By constantly immersing ourselves in the worlds of our users, we ensure that our solutions always address real-world needs.
 
-![add alt](images/the_loop.svg)
+![add alt](images/observe_loop.svg)
 
 </column>
 <column lg="4" border="true">
@@ -88,7 +88,7 @@ Different people can interpret the same situation in very different ways.
 <br><br>
 Coming together to reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
 
-![add alt](images/the_loop.svg)
+![add alt](images/reflect_loop.svg)
 
 </column>
 <column lg="4" border="true">
@@ -99,7 +99,7 @@ The only way to see an outcome is to make one—even if the idea isn’t fully b
 <br><br>
 Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses quickly and cheaply. The end result: solutions that are robust, effective, and battle-tested.
 
-![add alt](images/the_loop.svg)
+![add alt](images/make_loop.svg)
 
 </column>
 </grid>
