@@ -1,7 +1,7 @@
 .bx--header .submenu--active {
   > a.bx--header__menu-item {
-    background: $ibm-colors__gray--80;
-    color: $ibm-colors__gray--10;
+    background: $ibm-colors__gray-80;
+    color: $ibm-colors__gray-10;
 
     &:after {
       content: '';
@@ -9,7 +9,7 @@
       position: absolute;
       left: -2px;
       bottom: -2px;
-      border-top: 4px solid $ibm-colors__blue--60;
+      border-top: 4px solid $ibm-colors__blue-60;
     }
   }
 }
