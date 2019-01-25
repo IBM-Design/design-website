@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {
-  ArrowRight20,
-  ArrowUpRight20,
-  ArrowLeft20,
+  ArrowRight24,
+  ArrowUpRight24,
+  ArrowLeft24,
   PlexArrowDown,
 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
@@ -13,8 +13,8 @@ export default class Icon extends React.Component {
   static propTypes = {
     /**
    * defines which icon to use, options:
-   "ArrowRight20" - default
-   "ArrowUpRight20"
+   "ArrowRight24" - default
+   "ArrowUpRight24"
    "PlexArrowDown"
    */
     name: PropTypes.string,
@@ -43,7 +43,7 @@ export default class Icon extends React.Component {
       'icon--inline': inline === 'true',
       'icon--right': align === 'right' && inline !== 'true',
       'icon--left': align === 'left' && inline !== 'true',
-      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight20',
+      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight24',
     });
 
     return (
@@ -52,14 +52,14 @@ export default class Icon extends React.Component {
           {name === 'PlexArrowDown' ? (
             <span className="icon--arrowDown">↓</span>
           ) : null}
-          {name === 'ArrowUpRight20' ? (
-            <ArrowUpRight20 className="icon--upright20" />
+          {name === 'ArrowUpRight24' ? (
+            <ArrowUpRight24 className="icon--upright24" />
           ) : null}
-          {name === 'ArrowRight20' ? (
-            <ArrowRight20 className="icon--right20" />
+          {name === 'ArrowRight24' ? (
+            <ArrowRight24 className="icon--right24" />
           ) : null}
-          {name === 'ArrowLeft20' ? (
-            <ArrowLeft20 className="icon--left20" />
+          {name === 'ArrowLeft24' ? (
+            <ArrowLeft24 className="icon--left24" />
           ) : null}
         </div>
       </Fade>
@@ -69,7 +69,7 @@ export default class Icon extends React.Component {
 
 Icon.defaultProps = {
   color: 'black',
-  name: 'ArrowRight20',
+  name: 'ArrowRight24',
   inline: 'false',
   align: 'left',
 };
