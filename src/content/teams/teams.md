@@ -49,7 +49,7 @@ When tackling complex problems at scale, we rely on the strength of diverse mult
 Diversity comes in many forms: your job role, your educational history, your cultural background — all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
-<column lg="12" offset_lg="4">
+<column lg="8" offset_lg="4">
 
 ![teams](images/photo_1.png)
 
