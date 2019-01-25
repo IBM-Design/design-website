@@ -10,11 +10,11 @@ title: Design Services
 </column>
 <column lg="4" md="4">
 
-## **Design services**
+## **Design Services**
 
 Most companies make things for their clients. We prefer to co-create with you.
 
-At IX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner.
+At iX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner.
 
 </column>
 
@@ -22,7 +22,7 @@ At IX, we blend design with innovative technologies and business strategy to off
 <grid background="gray-10">
 <column lg="10">
 
-<p size="xl">By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses. 
+<p size="xl">By combining design thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses. 
   
 Our work focuses on three foundational areas of client success.</p>
 
@@ -110,7 +110,7 @@ A business strategy that fails to account for the constantly changing needs and 
 </column>
 <column lg="7" offset_lg="4">
 
-In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of “Consult to Operate” services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.
+In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of consult-to-operate services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.
 
 </column>
 <column lg="4" offset_lg="1">
@@ -140,7 +140,7 @@ In today’s world, people expect consistent, cohesive experiences at every touc
 </column>
 <column lg="8">
 
-<h3>Keep exploring<br>our Approach</h3>
+<h3>Keep exploring<br>our approach</h3>
 
 </column>
 <column lg="4" md="4">
