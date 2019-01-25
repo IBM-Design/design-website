@@ -1,7 +1,10 @@
 .title-block {
   position: relative;
   height: 100vh;
-  background: orange;
+  background: purple;
+  margin-top: -48px;
+  outline: 5px solid red;
+  outline-offset: -5px;
 
   @include breakpoint('md') {
     min-height: 540px;
