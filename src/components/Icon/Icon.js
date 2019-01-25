@@ -45,6 +45,7 @@ export default class Icon extends React.Component {
       'icon--right': align === 'right' && inline !== 'true',
       'icon--left': align === 'left' && inline !== 'true',
       'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight24',
+      'icon--inline left': inline === 'true' && name === 'ArrowLeft24',
     });
 
     return (

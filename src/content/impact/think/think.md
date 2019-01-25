@@ -5,7 +5,7 @@ title: Think
 <grid className="background--nopadding">
 <column lg="16">
 
-<p><icon color="blue" name="ArrowLeft24" inline="true"></icon>  <a href="/impact"><span>Impact Stories</span></a></p>
+<p><icon className="icon--left" color="blue" name="ArrowLeft24" inline="true"></icon>  <a href="/impact"><span>Impact Stories</span></a></p>
 
 </column>
 </grid>

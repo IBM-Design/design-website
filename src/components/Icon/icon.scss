@@ -15,6 +15,11 @@
   justify-content: flex-end;
 }
 
+.icon--inline.left {
+  position: relative;
+  top: rem(3px);
+}
+
 .icon--blue {
   & > svg {
     fill: $brand-01;
