@@ -5,8 +5,6 @@ title: Design Services
 <grid background="gray-80" classname="background--header background--services">
 <column lg="8" offset_lg="4" md="4">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J727tCXTggk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </column>
 <column lg="4" md="4">
 

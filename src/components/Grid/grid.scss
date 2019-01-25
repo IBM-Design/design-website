@@ -22,7 +22,7 @@
 .background--header {
   padding-top: 2rem;
   padding-bottom: 0;
-  //height: 480px;
+  height: 480px;
 
   @include breakpoint('md') {
     height: 338px;
@@ -45,15 +45,27 @@
 // Background approach sub pages
 //----------------------------
 .background--thinking .ibm--col-lg-8 {
-  background-image: url(../content/approach/images/thinking.svg);
+  background-image: url(../content/approach/images/thinking-sm.svg);
+
+  @include breakpoint('md') {
+    background-image: url(../content/approach/images/thinking.svg);
+  }
 }
 
 .background--philosophy .ibm--col-lg-8 {
-  background-image: url(../content/approach/images/philosophy.svg);
+  background-image: url(../content/approach/images/philosophy-sm.svg);
+
+  @include breakpoint('md') {
+    background-image: url(../content/approach/images/philosophy.svg);
+  }
 }
 
 .background--services .ibm--col-lg-8 {
-  background-image: url(../content/approach/images/services.svg);
+  background-image: url(../content/approach/images/services-sm.svg);
+
+  @include breakpoint('md') {
+    background-image: url(../content/approach/images/services.svg);
+  }
 }
 
 .background--thinking,
@@ -78,6 +90,8 @@
 
     @include breakpoint('md') {
       right: -1rem;
+      background-size: 100%;
+      background-position: right;
     }
   }
 

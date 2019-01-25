@@ -5,8 +5,6 @@ title: Design Thinking
 <grid background="gray-20" classname="background--header background--thinking">
 <column lg="8" offset_lg="4" md="4">
 
-<iframe title="video" src="https://player.vimeo.com/video/303560967?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
 </column>
 <column lg="4" md="4">
 
