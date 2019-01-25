@@ -161,18 +161,21 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 </column>
 <column lg="4" md="4">
 
-![add alt](images/Image_3.png)
+![Design services artwork](../images/services-sm.svg)
 
-<p size="sm"><strong><br>Design Services</strong><br>
-Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more</a> <icon color="blue" inline="true"></icon></p>
+##### Design Services
+
+<p size="sm">
+Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more →</a></p>
 
 </column>
 <column lg="4" md="4">
 
-![add alt](images/Image_4.png)
+![Design Philosophy artwork](../images/philosophy-sm.svg)
 
-<p size="sm"><strong><br>Design Philosphy</strong><br>
-Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br><a href="/approach/design-philosophy">Learn more</a> <icon color="blue" inline="true"></icon></p>
+##### Design Philosphy
+
+<p size="sm">Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br><a href="/approach/design-philosophy">Learn more →</a></p>
 
 </column>
 </grid>

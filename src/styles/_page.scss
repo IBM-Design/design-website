@@ -4,6 +4,7 @@
 
 body {
   background: $ui-01;
+  @include type-style('body-short-02');
 }
 
 .container {
@@ -36,6 +37,11 @@ body {
 
 .gatsby-resp-image-wrapper {
   max-width: 100% !important; //need to see why the plugin isn't respectinng the max width. this fixes for now. 🤔
+  margin-bottom: 1rem;
+
+  @include breakpoint('md') {
+    margin-bottom: 2rem;
+  }
 }
 
 .page-p .gatsby-resp-image-wrapper {
