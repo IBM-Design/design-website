@@ -44,7 +44,7 @@ to strengthen our teams and deliver meaningful outcomes.</p>
 
 ## Complex, multi-faceted challenges demand diverse, multi-talented teams.
 
-When tackling complex problems at scale, we rely on the strength of Diverse Multidisciplinary Teams to envision and execute on solutions that generate value for both our users and our clients.
+When tackling complex problems at scale, we rely on the strength of diverse multidisciplinary teams to envision and execute on solutions that generate value for both our users and our clients.
 
 Diversity comes in many forms: your job role, your educational history, your cultural background — all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
@@ -69,7 +69,7 @@ Age and ability
 Gender identity  
 Race and ethnicity
 
-![teams](images/user.svg)
+![teams](images/identity.svg)
 
 </column>
 <column lg="4" border="true">
@@ -80,7 +80,7 @@ Cultural upbringing
 Geography  
 Language
 
-![teams](images/globe.svg)
+![teams](images/experience.svg)
 
 </column>
 <column lg="4" border="true">
@@ -91,7 +91,7 @@ Education
 Organization  
 Discipline
 
-![teams](images/education.svg)
+![teams](images/expertise.svg)
 
 </column>
 </grid>
@@ -103,7 +103,7 @@ Discipline
 </column>
 <column lg="8">
 
-## Good design requires a deep understanding of the business domain being designed for.
+## Good design requires a deep understanding of the business domain that's being designed for.
 
 Rather than siloing designers into a single organization, we distribute them throughout teams and business units across IBM.
 
@@ -155,9 +155,9 @@ From the initial visioning stages through to delivery and beyond, we work closel
 <grid background="gray-100">
 <column lg="7">
 
-<p size="xl"><strong>Find your team</strong><br>Ready to become part of the single-largest design initiative in the world?
+<p size="xl"><strong>Find your team</strong><br>Ready to become part of the largest design initiative in the world?
   
-We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways Design is practiced across IBM.</p>
+We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways design is practiced across IBM.</p>
 
 </column>
 
@@ -192,7 +192,7 @@ Work with multi-disciplinary teams of designers, developers, offering managers a
 
 Types of roles: visual design, UX design, user research, front-end development, content design and strategy, offering management
 
-<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
+<p><a href=https://careers.ibm.com/ListJobs/All/Search/Position-Type/Early-Professional/primary-job-category/Design---Offering-Management//?lang=en><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">
@@ -258,11 +258,11 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 
 ## Are you a creative critical thinker with a strong passion for business?
 
-Work directly with clients, partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.
+Work directly with clients while partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.
 
 Types of role: graphic design, content design, business strategy, user and market research, consulting
 
-<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
+<p><a href="https://www.ibm.com/services/careers"><span>Open roles</span> <icon color="blue" name="ArrowUpRight24" inline="true"></icon></a></p>
 
 </column>
 <column lg="8" offset_lg="4">

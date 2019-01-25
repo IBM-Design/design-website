@@ -110,11 +110,7 @@ export default class Tile extends React.Component {
             <h3 className="tile__title">{title}</h3>
             {caption ? <p className="tile__caption">{caption}</p> : null}
             <div className="tile__link-icon">
-              {href.startsWith('/') ? (
-                <ArrowRight24 aria-label={`Open ${title}`} />
-              ) : (
-                <ArrowUpRight24 aria-label={`Open ${title}`} />
-              )}
+              <ArrowUpRight24 aria-label={`Open ${title}`} />
             </div>
           </div>
         </div>
