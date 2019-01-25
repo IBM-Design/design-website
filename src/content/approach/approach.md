@@ -59,7 +59,7 @@ business problems
     feature_heading_secondary="Your business partner by design."
     feature_background="gray-80"
     feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
-    href="/approach/design-philosophy"
+    href="/approach/design-services"
     title="Learn more">
 <img src="images/services.svg" alt="Ven diagram emphasizing overlapping area"/>
 </tile>
