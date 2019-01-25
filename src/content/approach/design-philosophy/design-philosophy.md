@@ -26,10 +26,10 @@ Given our scale and scope, good design is not just a requirement, it’s a deepe
 
 <h2>Design is how <br>we <em>build</em> bonds.</h2>
 
-Today, as with technology, the talent, techniques, thinking and tools of design have become more and more abundant and accessible to all.
-
 </column>
 <column lg="7" offset_lg="4">
+
+Today, as with technology, the talent, techniques, thinking and tools of design have become more and more abundant and accessible to all.
 
 Paradoxically, decisions are more distributed, and experiences can become less and less distinctive. The rapid, relentless pace to produce can create an uneven emphasis on immediacy and incrementalism over individuality and innovation.
 
