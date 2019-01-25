@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import {
-  ArrowRight16,
-  PlexArrowDown,
+  ArrowRight24,
+  ArrowLeft24,
   ArrowUpRight24,
+  PlexArrowDown,
 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
@@ -12,7 +13,8 @@ export default class Icon extends React.Component {
   static propTypes = {
     /**
    * defines which icon to use, options:
-   "ArrowRight16" - default
+   "ArrowRight24" - default
+   "ArrowLeft24"
    "ArrowUpRight24"
    "PlexArrowDown"
    */
@@ -43,6 +45,7 @@ export default class Icon extends React.Component {
       'icon--right': align === 'right' && inline !== 'true',
       'icon--left': align === 'left' && inline !== 'true',
       'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight24',
+      'icon--inline left': inline === 'true' && name === 'ArrowLeft24',
     });
 
     return (
@@ -52,10 +55,13 @@ export default class Icon extends React.Component {
             <span className="icon--arrowDown">↓</span>
           ) : null}
           {name === 'ArrowUpRight24' ? (
-            <ArrowUpRight24 className="icon--upright20" />
+            <ArrowUpRight24 className="icon--upright24" />
           ) : null}
-          {name === 'ArrowRight16' ? (
-            <ArrowRight16 className="icon--right16" />
+          {name === 'ArrowRight24' ? (
+            <ArrowRight24 className="icon--right24" />
+          ) : null}
+          {name === 'ArrowLeft24' ? (
+            <ArrowLeft24 className="icon--left24" />
           ) : null}
         </div>
       </Fade>
@@ -65,7 +71,7 @@ export default class Icon extends React.Component {
 
 Icon.defaultProps = {
   color: 'black',
-  name: 'ArrowRight16',
+  name: 'ArrowRight24',
   inline: 'false',
   align: 'left',
 };
