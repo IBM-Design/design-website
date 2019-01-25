@@ -1,9 +1,12 @@
+.bx--header--website {
+  display: none;
+}
+
 .title-block {
   position: relative;
   height: 100vh;
-  background: purple;
-  margin-top: -48px;
-  outline: 5px solid red;
+  background: red;
+  outline: 5px solid green;
   outline-offset: -5px;
 
   @include breakpoint('md') {
