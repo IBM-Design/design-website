@@ -12,7 +12,7 @@ the means.<br>
 <grid background="gray-10">
 <column lg="8">
 
-<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different types of outcomes we’ve delivered for our clients and users below.</p>
+<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different outcomes we’ve delivered for our clients and users below.</p>
 
 <icon name="PlexArrowDown"></icon>
 

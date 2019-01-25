@@ -86,8 +86,8 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <column lg="16">
 
 <tile
-    href="#"
-    title="Design Thinking"
+    href="https://www.ibm.com/design/language"
+    title="Design Language"
     feature="true"
     feature_heading="See how we bring our philosophy to bear in our design systems."
     feature_background="black">
