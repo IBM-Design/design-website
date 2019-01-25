@@ -33,7 +33,7 @@ the means.<br>
 
 <column lg="12">
 
-  <tile title="Business leaders, visionaries, and innovators unite" caption="impact/think" href="/impact/template/">
+  <tile title="Business leaders, visionaries, and innovators unite" caption="impact/think" href="/impact/think/">
     <img src="images/Image_1.png" alt=""/>
 
   </tile>
@@ -54,7 +54,7 @@ the means.<br>
 </column>
 
 <column lg="4"  md="4">
-  <tile title="Gallery: Quantum Computing" caption="impact/quantum" href="http://www.google.com">
+  <tile title="Gallery: Quantum Computing" caption="impact/quantum" href="impact/quantum">
     <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 
