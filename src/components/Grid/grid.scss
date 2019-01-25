@@ -89,7 +89,6 @@
     background-size: 100%;
 
     @include breakpoint('md') {
-      right: -1rem;
       background-size: 100%;
       background-position: right;
     }
