@@ -104,26 +104,26 @@
 }
 
 .background--gray-10 {
-  background-color: $ibm-colors__gray--10;
+  background-color: $ibm-colors__gray-10;
 }
 
 .background--gray-20 {
-  background-color: $ibm-colors__gray--20;
+  background-color: $ibm-colors__gray-20;
 }
 
 .background--gray-80 {
-  background-color: $ibm-colors__gray--80;
-  color: $ibm-colors__gray--10;
+  background-color: $ibm-colors__gray-80;
+  color: $ibm-colors__gray-10;
 }
 
 .background--gray-100 {
-  background-color: $ibm-colors__gray--100;
-  color: $ibm-colors__gray--10;
+  background-color: $ibm-colors__gray-100;
+  color: $ibm-colors__gray-10;
 }
 
 .background--black {
   background-color: $ibm-colors__black;
-  color: $ibm-colors__gray--10;
+  color: $ibm-colors__gray-10;
 }
 
 .background--gray-white {
@@ -131,8 +131,8 @@
   margin-top: -3rem;
   background: linear-gradient(
     to bottom,
-    $ibm-colors__gray--100 50%,
-    $ibm-colors__gray--10 50%
+    $ibm-colors__gray-100 50%,
+    $ibm-colors__gray-10 50%
   );
 }
 

@@ -15,7 +15,7 @@
     list-style: none;
     cursor: pointer;
     padding-bottom: $spacing-3xs;
-    color: $ibm-colors__gray--10;
+    color: $ibm-colors__gray-10;
 
     &:before {
       content: '\21B3'; //"↳"
@@ -27,7 +27,7 @@
     a {
       @include type-style('heading-03');
       font-size: rem(22px);
-      color: $ibm-colors__gray--10;
+      color: $ibm-colors__gray-10;
       text-decoration: none;
 
       &:hover {
@@ -42,7 +42,7 @@
     &:hover {
       a,
       &:before {
-        color: $ibm-colors__gray--10;
+        color: $ibm-colors__gray-10;
       }
     }
   }
