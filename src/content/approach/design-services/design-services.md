@@ -36,9 +36,9 @@ At IX, we blend design with innovative technologies and business strategy to off
 
 Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
-_Branding and communications  
+<em>Branding and communications  
 Experience strategy & design  
-Content strategy and production_
+Content strategy and production</em>
 
 </column>
 <column lg="4" border="true">
@@ -47,9 +47,9 @@ Content strategy and production_
 
 Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
-_Digital reinvention  
+<em>Digital reinvention  
 Business and talent transformation  
-Responsive operating models_
+Responsive operating models</em>
 
 </column>
 <column lg="4" border="true">
@@ -58,9 +58,9 @@ Responsive operating models_
 
 Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
-_Marketing operations  
+<em>Marketing operations  
 Omni-channel commerce  
-Customer relationship management_
+Customer relationship management</em>
 
 </column>
 </grid>
