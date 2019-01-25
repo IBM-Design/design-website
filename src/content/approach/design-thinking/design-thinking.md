@@ -147,7 +147,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 <column lg="16">
 
 <tile
-    href="#"
+    href="https://www.ibm.com/design/thinking/"
     title="Enterprise Design Thinking"
     feature="true"
     feature_heading="Explore our framework and start driving better, user-centered outcomes for your business."
