@@ -1,14 +1,10 @@
 .title-block {
   position: relative;
   height: 50vh;
-  height: calc(100vh - 69px);
-  background: yellow;
-
-  @include breakpoint('sm') {
-  }
+  height: 100vh;
+  background: green;
 
   @include breakpoint('md') {
-    height: calc(100vh - 48px);
     min-height: 540px;
   }
 
