@@ -60,9 +60,8 @@ Diversity comes in many forms: your job role, your educational history, your cul
 
 </column>
 
-
 </column>
-<column lg="4" offset_lg="8">
+<column lg="4" offset_lg="4">
 
 ![teams](images/photo_3.png)
 
