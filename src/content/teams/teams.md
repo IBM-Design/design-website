@@ -303,7 +303,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="8" offset_lg="4">
 
-![teams](Images/Image_7.png)
+![teams](images/Image_7.png)
 
 </column>
 <column lg="3">
