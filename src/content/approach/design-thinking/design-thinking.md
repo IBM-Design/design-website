@@ -86,7 +86,7 @@ By constantly immersing ourselves in the worlds of our users, we ensure that our
 
 Different people can interpret the same situation in very different ways.
 <br><br>
-Coming together to Reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
+Coming together to reflect on our observations helps us synthesize and analyze findings, building a more nuanced understanding of our users across the team.
 
 ![add alt](images/think_3circles.svg)
 
@@ -106,7 +106,7 @@ Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses 
 <grid background="gray-10">
 <column lg="4">
 
-### The keys
+### The Keys
 
 </column>
 <column lg="12">
@@ -150,7 +150,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
     href="#"
     title="Enterprise Design Thinking"
     feature="true"
-    feature_heading="Explore our platform and start driving outcomes for your business."
+    feature_heading="Explore our framework and start driving better, user-centered outcomes for your business."
     feature_background="black">
 <img src="images/Image_2.png" alt="Geometric shapes"/>
 </tile>
@@ -158,7 +158,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 </column>
 <column lg="8">
 
-<h3>Keep exploring<br>our Approach</h3>
+<h3>Keep exploring<br>our approach</h3>
 
 </column>
 <column lg="4" md="4">
