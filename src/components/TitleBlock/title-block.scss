@@ -1,8 +1,7 @@
 .title-block {
   position: relative;
-  height: 50vh;
   height: 100vh;
-  background: green;
+  background: orange;
 
   @include breakpoint('md') {
     min-height: 540px;
