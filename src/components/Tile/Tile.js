@@ -134,7 +134,7 @@ export default class Tile extends React.Component {
         <Fade bottom distance="10%">
           <div className={classNames}>
             <div className={backgroundClassnames}>
-              <h2 className="bx--type-expressive-paragraph-01" id={featureId}>
+              <h2 className="bx--type-expressive-paragraph-01">
                 {feature_heading}
               </h2>
               {clickableTile}

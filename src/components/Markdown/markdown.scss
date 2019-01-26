@@ -51,6 +51,8 @@
 //----------------------------
 
 .page-h2 {
+  font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+    sans-serif;
   color: $text-01;
   margin-bottom: 1.5rem;
   padding-right: 9%;
@@ -187,6 +189,8 @@ blockquote:first-child {
 
 blockquote .page-p {
   @include type-style('body-long-02');
+  font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+    sans-serif;
   padding-bottom: 1rem;
 }
 
