@@ -99,6 +99,14 @@ export default class Tile extends React.Component {
       'bx--tile--clickable--dark': dark === 'true',
     });
 
+    if (feature_heading !== null) {
+      const featureId = feature_heading
+        .replace(/[:&]/g, '')
+        .toLowerCase()
+        .split(' ')
+        .join('-');
+    }
+
     const clickableTile = (
       <ClickableTile
         target="_blank"
@@ -126,7 +134,7 @@ export default class Tile extends React.Component {
         <Fade bottom distance="10%">
           <div className={classNames}>
             <div className={backgroundClassnames}>
-              <h2 className="bx--type-expressive-paragraph-01">
+              <h2 className="bx--type-expressive-paragraph-01" id={featureId}>
                 {feature_heading}
               </h2>
               {clickableTile}
@@ -144,7 +152,9 @@ export default class Tile extends React.Component {
             <div className={classNames}>
               <div className={backgroundClassnames}>
                 <div className="ibm--col-lg-4 ibm--offset-lg-1 ibm--col-md-3">
-                  <h2 className="bx--type-expressive-paragraph-01">
+                  <h2
+                    className="bx--type-expressive-paragraph-01"
+                    id={featureId}>
                     <strong>{feature_heading}</strong>
                     {feature_heading_secondary}
                   </h2>
@@ -178,4 +188,5 @@ Tile.defaultProps = {
   feature: 'false',
   href: '',
   feature_style: 'default',
+  feature_heading: '',
 };
