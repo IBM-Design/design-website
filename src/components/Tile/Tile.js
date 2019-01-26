@@ -99,6 +99,7 @@ export default class Tile extends React.Component {
       'bx--tile--clickable--dark': dark === 'true',
     });
 
+    let featureId;
     if (feature_heading !== null) {
       const featureId = feature_heading
         .replace(/[:&]/g, '')
