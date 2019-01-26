@@ -70,7 +70,7 @@ a.bx--tile {
 }
 
 .tile__caption {
-  @include type-style('caption-01');
+  @include type-style('body-short-01');
   color: $text-02;
   display: block;
   position: absolute;
@@ -339,6 +339,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   img {
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 1rem;
     width: 100%;
   }
 }

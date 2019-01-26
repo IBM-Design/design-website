@@ -46,52 +46,6 @@
     }
   }
 }
-/* 
-.anchor-links {
-  padding-left: 0.75rem;
-  .page-ul {
-    position: relative;
-    margin-bottom: 0;
-  }
-
-  .page-ul > li {
-    @include type-style('heading-03');
-    font-size: rem(22px);
-    list-style: none;
-    cursor: pointer;
-    padding-bottom: $spacing-3xs;
-    color: $ibm-colors__gray-10;
-
-    a {
-      @include type-style('heading-03');
-      font-size: rem(22px);
-      color: $ibm-colors__gray-10;
-      text-decoration: none;
-
-      &:hover {
-        box-shadow: 0 1px currentColor;
-      }
-
-      &:focus {
-        box-shadow: 0 3px currentColor;
-      }
-
-      &:before {
-        content: '\21B3'; //"↳"
-        position: absolute;
-        left: -1rem;
-        cursor: pointer;
-      }
-    }
-
-    &:hover {
-      a,
-      &:before {
-        color: $ibm-colors__gray-10;
-      }
-    }
-  }
-} */
 
 //----------------------------
 // Anchor Links inside TitleBlock
