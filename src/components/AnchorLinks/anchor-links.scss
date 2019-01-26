@@ -5,10 +5,6 @@
 .anchor-links {
   padding-left: 1.5rem;
 
-  @include breakpoint('lg') {
-    padding: 0;
-  }
-
   .page-ul > li {
     @include type-style('heading-03');
     width: auto;
@@ -63,7 +59,7 @@
   @include breakpoint('lg') {
     position: absolute;
     left: auto;
-    right: -1.27rem;
+    right: 0;
     bottom: rem(40px);
     width: 25%;
     padding: 0;
