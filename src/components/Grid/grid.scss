@@ -25,7 +25,7 @@
   height: 480px;
 
   @include breakpoint('md') {
-    height: 338px;
+    height: 400px;
   }
 
   @include breakpoint('lg') {
@@ -45,27 +45,15 @@
 // Background approach sub pages
 //----------------------------
 .background--thinking .ibm--col-lg-8 {
-  background-image: url(../content/approach/images/thinking-sm.svg);
-
-  @include breakpoint('md') {
-    background-image: url(../content/approach/images/thinking.svg);
-  }
+  background-image: url(../content/approach/images/thinking.svg);
 }
 
 .background--philosophy .ibm--col-lg-8 {
-  background-image: url(../content/approach/images/philosophy-sm.svg);
-
-  @include breakpoint('md') {
-    background-image: url(../content/approach/images/philosophy.svg);
-  }
+  background-image: url(../content/approach/images/philosophy.svg);
 }
 
 .background--services .ibm--col-lg-8 {
-  background-image: url(../content/approach/images/services-sm.svg);
-
-  @include breakpoint('md') {
-    background-image: url(../content/approach/images/services.svg);
-  }
+  background-image: url(../content/approach/images/services.svg);
 }
 
 .background--thinking,
@@ -244,5 +232,22 @@
 .container .ibm--col-border.ibm--col-lg-4.ibm--offset-lg-4 {
   @include breakpoint('lg') {
     margin-left: 25%;
+  }
+}
+
+// hide on mobile
+.ibm--col-sm-0 {
+  display: none;
+
+  @include breakpoint('md') {
+    display: block;
+  }
+}
+
+.ibm--col-md-0 {
+  display: none;
+
+  @include breakpoint('lg') {
+    display: block;
   }
 }

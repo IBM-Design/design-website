@@ -3,6 +3,51 @@
 //----------------------------
 
 .anchor-links {
+  .page-ul > li {
+    @include type-style('heading-03');
+    width: auto;
+    list-style: none;
+    margin-left: -1.5rem;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+
+    &:before {
+      display: none;
+    }
+
+    a {
+      @include type-style('heading-03');
+      position: relative;
+      display: inline-block;
+      transition: color $transition--base;
+      color: $ibm-colors__gray-20;
+      text-decoration: none;
+      margin-bottom: rem(4px);
+
+      &:hover {
+        color: $ibm-colors__gray-10;
+        text-decoration: none;
+
+        &::before {
+          color: $ibm-colors__gray-10;
+        }
+      }
+
+      &:before {
+        content: '\21B3'; //"↳"
+        font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+          sans-serif;
+        color: $ibm-colors__gray-20;
+        transition: color $transition--base;
+        padding-right: rem(16px);
+        cursor: pointer;
+      }
+    }
+  }
+}
+/* 
+.anchor-links {
   padding-left: 0.75rem;
   .page-ul {
     position: relative;
@@ -17,13 +62,6 @@
     padding-bottom: $spacing-3xs;
     color: $ibm-colors__gray-10;
 
-    &:before {
-      content: '\21B3'; //"↳"
-      position: absolute;
-      left: -1rem;
-      cursor: pointer;
-    }
-
     a {
       @include type-style('heading-03');
       font-size: rem(22px);
@@ -37,6 +75,13 @@
       &:focus {
         box-shadow: 0 3px currentColor;
       }
+
+      &:before {
+        content: '\21B3'; //"↳"
+        position: absolute;
+        left: -1rem;
+        cursor: pointer;
+      }
     }
 
     &:hover {
@@ -46,7 +91,7 @@
       }
     }
   }
-}
+} */
 
 //----------------------------
 // Anchor Links inside TitleBlock

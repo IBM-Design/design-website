@@ -70,6 +70,7 @@ a.bx--tile {
 }
 
 .tile__caption {
+  @include type-style('caption-01');
   color: $text-02;
   display: block;
   position: absolute;
@@ -255,6 +256,11 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   @include breakpoint('md') {
     width: 50%;
   }
+}
+
+.tile__feature-img .gatsby-resp-image-wrapper,
+.tile__feature-img img {
+  margin-bottom: 0;
 }
 
 .tile--feature a.bx--tile {
