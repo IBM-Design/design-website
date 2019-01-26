@@ -307,8 +307,11 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 }
 
 .tile--feature--alt .tile_background {
+  height: 500px;
+
   @include breakpoint('md') {
     display: flex;
+    height: 400px;
   }
 
   @include breakpoint('lg') {
@@ -331,16 +334,24 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .tile--feature--alt .tile__feature-img {
   width: 100%;
-  height: 100%;
-  padding-right: 0;
+  height: 60%;
   display: flex;
-  flex-direction: row-reverse;
+  padding-right: 0;
+
+  @include breakpoint('md') {
+    height: 100%;
+    flex-direction: row-reverse;
+  }
 
   img {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 1rem;
-    width: 100%;
+    margin: auto;
+    width: 90%;
+
+    @include breakpoint('md') {
+      margin-right: 2rem;
+      margin-left: 0;
+      width: 100%;
+    }
   }
 }
 
