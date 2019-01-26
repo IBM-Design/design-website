@@ -115,6 +115,7 @@ a.bx--tile {
   height: 100%;
   z-index: 100;
   margin-bottom: 0;
+  margin-top: 0;
 
   @include breakpoint('md') {
     position: relative !important;
@@ -266,6 +267,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 .tile__feature-img .gatsby-resp-image-wrapper,
 .tile__feature-img img {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .tile--feature a.bx--tile {

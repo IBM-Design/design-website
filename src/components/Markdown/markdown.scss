@@ -63,6 +63,11 @@
   color: $ibm-colors__gray-10;
 }
 
+.page-h2 strong {
+  margin-bottom: -1.5rem;
+  display: block;
+}
+
 //----------------------------
 // h3
 //----------------------------
@@ -166,7 +171,7 @@ blockquote:first-child {
   margin-top: 2rem;
 
   @include breakpoint('lg') {
-    margin-top: -6px;
+    margin-top: rem(12px);
   }
 
   &:before {
