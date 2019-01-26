@@ -23,12 +23,12 @@ At iX, we blend design with innovative technologies and business strategy to off
 ### Capabilities
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## By combining Design Thinking with practices like Agile and DevOps, we help clients design for the future while simultaneously evolving their existing businesses. Our work focuses on three foundational areas of client success.
 
 </column>
-<column lg="4" offset_lg="4" border="true">
+<column lg="4" offset_lg="4" border="true" md="6">
 
 ### Creating future shaping experiences
 
@@ -39,7 +39,7 @@ Experience strategy & design
 Content strategy and production</em>
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Designing progressive digital strategies
 
@@ -50,7 +50,7 @@ Business and talent transformation
 Responsive operating models</em>
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Putting customer platforms to work
 

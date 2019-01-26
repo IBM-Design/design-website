@@ -19,7 +19,7 @@ A solution’s quality<br>hinges directly on<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8" md="6">
 
 <p size="xl">The foundational unit of design is the
 team. Learn how we leverage diversity
@@ -35,12 +35,12 @@ to strengthen our teams and deliver meaningful outcomes.</p>
 <hr>
 
 </column>
-<column lg="4">
+<column lg="4" md="6">
 
 ### Diverse
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## Complex, multi-faceted challenges demand diverse, multi-talented teams.
 
@@ -49,24 +49,24 @@ When tackling complex problems at scale, we rely on the strength of diverse mult
 Diversity comes in many forms: your job role, your educational history, your cultural background — all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" offset_lg="4" md="6">
 
 ![teams](images/photo_1.png)
 
 </column>
-<column lg="4">
+<column lg="4" md="2">
 
 ![teams](images/photo_2.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" offset_lg="4" md="2">
 
 ![teams](images/photo_3.png)
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ![teams](images/photo_4.png)
 
@@ -78,7 +78,7 @@ Diversity comes in many forms: your job role, your educational history, your cul
 ## The dimensions of diversity
 
 </column>
-<column lg="4" offset_lg="4" border="true">
+<column lg="4" offset_lg="4" border="true" md="6">
 
 ### Identity
 
@@ -89,7 +89,7 @@ Race and ethnicity
 ![teams](images/identity.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Experience
 
@@ -100,7 +100,7 @@ Language
 ![teams](images/experience.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Expertise
 
@@ -118,7 +118,7 @@ Discipline
 ### Embedded
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## Good design requires a deep understanding of the business domain that's being designed for.
 
@@ -127,24 +127,24 @@ Rather than siloing designers into a single organization, we distribute them thr
 Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" offset_lg="4" md="6">
 
 ![teams](images/photo_5.png)
 
 </column>
-<column lg="4">
+<column lg="4" md="2">
 
 ![teams](images/photo_6.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" offset_lg="4" md="2">
 
 ![teams](images/photo_7.png)
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ![teams](images/photo_8.png)
 
@@ -156,7 +156,7 @@ Embedding designers directly into the business allows them to build a rigorous u
 ### Co-creators
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## When users are intimately involved in the design process, you’re all but guaranteed to create something they love.
 
@@ -165,31 +165,31 @@ User-centered design goes far beyond just speaking with a few people before you 
 From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" offset_lg="4" md="6">
 
 ![teams](images/photo_9.png)
 
 </column>
-<column lg="4">
+<column lg="4" md="2">
 
 ![teams](images/photo_10.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" offset_lg="4" md="2">
 
 ![teams](images/photo_11.png)
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ![teams](images/photo_12.png)
 
 </column>
 </grid>
 <grid background="gray-100">
-<column lg="7">
+<column lg="7" md="6">
 
 <p size="xl"><strong>Find your team</strong><br>Ready to become part of the largest design initiative in the world?
   
@@ -220,7 +220,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 ### Product
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## Are you passionate about designing great software and digital experiences?
 
@@ -231,12 +231,12 @@ Types of roles: visual design, UX design, user research, front-end development, 
 <p><a href=https://careers.ibm.com/ListJobs/All/Search/Position-Type/Early-Professional/primary-job-category/Design---Offering-Management//?lang=en><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" offset_lg="4" md="6">
 
 ![teams](images/Image_5.png)
 
 </column>
-<column lg="3">
+<column lg="3" md="0">
 
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
@@ -255,7 +255,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 ### Brand
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## Do you get excited by the idea of influencing how one of the world’s largest and most storied companies shows up in the world?
 
@@ -266,12 +266,12 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" offset_lg="4" md="6">
 
 ![teams](images/Image_6.png)
 
 </column>
-<column lg="3">
+<column lg="3" md="0">
 
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
@@ -290,7 +290,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 ### Services
 
 </column>
-<column lg="8">
+<column lg="8" md="6">
 
 ## Are you a creative critical thinker with a strong passion for business?
 
@@ -301,12 +301,12 @@ Types of role: graphic design, content design, business strategy, user and marke
 <p><a href=https://www.ibm.com/services/careers><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" offset_lg="4" md="6">
 
 ![teams](images/Image_7.png)
 
 </column>
-<column lg="3">
+<column lg="3" md="0">
 
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 

@@ -23,12 +23,12 @@ We built on that idea, adding strategies, tactics and activities to create a fra
 ### Principles
 
 </column>
-<column lg="12">
+<column lg="12"  md="6">
 
 <h2>The foundational elements<br>of our approach.</h2>
 
 </column>
-<column lg="4" offset_lg="4" border="true">
+<column lg="4" offset_lg="4" border="true"  md="6">
 
 ### Restless reinvention
 
@@ -37,7 +37,7 @@ _When’s the last time you rethought what you’re making?_ <br><br>Everything 
 ![add alt](images/think.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true"  md="6">
 
 ### A focus on user outcomes
 
@@ -46,7 +46,7 @@ _Who are you designing for, and what do they need?_ <br><br>We measure success b
 ![add alt](images/think_3circles.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true"  md="6">
 
 ### Diverse empowered teams
 
@@ -62,12 +62,12 @@ _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dyn
 ### The Loop
 
 </column>
-<column lg="12">
+<column lg="12" md="6">
 
 <h2>A process of rapid iteration.</h2>
 
 </column>
-<column lg="4" offset_lg="4" border="true">
+<column lg="4" offset_lg="4" border="true" md="6">
 
 ### Observe
 
@@ -78,7 +78,7 @@ By constantly immersing ourselves in the worlds of our users, we ensure that our
 ![add alt](images/observe_loop.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Reflect
 
@@ -89,7 +89,7 @@ Coming together to reflect on our observations helps us synthesize and analyze f
 ![add alt](images/reflect_loop.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Make
 
@@ -112,7 +112,7 @@ Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses 
 <h2>Tactics for maintaining alignment.</h2>
 
 </column>
-<column lg="4" offset_lg="4" border="true">
+<column lg="4" offset_lg="4" border="true" md="6">
 
 ### Hills
 
@@ -122,7 +122,7 @@ the goals we aim to help our users accomplish. By making these goals explicit an
 ![add alt](images/hills.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Playbacks
 
@@ -131,7 +131,7 @@ Playbacks are regular check-ins that bring users, stakeholders and teams togethe
 ![add alt](images/playbacks.svg)
 
 </column>
-<column lg="4" border="true">
+<column lg="4" border="true" md="6">
 
 ### Sponsor Users
 

@@ -20,7 +20,7 @@ people we serve.</span>
 </grid>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8" md="6">
 
 <p size="xl">When we blend human-centered design
 with time-tested business acumen, the results speak for themselves.</p>

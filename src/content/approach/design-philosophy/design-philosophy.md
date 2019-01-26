@@ -18,12 +18,12 @@ Given our scale and scope, good design is not just a requirement, it’s a deepe
 
 </grid>
 <grid background="gray-10" classname="background--tight">
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="6">
 
 <h2>Design is how <br>we <em>build</em> bonds.</h2>
 
 </column>
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="6">
 
 Today, as with technology, the talent, techniques, thinking and tools of design have become more and more abundant and accessible to all.
 
@@ -49,7 +49,7 @@ Aesthetic is defined as the philosophical theory or set of principles governing 
 <h2>Stand for = <br> Stand out</h2>
 
 </column>
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="6">
 
 IBM has always served as a medium between mankind and machine, science, service and society, working in partnership on a path to progress.<br><br>This relationship is the basis of our brand and every experience with IBM. It is this dynamic we are designing when we design anything.<br><br>As IBMers, we believe the purpose of every design, and every designer, is to guide… to lead, to provoke, to provide, to progress, to move people emotionally and functionally forward, through big transformations or day-to-day tasks, here to there, to deliver peak professional performance and smarter business by design.
 
@@ -66,7 +66,7 @@ IBM has always served as a medium between mankind and machine, science, service 
 ## Think → Guide
 
 </column>
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="6">
 
 Like our brand values, our design ethos must be palpable in everything we produce. Our philosophy and principles are for designers and non-designers alike, anyone authoring or authorizing any form of design on behalf of IBM. They provide clear criteria for the conception, creativity and craftsmanship our brand demands and our clients deserve. The expression of our philosophy may evolve and expand over time, but our principles are designed to endure, ensuring everything IBM is distinctly IBM.
 
