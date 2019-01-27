@@ -71,3 +71,12 @@ img {
   @include breakpoint('lg') {
   }
 }
+
+//----------------------------
+// Teams
+//----------------------------
+h2#find-your-team {
+  margin-bottom: 0;
+  display: block;
+  font-weight: 600;
+}

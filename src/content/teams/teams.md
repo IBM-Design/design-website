@@ -191,7 +191,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 <grid background="gray-100">
 <column lg="7" md="5">
 
-## **Find your team**
+## Find your team
 
 <p size="xl">Ready to become part of the largest design initiative in the world?
   
