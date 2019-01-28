@@ -12,7 +12,9 @@ people we serve.</span>
 <grid background="gray-white">
 <column lg="16">
 
-<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<video id='landing-page-video'>
+  <iframe title="IBM Design sizzle video" class="landing-page-iframe" src="https://player.vimeo.com/video/304672438?background=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+</video>
 
 <!--<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/293453905?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />-->
 
