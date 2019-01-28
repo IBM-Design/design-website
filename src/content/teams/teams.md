@@ -100,7 +100,7 @@ Language
 ![teams](images/experience.svg)
 
 </column>
-<column lg="4" md="3" border="true">
+<column lg="4" md="2" border="true">
 
 ### Expertise
 
@@ -189,7 +189,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 </column>
 </grid>
 <grid background="gray-100">
-<column lg="7" md="5">
+<column lg="7" md="5" offset_lg="0" offset_md="0">
 
 <p size="xl"><strong>Find your team</strong><br>Ready to become part of the largest design initiative in the world?
   
