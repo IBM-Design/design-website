@@ -25,7 +25,7 @@ title: Plex
 
 </column>
 
-<column md="6" lg="8">
+<column md="5" lg="8">
 
 <p size="lg">For decades, we’ve relied on typefaces like Helvetica to convey our messages at IBM. While practical, the use of these fonts became more and more pervasive over time, eroding the distinction that made them valuable in the first place; we needed a typeface that was unmistakably IBM.</p>
 
