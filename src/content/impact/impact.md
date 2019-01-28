@@ -54,7 +54,7 @@ the means.<br>
 </column>
 
 <column lg="4"  md="4">
-  <tile title="Gallery: Quantum Computing" caption="impact/quantum" href="impact/quantum">
+  <tile title="Gallery: Quantum computing" caption="impact/quantum" href="impact/quantum">
     <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 
@@ -101,7 +101,7 @@ the means.<br>
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-  <tile title="Video: Building a Security Operations Center on Wheels" caption="Youtube" href="https://www.youtube.com/watch?v=yrI8S1906Ug">
+  <tile title="Video: Building a security operations center on wheels" caption="Youtube" href="https://www.youtube.com/watch?v=yrI8S1906Ug">
     <img src="images/Image_7.png" alt="xforce dashboard"/>
   </tile>
 
@@ -121,14 +121,14 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile title="Gallery: Plex Typeface" caption="impact/plex" href="/impact/plex/">
+  <tile title="Gallery: Plex typeface" caption="impact/plex" href="/impact/plex/">
     <img src="images/Image_8.png" alt="Plex"/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile title="2018 Typeface Design Competition: Plex wins Judges’ Choice" caption="Type Directors Club" href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">
+  <tile title="2018 Typeface design competition: Plex wins Judges’ Choice" caption="Type Directors Club" href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">
     <img src="images/Image_9.png" alt="Random white glyphs on a black background"/>
   </tile>
 
