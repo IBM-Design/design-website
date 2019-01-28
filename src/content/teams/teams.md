@@ -54,7 +54,7 @@ Diversity comes in many forms: your job role, your educational history, your cul
 ![teams](images/photo_1.png)
 
 </column>
-<column lg="4" md="3" offset_lg="12" offset_md="5">
+<column lg="4" md="3">
 
 ![teams](images/photo_2.png)
 
@@ -66,7 +66,7 @@ Diversity comes in many forms: your job role, your educational history, your cul
 ![teams](images/photo_3.png)
 
 </column>
-<column lg="8" md="5" offset_lg="8" offset_md="3">
+<column lg="8" md="5">
 
 ![teams](images/photo_4.png)
 
@@ -132,7 +132,7 @@ Embedding designers directly into the business allows them to build a rigorous u
 ![teams](images/photo_5.png)
 
 </column>
-<column lg="4" md="3" offset_lg="12" offset_md="5">
+<column lg="4" md="3">
 
 ![teams](images/photo_6.png)
 
@@ -144,7 +144,7 @@ Embedding designers directly into the business allows them to build a rigorous u
 ![teams](images/photo_7.png)
 
 </column>
-<column lg="8" md="5" offset_lg="8" offset_md="3">
+<column lg="8" md="5">
 
 ![teams](images/photo_8.png)
 
@@ -170,7 +170,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 ![teams](images/photo_9.png)
 
 </column>
-<column lg="4" md="3" offset_lg="12" offset_md="5">
+<column lg="4" md="3">
 
 ![teams](images/photo_10.png)
 
@@ -182,14 +182,14 @@ From the initial visioning stages through to delivery and beyond, we work closel
 ![teams](images/photo_11.png)
 
 </column>
-<column lg="8" md="5" offset_lg="8" offset_md="3">
+<column lg="8" md="5">
 
 ![teams](images/photo_12.png)
 
 </column>
 </grid>
 <grid background="gray-100">
-<column lg="7">
+<column lg="7" md="5">
 
 <p size="xl"><strong>Find your team</strong><br>Ready to become part of the largest design initiative in the world?
   
@@ -197,7 +197,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 
 </column>
 
-<column offset_lg="5" lg="4">
+<column offset_lg="5" lg="4" md="2">
 
 <anchor-links>
 
