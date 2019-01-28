@@ -19,7 +19,7 @@ A solution’s quality<br>hinges directly on<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8" md="5">
 
 <p size="xl">The foundational unit of design is the
 team. Learn how we leverage diversity
@@ -40,7 +40,7 @@ to strengthen our teams and deliver meaningful outcomes.</p>
 ### Diverse
 
 </column>
-<column lg="8">
+<column lg="8" md="5">
 
 ## Complex, multi-faceted challenges demand diverse, multi-talented teams.
 
@@ -78,7 +78,7 @@ Diversity comes in many forms: your job role, your educational history, your cul
 ## The dimensions of diversity
 
 </column>
-<column lg="4" offset_lg="4" border="true">
+<column lg="4" md="4" offset_lg="4" offset_md="0" border="true">
 
 ### Identity
 
@@ -118,7 +118,7 @@ Discipline
 ### Embedded
 
 </column>
-<column lg="8">
+<column lg="8" md="5">
 
 ## Good design requires a deep understanding of the business domain that's being designed for.
 
@@ -156,7 +156,7 @@ Embedding designers directly into the business allows them to build a rigorous u
 ### Co-creators
 
 </column>
-<column lg="8">
+<column lg="8" md="5">
 
 ## When users are intimately involved in the design process, you’re all but guaranteed to create something they love.
 
@@ -197,7 +197,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 
 </column>
 
-<column offset_lg="5" lg="4" md="2">
+<column lg="4" md="2">
 
 <anchor-links>
 
@@ -220,7 +220,7 @@ We’re always looking for talented, ambitious individuals to join us in our mis
 ### Product
 
 </column>
-<column lg="8">
+<column lg="8" md="5">
 
 ## Are you passionate about designing great software and digital experiences?
 
@@ -255,7 +255,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 ### Brand
 
 </column>
-<column lg="8">
+<column lg="8" md="5">
 
 ## Do you get excited by the idea of influencing how one of the world’s largest and most storied companies shows up in the world?
 
@@ -290,7 +290,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 ### Services
 
 </column>
-<column lg="8">
+<column lg="8" md="5">
 
 ## Are you a creative critical thinker with a strong passion for business?
 
