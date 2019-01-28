@@ -25,7 +25,7 @@ title: Security
 
 </column>
 
-<column md="6" lg="8">
+<column md="5" lg="8">
 
 <p size="lg">Cybersecurity is often thought of as a predominantly technical problem space. In reality, however, security is a complex web of interdependent factors, many of which are directly tied to human behaviors and habits.</p>
 

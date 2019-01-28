@@ -25,7 +25,7 @@ title: Quantum
 
 </column>
 
-<column md="6" lg="8">
+<column md="5" lg="8">
 
 <p size="lg">How do you turn a bleeding edge technology into something that is elegant, approachable and valuable for users, even as the technology itself continues to mature?</p>
 
