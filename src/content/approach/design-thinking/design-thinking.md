@@ -1,5 +1,5 @@
 ---
-title: Design Thinking
+title: Design thinking
 ---
 
 <grid background="gray-20" classname="background--header background--thinking">
@@ -8,9 +8,9 @@ title: Design Thinking
 </column>
 <column lg="4" md="4">
 
-## **Design Thinking**
+## **Enterprise design thinking**
 
-Design thinking shouldn't be controversial – it's simply the idea that everyone on a team should be focused on their users, first and foremost.
+Design thinking shouldn't be controversial–it's simply the idea that everyone on a team should be focused on their users, first and foremost.
 
 We built on that idea, adding strategies, tactics and activities to create a framework that uniquely scales design thinking across teams of all shapes and sizes, whether they are co-located or widely dispersed.
 
@@ -20,12 +20,12 @@ We built on that idea, adding strategies, tactics and activities to create a fra
 <grid background="gray-10">
 <column lg="4">
 
-### Principles
+### The Principles
 
 </column>
 <column lg="12"  md="5">
 
-<h2>The foundational elements<br>of our approach.</h2>
+<h2>The foundational elements<br>of our approach</h2>
 
 </column>
 <column lg="4" offset_lg="4" border="true"  md="5">
@@ -64,7 +64,7 @@ _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dyn
 </column>
 <column lg="12" md="5">
 
-<h2>A process of rapid iteration.</h2>
+<h2>A process of rapid iteration</h2>
 
 </column>
 <column lg="4" offset_lg="4" border="true" md="5">
@@ -109,7 +109,7 @@ Rapid, low-fidelity prototyping allows us to simulate ideas and test hypotheses 
 </column>
 <column lg="12">
 
-<h2>Tactics for maintaining alignment.</h2>
+<h2>Tactics for maintaining alignment</h2>
 
 </column>
 <column lg="4" offset_lg="4" border="true" md="5">
@@ -163,7 +163,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
 
 ![Design services artwork](../images/services-sm.svg)
 
-##### Design Services
+##### Design services
 
 <p size="sm">
 Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more →</a></p>
@@ -173,7 +173,7 @@ Let’s define your strategy, create exceptional experiences, and drive better b
 
 ![Design Philosophy artwork](../images/philosophy-sm.svg)
 
-##### Design Philosphy
+##### Design philosphy
 
 <p size="sm">Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br><a href="/approach/design-philosophy">Learn more →</a></p>
 
