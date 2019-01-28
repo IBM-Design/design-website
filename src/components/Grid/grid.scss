@@ -22,10 +22,10 @@
 .background--header {
   padding-top: 2rem;
   padding-bottom: 0;
-  //height: 480px;
+  height: 480px;
 
   @include breakpoint('md') {
-    height: 338px;
+    height: 400px;
   }
 
   @include breakpoint('lg') {
@@ -77,7 +77,8 @@
     background-size: 100%;
 
     @include breakpoint('md') {
-      right: -1rem;
+      background-size: 100%;
+      background-position: right;
     }
   }
 
@@ -134,14 +135,30 @@
   color: $ibm-colors__gray-10;
 }
 
-.background--gray-white {
+.background--black-white {
   padding-bottom: 0;
   margin-top: -3rem;
   background: linear-gradient(
     to bottom,
-    $ibm-colors__gray-100 50%,
+    $ibm-colors__black 50%,
     $ibm-colors__gray-10 50%
   );
+}
+
+.background-bleed {
+  padding: 0;
+
+  .ibm--grid {
+    padding: 0;
+  }
+
+  .ibm-col-lg-16 {
+    padding: 0;
+  }
+}
+
+.background--nopadding {
+  padding: 1.5rem 0 0 0;
 }
 
 // selects all columnns for testing
@@ -168,7 +185,7 @@
 .container .ibm--col-border {
   position: relative;
   border-top: 1px solid $ui-04;
-  margin: 0 1rem;
+  margin: 0 1rem rem(40px) 1rem;
   padding-bottom: rem(120px);
   padding-top: 2rem;
   padding-left: 0;
@@ -215,5 +232,22 @@
 .container .ibm--col-border.ibm--col-lg-4.ibm--offset-lg-4 {
   @include breakpoint('lg') {
     margin-left: 25%;
+  }
+}
+
+// hide on mobile
+.ibm--col-sm-0 {
+  display: none;
+
+  @include breakpoint('md') {
+    display: block;
+  }
+}
+
+.ibm--col-md-0 {
+  display: none;
+
+  @include breakpoint('lg') {
+    display: block;
   }
 }

@@ -777,10 +777,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@carbon/addons-website@^0.0.1-alpha.10":
-  version "0.0.1-alpha.10"
-  resolved "https://registry.yarnpkg.com/@carbon/addons-website/-/addons-website-0.0.1-alpha.10.tgz#83f9d3f936b3c25aafe053286982414372fc13f7"
-  integrity sha512-GlW0sNIPQgw8C//pGqvDQ4JdHe43A4RHrwbG5cheUeCmFnydcUUgOw0Et1/XYTUH5kQ67C/rS9vBzludeCKeqQ==
+"@carbon/addons-website@^0.0.1-alpha.12":
+  version "0.0.1-alpha.12"
+  resolved "https://registry.yarnpkg.com/@carbon/addons-website/-/addons-website-0.0.1-alpha.12.tgz#18b60d965dc77467f06ad2d75d32b640fb4e88fd"
+  integrity sha512-PSnC4iclfDXjsxnMByzQ6tFWIttKtev9zYqoZTcYUO0R7tzr3XQ6ZmY4DhoyJ2cT7/UG/s7HXMIEQLXiEXFpdQ==
   dependencies:
     classnames "^2.2.6"
 

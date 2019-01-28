@@ -3,46 +3,47 @@
 //----------------------------
 
 .anchor-links {
-  padding-left: 0.75rem;
-  .page-ul {
-    position: relative;
-    margin-bottom: 0;
-  }
+  padding-left: 1.5rem;
 
   .page-ul > li {
     @include type-style('heading-03');
-    font-size: rem(22px);
+    width: auto;
     list-style: none;
-    cursor: pointer;
-    padding-bottom: $spacing-3xs;
-    color: $ibm-colors__gray-10;
+    margin-left: -1.5rem;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
 
     &:before {
-      content: '\21B3'; //"↳"
-      position: absolute;
-      left: -1rem;
-      cursor: pointer;
+      display: none;
     }
 
     a {
       @include type-style('heading-03');
-      font-size: rem(22px);
-      color: $ibm-colors__gray-10;
+      position: relative;
+      display: inline-block;
+      transition: color $transition--base;
+      color: $ibm-colors__gray-20;
       text-decoration: none;
+      margin-bottom: rem(4px);
 
       &:hover {
-        box-shadow: 0 1px currentColor;
-      }
-
-      &:focus {
-        box-shadow: 0 3px currentColor;
-      }
-    }
-
-    &:hover {
-      a,
-      &:before {
         color: $ibm-colors__gray-10;
+        text-decoration: none;
+
+        &::before {
+          color: $ibm-colors__gray-10;
+        }
+      }
+
+      &:before {
+        content: '\21B3'; //"↳"
+        font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+          sans-serif;
+        color: $ibm-colors__gray-20;
+        transition: color $transition--base;
+        padding-right: rem(16px);
+        cursor: pointer;
       }
     }
   }
@@ -54,12 +55,11 @@
 .title-block .anchor-links {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 0.8rem;
 
   @include breakpoint('lg') {
     position: absolute;
     left: auto;
-    right: -1.27rem;
+    right: 0;
     bottom: rem(40px);
     width: 25%;
     padding: 0;

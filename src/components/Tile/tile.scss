@@ -60,7 +60,7 @@ a.bx--tile {
 }
 
 .tile__title {
-  @include type-style('heading-03');
+  @include type-style('body-short-02');
   display: block;
   width: 100%;
   text-decoration: none;
@@ -69,7 +69,13 @@ a.bx--tile {
   padding: 0 9% 0 0;
 }
 
+.tile--feature .tile__title,
+.tile--feature--alt .tile__title {
+  @include type-style('heading-03');
+}
+
 .tile__caption {
+  @include type-style('body-short-01');
   color: $text-02;
   display: block;
   position: absolute;
@@ -108,6 +114,8 @@ a.bx--tile {
   width: 100%;
   height: 100%;
   z-index: 100;
+  margin-bottom: 0;
+  margin-top: 0;
 
   @include breakpoint('md') {
     position: relative !important;
@@ -160,6 +168,12 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 //----------------------------
 // Tile inside 12 or 16
 //----------------------------
+// practices page, adds extra space above large tiles when there is no content to the left
+.ibm--col-lg-12.ibm--offset-lg-4 .tile {
+  @include breakpoint('lg') {
+    margin-top: rem(40px);
+  }
+}
 
 .ibm--col-lg-8,
 .ibm--col-lg-12,
@@ -250,6 +264,12 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   }
 }
 
+.tile__feature-img .gatsby-resp-image-wrapper,
+.tile__feature-img img {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .tile--feature a.bx--tile {
   position: absolute;
   bottom: 0;
@@ -294,8 +314,11 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 }
 
 .tile--feature--alt .tile_background {
+  height: 500px;
+
   @include breakpoint('md') {
     display: flex;
+    height: 400px;
   }
 
   @include breakpoint('lg') {
@@ -318,15 +341,24 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .tile--feature--alt .tile__feature-img {
   width: 100%;
-  height: 100%;
-  padding-right: 0;
+  height: 60%;
   display: flex;
-  flex-direction: row-reverse;
+  padding-right: 0;
+
+  @include breakpoint('md') {
+    height: 100%;
+    flex-direction: row-reverse;
+  }
 
   img {
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 100%;
+    margin: auto;
+    width: 90%;
+
+    @include breakpoint('md') {
+      margin-right: 2rem;
+      margin-left: 0;
+      width: 100%;
+    }
   }
 }
 

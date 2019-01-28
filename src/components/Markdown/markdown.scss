@@ -51,6 +51,8 @@
 //----------------------------
 
 .page-h2 {
+  font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+    sans-serif;
   color: $text-01;
   margin-bottom: 1.5rem;
   padding-right: 9%;
@@ -100,11 +102,21 @@
   &:before {
     display: block;
     content: ' ';
-    margin-top: -4rem;
-    padding-bottom: 4rem;
     visibility: hidden;
     pointer-events: none;
+    margin-top: -4.5rem;
+    padding-bottom: 4.5rem;
   }
+}
+
+//----------------------------
+// h5
+//----------------------------
+
+h5 {
+  @include type-style('heading-02');
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 //----------------------------
@@ -154,7 +166,7 @@ blockquote:first-child {
   margin-top: 2rem;
 
   @include breakpoint('lg') {
-    margin-top: -6px;
+    margin-top: rem(12px);
   }
 
   &:before {
@@ -177,6 +189,8 @@ blockquote:first-child {
 
 blockquote .page-p {
   @include type-style('body-long-02');
+  font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+    sans-serif;
   padding-bottom: 1rem;
 }
 
