@@ -10,7 +10,7 @@ the means.<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8" md="5">
 
 <p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different outcomes we’ve delivered for our clients and users below.</p>
 
@@ -61,7 +61,7 @@ the means.<br>
 </column>
 <column lg="4"  md="4">
 
-  <tile title="Inside the world's first quantum computer" caption="TechCrunch" href="https://techcrunch.com/2019/01/08/ibm-unveils-its-first-commercial-quantum-computer/">
+  <tile title="Inside the world’s first quantum computer" caption="TechCrunch" href="https://techcrunch.com/2019/01/08/ibm-unveils-its-first-commercial-quantum-computer/">
     <img src="images/Image_3.png" alt="two people examing quantum-ness"/>
   </tile>
 
@@ -128,7 +128,7 @@ the means.<br>
 </column>
 <column lg="4" md="4">
 
-  <tile title="2018 Typeface Design Competition: Plex wins Judges' Choice" caption="Type Directors Club" href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">
+  <tile title="2018 Typeface Design Competition: Plex wins Judges’ Choice" caption="Type Directors Club" href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">
     <img src="images/Image_9.png" alt="Random white glyphs on a black background"/>
   </tile>
 

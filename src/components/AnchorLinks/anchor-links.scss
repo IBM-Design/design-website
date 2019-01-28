@@ -3,6 +3,8 @@
 //----------------------------
 
 .anchor-links {
+  padding-left: 1.5rem;
+
   .page-ul > li {
     @include type-style('heading-03');
     width: auto;
@@ -53,12 +55,11 @@
 .title-block .anchor-links {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 0.8rem;
 
   @include breakpoint('lg') {
     position: absolute;
     left: auto;
-    right: -1.27rem;
+    right: 0;
     bottom: rem(40px);
     width: 25%;
     padding: 0;

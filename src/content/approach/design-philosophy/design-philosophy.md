@@ -18,12 +18,12 @@ Given our scale and scope, good design is not just a requirement, it’s a deepe
 
 </grid>
 <grid background="gray-10" classname="background--tight">
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="5">
 
 <h2>Design is how <br>we build bonds.</h2>
 
 </column>
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="5">
 
 Today, as with technology, the talent, techniques, thinking and tools of design have become more and more abundant and accessible to all.
 
@@ -38,7 +38,7 @@ Aesthetic is defined as the philosophical theory or set of principles governing 
 
 </column>
 
-<column lg="3" offset_lg="1" md="0">
+<column lg="3" offset_lg="1" md="3" sm="0">
 
 > **Good design is always good design.** <br><br>What we borrow from our own design history is not a mid-century aesthetic in stylistic terms, but the modernist attitudes and approach used at the time.<br><br>Eliot Noyes taught us that brand is character, and should be built through curation. Paul Rand taught us the importance of endless experimentation. Charles and Ray Eames brought out our playful nature, and were pioneers of what is now referred to as “branded content” and “experiential.”<br><br>Their methods are as modern today as ever before–maybe more so.
 
@@ -50,12 +50,12 @@ Aesthetic is defined as the philosophical theory or set of principles governing 
 <h2>Stand for = <br> Stand out</h2>
 
 </column>
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="5">
 
 IBM has always served as a medium between mankind and machine, blending science, service and society to pave a path towards progress.<br><br>This relationship is the basis of our brand and every experience with IBM. It is this dynamic we seek to create when we design anything.<br><br>As IBMers, we believe the purpose of every design and every designer is to guide, to lead, to provoke, to provide, to progress, and to move people forward both emotionally and functionally. Through big transformations and day-to-day tasks, we help them get from here to there to deliver peak professional performance and smarter business by design.
 
 </column>
-<column lg="3" offset_lg="1" md="0">
+<column lg="3" offset_lg="1"  md="3" sm="0">
 
 > Here → There<br>Everything IBM and IBMers do is this. Everything we design should too.
 
@@ -67,12 +67,12 @@ IBM has always served as a medium between mankind and machine, blending science,
 ## Think → Guide
 
 </column>
-<column lg="7" offset_lg="4">
+<column lg="7" offset_lg="4"  md="5">
 
 Like our brand values, our design ethos must be palpable in everything we produce. Our philosophy and principles are for designers and non-designers alike–anyone authoring or authorizing any form of design on behalf of IBM.<br><br>They provide clear criteria for the conception, creativity and craftsmanship our brand demands and our clients deserve. The expression of our philosophy may evolve and expand over time, but our principles are designed to endure, ensuring everything IBM is distinctly IBM.
 
 </column>
-<column lg="3" offset_lg="1" md="0">
+<column lg="3" offset_lg="1"  md="3" sm="0">
 
 > _A by-product of every experience with IBM should be time—time saved or time well-spent._  
 > _– Jon Iwata_

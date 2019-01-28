@@ -25,7 +25,7 @@ title: Think
 
 </column>
 
-<column md="6" lg="8">
+<column md="5" lg="8">
 
 <p size="lg">Once a year, all of IBM unites for a one-week event that brings together clients, partners, IBMers and visionaries from around the world.</p>
 <p size="lg">The experiences offered at Think are as diverse as they are numerous, including interactive exhibitions, Think tanks, research demos, live entertainment and beyond. By leveraging the IBM Design Language for everything from the layout of the expo floor to iconography and booth design, Think unifies thousands of individual sessions, creating a cohesive end-to-end experience that is distinctly IBM.</p>
