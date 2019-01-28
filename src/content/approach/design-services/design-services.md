@@ -3,9 +3,6 @@ title: Design services
 ---
 
 <grid background="gray-80" classname="background--header background--services">
-<column lg="8" offset_lg="4" md="4">
-
-</column>
 <column lg="4" md="4">
 
 ## **Design services**
@@ -15,7 +12,9 @@ Most companies make things for their clients. We prefer to co-create with you.
 At iX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner.
 
 </column>
+<column lg="8" offset_lg="4" md="4">
 
+</column>
 </grid>
 <grid background="gray-10">
 <column lg="4">
