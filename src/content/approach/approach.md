@@ -11,9 +11,9 @@ business problems
 
 <anchor-links>
 
-- [Design Philosophy](#design-philosophy)
-- [Design Thinking](#design-thinking)
-- [Design Services](#design-services)
+- [Design philosophy](#design-philosophy)
+- [Design thinking](#design-thinking)
+- [Design services](#design-services)
 
 </anchor-links>
 
@@ -22,7 +22,7 @@ business problems
 <grid background="gray-10">
 <column lg="8">
 
-## Whatever problem we're solving, we put people at the center of everything we do. Design isn’t just a job; it’s a deep responsibility to the people we serve.
+## People are at the center of everything we do and every problem we solve. Design isn’t just a job—it’s a deep responsibility to the people we serve.
 
 <icon name="PlexArrowDown"></icon>
 
@@ -33,8 +33,8 @@ business problems
 <tile
     feature="true"
     feature_style="alt"
-    feature_heading="Design Philosophy"
-    feature_heading_secondary="The beliefs behind everything we do."
+    feature_heading="Design philosophy"
+    feature_heading_secondary="The beliefs behind everything we do"
     feature_background="black"
     feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
     href="/approach/design-philosophy"
@@ -44,8 +44,8 @@ business problems
 <tile
     feature="true"
     feature_style="alt"
-    feature_heading="Design Thinking"
-    feature_heading_secondary="Human-centered design at scale."
+    feature_heading="Design thinking"
+    feature_heading_secondary="Human-centered design at scale"
     feature_background="gray-20"
     feature_description="Learn how you can apply the same framework our teams use every day."
     href="/approach/design-thinking"
@@ -55,8 +55,8 @@ business problems
 <tile
     feature="true"
     feature_style="alt"
-    feature_heading="Design Services"
-    feature_heading_secondary="Your business partner by design."
+    feature_heading="Design services"
+    feature_heading_secondary="Your business partner by design"
     feature_background="gray-80"
     feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
     href="/approach/design-services"
