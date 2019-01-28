@@ -236,7 +236,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 ![teams](images/Image_5.png)
 
 </column>
-<column lg="3">
+<column lg="3" md="5">
 
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
@@ -271,7 +271,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 ![teams](images/Image_6.png)
 
 </column>
-<column lg="3">
+<column lg="3" md="5">
 
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
@@ -306,7 +306,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 ![teams](images/Image_7.png)
 
 </column>
-<column lg="3">
+<column lg="3" md="5">
 
 > _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
 
