@@ -78,7 +78,7 @@ Diversity comes in many forms: your job role, your educational history, your cul
 ## The dimensions of diversity
 
 </column>
-<column lg="4" md="3" offset_lg="4" offset_md="0" border="true">
+<column lg="4" md="2" offset_lg="4" offset_md="0" border="true">
 
 ### Identity
 
@@ -89,7 +89,7 @@ Race and ethnicity
 ![teams](images/identity.svg)
 
 </column>
-<column lg="4" md="3" border="true">
+<column lg="4" md="2" border="true">
 
 ### Experience
 
