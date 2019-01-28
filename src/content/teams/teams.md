@@ -46,7 +46,7 @@ to strengthen our teams and deliver meaningful outcomes.</p>
 
 When tackling complex problems at scale, we rely on the strength of diverse multidisciplinary teams to envision and execute on solutions that generate value for both our users and our clients.
 
-Diversity comes in many forms: your job role, your educational history, your cultural background — all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
+Diversity comes in many forms: your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
 <column lg="8" offset_lg="4">
@@ -238,9 +238,9 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="3">
 
-> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
+> _We’re bridging data with previously disconnected experiences to accelerate how our customers get their jobs done. By augmenting their workflows and providing rich insights at just the right moment, we’re turning pain points into moments of delight._
 
-> Amritha Prasad, Product Designer
+> Cameron Calder, IBM Security
 
 </column>
 </grid>
