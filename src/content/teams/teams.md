@@ -49,24 +49,24 @@ When tackling complex problems at scale, we rely on the strength of diverse mult
 Diversity comes in many forms: your job role, your educational history, your cultural background — all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" md="5" offset_lg="4" offset_md="0">
 
 ![teams](images/photo_1.png)
 
 </column>
-<column lg="4">
+<column lg="4" md="3" offset_lg="12" offset_md="5">
 
 ![teams](images/photo_2.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" md="3" offset_lg="4" offset_md="0">
 
 ![teams](images/photo_3.png)
 
 </column>
-<column lg="8">
+<column lg="8" md="5" offset_lg="8" offset_md="3">
 
 ![teams](images/photo_4.png)
 
@@ -127,24 +127,24 @@ Rather than siloing designers into a single organization, we distribute them thr
 Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" md="5" offset_lg="4" offset_md="0">
 
 ![teams](images/photo_5.png)
 
 </column>
-<column lg="4">
+<column lg="4" md="3" offset_lg="12" offset_md="5">
 
 ![teams](images/photo_6.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" md="3" offset_lg="4" offset_md="0">
 
 ![teams](images/photo_7.png)
 
 </column>
-<column lg="8">
+<column lg="8" md="5" offset_lg="8" offset_md="3">
 
 ![teams](images/photo_8.png)
 
@@ -165,24 +165,24 @@ User-centered design goes far beyond just speaking with a few people before you 
 From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" md="5" offset_lg="4" offset_md="0">
 
 ![teams](images/photo_9.png)
 
 </column>
-<column lg="4">
+<column lg="4" md="3" offset_lg="12" offset_md="5">
 
 ![teams](images/photo_10.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4">
+<column lg="4" md="3" offset_lg="4" offset_md="0">
 
 ![teams](images/photo_11.png)
 
 </column>
-<column lg="8">
+<column lg="8" md="5" offset_lg="8" offset_md="3">
 
 ![teams](images/photo_12.png)
 
@@ -231,7 +231,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 <p><a href=https://careers.ibm.com/ListJobs/All/Search/Position-Type/Early-Professional/primary-job-category/Design---Offering-Management//?lang=en><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" md="8" offset_lg="4" offset_md"0">
 
 ![teams](images/Image_5.png)
 
@@ -266,7 +266,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 <p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" md="8" offset_lg="4" offset_md"0">
 
 ![teams](images/Image_6.png)
 
@@ -301,7 +301,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 <p><a href=https://www.ibm.com/services/careers><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p>
 
 </column>
-<column lg="8" offset_lg="4">
+<column lg="8" md="8" offset_lg="4" offset_md"0">
 
 ![teams](images/Image_7.png)
 
