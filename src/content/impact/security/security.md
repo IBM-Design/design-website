@@ -25,11 +25,11 @@ title: Security
 
 </column>
 
-<column md="6" lg="8">
+<column md="5" lg="8">
 
 <p size="lg">Cybersecurity is often thought of as a predominantly technical problem space. In reality, however, security is a complex web of interdependent factors, many of which are directly tied to human behaviors and habits.</p>
 
-<p size="lg">Designing for security means constantly considering the high-pressure, high-risk environment in which these tools are actually being used. For a security professional, the best user experience is one that is predictable, transparent and explicit about exactly what’s going on at all times. The ultimate goal: to take complex, sensitive operations and make them clear, consistent, and reliable for our end users.</p>
+<p size="lg">Designing for security means constantly considering the high-pressure, high-risk environment in which these tools are actually being used.<br><br>For a security professional, the best user experience is one that is predictable, transparent and explicit about exactly what’s going on at all times. The ultimate goal: to take complex, sensitive operations and make them clear, consistent, and reliable for our end users.</p>
 
 <icon name="ArrowDown32"></icon>
 
