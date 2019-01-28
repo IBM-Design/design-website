@@ -22,7 +22,6 @@
 .background--header {
   padding-top: 2rem;
   padding-bottom: 0;
-  height: 480px;
 
   @include breakpoint('md') {
     height: 400px;
@@ -64,21 +63,29 @@
   }
 
   .ibm--row {
-    flex-direction: row-reverse;
     height: 100%;
   }
 
   .ibm--col-lg-8 {
-    height: 100%;
     display: flex;
-    top: -1rem;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 100%;
+    background-position: top center;
+    background-size: 90%;
+    padding-bottom: 55%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 85%;
+    padding-bottom: 60%;
+    margin: 0;
+    margin-left: 0.5rem;
 
     @include breakpoint('md') {
+      height: 100%;
+      top: -1rem;
       background-size: 100%;
       background-position: right;
+      padding-bottom: 0;
     }
   }
 
