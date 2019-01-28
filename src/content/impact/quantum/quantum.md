@@ -29,7 +29,7 @@ title: Quantum
 
 <p size="lg">How do you turn a bleeding edge technology into something that is elegant, approachable and valuable for users, even as the technology itself continues to mature?</p>
 
-<p size="lg">Rather than balking at the challenge, we’ve embraced the opportunity to be trailblazers for Qauntum computing, a transformational technology that will change the way we work for decades to come. Whether it’s fabricating an industrial design capable of housing components that have to be kept colder than the temperature of deep space, or creating a mobile app that makes quantum physics understandable to teenagers, Quantum is the ultimate test of our ability to blend design expertise with deep domain knowledge to create real value for our users.</p>
+<p size="lg">Rather than balking at the challenge, we’ve embraced the opportunity to be trailblazers for Qauntum computing, a transformational technology that will change the way we work for decades to come.<br><br>Whether it’s fabricating an industrial design capable of housing components that have to be kept colder than the temperature of deep space, or creating a mobile app that makes quantum physics understandable to teenagers, Quantum is the ultimate test of our ability to blend design expertise with deep domain knowledge to create real value for our users.</p>
 
 <icon name="ArrowDown32"></icon>
 
