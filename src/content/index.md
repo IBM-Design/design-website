@@ -22,8 +22,7 @@ people we serve.</span>
 <grid background="gray-10">
 <column lg="8" md="5">
 
-<p size="xl">When we blend human-centered design
-with time-tested business acumen, the results speak for themselves.</p>
+<p size="xl">When we blend human-centered design practices with time-tested business acumen, the results speak for themselves.</p>
 
 <icon name="PlexArrowDown"></icon>
 
@@ -38,7 +37,7 @@ with time-tested business acumen, the results speak for themselves.</p>
 </column>
 <column lg="4">
 
-### Featured Outcomes
+### Featured outcomes
 
 </column>
 
@@ -47,7 +46,7 @@ with time-tested business acumen, the results speak for themselves.</p>
 <tile
     href="/impact/quantum"
     caption="impact/quantum"
-    title="Gallery: Quantum Computing">
+    title="Gallery: Quantum computing">
 <img src="images/Image_1.png" alt="A laptop showing security analytics"/>
 </tile>
 
@@ -57,7 +56,7 @@ with time-tested business acumen, the results speak for themselves.</p>
 <tile
     href="https://www.youtube.com/watch?v=yrI8S1906Ug"
     caption="Youtube"
-    title="Video: Building a Security Operations Center on wheels">
+    title="Video: Building a security operations center on wheels">
 <img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface"/>
 </tile>
 
