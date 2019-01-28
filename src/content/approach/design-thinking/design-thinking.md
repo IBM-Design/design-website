@@ -43,7 +43,7 @@ _When’s the last time you rethought what you’re making?_ <br><br>Everything 
 
 _Who are you designing for, and what do they need?_ <br><br>We measure success by how well we fulfill human needs. Our users are more than just the people we make for, they’re our partners in design.
 
-![add alt](images/think_3circles.svg)
+![add alt](images/think_circle.svg)
 
 </column>
 <column lg="4" border="true">
@@ -52,7 +52,7 @@ _Who are you designing for, and what do they need?_ <br><br>We measure success b
 
 _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dynamic team. By empowering people with different skillsets, backgrounds and perspectives to bring their unique points of view to the table, we generate more breakthrough ideas faster.
 
-![add alt](images/think_circle.svg)
+![add alt](images/think_3circles.svg)
 
 </column>
 </grid>
