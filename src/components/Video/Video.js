@@ -10,8 +10,8 @@ export default class Video extends React.Component {
     const player = new Player(iframe);
     //not working
     player.on('end', function(video, player) {
-      video.classList.remove('active');
-      player.setVolume(0);
+      video.classList.remove('active'); //will add back overlay/play button
+      player.setVolume(0); //mutes video again
     });
   }
 
