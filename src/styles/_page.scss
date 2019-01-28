@@ -37,10 +37,12 @@ body {
 
 .gatsby-resp-image-wrapper {
   max-width: 100% !important; //need to see why the plugin isn't respectinng the max width. this fixes for now. 🤔
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 
   @include breakpoint('md') {
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -68,4 +70,13 @@ img {
   // removes the default padding around a video if its in the first grid container on a page
   @include breakpoint('lg') {
   }
+}
+
+//----------------------------
+// Teams
+//----------------------------
+h2#find-your-team {
+  margin-bottom: 0;
+  display: block;
+  font-weight: 600;
 }

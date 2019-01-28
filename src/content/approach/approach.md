@@ -20,7 +20,7 @@ business problems
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8"  md="5">
 
 ## People are at the center of everything we do and every problem we solve. Design isn’t just a job—it’s a deep responsibility to the people we serve.
 
