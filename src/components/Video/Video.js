@@ -7,6 +7,7 @@ export default class Video extends React.Component {
   componentDidMount() {
     const iframe = document.querySelector('iframe');
     const player = new Player(iframe);
+    player.setColor('#0062ff');
     player.setLoop(false);
     player.on('ended', this.onEnd);
   }
@@ -126,12 +127,10 @@ export default class Video extends React.Component {
     );
 
     return (
-      <div className="ibm--video-wrapper">
+      <div className="ibm--video-wrapper" onClick={this.onClick} tabindex="0">
         {children}
         <div className="ibm--video-overlay" />
-        <button onClick={this.onClick} className="ibm--video-controls">
-          {svgPlayBtn}
-        </button>
+        <div className="ibm--video-controls" />
       </div>
     );
   }
