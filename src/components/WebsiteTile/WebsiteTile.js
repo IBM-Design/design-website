@@ -150,9 +150,13 @@ export default class WebsiteTile extends React.Component {
                 href={href}
                 className={classNames}>
                 <div className={backgroundClassnames}>
-                  <h2 className="bx--type-expressive-heading-05">
-                    {feature_heading}
-                  </h2>
+                  <div className="bx--aspect-ratio bx--aspect-ratio--16x9">
+                    <div className="bx--aspect-ratio--object">
+                      <h2 className="bx--type-expressive-heading-05">
+                        {feature_heading}
+                      </h2>
+                    </div>
+                  </div>
                   {clickableTile}
                 </div>
                 <div className="tile__feature-img">{children}</div>

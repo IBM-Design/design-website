@@ -259,12 +259,9 @@ a.tile {
 }
 
 .tile__feature-content {
-  padding: 1rem 1rem 4rem 1rem;
-
   @include breakpoint('md') {
+    padding: 1rem 12% 1rem 1rem;
     width: 50%;
-    padding-right: 12%;
-    padding-bottom: 1rem;
   }
 
   @include breakpoint('lg') {
@@ -273,8 +270,13 @@ a.tile {
 }
 
 .tile--feature h2.bx--type-expressive-heading-05 {
+  padding: 1rem 1rem 0 1rem;
   color: $text-01;
   font-weight: 300;
+
+  @include breakpoint('md') {
+    padding: 0;
+  }
 
   // Expressive paragraph 01 at tablet and below, responsive type includes are breaking
   @media (max-width: 66rem) {
