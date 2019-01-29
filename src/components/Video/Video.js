@@ -41,16 +41,6 @@ export default class Video extends React.Component {
     player.play();
   };
 
-  onKey = () => {
-    const video = document.querySelector('.ibm--video-wrapper');
-    const iframe = video.querySelector('iframe');
-    const player = new Player(iframe);
-    video.classList.add('active');
-    player.setCurrentTime(0);
-    player.setVolume(1);
-    player.play();
-  };
-
   onEnd = () => {
     const video = document.querySelector('.ibm--video-wrapper');
     video.classList.remove('active');
