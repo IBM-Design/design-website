@@ -16,14 +16,15 @@
 }
 
 .icon--inline.left {
-  position: relative;
-  top: rem(3px);
+  padding-right: 0.5rem;
+  top: -1px;
 }
 
 .icon--blue {
   & > svg {
     fill: $brand-01;
   }
+  color: $brand-01;
 }
 
 .background--inverse .icon--blue {
@@ -49,5 +50,10 @@
 
 .icon--arrowDown {
   font-size: 32px;
+  font-weight: 300;
+}
+
+.icon--arrowLeft {
+  font-size: 24px;
   font-weight: 300;
 }
