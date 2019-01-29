@@ -10,6 +10,7 @@ export default class Video extends React.Component {
     player.setColor('#0062ff');
     player.setLoop(false);
     player.on('ended', this.onEnd);
+    player.on('pause', this.mitigateKeyboard);
   }
 
   static propTypes = {
@@ -17,13 +18,30 @@ export default class Video extends React.Component {
      * for slide images
      */
     children: PropTypes.node,
-    /**
-     * unique id for each carousel, required
-     */
-    id: PropTypes.string.isRequired,
+  };
+
+  mitigateKeyboard = () => {
+    const video = document.querySelector('.ibm--video-wrapper');
+    const iframe = document.querySelector('iframe');
+    const player = new Player(iframe);
+    if (!video.classList.contains('active')) {
+      this.onClick();
+    } else {
+      player.pause();
+    }
   };
 
   onClick = () => {
+    const video = document.querySelector('.ibm--video-wrapper');
+    const iframe = video.querySelector('iframe');
+    const player = new Player(iframe);
+    video.classList.add('active');
+    player.setCurrentTime(0);
+    player.setVolume(1);
+    player.play();
+  };
+
+  onKey = () => {
     const video = document.querySelector('.ibm--video-wrapper');
     const iframe = video.querySelector('iframe');
     const player = new Player(iframe);
@@ -44,7 +62,7 @@ export default class Video extends React.Component {
   };
 
   render() {
-    const { children, id } = this.props;
+    const { children } = this.props;
     const svgPlayBtn = (
       <svg
         className="ibm--video-play-icon"
@@ -127,7 +145,7 @@ export default class Video extends React.Component {
     );
 
     return (
-      <div className="ibm--video-wrapper" onClick={this.onClick} tabindex="0">
+      <div className="ibm--video-wrapper" onClick={this.onClick}>
         {children}
         <div className="ibm--video-overlay" />
         <div className="ibm--video-controls" />
