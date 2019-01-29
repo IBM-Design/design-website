@@ -5,7 +5,7 @@ title: Security
 <grid className="background--nopadding">
 <column lg="16">
 
-<p><icon className="icon--left" color="blue" name="ArrowLeft24" inline="true"></icon>  <a href="/impact"><span>Impact Stories</span></a></p>
+<p size="sm-back"><a href="/impact"><icon name="PlexArrowLeft"></icon>Impact Stories</a></p>
 
 </column>
 </grid>

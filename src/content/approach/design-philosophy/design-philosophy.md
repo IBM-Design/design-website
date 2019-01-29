@@ -3,9 +3,6 @@ title: Design philosophy
 ---
 
 <grid background="gray-100" classname="background--header background--philosophy">
-<column lg="8" offset_lg="4" md="4">
-
-</column>
 <column lg="4" md="4">
 
 ## **Design philosophy**
@@ -15,7 +12,9 @@ IBMers believe in progress—that by applying intelligence, reason and science w
 Given our scale and scope, good design is not just a requirement, it’s a deeper responsibility to the people we serve and the relationships we build.
 
 </column>
+<column lg="8" offset_lg="4" md="4">
 
+</column>
 </grid>
 <grid background="gray-10" classname="background--tight">
 <column lg="7" offset_lg="4"  md="5">
@@ -34,7 +33,6 @@ It is more important than ever that we own our own ethos, make palpable our bran
 > _Without aesthetic, design is either the humdrum repetition of familiar clichés or a wild scramble for novelty. Without aesthetic, the computer is but a mindless speed machine, producing effects without substance, form without relevant content, or content without meaningful form. <br><br>– Paul Rand_
 
 Aesthetic is defined as the philosophical theory or set of principles governing outward appearance or actions. This characteristic, while subtle in its application, is essential to the effectiveness of any experience. Everything we do (and don’t do) communicates. We must put care and craft into every experience if we expect any confidence or consideration in return.
-
 
 </column>
 
