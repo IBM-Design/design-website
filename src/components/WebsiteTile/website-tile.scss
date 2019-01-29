@@ -61,6 +61,10 @@ a.tile {
   }
 }
 
+a:hover .bx--tile {
+  background: $ui-03;
+}
+
 .bx--tile .bx--aspect-ratio--object {
   padding: $spacing-md 30% $spacing-md $spacing-md;
 
