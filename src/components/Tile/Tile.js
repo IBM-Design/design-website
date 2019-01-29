@@ -89,6 +89,7 @@ export default class Tile extends React.Component {
       'background--gray-20': feature_background === 'gray-20',
       'background--gray-80': feature_background === 'gray-80',
       'background--gray-100': feature_background === 'gray-100',
+      'background--magenta-20': feature_background === 'magenta-20',
       'background--inverse':
         feature_background === 'gray-100' ||
         feature_background === 'gray-80' ||

@@ -138,6 +138,10 @@
   color: $ibm-colors__gray-10;
 }
 
+.background--magenta-20 {
+  background-color: $ibm-colors__magenta-20;
+}
+
 .background--black {
   background-color: $ibm-colors__black;
   color: $ibm-colors__gray-10;
@@ -216,7 +220,6 @@
     position: absolute;
     bottom: 2rem;
     left: 0;
-    width: 48px;
     height: auto;
 
     @include breakpoint('lg') {
