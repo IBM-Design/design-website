@@ -5,14 +5,10 @@ import Player from '@vimeo/player';
 
 export default class Video extends React.Component {
   componentDidMount() {
-    const video = document.querySelector('.ibm--video-wrapper');
-    const iframe = video.querySelector('iframe');
+    const iframe = document.querySelector('iframe');
     const player = new Player(iframe);
-    //not working
-    player.on('end', function(video, player) {
-      video.classList.remove('active'); //will add back overlay/play button
-      player.setVolume(0); //mutes video again
-    });
+    player.setLoop(false);
+    player.on('ended', this.onEnd);
   }
 
   static propTypes = {
@@ -28,40 +24,26 @@ export default class Video extends React.Component {
 
   onClick = () => {
     const video = document.querySelector('.ibm--video-wrapper');
-    if (video.classList.contains('active')) {
-      video.classList.toggle('pause');
-      this.togglePlay(video);
-    } else {
-      this.onInitialPlay(video);
-    }
-  };
-
-  onInitialPlay = video => {
-    video.classList.add('active');
     const iframe = video.querySelector('iframe');
     const player = new Player(iframe);
-
+    video.classList.add('active');
     player.setCurrentTime(0);
     player.setVolume(1);
+    player.play();
   };
 
-  togglePlay = video => {
+  onEnd = () => {
+    const video = document.querySelector('.ibm--video-wrapper');
+    video.classList.remove('active');
     const iframe = video.querySelector('iframe');
     const player = new Player(iframe);
-    player.on('end', function(video, player) {
-      video.classList.remove('active');
-      player.setVolume(0);
-    });
-    if (video.classList.contains('pause')) {
-      player.pause();
-    } else {
-      player.play();
-    }
+    player.setCurrentTime(0);
+    player.setVolume(0);
+    player.loadVideo(304672438);
   };
 
   render() {
     const { children, id } = this.props;
-
     const svgPlayBtn = (
       <svg
         className="ibm--video-play-icon"
