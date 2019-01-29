@@ -62,7 +62,15 @@ a.tile {
 }
 
 .bx--tile .bx--aspect-ratio--object {
-  padding: $spacing-md;
+  padding: $spacing-md 30% $spacing-md $spacing-md;
+
+  @include breakpoint('lg') {
+    padding-right: $spacing-md;
+  }
+
+  @include breakpoint('xlg') {
+    padding-right: 30%;
+  }
 }
 
 .tile__title {
