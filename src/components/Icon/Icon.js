@@ -64,9 +64,6 @@ export default class Icon extends React.Component {
           {name === 'ArrowUpRight20' ? (
             <ArrowUpRight20 className="icon--upright20" />
           ) : null}
-          {name === 'ArrowLeft24' ? (
-            <ArrowLeft24 className="icon--left24" />
-          ) : null}
         </span>
       </Fade>
     );
