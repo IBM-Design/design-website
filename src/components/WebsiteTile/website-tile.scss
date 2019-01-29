@@ -39,7 +39,12 @@
   }
 }
 
-a.bx--tile {
+.tile a,
+a.tile {
+  text-decoration: none;
+}
+
+.bx--tile {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,6 +54,7 @@ a.bx--tile {
   background: $ibm-colors__white;
   z-index: 1;
   padding: 0; //needs to stay zero for aspect ratio to be correct
+  transition: $transition--base;
 
   &:hover {
     background: $ui-03;
@@ -136,21 +142,21 @@ a.bx--tile {
 }
 
 // Dark
-a.bx--tile--clickable--dark {
+.bx--tile--clickable--dark {
   background: $ibm-colors__gray-90;
   color: $ibm-colors__gray-10;
 }
 
-a.bx--tile--clickable--dark:hover {
+.bx--tile--clickable--dark:hover {
   background: $ibm-colors__gray-80;
 }
 
-a.bx--tile--clickable--dark .tile__title,
-a.bx--tile--clickable--dark .tile__caption {
+.bx--tile--clickable--dark .tile__title,
+.bx--tile--clickable--dark .tile__caption {
   color: $ibm-colors__gray-10;
 }
 
-a.bx--tile--clickable--dark .tile__link-icon svg {
+.bx--tile--clickable--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
 }
 
@@ -190,7 +196,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
     }
   }
 
-  a.bx--tile {
+  .bx--tile {
     @include breakpoint('md') {
       position: absolute;
       bottom: 0;
@@ -206,7 +212,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .ibm--col-lg-8 {
   @include breakpoint('lg') {
-    a.bx--tile {
+    .bx--tile {
       width: 47.5%;
     }
   }
@@ -214,7 +220,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .ibm--col-lg-12 {
   @include breakpoint('lg') {
-    a.bx--tile {
+    .bx--tile {
       width: 32%;
     }
   }
@@ -222,7 +228,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .ibm--col-lg-16 {
   @include breakpoint('lg') {
-    a.bx--tile {
+    .bx--tile {
       width: calc(25% - 2rem);
     }
   }
@@ -258,6 +264,22 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   }
 }
 
+.tile--feature h2.bx--type-expressive-heading-05 {
+  color: $text-01;
+  font-weight: 300;
+
+  // Expressive paragraph 01 at tablet and below, responsive type includes are breaking
+  @media (max-width: 66rem) {
+    line-height: 125%;
+    letter-spacing: 0;
+    font-size: calc(1.5rem + 0.25 * ((100vw - 20rem) / 46));
+  }
+}
+
+.tile--feature .background--inverse h2.bx--type-expressive-heading-05 {
+  color: $ibm-colors__gray-10;
+}
+
 .tile__feature-img {
   width: 100%;
 
@@ -272,7 +294,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   margin-top: 0;
 }
 
-.tile--feature a.bx--tile {
+.tile--feature .bx--tile {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -330,6 +352,11 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
 
 .tile--feature--alt h2 {
   margin-bottom: 1.5rem;
+  color: $text-01;
+}
+
+.tile--feature--alt .background--inverse h2 {
+  color: $ibm-colors__gray-10;
 }
 
 .tile--feature--alt h2 strong {
@@ -364,7 +391,7 @@ a.bx--tile--clickable--dark .tile__link-icon svg {
   }
 }
 
-.tile--feature--alt a.bx--tile {
+.tile--feature--alt .bx--tile {
   position: absolute;
   bottom: 0;
   right: 0;

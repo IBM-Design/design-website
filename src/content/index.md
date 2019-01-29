@@ -47,7 +47,7 @@ people we serve.</span>
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
-<img src="images/Image_1.png" alt="A laptop showing security analytics"/>
+<img src="images/Image_1.png" alt=""/>
 </tile>
 
 </column>
@@ -57,7 +57,7 @@ people we serve.</span>
     href="https://www.youtube.com/watch?v=yrI8S1906Ug"
     caption="Youtube"
     title="Video: Building a security operations center on wheels">
-<img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface"/>
+<img src="images/Image_2.png" alt=""/>
 </tile>
 
 </column>
@@ -67,7 +67,7 @@ people we serve.</span>
     href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
     caption="Quartz"
     title="The business case for an open-source font">
-<img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface"/>
+<img src="images/Image_3.png" alt=""/>
 </tile>
 
 </column>
