@@ -46,7 +46,7 @@ business problems
     feature_style="alt"
     feature_heading="Design thinking"
     feature_heading_secondary="Human-centered design at scale"
-    feature_background="gray-20"
+    feature_background="magenta-20"
     feature_description="Learn how you can apply the same framework our teams use every day."
     href="/approach/design-thinking"
     title="Learn more">

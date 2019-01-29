@@ -2,7 +2,7 @@
 title: Design thinking
 ---
 
-<grid background="gray-20" classname="background--header background--thinking">
+<grid background="magenta-20" classname="background--header background--thinking">
 <column lg="4" md="4">
 
 ## **Enterprise design thinking**

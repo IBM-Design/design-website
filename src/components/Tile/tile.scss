@@ -126,6 +126,8 @@ a.bx--tile {
   max-width: unset;
   height: 100%;
   width: auto !important;
+  left: auto !important;
+  right: 0;
 
   @include breakpoint('md') {
     max-width: 100%;
