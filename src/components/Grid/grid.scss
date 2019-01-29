@@ -22,7 +22,6 @@
 .background--header {
   padding-top: 2rem;
   padding-bottom: 0;
-  height: 480px;
 
   @include breakpoint('md') {
     height: 400px;
@@ -64,21 +63,30 @@
   }
 
   .ibm--row {
-    flex-direction: row-reverse;
     height: 100%;
   }
 
   .ibm--col-lg-8 {
-    height: 100%;
     display: flex;
-    top: -1rem;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 100%;
+    background-position: top center;
+    display: flex;
+    background-size: 85%;
+    padding-bottom: 60%;
+    margin: 0;
+    margin-left: 0.5rem;
 
     @include breakpoint('md') {
+      margin-left: 0;
+      height: 100%;
+      top: -1rem;
       background-size: 100%;
       background-position: right;
+      padding-bottom: 0;
+    }
+
+    @include breakpoint('lg') {
+      margin-left: 25%;
     }
   }
 
@@ -130,6 +138,10 @@
   color: $ibm-colors__gray-10;
 }
 
+.background--magenta-20 {
+  background-color: $ibm-colors__magenta-20;
+}
+
 .background--black {
   background-color: $ibm-colors__black;
   color: $ibm-colors__gray-10;
@@ -158,7 +170,7 @@
 }
 
 .background--nopadding {
-  padding: 1.5rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 // selects all columnns for testing
@@ -208,7 +220,6 @@
     position: absolute;
     bottom: 2rem;
     left: 0;
-    width: 48px;
     height: auto;
 
     @include breakpoint('lg') {
