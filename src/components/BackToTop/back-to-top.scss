@@ -9,12 +9,15 @@
   right: rem(30px);
   cursor: pointer;
   z-index: 9999;
+  transition: $transition--base;
 
   svg {
     fill: $ibm-colors__black;
   }
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     background: $ibm-colors__gray-90;
     border-color: transparent;
 
