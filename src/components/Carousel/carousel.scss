@@ -36,13 +36,13 @@
   .bx--radio-button
   + .bx--radio-button__label
   .bx--radio-button__appearance {
-  background-color: $ibm-colors__gray--80;
+  background-color: $ibm-colors__gray-80;
   border: none;
   height: 0.5rem;
   width: 0.5rem;
 
   &:hover {
-    background-color: $ibm-colors__gray--10;
+    background-color: $ibm-colors__gray-10;
   }
 }
 
@@ -50,7 +50,7 @@
   .bx--radio-button:checked
   + .bx--radio-button__label
   .bx--radio-button__appearance {
-  background-color: $ibm-colors__gray--50;
+  background-color: $ibm-colors__gray-50;
 }
 
 .ibm--carousel-nav-wrapper
