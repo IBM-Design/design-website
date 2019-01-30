@@ -39,12 +39,7 @@
   }
 }
 
-.tile a,
-a.tile {
-  text-decoration: none;
-}
-
-.bx--tile {
+a.bx--tile {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,27 +49,18 @@ a.tile {
   background: $ibm-colors__white;
   z-index: 1;
   padding: 0; //needs to stay zero for aspect ratio to be correct
-  transition: $transition--base;
-}
 
-a:hover .bx--tile {
-  background: $ui-03;
+  &:hover {
+    background: $ui-03;
+  }
 }
 
 .bx--tile .bx--aspect-ratio--object {
-  padding: $spacing-md 30% $spacing-md $spacing-md;
-
-  @include breakpoint('lg') {
-    padding-right: $spacing-md;
-  }
-
-  @include breakpoint('xlg') {
-    padding-right: 30%;
-  }
+  padding: $spacing-md;
 }
 
 .tile__title {
-  @include type-style('heading-03');
+  @include type-style('body-short-02');
   display: block;
   width: 100%;
   text-decoration: none;
@@ -83,8 +69,9 @@ a:hover .bx--tile {
   padding: 0 9% 0 0;
 }
 
-.tile__title--small {
-  @include type-style('body-short-02');
+.tile--feature .tile__title,
+.tile--feature--alt .tile__title {
+  @include type-style('heading-03');
 }
 
 .tile__caption {
@@ -149,21 +136,21 @@ a:hover .bx--tile {
 }
 
 // Dark
-.bx--tile--dark {
+a.bx--tile--clickable--dark {
   background: $ibm-colors__gray-90;
   color: $ibm-colors__gray-10;
 }
 
-a:hover .bx--tile--dark {
+a.bx--tile--clickable--dark:hover {
   background: $ibm-colors__gray-80;
 }
 
-.bx--tile--dark .tile__title,
-.bx--tile--dark .tile__caption {
+a.bx--tile--clickable--dark .tile__title,
+a.bx--tile--clickable--dark .tile__caption {
   color: $ibm-colors__gray-10;
 }
 
-.bx--tile--dark .tile__link-icon svg {
+a.bx--tile--clickable--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
 }
 
@@ -203,7 +190,7 @@ a:hover .bx--tile--dark {
     }
   }
 
-  .bx--tile {
+  a.bx--tile {
     @include breakpoint('md') {
       position: absolute;
       bottom: 0;
@@ -219,7 +206,7 @@ a:hover .bx--tile--dark {
 
 .ibm--col-lg-8 {
   @include breakpoint('lg') {
-    .bx--tile {
+    a.bx--tile {
       width: 47.5%;
     }
   }
@@ -227,7 +214,7 @@ a:hover .bx--tile--dark {
 
 .ibm--col-lg-12 {
   @include breakpoint('lg') {
-    .bx--tile {
+    a.bx--tile {
       width: 32%;
     }
   }
@@ -235,7 +222,7 @@ a:hover .bx--tile--dark {
 
 .ibm--col-lg-16 {
   @include breakpoint('lg') {
-    .bx--tile {
+    a.bx--tile {
       width: calc(25% - 2rem);
     }
   }
@@ -258,35 +245,17 @@ a:hover .bx--tile--dark {
 }
 
 .tile__feature-content {
+  padding: 1rem 1rem 4rem 1rem;
+
   @include breakpoint('md') {
-    padding: 1rem 12% 1rem 1rem;
     width: 50%;
+    padding-right: 12%;
+    padding-bottom: 1rem;
   }
 
   @include breakpoint('lg') {
-    padding-right: 12.5%;
+    padding-right: 25%;
   }
-}
-
-.tile--feature h2.bx--type-expressive-heading-05 {
-  padding: 1rem 1rem 0 1rem;
-  color: $text-01;
-  font-weight: 300;
-
-  @include breakpoint('md') {
-    padding: 0;
-  }
-
-  // Expressive paragraph 01 at tablet and below, responsive type includes are breaking
-  @media (max-width: 66rem) {
-    line-height: 125%;
-    letter-spacing: 0;
-    font-size: calc(1.5rem + 0.25 * ((100vw - 20rem) / 46));
-  }
-}
-
-.tile--feature .background--inverse h2.bx--type-expressive-heading-05 {
-  color: $ibm-colors__gray-10;
 }
 
 .tile__feature-img {
@@ -303,7 +272,7 @@ a:hover .bx--tile--dark {
   margin-top: 0;
 }
 
-.tile--feature .bx--tile {
+.tile--feature a.bx--tile {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -361,11 +330,6 @@ a:hover .bx--tile--dark {
 
 .tile--feature--alt h2 {
   margin-bottom: 1.5rem;
-  color: $text-01;
-}
-
-.tile--feature--alt .background--inverse h2 {
-  color: $ibm-colors__gray-10;
 }
 
 .tile--feature--alt h2 strong {
@@ -400,7 +364,7 @@ a:hover .bx--tile--dark {
   }
 }
 
-.tile--feature--alt .bx--tile {
+.tile--feature--alt a.bx--tile {
   position: absolute;
   bottom: 0;
   right: 0;
