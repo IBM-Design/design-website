@@ -18,8 +18,8 @@ export default class Carousel extends React.Component {
   componentDidMount() {
     const slide = document.querySelector(`.${this.props.id}`);
     slide.addEventListener('touchstart', this.handleStart, false);
-    slide.addEventListener('touchend', this.handleEnd, false);
     slide.addEventListener('touchmove', this.moveTouch, false);
+    const autoplay = setInterval(this.nextSlide, 6000);
   }
 
   static propTypes = {
@@ -41,8 +41,6 @@ export default class Carousel extends React.Component {
     this.initialY = e.touches[0].clientY;
   };
 
-  handleEnd = e => {};
-
   moveTouch = e => {
     if (this.initialX === null) {
       return;
@@ -56,30 +54,29 @@ export default class Carousel extends React.Component {
     const currentY = e.touches[0].clientY;
     const diffX = this.initialX - currentX;
     const diffY = this.initialY - currentY;
+    const state = this.state.checkedRadio;
 
     if (Math.abs(diffX) > Math.abs(diffY)) {
       if (diffX > 0) {
         // swiped left
-        console.log('swiped left');
-        if (this.state.checkedRadio === 1) {
+        if (state === 1) {
           this.onChange(2);
-        } else if (this.state.checkedRadio === 2) {
+        } else if (state === 2) {
           this.onChange(3);
-        } else if (this.state.checkedRadio === 3) {
+        } else if (state === 3) {
           this.onChange(4);
-        } else if (this.state.checkedRadio === 4) {
+        } else if (state === 4) {
           this.onChange(1);
         }
       } else {
         // swiped right
-        console.log('swiped right');
-        if (this.state.checkedRadio === 1) {
+        if (state === 1) {
           this.onChange(4);
-        } else if (this.state.checkedRadio === 2) {
+        } else if (state === 2) {
           this.onChange(1);
-        } else if (this.state.checkedRadio === 3) {
+        } else if (state === 3) {
           this.onChange(2);
-        } else if (this.state.checkedRadio === 4) {
+        } else if (state === 4) {
           this.onChange(3);
         }
       }
@@ -88,6 +85,19 @@ export default class Carousel extends React.Component {
     this.initialX = null;
     this.initialY = null;
     e.preventDefault();
+  };
+
+  nextSlide = () => {
+    const state = this.state.checkedRadio;
+    if (state === 1) {
+      this.onChange(2);
+    } else if (state === 2) {
+      this.onChange(3);
+    } else if (state === 3) {
+      this.onChange(4);
+    } else if (state === 4) {
+      this.onChange(1);
+    }
   };
 
   onChange = e => {
