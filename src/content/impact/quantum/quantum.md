@@ -13,7 +13,7 @@ title: Quantum
 <grid classname="background-bleed">
 <column lg="16">
 
-![add alt](/images/Image_1.png)
+![IBM reveal’s the Q System One.](/images/Image_1.png)
 
 </column>
 </grid>
@@ -31,7 +31,7 @@ title: Quantum
 
 <p size="lg">Rather than balking at the challenge, we’ve embraced the opportunity to be trailblazers for Qauntum computing, a transformational technology that will change the way we work for decades to come.<br><br>Whether it’s fabricating an industrial design capable of housing components that have to be kept colder than the temperature of deep space, or creating a mobile app that makes quantum physics understandable to teenagers, Quantum is the ultimate test of our ability to blend design expertise with deep domain knowledge to create real value for our users.</p>
 
-<icon name="ArrowDown32"></icon>
+<icon name="PlexArrowDown"></icon>
 
 </column>
 </grid>
@@ -39,52 +39,52 @@ title: Quantum
 <grid background="gray-10">
 <column bleed={true} lg="12" offset_lg="4">
 
-<img alt="Think on a pink background." src="images/Image_2.png">
+<img alt="IBM Q team working in the lab to create the Q System One." src="images/Image_2.png">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="Watson!" src="images/Image_3.png">
+<img alt="Quantum hardware." src="images/Image_3.png">
 
 </column>
 <column bleed={true} md="3" lg="4">
 
-<img alt="People hanging around an exhibit." src="images/Image_4.png">
+<img alt="IBM Q logo." src="images/Image_4.png">
 
 </column>
 <column bleed={true} md="4" lg="6" offset_lg="4">
 
-<img alt="Conceptual drawing of a conference space." src="images/Image_5.png">
+<img alt="Men creating the physical space for Quantum computing to happen." src="images/Image_5.png">
 
 </column>
 <column bleed={true} md="4" lg="6">
 
-<img alt="Another conceptual drawing of a conference space." src="images/Image_6.png">
+<img alt="Zoomed in shot of a man’s hands putting together some hardware for Quantum computing." src="images/Image_6.png">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="Person walking down a hallway with blue screens" src="images/Image_7.png">
+<img alt="A woman walking through the lab." src="images/Image_7.png">
 
 </column>
 <column bleed={true} md="3" lg="4">
 
-<img alt="Person walking down a hallway with blue screens from a differen point of view." src="images/Image_8.png">
+<img alt="A collection hardware laying out on a table." src="images/Image_8.png">
 
 </column>
 <column bleed={true} md="3" lg="4" offset_lg="4">
 
-<img alt="A collection of pictograms." src="images/Image_9.png">
+<img alt="A quantum computing interface prototype on a tablet in landscape view." src="images/Image_9.png">
 
 </column>
 <column bleed={true} md="5" lg="8"">
 
-<img alt="Concept art for Think Client Showcase" src="images/Image_10.png">
+<img alt="Quantum mobile game." src="images/Image_10.png">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="THINK logo written in sand with a blue backdrop." src="images/Image_11.png">
+<img alt="Quantum hardware." src="images/Image_11.png">
 
 </column>
 </grid>

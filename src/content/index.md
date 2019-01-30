@@ -12,9 +12,9 @@ people we serve.</span>
 <grid background="black">
 <column lg="16">
 
-<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-<!--<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/293453905?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />-->
+<video>
+  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=0?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+</video>
 
 </column>
 </grid>
@@ -47,7 +47,7 @@ people we serve.</span>
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
-<img src="images/Image_1.png" alt=""/>
+<img src="images/Image_1.png" alt="" />
 </tile>
 
 </column>
