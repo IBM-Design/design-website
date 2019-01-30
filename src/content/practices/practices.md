@@ -20,11 +20,11 @@ meets pragmatic.</span>
 </title-block>
 
 <grid background="gray-100">
-<column lg="8">
+<column lg="8" md="5">
 
-<p size="xl">Tap into a growing collection of design tools, assets and resources to keep your business moving forward.</p>
+<p size="xl">Tap into a growing collection of design tools, assets, and resources to keep your business moving forward.</p>
 
-<icon name="ArrowDown32" color="white"></icon>
+<icon name="PlexArrowDown" color="white"></icon>
 
 </column>
 </grid>
@@ -34,20 +34,21 @@ meets pragmatic.</span>
 <hr>
 
 </column>
-<column lg="4">
+<column lg="4" md="5">
 
 ### IBM Design Language
 
 </column>
-<column lg="7">
+<column lg="7" md="5">
 
-## Principles, guidelines and ready-made assets to help you build exceptional experiences.
+## Principles, guidelines, and ready-made assets to help you build exceptional experiences.
 
 </column>
 
 <column lg="12" offset_lg="4">
 
 <tile
+    href="https://www.ibm.com/design/language/"
     size="lg"
     background="#373737"
     dark="true"
@@ -59,6 +60,7 @@ meets pragmatic.</span>
 <column lg="4" md="4" offset_lg="4">
 
 <tile
+    href="https://www.ibm.com/design/product/"
     dark="true"
     title="Product Design System">
 <img src="images/Image_2.png" alt=""/>
@@ -68,6 +70,7 @@ meets pragmatic.</span>
 <column lg="4" md="4">
 
 <tile
+    href="#"
     dark="true"
     title="Digital Design System">
 <img src="images/Image_3.png" alt=""/>
@@ -77,6 +80,7 @@ meets pragmatic.</span>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile
+    href="https://www.ibm.com/plex/"
     dark="true"
     title="IBM Plex typeface">
 <img src="images/Image_4.png" alt=""/>
@@ -95,7 +99,7 @@ meets pragmatic.</span>
 ### Enterprise Design Thinking
 
 </column>
-<column lg="7">
+<column lg="7" md="5">
 
 ## A scalable learning approach that combines online learning with in-person activation to make design thinking stick.
 
@@ -103,6 +107,7 @@ meets pragmatic.</span>
 <column lg="12" offset_lg="4">
 
 <tile
+    href="https://www.ibm.com/design/thinking/"
     size="lg"
     background="#C5DEFF"
     dark="true"
@@ -123,7 +128,7 @@ meets pragmatic.</span>
 ### IBM Design Research
 
 </column>
-<column lg="7">
+<column lg="7" md="5">
 
 ## Resources and guidance to help you drive actionable user insights through observation, experience, and making.
 
@@ -131,6 +136,7 @@ meets pragmatic.</span>
 <column lg="12" offset_lg="4">
 
 <tile
+    href="https://www.ibm.com/design/research/"
     size="lg"
     background="#F2BDD8"
     dark="true"

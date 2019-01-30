@@ -1,16 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { ArrowRight16, ArrowDown32, ArrowUpRight20 } from '@carbon/icons-react';
+import {
+  ArrowRight24,
+  ArrowUpRight24,
+  ArrowUpRight20,
+  PlexArrowDown,
+  PlexArrowLeft,
+} from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
 export default class Icon extends React.Component {
   static propTypes = {
     /**
    * defines which icon to use, options:
-   "ArrowRight16" - default
-   "ArrowUpRight20"
-   "ArrowDown32"
+   "ArrowRight24" - default
+   "ArrowUpRight24"
+   "PlexArrowDown"
+   "PlexArrowLeft"
    */
     name: PropTypes.string,
     /**
@@ -37,23 +44,27 @@ export default class Icon extends React.Component {
       'icon--white': color === 'white',
       'icon--inline': inline === 'true',
       'icon--right': align === 'right' && inline !== 'true',
-      'icon--left': align === 'left' && inline !== 'true',
-      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight20',
+      'icon--inline up-right': inline === 'true' && name === 'ArrowUpRight24',
     });
 
     return (
       <Fade bottom distance="100%">
-        <div className={classNames}>
-          {name === 'ArrowDown32' ? (
-            <ArrowDown32 className="icon--down32" />
+        <span className={classNames}>
+          {name === 'PlexArrowDown' ? (
+            <span className="icon--arrowDown">↓</span>
+          ) : null}
+          {name === 'PlexArrowLeft' ? (
+            <span className="icon--arrowLeft icon--blue icon--inline left">
+              ←
+            </span>
+          ) : null}
+          {name === 'ArrowUpRight24' ? (
+            <ArrowUpRight24 className="icon--upright24" />
           ) : null}
           {name === 'ArrowUpRight20' ? (
             <ArrowUpRight20 className="icon--upright20" />
           ) : null}
-          {name === 'ArrowRight16' ? (
-            <ArrowRight16 className="icon--right16" />
-          ) : null}
-        </div>
+        </span>
       </Fade>
     );
   }
@@ -61,7 +72,7 @@ export default class Icon extends React.Component {
 
 Icon.defaultProps = {
   color: 'black',
-  name: 'ArrowRight16',
+  name: 'ArrowRight24',
   inline: 'false',
   align: 'left',
 };

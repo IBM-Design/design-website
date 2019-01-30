@@ -1,4 +1,5 @@
 import React from 'react';
+import { Location } from '@reach/router';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Link } from 'gatsby';
@@ -27,107 +28,132 @@ const SiteHeader = ({
   onToggleSwitcher,
   isSwitcherExpanded,
 }) => {
-  const sideNavclassNames = classnames({
-    'bx--side-nav--open': isNavExpanded,
-    'bx--side-nav--website': true,
-    'bx--side-nav--website--with-header-nav': true,
-  });
-
   return (
-    <>
-      <Header aria-label="Header" className="bx--header--website">
-        <SkipToContent />
-        <HeaderMenuButton
-          className="bx--header__action--menu"
-          aria-label="Open menu"
-          onClick={onToggleNav}
-          isActive={isNavExpanded}
-        />
-        <HeaderName prefix="IBM" to="/" element={Link}>
-          Design
-        </HeaderName>
+    <Location>
+      {({ location }) => {
+        const sideNavclassNames = classnames({
+          'bx--side-nav--open': isNavExpanded,
+          'bx--side-nav--website': true,
+          'bx--side-nav--website--with-header-nav': true,
+        });
 
-        <HeaderNavigation aria-label="Main Navigation">
-          <HeaderMenu aria-label="Approach">
-            <HeaderMenuItem to="/approach" element={Link}>
-              Overview
-            </HeaderMenuItem>
-            <HeaderMenuItem to="/approach/design-philosophy" element={Link}>
-              Design Philosophy
-            </HeaderMenuItem>
-            <HeaderMenuItem to="/approach/design-thinking" element={Link}>
-              Design Thinking
-            </HeaderMenuItem>
-            <HeaderMenuItem to="/approach/design-services" element={Link}>
-              Design Services
-            </HeaderMenuItem>
-          </HeaderMenu>
-          <HeaderMenuItem to="/teams" element={Link}>
-            Teams
-          </HeaderMenuItem>
-          <HeaderMenuItem to="/practices" element={Link}>
-            Practices
-          </HeaderMenuItem>
-          <HeaderMenuItem to="/impact" element={Link}>
-            Impact
-          </HeaderMenuItem>
-        </HeaderNavigation>
-        <HeaderGlobalBar>
-          <HeaderGlobalAction
-            className="bx--header__action--switcher"
-            aria-label="Switch"
-            onClick={onToggleSwitcher}>
-            {isSwitcherExpanded ? <Close20 /> : <AppSwitcher20 />}
-          </HeaderGlobalAction>
-        </HeaderGlobalBar>
-      </Header>
-      <SideNav aria-label="Mobile Navigation" className={sideNavclassNames}>
-        <SideNavItems>
-          <SideNavMenu title="Approach">
-            <SideNavMenuItem to="/approach" element={Link}>
-              Overview
-            </SideNavMenuItem>
-            <SideNavMenuItem to="/approach/design-philosophy" element={Link}>
-              Design Philosophy
-            </SideNavMenuItem>
-            <SideNavMenuItem to="/approach/design-thinking" element={Link}>
-              Design Thinking
-            </SideNavMenuItem>
-            <SideNavMenuItem to="/approach/design-services" element={Link}>
-              Design Services
-            </SideNavMenuItem>
-          </SideNavMenu>
-          <SideNavLink to="/teams" element={Link}>
-            Teams
-          </SideNavLink>
-          <SideNavLink to="/practices" element={Link}>
-            Practices
-          </SideNavLink>
-          <SideNavLink to="/impact" element={Link}>
-            Impact
-          </SideNavLink>
-        </SideNavItems>
-      </SideNav>
-      <WebsiteSwitcher
-        role="navigation"
-        aria-label="Site switcher"
-        isSwitcherOpen={isSwitcherExpanded}
-        links={[
-          {
-            href: 'https://www.ibm.com/design/language/',
-            linkText: 'IBM Design Language',
-          },
-          {
-            href: 'https://www.ibm.com/standards/web/',
-            linkText: 'IBM Digital Design',
-          },
-          {
-            href: 'https://www.ibm.com/design/product',
-            linkText: 'IBM Product Design',
-          },
-        ]}
-      />
-    </>
+        // this is super hacky and not scaleable - TODO update to pull in nav from json file similar to carbon site
+        const approachActive = location.pathname.includes('approach');
+
+        const approachClassName = classnames({
+          'submenu--active': approachActive,
+        });
+
+        return (
+          <>
+            <Header aria-label="Header" className="bx--header--website">
+              <SkipToContent />
+              <HeaderMenuButton
+                className="bx--header__action--menu"
+                aria-label="Open menu"
+                onClick={onToggleNav}
+                isActive={isNavExpanded}
+              />
+              <HeaderName prefix="IBM" to="/" element={Link}>
+                Design
+              </HeaderName>
+
+              <HeaderNavigation aria-label="Main Navigation">
+                <HeaderMenu aria-label="Approach" className={approachClassName}>
+                  <HeaderMenuItem to="/approach" element={Link}>
+                    Overview
+                  </HeaderMenuItem>
+                  <HeaderMenuItem
+                    to="/approach/design-philosophy"
+                    element={Link}>
+                    Design philosophy
+                  </HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>
+                    Design thinking
+                  </HeaderMenuItem>
+                  <HeaderMenuItem to="/approach/design-services" element={Link}>
+                    Design services
+                  </HeaderMenuItem>
+                </HeaderMenu>
+                <HeaderMenuItem to="/teams" element={Link}>
+                  Teams
+                </HeaderMenuItem>
+                <HeaderMenuItem to="/practices" element={Link}>
+                  Practices
+                </HeaderMenuItem>
+                <HeaderMenuItem to="/impact" element={Link}>
+                  Impact
+                </HeaderMenuItem>
+              </HeaderNavigation>
+              <HeaderGlobalBar>
+                <HeaderGlobalAction
+                  className="bx--header__action--switcher"
+                  aria-label="Switch"
+                  onClick={onToggleSwitcher}>
+                  {isSwitcherExpanded ? <Close20 /> : <AppSwitcher20 />}
+                </HeaderGlobalAction>
+              </HeaderGlobalBar>
+            </Header>
+            <SideNav
+              aria-label="Mobile Navigation"
+              className={sideNavclassNames}>
+              <SideNavItems>
+                <SideNavMenu
+                  title="Approach"
+                  defaultExpanded={approachActive ? 'true' : 'false'}>
+                  <SideNavMenuItem to="/approach" element={Link}>
+                    Overview
+                  </SideNavMenuItem>
+                  <SideNavMenuItem
+                    to="/approach/design-philosophy"
+                    element={Link}>
+                    Design philosophy
+                  </SideNavMenuItem>
+                  <SideNavMenuItem
+                    to="/approach/design-thinking"
+                    element={Link}>
+                    Design thinking
+                  </SideNavMenuItem>
+                  <SideNavMenuItem
+                    to="/approach/design-services"
+                    element={Link}>
+                    Design services
+                  </SideNavMenuItem>
+                </SideNavMenu>
+                <SideNavLink to="/teams" element={Link}>
+                  Teams
+                </SideNavLink>
+                <SideNavLink to="/practices" element={Link}>
+                  Practices
+                </SideNavLink>
+                <SideNavLink to="/impact" element={Link}>
+                  Impact
+                </SideNavLink>
+              </SideNavItems>
+            </SideNav>
+            <WebsiteSwitcher
+              role="navigation"
+              aria-label="Site switcher"
+              isSwitcherOpen={isSwitcherExpanded}
+              links={[
+                {
+                  href: 'https://www.ibm.com/design/language/',
+                  linkText: 'IBM Design Language',
+                },
+                {
+                  href: 'https://www.ibm.com/standards/web/',
+                  linkText: 'IBM Digital Design',
+                },
+                {
+                  href: 'https://www.ibm.com/design/product',
+                  linkText: 'IBM Product Design',
+                },
+              ]}
+            />
+          </>
+        );
+      }}
+    </Location>
   );
 };
 

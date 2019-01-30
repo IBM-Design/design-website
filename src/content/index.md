@@ -9,23 +9,22 @@ everything we do<br>
 people we serve.</span>
 </title-block>
 
-<grid background="gray-white">
+<grid background="black">
 <column lg="16">
 
-<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-<!--<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/293453905?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />-->
+<video>
+  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=0?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+</video>
 
 </column>
 </grid>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8" md="5">
 
-<p size="xl">When we blend human-centered design
-with time-tested business acumen, the results speak for themselves.</p>
+<p size="xl">When we blend human-centered design practices with time-tested business acumen, the results speak for themselves.</p>
 
-<icon name="ArrowDown32"></icon>
+<icon name="PlexArrowDown"></icon>
 
 </column>
 </grid>
@@ -38,37 +37,37 @@ with time-tested business acumen, the results speak for themselves.</p>
 </column>
 <column lg="4">
 
-### Today
+### Featured outcomes
 
 </column>
 
 <column lg="4" md="4">
 
-<tile
-    href="http://www.google.com"
+<tile title_size="small" 
+    href="/impact/quantum"
     caption="impact/quantum"
-    title="IBM Q, System One">
-<img src="images/Image_1.png" alt="A laptop showing security analytics"/>
+    title="Gallery: Quantum computing">
+<img src="images/Image_1.png" alt=""/>
 </tile>
 
 </column>
 <column lg="4" md="4">
 
-<tile
-    href="http://www.google.com"
-    caption="impact/security"
-    title="Security Design at IBM">
-<img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface"/>
+<tile title_size="small" 
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a security operations center on wheels">
+<img src="images/Image_2.png" alt=""/>
 </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-<tile
-    href="http://www.google.com"
-    caption="tdc/news"
-    title="Why a 2018 Typeface Design Competition judge voted for Plex  ">
-<img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface"/>
+<tile title_size="small" 
+    href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
+    caption="Quartz"
+    title="The business case for an open-source font">
+<img src="images/Image_3.png" alt=""/>
 </tile>
 
 </column>

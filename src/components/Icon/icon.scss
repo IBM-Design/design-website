@@ -15,15 +15,21 @@
   justify-content: flex-end;
 }
 
+.icon--inline.left {
+  padding-right: 0.5rem;
+  top: -1px;
+}
+
 .icon--blue {
   & > svg {
     fill: $brand-01;
   }
+  color: $brand-01;
 }
 
 .background--inverse .icon--blue {
   & > svg {
-    fill: $ibm-colors__blue--40;
+    fill: $ibm-colors__blue-40;
   }
 }
 
@@ -34,5 +40,20 @@
 }
 
 .icon--upright20 {
+  width: 16px;
+  height: 16px;
+}
+
+.icon--upright24 {
   padding: rem(2px);
+}
+
+.icon--arrowDown {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.icon--arrowLeft {
+  font-size: 24px;
+  font-weight: 300;
 }

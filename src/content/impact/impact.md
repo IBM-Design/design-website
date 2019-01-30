@@ -10,11 +10,11 @@ the means.<br>
 </title-block>
 
 <grid background="gray-10">
-<column lg="8">
+<column lg="8" md="5">
 
-<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different types of outcomes we’ve delivered for our clients and users below.</p>
+<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different outcomes we’ve delivered for our clients and users below.</p>
 
-<icon name="ArrowDown32"></icon>
+<icon name="PlexArrowDown"></icon>
 
 </column>
 </grid>
@@ -33,7 +33,7 @@ the means.<br>
 
 <column lg="12">
 
-  <tile title="Business leaders, visionaries, and innovators unite for a singular experience" caption="impact/think" href="/impact/template/">
+  <tile title_size="small" title="Business leaders, visionaries, and innovators unite" caption="impact/think" href="/impact/think/">
     <img src="images/Image_1.png" alt=""/>
 
   </tile>
@@ -54,22 +54,22 @@ the means.<br>
 </column>
 
 <column lg="4"  md="4">
-  <tile title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
-    <img src="images/Image_2.png" alt="quantum computer"/>
+  <tile title_size="small" title="Gallery: Quantum computing" caption="impact/quantum" href="/impact/quantum">
+    <img src="images/Image_2.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4"  md="4">
 
-  <tile title="Glimpses of an actual quantum computer" caption="fossbytes" href="/impact/template/">
-    <img src="images/Image_3.png" alt="two people examing quantum-ness"/>
+  <tile title_size="small" title="Inside the world’s first quantum computer" caption="TechCrunch" href="https://techcrunch.com/2019/01/08/ibm-unveils-its-first-commercial-quantum-computer/">
+    <img src="images/Image_3.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-  <tile title="This mobile app teaches quantum computing through a puzzle game" caption="thenextweb" href="/impact/template/">
-    <img src="images/Image_4.png" alt="quantum puzzle game"/>
+  <tile title_size="small" title="Teaching quantum computing through a mobile game" caption="The Next Web" href="https://thenextweb.com/apps/2018/07/23/ibms-hello-quantum-is-a-devilishly-difficult-puzzle-game-about-qubits/">
+    <img src="images/Image_4.png" alt=""/>
   </tile>
 
 </column>
@@ -87,22 +87,22 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile title="Security Design at IBM" caption="impact/security" href="/impact/template/">
-    <img src="images/Image_5.png" alt="Purple gradient"/>
+  <tile title_size="small" title="Gallery: IBM Security" caption="impact/security" href="/impact/security/">
+    <img src="images/Image_5.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile title="Using data visualization to spot cyber threats" caption="quartz" href="/impact/template/">
-    <img src="images/Image_6.png" alt="circles on a blackground"/>
+  <tile title_size="small" title="Using data visualization to spot cyber threats" caption="Quartz" href="https://qz.com/984707/the-people-who-fight-hacking-and-cybercrime-are-turning-to-designers-for-help/">
+    <img src="images/Image_6.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-  <tile title="X-Force Command takes their immersive cybersecurity training on the road" caption="nytimes" href="/impact/template/">
-    <img src="images/Image_7.png" alt="xforce dashboard"/>
+  <tile title_size="small" title="Video: Building a security operations center on wheels" caption="Youtube" href="https://www.youtube.com/watch?v=yrI8S1906Ug">
+    <img src="images/Image_7.png" alt=""/>
   </tile>
 
 </column>
@@ -121,22 +121,22 @@ the means.<br>
 </column>
 
 <column lg="4" md="4">
-  <tile title="A typeface with a story" caption="impact/plex" href="/impact/template/">
-    <img src="images/Image_8.png" alt="Plex"/>
+  <tile title_size="small" title="Gallery: Plex typeface" caption="impact/plex" href="/impact/plex/">
+    <img src="images/Image_8.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4">
 
-  <tile title="Why a 2018 Typeface Design Competition judge voted for Plex" caption="tdc/news" href="/impact/template/">
-    <img src="images/Image_9.png" alt="Random white glyphs on a black background"/>
+  <tile title_size="small" title="2018 Typeface design competition: Plex wins Judges’ Choice" caption="Type Directors Club" href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">
+    <img src="images/Image_9.png" alt=""/>
   </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-  <tile title="The business case for our open source font" caption="source" href="/impact/template/">
-    <img src="images/Image_10.png" alt="Mike looking at Plex on a table"/>
+  <tile title_size="small" title="The business case for an open source font" caption="Quartz" href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/">
+    <img src="images/Image_10.png" alt=""/>
   </tile>
 
 </column>

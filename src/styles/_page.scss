@@ -4,6 +4,7 @@
 
 body {
   background: $ui-01;
+  font-family: $font-family;
 }
 
 .container {
@@ -19,11 +20,11 @@ body {
   margin-right: 0;
 }
 .background--inverse a.bx--link {
-  color: $ibm-colors__blue--40;
+  color: $ibm-colors__blue-40;
 }
 
 .background--inverse a.bx--link:active {
-  color: $ibm-colors__gray--10;
+  color: $ibm-colors__gray-10;
 
   svg {
     fill: $ibm-colors__white;
@@ -36,6 +37,13 @@ body {
 
 .gatsby-resp-image-wrapper {
   max-width: 100% !important; //need to see why the plugin isn't respectinng the max width. this fixes for now. 🤔
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+
+  @include breakpoint('md') {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .page-p .gatsby-resp-image-wrapper {
@@ -62,4 +70,13 @@ img {
   // removes the default padding around a video if its in the first grid container on a page
   @include breakpoint('lg') {
   }
+}
+
+//----------------------------
+// Teams
+//----------------------------
+h2#find-your-team {
+  margin-bottom: 0;
+  display: block;
+  font-weight: 600;
 }

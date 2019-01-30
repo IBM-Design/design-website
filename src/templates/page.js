@@ -8,9 +8,10 @@ import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
-import Tile from '../components/Tile';
+import WebsiteTile from '../components/WebsiteTile';
 import AnchorLinks from '../components/AnchorLinks';
 import Icon from '../components/Icon';
+import Video from '../components/Video';
 import Carousel from '../components/Carousel';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
@@ -42,9 +43,10 @@ const renderAst = new rehypeReact({
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
     icon: Icon,
-    tile: Tile,
+    tile: WebsiteTile,
     grid: Grid,
     column: Column,
+    video: Video,
     carousel: Carousel,
   },
 }).Compiler;

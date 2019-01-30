@@ -138,7 +138,7 @@ Adds ↳ as bullet for an anchor list of links. Used within the `<title-block>` 
 Options:
 
 color: black (default), blue, white
-icon: ArrowRight16 (default), ArrowUpRight20, ArrowDown32
+icon: ArrowRight24 (default), ArrowUpRight24, PlexArrowDown
 inline: true or false (default)
 align: right or left(default)
 
@@ -156,25 +156,25 @@ class icon--inline displays inline and vertical-aligns icon
 
     <a class="link--icon" href=#>
         <span>View More</span>
-        <icon color="blue" name="ArrowUpRight20" inline="true"></icon>
+        <icon color="blue" name="ArrowUpRight24" inline="true"></icon>
     </a>
 
     <!-- black icon options -->
     <icon></icon>
-    <icon name="ArrowUpRight20"></icon>
-    <icon name="ArrowDown32"></icon>
+    <icon name="ArrowUpRight24"></icon>
+    <icon name="PlexArrowDown"></icon>
     <icon align="right"></icon>
 
     <!-- white icon options -->
     <icon color="white"></icon>
-    <icon color="white" icon="ArrowUpRight20"></icon>
-    <icon color="white" icon="ArrowDown32"></icon>
+    <icon color="white" icon="ArrowUpRight24"></icon>
+    <icon color="white" icon="PlexArrowDown"></icon>
     <icon color="white" align="right"></icon>
 
     <!-- blue icon options -->
     <icon color="blue"></icon>
-    <icon color="blue" icon="ArrowUpRight20"></icon>
-    <icon color="blue" icon="ArrowDown32"></icon>
+    <icon color="blue" icon="ArrowUpRight24"></icon>
+    <icon color="blue" icon="PlexArrowDown"></icon>
     <icon color="blue" align="right"></icon>
 
 ![icon example](https://user-images.githubusercontent.com/32556167/50860068-9b008e00-135a-11e9-97a1-76b0244bdb0c.png)
@@ -194,7 +194,7 @@ The grid component has a prop, background, which is used to tell the section wha
 - `gray-10`
 - `gray-20`
 - `gray-100`
-- `gray-white` _50/50 gray-100 and white, gray-100 on top_
+- `black-white` _50/50 gray-100 and white, gray-100 on top_
 
 The other prop available is `classname` which alows you to add a class you can target via css to the wrapping div. We are using the following classnames.
 
@@ -262,7 +262,7 @@ The following options are available
 #### Standard tile, will display differently depending on col wrapper component (see Impact page)
 
 ```
-  <tile title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
+  <tile title_size="small" title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
     <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 ```

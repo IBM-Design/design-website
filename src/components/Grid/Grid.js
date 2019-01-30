@@ -28,7 +28,8 @@ export class Grid extends React.Component {
       'background--gray-20': background === 'gray-20',
       'background--gray-80': background === 'gray-80',
       'background--gray-100': background === 'gray-100',
-      'background--gray-white': background === 'gray-white',
+      'background--black-white': background === 'black-white',
+      'background--magenta-20': background === 'magenta-20',
       'background--inverse':
         (background === 'black') |
         (background === 'gray-100') |
@@ -81,6 +82,10 @@ export class Column extends React.Component {
      * Specify a text align, default is left
      */
     text_align: PropTypes.string,
+    /**
+     * Specify an image bleed
+     */
+    bleed: PropTypes.boolean,
   };
 
   render() {
@@ -93,6 +98,7 @@ export class Column extends React.Component {
       offset_md,
       border,
       text_align,
+      bleed,
     } = this.props;
     let classNames = '';
     if (border) classNames += `ibm--col-border `;
@@ -102,6 +108,7 @@ export class Column extends React.Component {
     if (sm) classNames += `ibm--col-sm-${sm} `;
     if (offset_lg) classNames += `ibm--offset-lg-${offset_lg} `;
     if (offset_md) classNames += `ibm--offset-md-${offset_md} `;
+    if (bleed) classNames += `ibm--col-bleed `;
 
     return <div className={classNames}>{children}</div>;
   }
