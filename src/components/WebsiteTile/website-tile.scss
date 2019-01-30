@@ -74,7 +74,8 @@ a:hover .bx--tile {
 }
 
 .tile__title {
-  @include type-style('body-short-02');
+  @include type-style('heading-03');
+
   display: block;
   width: 100%;
   text-decoration: none;
@@ -83,9 +84,8 @@ a:hover .bx--tile {
   padding: 0 9% 0 0;
 }
 
-.tile--feature .tile__title,
-.tile--feature--alt .tile__title {
-  @include type-style('heading-03');
+.tile__title--small {
+  @include type-style('body-short-02');
 }
 
 .tile__caption {

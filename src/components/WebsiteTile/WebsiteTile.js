@@ -19,6 +19,11 @@ export default class WebsiteTile extends React.Component {
     title: PropTypes.string,
 
     /**
+     * tile title font size, default is default, option is small
+     */
+    title_size: PropTypes.string,
+
+    /**
      * optional secondary text for tile
      */
     caption: PropTypes.string,
@@ -64,6 +69,7 @@ export default class WebsiteTile extends React.Component {
       children,
       caption,
       title,
+      title_size,
       href,
       dark,
       feature,
@@ -113,7 +119,14 @@ export default class WebsiteTile extends React.Component {
       <Tile className={clickTileClassNames}>
         <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
           <div className="bx--aspect-ratio--object">
-            <h2 className="tile__title">{title}</h2>
+            <h2
+              className={
+                title_size === 'small'
+                  ? 'tile__title--small tile__title'
+                  : 'tile__title'
+              }>
+              {title}
+            </h2>
             {caption ? <p className="tile__caption">{caption}</p> : null}
             <div className="tile__link-icon">
               {(feature === 'true') & (feature_style === 'alt') ? (
@@ -244,4 +257,5 @@ WebsiteTile.defaultProps = {
   href: '',
   feature_style: 'default',
   feature_heading: '',
+  title_size: 'default',
 };

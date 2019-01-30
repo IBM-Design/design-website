@@ -43,7 +43,7 @@ people we serve.</span>
 
 <column lg="4" md="4">
 
-<tile
+<tile title_size="small" 
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
@@ -53,7 +53,7 @@ people we serve.</span>
 </column>
 <column lg="4" md="4">
 
-<tile
+<tile title_size="small" 
     href="https://www.youtube.com/watch?v=yrI8S1906Ug"
     caption="Youtube"
     title="Video: Building a security operations center on wheels">
@@ -63,7 +63,7 @@ people we serve.</span>
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-<tile
+<tile title_size="small" 
     href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
     caption="Quartz"
     title="The business case for an open-source font">
