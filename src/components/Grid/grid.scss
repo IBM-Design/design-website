@@ -163,12 +163,8 @@
   padding: 1rem 0 0 0;
 }
 
-// selects all columnns for testing
 .background div[class^='ibm--col-'] {
   position: relative;
-  //outline: 1px dotted red;
-  //outline-offset: -1px;
-  //padding: 4rem 0 8rem 0;
 }
 
 //----------------------------
@@ -188,7 +184,7 @@
   position: relative;
   border-top: 1px solid $ui-04;
   margin: 0 1rem rem(40px) 1rem;
-  padding-bottom: rem(120px);
+  padding-bottom: rem(136px);
   padding-top: 2rem;
   padding-left: 0;
 
@@ -218,7 +214,8 @@
     }
   }
 
-  em:last-child {
+  div:last-child {
+    @include type-style('body-short-02');
     position: absolute;
     bottom: 2rem;
     left: 0;
