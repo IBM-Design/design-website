@@ -55,7 +55,7 @@ IBM has always served as a medium between mankind and machine, blending science,
 </column>
 <column lg="3" offset_lg="1"  md="3" sm="0">
 
-> Here → There<br>Everything IBM and IBMers do is this. Everything we design should too.
+> **Here → There**<br>Everything IBM and IBMers do is this. Everything we design should too.
 
 </column>
 </grid>
