@@ -30,6 +30,7 @@
     "@carbon/type": "0.0.1-alpha.31",
     "@reach/router": "^1.2.1",
     "@storybook/addon-info": "^4.0.9",
+    "@vimeo/player": "^2.6.7",
     "animate.css": "^3.7.0",
     "carbon-components": "^9.68.13",
     "carbon-components-react": "6.82.0",
