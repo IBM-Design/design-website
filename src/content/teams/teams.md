@@ -56,16 +56,15 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="4" md="3">
 
-<div className="reveal">
 ![teams](images/photo_2.png)
-</div>
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![teams](images/photo_3.png)
+[[fadeInUp]]
+| ![teams](images/photo_3.png)
 
 </column>
 <column lg="8" md="5">

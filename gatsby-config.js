@@ -46,6 +46,16 @@ module.exports = {
           `gatsby-remark-responsive-iframe`,
           `gatsby-remark-unwrap-images`,
           {
+            resolve: 'gatsby-remark-custom-blocks',
+            options: {
+              blocks: {
+                fadeInUp: {
+                  classes: 'fadeInUp',
+                },
+              },
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
