@@ -51,24 +51,24 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![teams](images/photo_1.png)
+![Cheerful woman sitting cross-legged on a chair engaged in conversation with you.](images/photo_1.png)
 
 </column>
 <column lg="4" md="3">
 
-![teams](images/photo_2.png)
+![Man wearing glasses not quite staring at the camera and isn't certain if he should smile.](images/photo_2.png)
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![teams](images/photo_3.png)
+![Man with his hands in his pockets staring pleasantly into the camera.](images/photo_3.png)
 
 </column>
 <column lg="8" md="5">
 
-![teams](images/photo_4.png)
+![Woman with her hands on her hips and ready to get things done.](images/photo_4.png)
 
 </column>
 </grid>
@@ -129,24 +129,24 @@ Embedding designers directly into the business allows them to build a rigorous u
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![teams](images/photo_5.png)
+![An overhead shot of oranges on a conveyor belt](images/photo_5.png)
 
 </column>
 <column lg="4" md="3">
 
-![teams](images/photo_6.png)
+![A woman sitting in her office concentrating on a book she is reading with a hillside backdrop in the background.](images/photo_6.png)
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![teams](images/photo_7.png)
+![Hey! It's a Watson logo!](images/photo_7.png)
 
 </column>
 <column lg="8" md="5">
 
-![teams](images/photo_8.png)
+![Man configuring networking equipment in a hallway of network applicance.](images/photo_8.png)
 
 </column>
 </grid>
@@ -167,24 +167,24 @@ From the initial visioning stages through to delivery and beyond, we work closel
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![teams](images/photo_9.png)
+![Woman staring into the camera from a nondescriptive location.](images/photo_9.png)
 
 </column>
 <column lg="4" md="3">
 
-![teams](images/photo_10.png)
+![Man and woman on stools doing work things from what appears to be some sort of coffee shop.](images/photo_10.png)
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![teams](images/photo_11.png)
+![Man in a suit getting ready to make business happen.](images/photo_11.png)
 
 </column>
 <column lg="8" md="5">
 
-![teams](images/photo_12.png)
+![Woman retrieving a box from an inventory warehouse with hundreds items.](images/photo_12.png)
 
 </column>
 </grid>
@@ -235,7 +235,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![teams](images/Image_5.png)
+![Dashboard interface of IBM Digital Analytics.](images/Image_5.png)
 
 </column>
 <column lg="3"  md="3"  md="3" sm="0">
@@ -270,7 +270,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![teams](images/Image_6.png)
+![It's IBM's Think branding.](images/Image_6.png)
 
 </column>
 <column lg="3" md="3" sm="0">
@@ -305,7 +305,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![teams](images/Image_7.png)
+![A prototype of a design on two mobile device’s](images/Image_7.png)
 
 </column>
 <column lg="3" md="3" sm="0"">
