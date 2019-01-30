@@ -55,10 +55,6 @@ a.tile {
   z-index: 1;
   padding: 0; //needs to stay zero for aspect ratio to be correct
   transition: $transition--base;
-
-  &:hover {
-    background: $ui-03;
-  }
 }
 
 a:hover .bx--tile {
@@ -154,21 +150,21 @@ a:hover .bx--tile {
 }
 
 // Dark
-.bx--tile--clickable--dark {
+.bx--tile--dark {
   background: $ibm-colors__gray-90;
   color: $ibm-colors__gray-10;
 }
 
-.bx--tile--clickable--dark:hover {
+a:hover .bx--tile--dark {
   background: $ibm-colors__gray-80;
 }
 
-.bx--tile--clickable--dark .tile__title,
-.bx--tile--clickable--dark .tile__caption {
+.bx--tile--dark .tile__title,
+.bx--tile--dark .tile__caption {
   color: $ibm-colors__gray-10;
 }
 
-.bx--tile--clickable--dark .tile__link-icon svg {
+.bx--tile--dark .tile__link-icon svg {
   fill: $ibm-colors__white;
 }
 

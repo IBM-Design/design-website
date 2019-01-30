@@ -100,7 +100,7 @@ export default class WebsiteTile extends React.Component {
     });
 
     const clickTileClassNames = classnames({
-      'bx--tile--clickable--dark': dark === 'true',
+      'bx--tile--dark': dark === 'true',
     });
 
     const featureId = feature_heading
