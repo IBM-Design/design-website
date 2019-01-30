@@ -262,7 +262,7 @@ The following options are available
 #### Standard tile, will display differently depending on col wrapper component (see Impact page)
 
 ```
-  <tile title_size="small" title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
+  <tile title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
     <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 ```
