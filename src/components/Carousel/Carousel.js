@@ -56,11 +56,6 @@ export default class Carousel extends React.Component {
     const currentY = e.touches[0].clientY;
     const diffX = this.initialX - currentX;
     const diffY = this.initialY - currentY;
-    const carousel = document.querySelector('.ibm--carousel');
-    const radioGroup = carousel.querySelector(
-      `.ibm--carousel-nav-wrapper.${this.props.id}`
-    );
-    const radios = radioGroup.querySelectorAll('.bx--radio-button');
 
     if (Math.abs(diffX) > Math.abs(diffY)) {
       if (diffX > 0) {
@@ -98,11 +93,6 @@ export default class Carousel extends React.Component {
   onChange = e => {
     const slide = document.querySelector(`.${this.props.id}`);
     const images = slide.querySelectorAll('img');
-    const carousel = document.querySelector('.ibm--carousel');
-    const radioGroup = carousel.querySelector(
-      `.ibm--carousel-nav-wrapper.${this.props.id}`
-    );
-    const radios = radioGroup.querySelectorAll('.bx--radio-button');
     this.setState({ checkedRadio: e });
     images.forEach(img => {
       img.style.transform = `translate(${e * -100 + 100}%, 0)`;
@@ -117,7 +107,7 @@ export default class Carousel extends React.Component {
     const img4 = children[7].props.children[3].props;
 
     return (
-      <div className="ibm--carousel">
+      <div className={`ibm--carousel ${this.props.id}`}>
         <div className="ibm--carousel-slide-wrapper">
           <div className={`ibm--carousel-slide ${this.props.id}`}>
             <img src={img.src} alt={img.alt} className={img.className} />
@@ -129,7 +119,7 @@ export default class Carousel extends React.Component {
         <RadioButtonGroup
           className={`ibm--carousel-nav-wrapper ${this.props.id}`}
           name={`Carousel nav ${this.props.id}`}
-          valueSelected={1}
+          valueSelected={this.state.checkedRadio}
           onChange={this.onChange}>
           <RadioButton
             className="ibm--carousel-nav-item"
