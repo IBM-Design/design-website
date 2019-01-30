@@ -47,7 +47,7 @@ people we serve.</span>
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
-<img src="images/Image_1.png" alt=""/>
+<img src="images/Image_1.png" alt="" />
 </tile>
 
 </column>
