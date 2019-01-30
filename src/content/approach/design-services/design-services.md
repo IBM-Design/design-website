@@ -33,9 +33,11 @@ At iX, we blend design with innovative technologies and business strategy to off
 
 Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
-<em>Branding and communications  
-Experience strategy and design  
-Content strategy and production</em>
+<div>
+—Branding and communications<br>
+—Experience strategy and design<br>
+—Content strategy and production
+</div>
 
 </column>
 <column lg="4" border="true" md="5">
@@ -44,9 +46,11 @@ Content strategy and production</em>
 
 Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
-<em>Digital reinvention  
-Business and talent transformation  
-Responsive operating models</em>
+<div>
+—Digital reinvention<br>
+—Business and talent transformation<br>
+—Responsive operating models
+</div>
 
 </column>
 <column lg="4" border="true" md="5">
@@ -55,9 +59,11 @@ Responsive operating models</em>
 
 Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
 
-<em>Marketing operations  
-Omni-channel commerce  
-Customer relationship management</em>
+<div>
+—Marketing operations<br>
+—Omni-channel commerce<br>
+—Customer relationship management
+</div>
 
 </column>
 </grid>
