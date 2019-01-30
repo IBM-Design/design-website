@@ -9,7 +9,7 @@ everything we do<br>
 people we serve.</span>
 </title-block>
 
-<grid background="black-white">
+<grid background="black">
 <column lg="16">
 
 <video>
