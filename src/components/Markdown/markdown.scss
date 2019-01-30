@@ -170,8 +170,8 @@ blockquote:first-child {
   position: relative;
   margin-top: 2rem;
 
-  @include breakpoint('lg') {
-    margin-top: rem(12px);
+  @include breakpoint('md') {
+    margin-top: 0;
   }
 
   &:before {
@@ -193,7 +193,7 @@ blockquote:first-child {
 }
 
 blockquote .page-p {
-  @include type-style('body-long-02');
+  @include type-style('body-long-01');
   font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
     sans-serif;
   padding-bottom: 1rem;
