@@ -777,10 +777,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@carbon/addons-website@^0.0.1-alpha.13":
-  version "0.0.1-alpha.13"
-  resolved "https://registry.yarnpkg.com/@carbon/addons-website/-/addons-website-0.0.1-alpha.13.tgz#f9e41bbb091e0ddb4af855c3a0807b589d782ffa"
-  integrity sha512-UdPfpsC+Rg1zELjg9mwpRNqO0/dDb8fbaaqJeYvMdB1eSHyAuAF49GMyyf8OT6LzaZ47073ClJlNdGflgpHfeA==
+"@carbon/addons-website@^0.0.1-alpha.14":
+  version "0.0.1-alpha.14"
+  resolved "https://registry.yarnpkg.com/@carbon/addons-website/-/addons-website-0.0.1-alpha.14.tgz#dab5d686d3920b7b9e3176113b99527b7d28e892"
+  integrity sha512-JaXX0HlPM3LohrGo63YZidmJoS1BXRRCSE6RbQT5HTHFTFELxEq1L1mFpluMwVm43RRa5HetHm23IdZeaI47iw==
   dependencies:
     classnames "^2.2.6"
 
@@ -1365,6 +1365,14 @@
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.32.tgz#0d3cb31022f8427ea58c008af32b80da126ca4e3"
   integrity sha1-DTyzECL4Qn6ljACK8yuA2hJspOM=
+
+"@vimeo/player@^2.6.7":
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/@vimeo/player/-/player-2.6.7.tgz#a6cd5738005df14524815aae47a2036e3d39d6b0"
+  integrity sha512-t/Zkt0eRErd0jdokVjEma5Gu2aDNVMTlUbSO6X/aMYndUDRVhfG/4o+Bjp51fN9RB29UCM7IosBzseeKWxDgsQ==
+  dependencies:
+    native-promise-only "0.8.1"
+    weakmap-polyfill "2.0.0"
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -11387,6 +11395,11 @@ napi-build-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/napi-build-utils/-/napi-build-utils-1.0.1.tgz#1381a0f92c39d66bf19852e7873432fc2123e508"
   integrity sha512-boQj1WFgQH3v4clhu3mTNfP+vOBxorDlE8EKiMjUlLG3C4qAESnn9AxIOkFgTR2c9LtzNjPrjS60cT27ZKBhaA==
 
+native-promise-only@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
+  integrity sha1-IKMYwwy0X3H+et+/eyHJnBRy7xE=
+
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
@@ -16875,6 +16888,11 @@ wbuf@^1.1.0, wbuf@^1.7.2:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
+
+weakmap-polyfill@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz#8f28f935e3853896ad40747e5258db578d9dc8de"
+  integrity sha1-jyj5NeOFOJatQHR+UljbV42dyN4=
 
 web-namespaces@^1.0.0, web-namespaces@^1.1.2:
   version "1.1.2"

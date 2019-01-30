@@ -27,6 +27,8 @@ $feature-flags: (
 @import 'carbon-components/scss/globals/scss/styles.scss';
 @import '@carbon/addons-website/scss/styles';
 
+$font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+
 // temp grid fix
 .container .ibm--offset-lg-0 {
   @include breakpoint('lg') {
@@ -51,8 +53,9 @@ $feature-flags: (
 @import '../components/BackToTop/back-to-top.scss';
 @import '../components/TitleBlock/title-block.scss';
 @import '../components/Icon/icon.scss';
-@import '../components/Tile/tile.scss';
+@import '../components/WebsiteTile/website-tile.scss';
 @import '../components/SiteHeader/header.scss';
+@import '../components/Video/video.scss';
 
 //---------------------------------------
 // External

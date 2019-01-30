@@ -193,8 +193,9 @@ The grid component has a prop, background, which is used to tell the section wha
 - `white`
 - `gray-10`
 - `gray-20`
+- `gray-80`
 - `gray-100`
-- `black-white` _50/50 gray-100 and white, gray-100 on top_
+- `magenta-20`
 
 The other prop available is `classname` which alows you to add a class you can target via css to the wrapping div. We are using the following classnames.
 
@@ -262,7 +263,7 @@ The following options are available
 #### Standard tile, will display differently depending on col wrapper component (see Impact page)
 
 ```
-  <tile title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
+  <tile title_size="small" title="IBM Q, System One" caption="impact/quantum" href="http://www.google.com">
     <img src="images/Image_2.png" alt="quantum computer"/>
   </tile>
 ```

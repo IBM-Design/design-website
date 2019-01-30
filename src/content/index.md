@@ -9,12 +9,12 @@ everything we do<br>
 people we serve.</span>
 </title-block>
 
-<grid background="black-white">
+<grid background="black">
 <column lg="16">
 
-<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-<!--<iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/293453905?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />-->
+<video>
+  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=0?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+</video>
 
 </column>
 </grid>
@@ -43,31 +43,31 @@ people we serve.</span>
 
 <column lg="4" md="4">
 
-<tile
+<tile title_size="small" 
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
-<img src="images/Image_1.png" alt="A laptop showing security analytics"/>
+<img src="images/Image_1.png" alt="" />
 </tile>
 
 </column>
 <column lg="4" md="4">
 
-<tile
+<tile title_size="small" 
     href="https://www.youtube.com/watch?v=yrI8S1906Ug"
     caption="Youtube"
     title="Video: Building a security operations center on wheels">
-<img src="images/Image_2.png" alt="Various letters and characters in the Plex typeface"/>
+<img src="images/Image_2.png" alt=""/>
 </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-<tile
+<tile title_size="small" 
     href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
     caption="Quartz"
     title="The business case for an open-source font">
-<img src="images/Image_3.png" alt="Various letters and characters in the Plex typeface"/>
+<img src="images/Image_3.png" alt=""/>
 </tile>
 
 </column>

@@ -28,7 +28,6 @@ export class Grid extends React.Component {
       'background--gray-20': background === 'gray-20',
       'background--gray-80': background === 'gray-80',
       'background--gray-100': background === 'gray-100',
-      'background--black-white': background === 'black-white',
       'background--magenta-20': background === 'magenta-20',
       'background--inverse':
         (background === 'black') |

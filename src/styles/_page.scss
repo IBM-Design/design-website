@@ -4,7 +4,7 @@
 
 body {
   background: $ui-01;
-  @include type-style('body-short-02');
+  font-family: $font-family;
 }
 
 .container {
