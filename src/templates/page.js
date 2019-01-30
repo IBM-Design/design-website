@@ -8,7 +8,7 @@ import Snippet from '../components/CodeSnippet';
 import PageTable from '../components/PageTable';
 import BackToTop from '../components/BackToTop';
 import TitleBlock from '../components/TitleBlock';
-import WebsiteTile from '../components/WebsiteTile';
+import Tile from '../components/Tile';
 import AnchorLinks from '../components/AnchorLinks';
 import Icon from '../components/Icon';
 import { Grid, Column } from '../components/Grid/Grid';
@@ -41,7 +41,7 @@ const renderAst = new rehypeReact({
     'anchor-links': AnchorLinks,
     'title-block': TitleBlock,
     icon: Icon,
-    tile: WebsiteTile,
+    tile: Tile,
     grid: Grid,
     column: Column,
   },
