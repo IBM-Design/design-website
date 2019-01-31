@@ -23,7 +23,7 @@ module.exports = {
       options: {
         name: `IBM Design`,
         short_name: `IBM Design`,
-        start_url: `/`,
+        start_url: `/design`,
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
