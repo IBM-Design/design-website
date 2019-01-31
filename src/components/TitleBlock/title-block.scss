@@ -2,6 +2,7 @@
   position: relative;
 
   @include breakpoint('md') {
+    height: calc(100vh - 48px);
     min-height: 540px;
   }
 
@@ -23,11 +24,10 @@
   width: 30px;
   margin-bottom: 2rem;
   margin-left: rem(8px);
-  margin-top: rem(150px);
   margin-top: 15vh;
 
   @include breakpoint('md') {
-    margin-top: 0;
+    margin-top: auto;
   }
 }
 
