@@ -57,7 +57,7 @@ people we serve.</span>
     href="https://www.youtube.com/watch?v=yrI8S1906Ug"
     caption="Youtube"
     title="Video: Building a security operations center on wheels">
-<img src="images/Image_2.png" alt=""/>
+<img src="images/Image_2.jpg" alt=""/>
 </tile>
 
 </column>
