@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { RadioButtonGroup, RadioButton } from 'carbon-components-react';
-import { ChevronLeft32, ChevronRight32 } from '@carbon/icons-react';
 
 export default class Carousel extends React.Component {
   constructor(props) {
