@@ -11,6 +11,7 @@ export default class Carousel extends React.Component {
 
     this.state = {
       checkedRadio: 1,
+      autoplay: setInterval(this.nextSlide, 6000),
     };
   }
 
@@ -20,7 +21,7 @@ export default class Carousel extends React.Component {
     slide.addEventListener('touchmove', this.touchMove, false);
     slide.addEventListener('mousedown', this.mouseStart);
     slide.addEventListener('mousemove', this.mouseMove);
-    const autoplay = setInterval(this.nextSlide, 6000);
+    // window.addEventListener('load', this.startSlide);
   }
 
   static propTypes = {
@@ -135,10 +136,10 @@ export default class Carousel extends React.Component {
           this.onChange(3);
         }
       }
+      this.initialX = null;
+      this.initialY = null;
+      e.preventDefault();
     }
-    this.initialX = null;
-    this.initialY = null;
-    e.preventDefault();
   };
 
   //AUTOPLAY FUNC.
@@ -159,7 +160,13 @@ export default class Carousel extends React.Component {
   onChange = e => {
     const slide = document.querySelector(`.${this.props.id}`);
     const images = slide.querySelectorAll('img');
-    this.setState({ checkedRadio: e });
+
+    clearInterval(this.state.autoplay);
+    this.setState({
+      checkedRadio: e,
+      autoplay: setInterval(this.nextSlide, 6000),
+    });
+
     images.forEach(img => {
       img.style.transform = `translate(${e * -100 + 100}%, 0)`;
     });
