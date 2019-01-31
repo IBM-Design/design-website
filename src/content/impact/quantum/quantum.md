@@ -7,7 +7,7 @@ title: Quantum
 <grid classname="background-bleed">
 <column lg="16">
 
-![IBM reveal’s the Q System One.](/images/Image_1.png)
+![IBM reveal’s the Q System One.](/images/Image_1.jpg)
 
 </column>
 </grid>
@@ -33,52 +33,52 @@ title: Quantum
 <grid background="gray-10">
 <column bleed={true} lg="12" offset_lg="4">
 
-<img alt="IBM Q team working in the lab to create the Q System One." src="images/Image_2.png">
+<img alt="IBM Q team working in the lab to create the Q System One." src="images/Image_2.jpg">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="Quantum hardware." src="images/Image_3.png">
+<img alt="Quantum hardware." src="images/Image_3.jpg">
 
 </column>
 <column bleed={true} md="3" lg="4">
 
-<img alt="IBM Q logo." src="images/Image_4.png">
+<img alt="IBM Q logo." src="images/Image_4.jpg">
 
 </column>
 <column bleed={true} md="4" lg="6" offset_lg="4">
 
-<img alt="Men creating the physical space for Quantum computing to happen." src="images/Image_5.png">
+<img alt="Men creating the physical space for Quantum computing to happen." src="images/Image_5.jpg">
 
 </column>
 <column bleed={true} md="4" lg="6">
 
-<img alt="Zoomed in shot of a man’s hands putting together some hardware for Quantum computing." src="images/Image_6.png">
+<img alt="Zoomed in shot of a man’s hands putting together some hardware for Quantum computing." src="images/Image_6.jpg">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="A woman walking through the lab." src="images/Image_7.png">
+<img alt="A woman walking through the lab." src="images/Image_7.jpg">
 
 </column>
 <column bleed={true} md="3" lg="4">
 
-<img alt="A collection hardware laying out on a table." src="images/Image_8.png">
+<img alt="A collection hardware laying out on a table." src="images/Image_8.jpg">
 
 </column>
 <column bleed={true} md="3" lg="4" offset_lg="4">
 
-<img alt="A quantum computing interface prototype on a tablet in landscape view." src="images/Image_9.png">
+<img alt="A quantum computing interface prototype on a tablet in landscape view." src="images/Image_10.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8"">
+<column bleed={true} md="5" lg="8">
 
-<img alt="Quantum mobile game." src="images/Image_10.png">
+<img alt="Quantum mobile game." src="images/Image_9.jpg">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="Quantum hardware." src="images/Image_11.png">
+<img alt="Quantum hardware." src="images/Image_11.jpg">
 
 </column>
 </grid>
