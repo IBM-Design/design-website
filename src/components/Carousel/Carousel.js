@@ -9,9 +9,13 @@ export default class Carousel extends React.Component {
 
     this.onChange = this.onChange.bind(this);
 
+    const stringArr = this.props.count.split(' ');
+    const numArr = stringArr.map(i => Number(i));
+
     this.state = {
       checkedRadio: 1,
       autoplay: setInterval(this.nextSlide, 6000),
+      items: numArr,
     };
   }
 
@@ -63,29 +67,22 @@ export default class Carousel extends React.Component {
     const diffX = this.initialX - currentX;
     const diffY = this.initialY - currentY;
     const state = this.state.checkedRadio;
+    const items = this.state.items;
 
     if (Math.abs(diffX) > Math.abs(diffY)) {
       if (diffX > 0) {
         // swiped left
-        if (state === 1) {
-          this.onChange(2);
-        } else if (state === 2) {
-          this.onChange(3);
-        } else if (state === 3) {
-          this.onChange(4);
-        } else if (state === 4) {
-          this.onChange(1);
+        if (state === items.length) {
+          this.onChange(items[0]);
+        } else {
+          this.onChange(state + 1);
         }
       } else {
         // swiped right
-        if (state === 1) {
-          this.onChange(4);
-        } else if (state === 2) {
-          this.onChange(1);
-        } else if (state === 3) {
-          this.onChange(2);
-        } else if (state === 4) {
-          this.onChange(3);
+        if (state === items[0]) {
+          this.onChange(items.length);
+        } else {
+          this.onChange(state - 1);
         }
       }
     }
@@ -114,29 +111,22 @@ export default class Carousel extends React.Component {
     const diffX = this.initialX - finalX;
     const diffY = this.initialY - finalY;
     const state = this.state.checkedRadio;
+    const items = this.state.items;
 
     if (Math.abs(diffX) > Math.abs(diffY)) {
       if (diffX > 0) {
         // swiped left
-        if (state === 1) {
-          this.onChange(2);
-        } else if (state === 2) {
-          this.onChange(3);
-        } else if (state === 3) {
-          this.onChange(4);
-        } else if (state === 4) {
-          this.onChange(1);
+        if (state === items.length) {
+          this.onChange(items[0]);
+        } else {
+          this.onChange(state + 1);
         }
       } else {
         // swiped right
-        if (state === 1) {
-          this.onChange(4);
-        } else if (state === 2) {
-          this.onChange(1);
-        } else if (state === 3) {
-          this.onChange(2);
-        } else if (state === 4) {
-          this.onChange(3);
+        if (state === items[0]) {
+          this.onChange(items.length);
+        } else {
+          this.onChange(state - 1);
         }
       }
       this.initialX = null;
@@ -148,14 +138,11 @@ export default class Carousel extends React.Component {
   //AUTOPLAY FUNC.
   nextSlide = () => {
     const state = this.state.checkedRadio;
-    if (state === 1) {
-      this.onChange(2);
-    } else if (state === 2) {
-      this.onChange(3);
-    } else if (state === 3) {
-      this.onChange(4);
-    } else if (state === 4) {
-      this.onChange(1);
+    const items = this.state.items;
+    if (state === items.length) {
+      this.onChange(items[0]);
+    } else {
+      this.onChange(state + 1);
     }
   };
 
@@ -181,8 +168,6 @@ export default class Carousel extends React.Component {
     const img2 = children[3].props.children[3].props;
     const img3 = children[5].props.children[3].props;
     const img4 = children[7].props.children[3].props;
-    const stringArr = this.props.count.split(' ');
-    const numArr = stringArr.map(i => Number(i));
 
     return (
       <div className={`ibm--carousel ${this.props.id}`}>
@@ -219,7 +204,7 @@ export default class Carousel extends React.Component {
           name={`Carousel nav ${this.props.id}`}
           valueSelected={this.state.checkedRadio}
           onChange={this.onChange}>
-          {numArr.map(i => {
+          {this.state.items.map(i => {
             return (
               <RadioButton
                 className="ibm--carousel-nav-item"
