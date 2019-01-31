@@ -123,7 +123,9 @@ class Layout extends React.Component {
                   Have questions? Email us or open <br /> an issue in{' '}
                   <a
                     href="https://github.com/IBM-Design/design-website/issues/new"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener"
+                    rel="noreferrer">
                     GitHub.
                   </a>
                 </p>
