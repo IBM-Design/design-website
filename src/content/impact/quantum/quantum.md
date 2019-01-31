@@ -37,52 +37,52 @@ title: Quantum
 </grid>
 
 <grid background="gray-10">
-<column bleed={true} lg="12" offset_lg="4">
+<column bleed={true} lg="12" offset_lg="4" fade="true">
 
 <img alt="IBM Q team working in the lab to create the Q System One." src="images/Image_2.png">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="Quantum hardware." src="images/Image_3.png">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
 <img alt="IBM Q logo." src="images/Image_4.png">
 
 </column>
-<column bleed={true} md="4" lg="6" offset_lg="4">
+<column bleed={true} md="4" lg="6" offset_lg="4" fade="true">
 
 <img alt="Men creating the physical space for Quantum computing to happen." src="images/Image_5.png">
 
 </column>
-<column bleed={true} md="4" lg="6">
+<column bleed={true} md="4" lg="6" fade="true">
 
 <img alt="Zoomed in shot of a man’s hands putting together some hardware for Quantum computing." src="images/Image_6.png">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="A woman walking through the lab." src="images/Image_7.png">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
 <img alt="A collection hardware laying out on a table." src="images/Image_8.png">
 
 </column>
-<column bleed={true} md="3" lg="4" offset_lg="4">
+<column bleed={true} md="3" lg="4" offset_lg="4" fade="true">
 
 <img alt="A quantum computing interface prototype on a tablet in landscape view." src="images/Image_9.png">
 
 </column>
-<column bleed={true} md="5" lg="8"">
+<column bleed={true} md="5" lg="8" fade="true">
 
 <img alt="Quantum mobile game." src="images/Image_10.png">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="Quantum hardware." src="images/Image_11.png">
 

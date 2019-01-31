@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-<title-block>
+<title-block fade="true">
 The purpose of<br>
 everything we do<br>
 <span>is to guide the<br>

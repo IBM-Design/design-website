@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Fade from 'react-reveal/Fade';
 
 const eyeBeeM = (
   <svg
@@ -34,22 +35,40 @@ const eyeBeeM = (
 export default class TitleBlock extends React.Component {
   static propTypes = {
     children: PropTypes.node,
+    fade: PropTypes.boolean,
   };
 
   render() {
-    const { children } = this.props;
+    const { children, fade } = this.props;
 
     return (
-      <div className="title-block background--black">
-        <div className="ibm--grid">
-          <div className="ibm--row">
-            <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">
-              {eyeBeeM}
-              <h1 className="title-block__text">{children}</h1>
+      <>
+        {fade === 'true' ? (
+          <div className="title-block background--black">
+            <div className="ibm--grid">
+              <div className="ibm--row">
+                <Fade bottom cascade distance="10%">
+                  <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">
+                    {eyeBeeM}
+                    <h1 className="title-block__text">{children}</h1>
+                  </div>
+                </Fade>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        ) : (
+          <div className="title-block background--black">
+            <div className="ibm--grid">
+              <div className="ibm--row">
+                <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">
+                  {eyeBeeM}
+                  <h1 className="title-block__text">{children}</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </>
     );
   }
 }

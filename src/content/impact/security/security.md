@@ -37,47 +37,47 @@ title: Security
 </grid>
 
 <grid background="gray-10">
-<column bleed={true} lg="12" offset_lg="4">
+<column bleed={true} lg="12" offset_lg="4" fade="true">
 
 <img alt="Security badge for IBM Security event." src="images/Impact_2.png">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="X-Force Command semi-truck." src="images/Impact_3.png">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
 <img alt="IBM Security." src="images/Impact_4.png">
 
 </column>
-<column bleed={true} md="4" lg="6" offset_lg="4">
+<column bleed={true} md="4" lg="6" offset_lg="4" fade="true">
 
 <img alt="IBM Security Connect dashboard." src="images/Impact_5.png">
 
 </column>
-<column bleed={true} md="4" lg="6">
+<column bleed={true} md="4" lg="6" fade="true">
 
 <img alt="Security Logo." src="images/Impact_6.png">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="Fear Less." src="images/Impact_7.png">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
 <img alt="IBM Security Connect - My applications interface." src="images/Impact_8.png">
 
 </column>
-<column bleed={true} md="3" lg="4" offset_lg="4">
+<column bleed={true} md="3" lg="4" offset_lg="4" fade="true">
 
 <img alt="Blue and purple gradient circles on top of each other." src="images/Impact_9.png">
 
 </column>
-<column bleed={true} md="5" lg="8"">
+<column bleed={true} md="5" lg="8" fade="true">
 
 <img alt="Green to blue gradient." src="images/Impact_10.png">
 

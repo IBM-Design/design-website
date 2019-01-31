@@ -49,24 +49,24 @@ When tackling complex problems at scale, we rely on the strength of diverse mult
 Diversity comes in many forms: your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
-<column lg="8" offset_lg="4" md="5">
+<column lg="8" offset_lg="4" md="5" fade="true">
 
 ![Cheerful woman sitting cross-legged on a chair engaged in conversation with you.](images/photo_1.png)
 
 </column>
-<column lg="4" md="3">
+<column lg="4" md="3" fade="true">
 
 ![Man wearing glasses not quite staring at the camera and isn't certain if he should smile.](images/photo_2.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4" md="3">
+<column lg="4" offset_lg="4" md="3" fade="true">
 
 ![Man with his hands in his pockets staring pleasantly into the camera.](images/photo_3.png)
 
 </column>
-<column lg="8" md="5">
+<column lg="8" md="5" fade="true">
 
 ![Woman with her hands on her hips and ready to get things done.](images/photo_4.png)
 
@@ -127,24 +127,24 @@ Rather than siloing designers into a single organization, we distribute them thr
 Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.
 
 </column>
-<column lg="8" offset_lg="4" md="5">
+<column lg="8" offset_lg="4" md="5" fade="true">
 
 ![An overhead shot of oranges on a conveyor belt](images/photo_5.png)
 
 </column>
-<column lg="4" md="3">
+<column lg="4" md="3" fade="true">
 
 ![A woman sitting in her office concentrating on a book she is reading with a hillside backdrop in the background.](images/photo_6.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4" md="3">
+<column lg="4" offset_lg="4" md="3" fade="true">
 
 ![Hey! It's a Watson logo!](images/photo_7.png)
 
 </column>
-<column lg="8" md="5">
+<column lg="8" md="5" fade="true">
 
 ![Man configuring networking equipment in a hallway of network applicance.](images/photo_8.png)
 
@@ -165,24 +165,24 @@ User-centered design goes far beyond just speaking with a few people before you 
 From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
 
 </column>
-<column lg="8" offset_lg="4" md="5">
+<column lg="8" offset_lg="4" md="5" fade="true">
 
 ![Woman staring into the camera from a nondescriptive location.](images/photo_9.png)
 
 </column>
-<column lg="4" md="3">
+<column lg="4" md="3" fade="true">
 
 ![Man and woman on stools doing work things from what appears to be some sort of coffee shop.](images/photo_10.png)
 
 </column>
 
 </column>
-<column lg="4" offset_lg="4" md="3">
+<column lg="4" offset_lg="4" md="3" fade="true">
 
 ![Man in a suit getting ready to make business happen.](images/photo_11.png)
 
 </column>
-<column lg="8" md="5">
+<column lg="8" md="5" fade="true">
 
 ![Woman retrieving a box from an inventory warehouse with hundreds items.](images/photo_12.png)
 
