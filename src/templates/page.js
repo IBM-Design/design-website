@@ -12,6 +12,7 @@ import WebsiteTile from '../components/WebsiteTile';
 import AnchorLinks from '../components/AnchorLinks';
 import Icon from '../components/Icon';
 import Video from '../components/Video';
+import BackLink from '../components/BackLink';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
   a,
@@ -46,6 +47,7 @@ const renderAst = new rehypeReact({
     grid: Grid,
     column: Column,
     video: Video,
+    'back-link': BackLink,
   },
 }).Compiler;
 

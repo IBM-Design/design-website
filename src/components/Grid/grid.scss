@@ -154,8 +154,16 @@
     padding: 0;
   }
 
-  .ibm-col-lg-16 {
+  .ibm--row {
+    margin: 0;
+  }
+
+  .ibm--col-lg-16 {
     padding: 0;
+  }
+
+  .gatsby-resp-image-wrapper {
+    margin-top: 0;
   }
 }
 
