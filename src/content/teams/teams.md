@@ -242,7 +242,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 
 > _We’re bridging data with previously disconnected experiences to accelerate how our customers get their jobs done. By augmenting their workflows and providing rich insights at just the right moment, we’re turning pain points into moments of delight._
 
-> Cameron Calder, IBM Security
+> Cameron Calder – UX Designer, IBM Security
 
 </column>
 </grid>
@@ -275,9 +275,9 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="3" md="3" sm="0">
 
-> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
+> _It’s been exhilarating to help usher in a new design language and ethos for IBM. With this foundation, we’re building stronger bridges and eleveating our design practices internally whiel also creating more unified brand experiences in the world—bringing that distinct ‘IBMness’ to everything we do._
 
-> Amritha Prasad, Product Designer
+> Sadek Bazaraa – Design Director, Brand Experience
 
 </column>
 </grid>
@@ -310,9 +310,9 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="3" md="3" sm="0"">
 
-> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
+> _To me, the biggest design challenge in the world right now is innovation. How do we continue to drive new ideas that will benefit users' lives without replicating an existing product just for the sake of it? We need to put our users' needs at the forefront of every design challenge to make sure that we're always delivering what is right for them._
 
-> Amritha Prasad, Product Designer
+> Milly Longbottom – Visual Designer, IBM iX
 
 </column>
 </grid>
