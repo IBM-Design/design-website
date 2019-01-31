@@ -77,7 +77,7 @@ Customers and employees are won and lost by the quality of your experience, not 
     feature="true"
     feature_heading="Learn how you can partner with us to build better business."
     feature_background="black">
-<img src="images/Image_2.png" alt="IBM ix"/>
+<img src="images/Image_2.jpg" alt="IBM iX"/>
 </tile>
 
 </column>

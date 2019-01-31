@@ -13,6 +13,7 @@ import AnchorLinks from '../components/AnchorLinks';
 import Icon from '../components/Icon';
 import Video from '../components/Video';
 import Carousel from '../components/Carousel';
+import BackLink from '../components/BackLink';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
   a,
@@ -48,6 +49,7 @@ const renderAst = new rehypeReact({
     column: Column,
     video: Video,
     carousel: Carousel,
+    'back-link': BackLink,
   },
 }).Compiler;
 

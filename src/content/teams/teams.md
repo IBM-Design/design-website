@@ -49,26 +49,26 @@ When tackling complex problems at scale, we rely on the strength of diverse mult
 Diversity comes in many forms: your job role, your educational history, your cultural background—all are important, and all are crucial to a team’s ability to deliver robust, differentiated outcomes.
 
 </column>
-<column lg="8" offset_lg="4" md="5">
+<column lg="8" offset_lg="4" md="5" fade="true">
 
-![Cheerful woman sitting cross-legged on a chair engaged in conversation with you.](images/photo_1.png)
-
-</column>
-<column lg="4" md="3">
-
-![Man wearing glasses not quite staring at the camera and isn't certain if he should smile.](images/photo_2.png)
+![Cheerful woman sitting cross-legged on a chair engaged in conversation with you.](images/Image_1.jpg)
 
 </column>
+<column lg="4" md="3" fade="true">
+
+![Man wearing glasses not quite staring at the camera and isn't certain if he should smile.](images/Image_2.jpg)
 
 </column>
-<column lg="4" offset_lg="4" md="3">
-
-![Man with his hands in his pockets staring pleasantly into the camera.](images/photo_3.png)
 
 </column>
-<column lg="8" md="5">
+<column lg="4" offset_lg="4" md="3" fade="true">
 
-![Woman with her hands on her hips and ready to get things done.](images/photo_4.png)
+![Man with his hands in his pockets staring pleasantly into the camera.](images/Image_3.jpg)
+
+</column>
+<column lg="8" md="5" fade="true">
+
+![Woman with her hands on her hips and ready to get things done.](images/Image_4.jpg)
 
 </column>
 </grid>
@@ -127,26 +127,26 @@ Rather than siloing designers into a single organization, we distribute them thr
 Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.
 
 </column>
-<column lg="8" offset_lg="4" md="5">
+<column lg="8" offset_lg="4" md="5" fade="true">
 
-![An overhead shot of oranges on a conveyor belt](images/photo_5.png)
-
-</column>
-<column lg="4" md="3">
-
-![A woman sitting in her office concentrating on a book she is reading with a hillside backdrop in the background.](images/photo_6.png)
+![An overhead shot of oranges on a conveyor belt](images/Image_5.jpg)
 
 </column>
+<column lg="4" md="3" fade="true">
+
+![A woman sitting in her office concentrating on a book she is reading with a hillside backdrop in the background.](images/Image_6.jpg)
 
 </column>
-<column lg="4" offset_lg="4" md="3">
-
-![Hey! It's a Watson logo!](images/photo_7.png)
 
 </column>
-<column lg="8" md="5">
+<column lg="4" offset_lg="4" md="3" fade="true">
 
-![Man configuring networking equipment in a hallway of network applicance.](images/photo_8.png)
+![Hey! It's a Watson logo!](images/Image_7.jpg)
+
+</column>
+<column lg="8" md="5" fade="true">
+
+![Man configuring networking equipment in a hallway of network applicance.](images/Image_8.jpg)
 
 </column>
 </grid>
@@ -165,26 +165,26 @@ User-centered design goes far beyond just speaking with a few people before you 
 From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
 
 </column>
-<column lg="8" offset_lg="4" md="5">
+<column lg="8" offset_lg="4" md="5" fade="true">
 
-![Woman staring into the camera from a nondescriptive location.](images/photo_9.png)
-
-</column>
-<column lg="4" md="3">
-
-![Man and woman on stools doing work things from what appears to be some sort of coffee shop.](images/photo_10.png)
+![Woman staring into the camera from a nondescriptive location.](images/Image_9.jpg)
 
 </column>
+<column lg="4" md="3" fade="true">
+
+![Man and woman on stools doing work things from what appears to be some sort of coffee shop.](images/Image_10.jpg)
 
 </column>
-<column lg="4" offset_lg="4" md="3">
-
-![Man in a suit getting ready to make business happen.](images/photo_11.png)
 
 </column>
-<column lg="8" md="5">
+<column lg="4" offset_lg="4" md="3" fade="true">
 
-![Woman retrieving a box from an inventory warehouse with hundreds items.](images/photo_12.png)
+![Man in a suit getting ready to make business happen.](images/Image_11.jpg)
+
+</column>
+<column lg="8" md="5" fade="true">
+
+![Woman retrieving a box from an inventory warehouse with hundreds items.](images/Image_12.jpg)
 
 </column>
 </grid>
@@ -247,7 +247,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 
 > _We’re bridging data with previously disconnected experiences to accelerate how our customers get their jobs done. By augmenting their workflows and providing rich insights at just the right moment, we’re turning pain points into moments of delight._
 
-> Cameron Calder, IBM Security
+> Cameron Calder – UX Designer, IBM Security
 
 </column>
 </grid>
@@ -285,9 +285,9 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="3" md="3" sm="0">
 
-> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
+> _It’s been exhilarating to help usher in a new design language and ethos for IBM. With this foundation, we’re building stronger bridges and eleveating our design practices internally whiel also creating more unified brand experiences in the world—bringing that distinct ‘IBMness’ to everything we do._
 
-> Amritha Prasad, Product Designer
+> Sadek Bazaraa – Design Director, Brand Experience
 
 </column>
 </grid>
@@ -325,9 +325,9 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="3" md="3" sm="0"">
 
-> _We’re designing experiences that don’t exist yet. Because of that, we’re constantly innovating and improving what we’re making. It’s an amazing challenge, and it’s also incredibly rewarding._
+> _To me, the biggest design challenge in the world right now is innovation. How do we continue to drive new ideas that will benefit users' lives without replicating an existing product just for the sake of it? We need to put our users' needs at the forefront of every design challenge to make sure that we're always delivering what is right for them._
 
-> Amritha Prasad, Product Designer
+> Milly Longbottom – Visual Designer, IBM iX
 
 </column>
 </grid>

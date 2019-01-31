@@ -18,11 +18,6 @@
   @include type-style('body-short-01');
 }
 
-.page-p--sm-back {
-  @include type-style('body-short-01');
-  margin: 0;
-}
-
 .page-p--md {
   //md default
   @include type-style('body-short-02');

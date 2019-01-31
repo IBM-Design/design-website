@@ -2,18 +2,12 @@
 title: Think
 ---
 
-<grid className="background--nopadding">
-<column lg="16">
-
-<p size="sm-back"><a href="/impact"><icon name="PlexArrowLeft"></icon>Impact Stories</a></p>
-
-</column>
-</grid>
+<back-link to="/impact">Impact Stories</back-link>
 
 <grid classname="background-bleed">
 <column lg="16">
 
-![Zoomed in IBM Think logo.](/images/Impact_1.png)
+![Zoomed in IBM Think logo.](/images/Image_1.jpg)
 
 </column>
 </grid>
@@ -36,64 +30,64 @@ title: Think
 </grid>
 
 <grid background="gray-10">
-<column bleed={true} lg="12" offset_lg="4">
+<column bleed={true} lg="12" offset_lg="4" fade="true">
 
-<img alt="Think on a pink background." src="images/Impact_2.png">
-
-</column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
-
-<img alt="Watson!" src="images/Impact_3.png">
+<img alt="Think on a pink background." src="images/Image_2.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
-<img alt="People hanging around an exhibit." src="images/Impact_4.png">
-
-</column>
-<column bleed={true} md="4" lg="6" offset_lg="4">
-
-<img alt="Conceptual drawing of a conference space." src="images/Impact_5.png">
+<img alt="Watson!" src="images/Image_3.jpg">
 
 </column>
-<column bleed={true} md="4" lg="6">
+<column bleed={true} md="3" lg="4" fade="true">
 
-<img alt="Another conceptual drawing of a conference space." src="images/Impact_6.png">
-
-</column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
-
-<img alt="Person walking down a hallway with blue screens" src="images/Impact_7.png">
+<img alt="People hanging around an exhibit." src="images/Image_4.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="4" lg="6" offset_lg="4" fade="true">
 
-<img alt="Person walking down a hallway with blue screens from a differen point of view." src="images/Impact_8.png">
-
-</column>
-<column bleed={true} md="3" lg="4" offset_lg="4">
-
-<img alt="A collection of pictograms." src="images/Impact_9.png">
+<img alt="Conceptual drawing of a conference space." src="images/Image_5.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8"">
+<column bleed={true} md="4" lg="6" fade="true">
 
-<img alt="Concept art for Think Client Showcase" src="images/Impact_10.png">
-
-</column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
-
-<img alt="THINK logo written in sand with a blue backdrop." src="images/Impact_11.png">
+<img alt="Another conceptual drawing of a conference space." src="images/Image_6.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
-<img alt="A gentlemen speaking at THINK 2018" src="images/Impact_12.png">
+<img alt="Person walking down a hallway with blue screens" src="images/Image_7.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
-<img alt="Photo of the conference space from Think 2018." src="images/Impact_13.png">
+<img alt="Person walking down a hallway with blue screens from a differen point of view." src="images/Image_8.jpg">
+
+</column>
+<column bleed={true} md="3" lg="4" offset_lg="4" fade="true">
+
+<img alt="A collection of pictograms." src="images/Image_9.jpg">
+
+</column>
+<column bleed={true} md="5" lg="8" fade="true">
+
+<img alt="Concept art for Think Client Showcase" src="images/Image_10.jpg">
+
+</column>
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
+
+<img alt="THINK logo written in sand with a blue backdrop." src="images/Image_11.jpg">
+
+</column>
+<column bleed={true} md="3" lg="4" fade="true">
+
+<img alt="A gentlemen speaking at THINK 2018" src="images/Image_12.jpg">
+
+</column>
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
+
+<img alt="Photo of the conference space from Think 2018." src="images/Image_13.jpg">
 
 </column>
 </grid>

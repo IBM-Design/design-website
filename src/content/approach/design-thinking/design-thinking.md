@@ -149,7 +149,7 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
     feature="true"
     feature_heading="Explore our framework and start driving better, human-centered outcomes at any scale."
     feature_background="black">
-<img src="images/Image_2.png" alt="Geometric shapes"/>
+<img src="images/Image_2.jpg" alt="Overhead shot of people sitting in chairs at a derby."/>
 </tile>
 
 </column>
