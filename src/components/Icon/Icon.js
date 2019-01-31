@@ -1,13 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {
-  ArrowRight24,
-  ArrowUpRight24,
-  ArrowUpRight20,
-  PlexArrowDown,
-  PlexArrowLeft,
-} from '@carbon/icons-react';
+import { ArrowUpRight24, ArrowUpRight20 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
 export default class Icon extends React.Component {
