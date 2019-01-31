@@ -1,7 +1,5 @@
 .title-block {
   position: relative;
-  height: calc(100vh - 48px);
-  min-height: 470px;
 
   @include breakpoint('md') {
     min-height: 540px;
@@ -25,6 +23,11 @@
   width: 30px;
   margin-bottom: 2rem;
   margin-left: rem(8px);
+  margin-top: rem(150px);
+
+  @include breakpoint('md') {
+    margin-top: 0;
+  }
 }
 
 .title-block__content {
