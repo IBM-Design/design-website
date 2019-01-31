@@ -235,7 +235,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-<carousel id="c1">
+<carousel id="c1" count="1 2 3 4">
   <img src="images/Image_5.png" alt="Dashboard interface of IBM Digital Analytics."/>
   <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
   <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
@@ -275,7 +275,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-<carousel id="c2">
+<carousel id="c2" count="1 2 3 4">
   <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
   <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
   <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
@@ -315,7 +315,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-<carousel id="c3">
+<carousel id="c3" count="1 2 3 4">
   <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
   <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
   <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>

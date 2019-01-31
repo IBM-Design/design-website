@@ -32,6 +32,12 @@ export default class Carousel extends React.Component {
      * unique id for each carousel, required
      */
     id: PropTypes.string.isRequired,
+    /**
+     * value of each radio button starting from 1 to however many slides
+     * separated by a space
+     * i.e. "1 2 3 4"
+     */
+    count: PropTypes.string.isRequired,
   };
 
   initialX = null;
@@ -170,11 +176,13 @@ export default class Carousel extends React.Component {
   };
 
   render() {
-    const { children, id } = this.props;
+    const { children, id, count } = this.props;
     const img = children[1].props.children[3].props;
     const img2 = children[3].props.children[3].props;
     const img3 = children[5].props.children[3].props;
     const img4 = children[7].props.children[3].props;
+    const stringArr = this.props.count.split(' ');
+    const numArr = stringArr.map(i => Number(i));
 
     return (
       <div className={`ibm--carousel ${this.props.id}`}>
@@ -211,26 +219,15 @@ export default class Carousel extends React.Component {
           name={`Carousel nav ${this.props.id}`}
           valueSelected={this.state.checkedRadio}
           onChange={this.onChange}>
-          <RadioButton
-            className="ibm--carousel-nav-item"
-            value={1}
-            labelText=""
-          />
-          <RadioButton
-            className="ibm--carousel-nav-item"
-            value={2}
-            labelText=""
-          />
-          <RadioButton
-            className="ibm--carousel-nav-item"
-            value={3}
-            labelText=""
-          />
-          <RadioButton
-            className="ibm--carousel-nav-item"
-            value={4}
-            labelText=""
-          />
+          {numArr.map(i => {
+            return (
+              <RadioButton
+                className="ibm--carousel-nav-item"
+                value={i}
+                labelText=""
+              />
+            );
+          })}
         </RadioButtonGroup>
       </div>
     );
