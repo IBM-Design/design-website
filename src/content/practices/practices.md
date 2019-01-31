@@ -53,7 +53,7 @@ meets pragmatic.</span>
     background="#373737"
     dark="true"
     title="IBM Design Language">
-<img src="images/Image_1.jpg" alt="Geometric shapes"/>
+<img src="images/Image_1.png" alt="Geometric shapes"/>
 </tile>
 
 </column>
@@ -63,7 +63,7 @@ meets pragmatic.</span>
     href="https://www.ibm.com/design/product/"
     dark="true"
     title="Product Design System">
-<img src="images/Image_2.jpg" alt=""/>
+<img src="images/Image_2.png" alt=""/>
 </tile>
 
 </column>
@@ -73,7 +73,7 @@ meets pragmatic.</span>
     href="#"
     dark="true"
     title="Digital Design System">
-<img src="images/Image_3.jpg" alt=""/>
+<img src="images/Image_3.png" alt=""/>
 </tile>
 
 </column>
@@ -83,7 +83,7 @@ meets pragmatic.</span>
     href="https://www.ibm.com/plex/"
     dark="true"
     title="IBM Plex typeface">
-<img src="images/Image_4.jpg" alt=""/>
+<img src="images/Image_4.png" alt=""/>
 </tile>
 
 </column>
@@ -112,7 +112,7 @@ meets pragmatic.</span>
     background="#C5DEFF"
     dark="true"
     title="Enterprise Design Thinking">
-<img src="images/Image_5.jpg" alt="Geometric shapes"/>
+<img src="images/Image_5.png" alt="Geometric shapes"/>
 </tile>
 
 </column>
@@ -141,7 +141,7 @@ meets pragmatic.</span>
     background="#F2BDD8"
     dark="true"
     title="IBM Design Research">
-<img src="images/Image_6.jpg" alt="Geometric shapes"/>
+<img src="images/Image_6.png" alt="Geometric shapes"/>
 </tile>
 
 </column>
