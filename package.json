@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "dev": "rm -rf .cache && gatsby develop",
-    "build": "rm -rf public && gatsby build",
+    "build": "rm -rf public && PATH_PREFIX='/design' gatsby build  --prefix-paths && mv public design && mkdir public && mv design public",
     "format": "prettier --write \"**/*.{scss,css,js,md}\"",
     "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
