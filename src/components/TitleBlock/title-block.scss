@@ -24,6 +24,7 @@
   margin-bottom: 2rem;
   margin-left: rem(8px);
   margin-top: rem(150px);
+  margin-top: 15vh;
 
   @include breakpoint('md') {
     margin-top: 0;
