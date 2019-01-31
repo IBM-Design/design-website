@@ -21,7 +21,6 @@ export default class Carousel extends React.Component {
     slide.addEventListener('touchmove', this.touchMove, false);
     slide.addEventListener('mousedown', this.mouseStart);
     slide.addEventListener('mousemove', this.mouseMove);
-    // window.addEventListener('load', this.startSlide);
   }
 
   static propTypes = {
@@ -94,7 +93,6 @@ export default class Carousel extends React.Component {
   mouseStart = e => {
     this.initialX = e.clientX;
     this.initialY = e.clientY;
-    console.log('initialX,Y:', this.initialX, this.initialY);
   };
 
   mouseMove = e => {
@@ -110,7 +108,6 @@ export default class Carousel extends React.Component {
     const diffX = this.initialX - finalX;
     const diffY = this.initialY - finalY;
     const state = this.state.checkedRadio;
-    console.log('final X,Y:', finalX, finalY);
 
     if (Math.abs(diffX) > Math.abs(diffY)) {
       if (diffX > 0) {
