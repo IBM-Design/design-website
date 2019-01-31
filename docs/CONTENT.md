@@ -298,3 +298,20 @@ This is the only style that does not live inside a grid wrapper, the grid code i
 <img src="images/Image_1.svg" alt="Geometric shapes"/>
 </tile>
 ```
+
+## Carousel
+
+The Carousel component includes only one variation that is desktop, mobile and keyboard friendly. Each instance of the component **requires** a unique `id` and a `count` passed as a prop, as well as each slide image included as a child of the component.
+
+The `count` prop must be set as a string of numbers with a single space in between, starting with `1`, i.e. `count="1 2 3"` This sets the values for the radio buttons that act as navigation for the carousel. The image `src` must be a relative path to the file where the carousel component is included, just like any other image.
+
+_IMPORTANT: This is an image only carousel._
+
+```
+<carousel id="uniqueId" count="1 2 3 4">
+  <img src="relative/path/img.png" alt="Image description here."/>
+  <img src="relative/path/img.png" alt="Image description here."/>
+  <img src="relative/path/img.png" alt="Image description here."/>
+  <img src="relative/path/img.png" alt="Image description here."/>
+</carousel>
+```

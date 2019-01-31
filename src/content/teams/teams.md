@@ -194,7 +194,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 ## Find your team
 
 <p size="xl">Ready to become part of the largest design initiative in the world?
-  
+
 We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways design is practiced across IBM.</p>
 
 </column>
@@ -235,7 +235,12 @@ Types of roles: visual design, UX design, user research, front-end development, 
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![Dashboard interface of IBM Digital Analytics.](images/Image_5.png)
+<carousel id="c1" count="1 2 3 4">
+  <img src="images/Image_5.png" alt="Dashboard interface of IBM Digital Analytics."/>
+  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
+  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
+  <img src="images/Image_5.png" alt="Dashboard interface of IBM Digital Analytics."/>
+</carousel>
 
 </column>
 <column lg="3"  md="3"  md="3" sm="0">
@@ -270,7 +275,12 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![It's IBM's Think branding.](images/Image_6.png)
+<carousel id="c2" count="1 2 3 4">
+  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
+  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
+  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
+  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
+</carousel>
 
 </column>
 <column lg="3" md="3" sm="0">
@@ -305,7 +315,12 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![A prototype of a design on two mobile device’s](images/Image_7.png)
+<carousel id="c3" count="1 2 3 4">
+  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
+  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
+  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
+  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
+</carousel>
 
 </column>
 <column lg="3" md="3" sm="0"">
