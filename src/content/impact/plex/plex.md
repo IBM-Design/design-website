@@ -7,7 +7,7 @@ title: Plex
 <grid classname="background-bleed">
 <column lg="16">
 
-![Plex hero image](/images/Impact_1.png)
+![Plex hero image](/images/Image_1.jpg)
 
 </column>
 </grid>
@@ -35,52 +35,57 @@ title: Plex
 <grid background="gray-10">
 <column bleed={true} lg="12" offset_lg="4">
 
-<img alt="People working with IBM System 360." src="images/Impact_2.png">
-
-</column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
-
-<img alt="Zoomed-in shot of Plex on the letter I." src="images/Impact_3.png">
-
-</column>
-<column bleed={true} md="3" lg="4">
-
-<img alt="Zoomed-in shot of Plex on the letter B." src="images/Impact_4.png">
+<img alt="People working with IBM System 360." src="images/Image_2.jpg">
 
 </column>
 <column bleed={true} md="4" lg="6" offset_lg="4">
 
-<img alt="Zoomed-in shot of the word Cogntive in Plex." src="images/Impact_5.png">
+<img alt="Zoomed-in shot of Plex on the letter I." src="images/Image_3.jpg">
 
 </column>
 <column bleed={true} md="4" lg="6">
 
-<img alt="gray image" src="images/Impact_6.png">
+<img alt="Zoomed-in shot of Plex on the letter B." src="images/Image_4.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="4" lg="8" offset_lg="4">
 
-<img alt="gray image" src="images/Impact_7.png">
-
-</column>
-<column bleed={true} md="3" lg="4">
-
-<img alt="Mike Abbink’s hands doing some serious thinking about Plex." src="images/Impact_8.png">
+<img alt="Zoomed-in shot of the word Cogntive in Plex." src="images/Image_5.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4" offset_lg="4">
+<column bleed={true} md="4" lg="4">
 
-<img alt="Iterations of different styles of font." src="images/Impact_9.png">
-
-</column>
-<column bleed={true} md="5" lg="8"">
-
-<img alt="Gray image" src="images/Impact_10.png">
+<img alt="gray image" src="images/Image_6.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="4" offset_lg="4">
 
-<img alt="Creating a web application using Plex in a code editor." src="images/Impact_11.png">
+<img alt="gray image" src="images/Image_7.jpg">
+
+</column>
+<column bleed={true} md="3" lg="8">
+
+<img alt="Mike Abbink’s hands doing some serious thinking about Plex." src="images/Image_8.jpg">
+
+</column>
+<column bleed={true} md="3" lg="12" offset_lg="4">
+
+<img alt="Iterations of different styles of font." src="images/Image_9.jpg">
+
+</column>
+<column bleed={true} md="5" lg="4" offset_lg="4">
+
+<img alt="Gray image" src="images/Image_10.jpg">
+
+</column>
+<column bleed={true} md="5" lg="8">
+
+<img alt="Creating a web application using Plex in a code editor." src="images/Image_11.jpg">
+
+</column>
+<column bleed={true} md="8" lg="12" offset_lg="4">
+
+<img alt="Creating a web application using Plex in a code editor." src="images/Image_12.jpg">
 
 </column>
 </grid>

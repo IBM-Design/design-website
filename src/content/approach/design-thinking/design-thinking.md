@@ -5,7 +5,7 @@ title: Design thinking
 <grid background="magenta-20" classname="background--header background--thinking">
 <column lg="4" md="4">
 
-## **Enterprise design thinking**
+## **Enterprise Design Thinking**
 
 Design thinking shouldn't be controversial–it's simply the idea that everyone on a team should be focused on their users, first and foremost.
 
@@ -29,15 +29,6 @@ We built on that idea, adding strategies, tactics and activities to create a fra
 </column>
 <column lg="4" offset_lg="4" border="true"  md="5">
 
-### Restless reinvention
-
-_When’s the last time you rethought what you’re making?_ <br><br>Everything is a prototype. Being essential—and staying essential—requires a continuous conversation with our users and clients, responding to their changing needs through rapid prototyping and constant iteration.
-
-![Enterprise Design Thinking loop graphic.](images/think.svg)
-
-</column>
-<column lg="4" border="true"  md="5">
-
 ### A focus on user outcomes
 
 _Who are you designing for, and what do they need?_ <br><br>We measure success by how well we fulfill human needs. Our users are more than just the people we make for, they’re our partners in design.
@@ -47,6 +38,15 @@ _Who are you designing for, and what do they need?_ <br><br>We measure success b
 </column>
 <column lg="4" border="true"  md="5">
 
+### Restless reinvention
+
+_When’s the last time you rethought what you’re making?_ <br><br>Everything is a prototype. Being essential—and staying essential—requires a continuous conversation with our users and clients, responding to their changing needs through rapid prototyping and constant iteration.
+
+![Enterprise Design Thinking loop graphic.](images/think.svg)
+
+</column>
+<column lg="4" border="true"  md="5">
+  
 ### Diverse empowered teams
 
 _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dynamic team. By empowering people with different skillsets, backgrounds and perspectives to bring their unique points of view to the table, we generate more breakthrough ideas faster.
@@ -147,9 +147,9 @@ Sponsor users are real-world users that provide teams with deep expertise and kn
     href="https://www.ibm.com/design/thinking/"
     title="Enterprise Design Thinking"
     feature="true"
-    feature_heading="Explore our framework and start driving better, user-centered outcomes for your business."
+    feature_heading="Explore our framework and start driving better, human-centered outcomes at any scale."
     feature_background="black">
-<img src="images/Image_2.png" alt="Geometric shapes"/>
+<img src="images/Image_2.jpg" alt="Overhead shot of people sitting in chairs at a derby."/>
 </tile>
 
 </column>

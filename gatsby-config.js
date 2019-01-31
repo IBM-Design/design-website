@@ -55,7 +55,7 @@ module.exports = {
               maxWidth: 1600,
               linkImagesToOriginal: false,
               backgroundColor: 'transparent',
-              quality: 65,
+              quality: 75,
             },
           },
           'gatsby-remark-copy-linked-files',
