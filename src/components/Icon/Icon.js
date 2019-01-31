@@ -54,9 +54,7 @@ export default class Icon extends React.Component {
             <span className="icon--arrowDown">↓</span>
           ) : null}
           {name === 'PlexArrowLeft' ? (
-            <span className="icon--arrowLeft icon--blue icon--inline left">
-              ←
-            </span>
+            <span className="icon--arrowLeft">←</span>
           ) : null}
           {name === 'ArrowUpRight24' ? (
             <ArrowUpRight24 className="icon--upright24" />
