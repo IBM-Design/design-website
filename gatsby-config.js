@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `IBM Design`,
-        short_name: `IBM Design`,
+        short_name: `IBM`,
         start_url: `/design`,
         background_color: `#000000`,
         theme_color: `#000000`,
