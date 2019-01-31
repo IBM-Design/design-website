@@ -47,7 +47,7 @@ people we serve.</span>
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
-<img src="images/Image_1.png" alt="" />
+<img src="images/Image_1.jpg" alt="" />
 </tile>
 
 </column>
@@ -67,7 +67,7 @@ people we serve.</span>
     href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
     caption="Quartz"
     title="The business case for an open-source font">
-<img src="images/Image_3.png" alt=""/>
+<img src="images/Image_3.jpg" alt=""/>
 </tile>
 
 </column>
