@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import Fade from 'react-reveal/Fade';
 
 export class Grid extends React.Component {
   static propTypes = {
@@ -109,6 +110,18 @@ export class Column extends React.Component {
     if (offset_md) classNames += `ibm--offset-md-${offset_md} `;
     if (bleed) classNames += `ibm--col-bleed `;
 
-    return <div className={classNames}>{children}</div>;
+    const fadeEffect = false;
+
+    return (
+      <Fragment>
+        {fadeEffect === true ? (
+          <Fade bottom cascade distance="25%">
+            <div className={classNames}>{children}</div>
+          </Fade>
+        ) : (
+          <div className={classNames}>{children}</div>
+        )}
+      </Fragment>
+    );
   }
 }
