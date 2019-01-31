@@ -26,8 +26,9 @@ module.exports = {
         start_url: `/design`,
         background_color: `#000000`,
         theme_color: `#000000`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/content/global/images/home-icon.png`, // This path is relative to the root of the site.
+        include_favicon: false,
       },
     },
     'gatsby-plugin-offline',
