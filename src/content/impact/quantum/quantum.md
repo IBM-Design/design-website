@@ -2,13 +2,7 @@
 title: Quantum
 ---
 
-<grid className="background--nopadding">
-<column lg="16">
-
-<p size="sm-back"><a href="/impact"><icon name="PlexArrowLeft"></icon>Impact Stories</a></p>
-
-</column>
-</grid>
+<back-link to="/impact">Impact Stories</back-link>
 
 <grid classname="background-bleed">
 <column lg="16">

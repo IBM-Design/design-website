@@ -22,11 +22,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `IBM Design`,
-        start_url: `/`,
+        short_name: `IBM Design`,
+        start_url: `/design`,
         background_color: `#000000`,
-        theme_color: `#cccccc`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/content/global/images/favicon-32.png`, // This path is relative to the root of the site.
+        icon: `src/content/global/images/home-icon.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

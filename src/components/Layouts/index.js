@@ -7,6 +7,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import favicon32 from '../../content/global/images/favicon-32.png';
 import SiteHeader from '../SiteHeader';
 import { WebsiteFooter } from '@carbon/addons-website';
+import timestamp from 'raw-loader!../../../build-timestamp';
 
 import '../../styles/index.scss';
 
@@ -43,7 +44,11 @@ class Layout extends React.Component {
   render() {
     const { children } = this.props;
     const currentYear = new Date().getFullYear();
-    const lastUpdated = 'December 19, 2018';
+    const lastUpdated = new Intl.DateTimeFormat(undefined, {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }).format(new Date(Number(timestamp)));
     const { isNavExpanded, isSwitcherExpanded } = this.state;
 
     return (
@@ -118,7 +123,9 @@ class Layout extends React.Component {
                   Have questions? Email us or open <br /> an issue in{' '}
                   <a
                     href="https://github.com/IBM-Design/design-website/issues/new"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener"
+                    rel="noreferrer">
                     GitHub.
                   </a>
                 </p>
