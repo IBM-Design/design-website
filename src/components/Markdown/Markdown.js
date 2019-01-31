@@ -21,11 +21,7 @@ export class p extends React.Component {
       'bx--type-expressive-paragraph-01': size === 'xl',
     });
 
-    return (
-      <Fade bottom distance="25%">
-        <p className={classNames}>{children}</p>
-      </Fade>
-    );
+    return <p className={classNames}>{children}</p>;
   }
 }
 
@@ -59,11 +55,7 @@ export class a extends React.Component {
 
 export class h1 extends React.Component {
   render() {
-    return (
-      <Fade bottom distance="25%">
-        <h1 className="page-h1">{this.props.children}</h1>
-      </Fade>
-    );
+    return <h1 className="page-h1">{this.props.children}</h1>;
   }
 }
 
@@ -79,13 +71,11 @@ export class h2 extends React.Component {
             .join('-');
 
     return (
-      <Fade bottom distance="25%">
-        <div>
-          <h2 className="page-h2 bx--type-expressive-paragraph-01" id={hash}>
-            {this.props.children}
-          </h2>
-        </div>
-      </Fade>
+      <div>
+        <h2 className="page-h2 bx--type-expressive-paragraph-01" id={hash}>
+          {this.props.children}
+        </h2>
+      </div>
     );
   }
 }
@@ -101,11 +91,9 @@ export class h3 extends React.Component {
             .split(' ')
             .join('-');
     return (
-      <Fade bottom distance="25%">
-        <h3 className="page-h3" id={hash}>
-          {this.props.children}
-        </h3>
-      </Fade>
+      <h3 className="page-h3" id={hash}>
+        {this.props.children}
+      </h3>
     );
   }
 }
@@ -122,22 +110,16 @@ export class h4 extends React.Component {
             .join('-');
 
     return (
-      <Fade bottom distance="25%">
-        <h4 className="page-h4" id={hash}>
-          {this.props.children}
-        </h4>
-      </Fade>
+      <h4 className="page-h4" id={hash}>
+        {this.props.children}
+      </h4>
     );
   }
 }
 
 export class h5 extends React.Component {
   render() {
-    return (
-      <Fade bottom distance="25%">
-        <h5 className="page-h5">{this.props.children}</h5>
-      </Fade>
-    );
+    return <h5 className="page-h5">{this.props.children}</h5>;
   }
 }
 

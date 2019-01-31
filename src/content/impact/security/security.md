@@ -31,47 +31,47 @@ title: Security
 </grid>
 
 <grid background="gray-10">
-<column bleed={true} lg="12" offset_lg="4">
+<column bleed={true} lg="12" offset_lg="4" fade="true">
 
 <img alt="Security badge for IBM Security event." src="images/Image_2.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="X-Force Command semi-truck." src="images/Image_3.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
 <img alt="IBM Security." src="images/Image_4.jpg">
 
 </column>
-<column bleed={true} md="4" lg="4" offset_lg="4">
+<column bleed={true} md="4" lg="6" offset_lg="4" fade="true">
 
 <img alt="Security Logo." src="images/Image_6.jpg">
 
 </column>
-<column bleed={true} md="4" lg="8">
+<column bleed={true} md="4" lg="6" fade="true">
 
 <img alt="IBM Security Connect dashboard." src="images/Image_5.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8" offset_lg="4">
+<column bleed={true} md="5" lg="8" offset_lg="4" fade="true">
 
 <img alt="IBM Security Connect - My applications interface." src="images/Image_8.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4">
+<column bleed={true} md="3" lg="4" fade="true">
 
 <img alt="Fear Less." src="images/Image_7.jpg">
 
 </column>
-<column bleed={true} md="3" lg="4" offset_lg="4">
+<column bleed={true} md="3" lg="4" offset_lg="4" fade="true">
 
 <img alt="Green to blue gradient." src="images/Image_10.jpg">
 
 </column>
-<column bleed={true} md="5" lg="8"">
+<column bleed={true} md="5" lg="8" fade="true">
 
 <img alt="Blue and purple gradient circles on top of each other." src="images/Image_9.jpg">
 
