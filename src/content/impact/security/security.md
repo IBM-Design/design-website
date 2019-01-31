@@ -13,7 +13,7 @@ title: Security
 <grid classname="background-bleed">
 <column lg="16">
 
-![Purple to blue gradient.](/images/Impact_1.png)
+![Purple to blue gradient.](/images/Image_1.jpg)
 
 </column>
 </grid>
@@ -39,47 +39,47 @@ title: Security
 <grid background="gray-10">
 <column bleed={true} lg="12" offset_lg="4">
 
-<img alt="Security badge for IBM Security event." src="images/Impact_2.png">
+<img alt="Security badge for IBM Security event." src="images/Image_2.jpg">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="X-Force Command semi-truck." src="images/Impact_3.png">
+<img alt="X-Force Command semi-truck." src="images/Image_3.jpg">
 
 </column>
 <column bleed={true} md="3" lg="4">
 
-<img alt="IBM Security." src="images/Impact_4.png">
+<img alt="IBM Security." src="images/Image_4.jpg">
 
 </column>
-<column bleed={true} md="4" lg="6" offset_lg="4">
+<column bleed={true} md="4" lg="4" offset_lg="4">
 
-<img alt="IBM Security Connect dashboard." src="images/Impact_5.png">
+<img alt="Security Logo." src="images/Image_6.jpg">
 
 </column>
-<column bleed={true} md="4" lg="6">
+<column bleed={true} md="4" lg="8">
 
-<img alt="Security Logo." src="images/Impact_6.png">
+<img alt="IBM Security Connect dashboard." src="images/Image_5.jpg">
 
 </column>
 <column bleed={true} md="5" lg="8" offset_lg="4">
 
-<img alt="Fear Less." src="images/Impact_7.png">
+<img alt="IBM Security Connect - My applications interface." src="images/Image_8.jpg">
 
 </column>
 <column bleed={true} md="3" lg="4">
 
-<img alt="IBM Security Connect - My applications interface." src="images/Impact_8.png">
+<img alt="Fear Less." src="images/Image_7.jpg">
 
 </column>
 <column bleed={true} md="3" lg="4" offset_lg="4">
 
-<img alt="Blue and purple gradient circles on top of each other." src="images/Impact_9.png">
+<img alt="Green to blue gradient." src="images/Image_10.jpg">
 
 </column>
 <column bleed={true} md="5" lg="8"">
 
-<img alt="Green to blue gradient." src="images/Impact_10.png">
+<img alt="Blue and purple gradient circles on top of each other." src="images/Image_9.jpg">
 
 </column>
 </grid>

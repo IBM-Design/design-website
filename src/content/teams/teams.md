@@ -51,24 +51,24 @@ Diversity comes in many forms: your job role, your educational history, your cul
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![Cheerful woman sitting cross-legged on a chair engaged in conversation with you.](images/photo_1.png)
+![Cheerful woman sitting cross-legged on a chair engaged in conversation with you.](images/Image_1.jpg)
 
 </column>
 <column lg="4" md="3">
 
-![Man wearing glasses not quite staring at the camera and isn't certain if he should smile.](images/photo_2.png)
+![Man wearing glasses not quite staring at the camera and isn't certain if he should smile.](images/Image_2.jpg)
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![Man with his hands in his pockets staring pleasantly into the camera.](images/photo_3.png)
+![Man with his hands in his pockets staring pleasantly into the camera.](images/Image_3.jpg)
 
 </column>
 <column lg="8" md="5">
 
-![Woman with her hands on her hips and ready to get things done.](images/photo_4.png)
+![Woman with her hands on her hips and ready to get things done.](images/Image_4.jpg)
 
 </column>
 </grid>
@@ -129,24 +129,24 @@ Embedding designers directly into the business allows them to build a rigorous u
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![An overhead shot of oranges on a conveyor belt](images/photo_5.png)
+![An overhead shot of oranges on a conveyor belt](images/Image_5.jpg)
 
 </column>
 <column lg="4" md="3">
 
-![A woman sitting in her office concentrating on a book she is reading with a hillside backdrop in the background.](images/photo_6.png)
+![A woman sitting in her office concentrating on a book she is reading with a hillside backdrop in the background.](images/Image_6.jpg)
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![Hey! It's a Watson logo!](images/photo_7.png)
+![Hey! It's a Watson logo!](images/Image_7.jpg)
 
 </column>
 <column lg="8" md="5">
 
-![Man configuring networking equipment in a hallway of network applicance.](images/photo_8.png)
+![Man configuring networking equipment in a hallway of network applicance.](images/Image_8.jpg)
 
 </column>
 </grid>
@@ -167,24 +167,24 @@ From the initial visioning stages through to delivery and beyond, we work closel
 </column>
 <column lg="8" offset_lg="4" md="5">
 
-![Woman staring into the camera from a nondescriptive location.](images/photo_9.png)
+![Woman staring into the camera from a nondescriptive location.](images/Image_9.jpg)
 
 </column>
 <column lg="4" md="3">
 
-![Man and woman on stools doing work things from what appears to be some sort of coffee shop.](images/photo_10.png)
+![Man and woman on stools doing work things from what appears to be some sort of coffee shop.](images/Image_10.jpg)
 
 </column>
 
 </column>
 <column lg="4" offset_lg="4" md="3">
 
-![Man in a suit getting ready to make business happen.](images/photo_11.png)
+![Man in a suit getting ready to make business happen.](images/Image_11.jpg)
 
 </column>
 <column lg="8" md="5">
 
-![Woman retrieving a box from an inventory warehouse with hundreds items.](images/photo_12.png)
+![Woman retrieving a box from an inventory warehouse with hundreds items.](images/Image_12.jpg)
 
 </column>
 </grid>
