@@ -120,13 +120,13 @@ class Layout extends React.Component {
                   },
                 ]}>
                 <p>
-                  Have questions? Email us or open <br /> an issue in{' '}
+                  Have questions? Please{' '}
                   <a
-                    href="https://github.com/IBM-Design/design-website/issues/new"
+                    href="mailto:ibmdesign@us.ibm.com"
                     target="_blank"
                     rel="noopener"
                     rel="noreferrer">
-                    GitHub.
+                    email us.
                   </a>
                 </p>
                 <p>
