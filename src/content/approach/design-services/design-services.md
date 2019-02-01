@@ -5,7 +5,7 @@ title: Design services
 <grid background="gray-80" classname="background--header background--services">
 <column lg="4" md="4">
 
-## **Design services**
+## **Design Services**
 
 Most companies make things for their clients. We prefer to co-create with you.
 

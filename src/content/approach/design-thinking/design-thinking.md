@@ -46,7 +46,7 @@ _When’s the last time you rethought what you’re making?_ <br><br>Everything 
 
 </column>
 <column lg="4" border="true"  md="5">
-  
+
 ### Diverse empowered teams
 
 _Do you have the right mix of makers?_ <br><br>Diversity is the bedrock of a dynamic team. By empowering people with different skillsets, backgrounds and perspectives to bring their unique points of view to the table, we generate more breakthrough ideas faster.
