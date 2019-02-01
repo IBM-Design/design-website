@@ -5,7 +5,7 @@ title: Design philosophy
 <grid background="gray-100" classname="background--header background--philosophy">
 <column lg="4" md="4">
 
-## **Design philosophy**
+## **Design Philosophy**
 
 IBMers believe in progress—that by applying intelligence, reason and science we can improve business, society and the human condition.
 
@@ -72,8 +72,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
 </column>
 <column lg="3" offset_lg="1"  md="3" sm="0">
 
-> _A by-product of every experience with IBM should be time—time saved or time well-spent._  
-> _– Jon Iwata_
+> A by-product of every experience with IBM should be time—time saved or time well-spent.
 
 </column>
 </grid>
@@ -84,7 +83,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
     href="https://www.ibm.com/design/language"
     title="IBM Design Language"
     feature="true"
-    feature_heading="See how we bring our philosophy to bare in our design systems."
+    feature_heading="See how we bring our philosophy to life in our design systems."
     feature_background="black">
 <img src="images/Image_2.jpg" alt="Man and woman working at their computers."/>
 </tile>
