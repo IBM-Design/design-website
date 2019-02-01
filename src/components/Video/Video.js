@@ -7,8 +7,6 @@ export default class Video extends React.Component {
   componentDidMount() {
     const iframe = document.querySelector('iframe');
     const player = new Player(iframe);
-    player.setColor('#0062ff');
-    player.setLoop(false);
     player.on('ended', this.onEnd);
     player.on('pause', this.mitigateKeyboard);
   }
@@ -36,22 +34,22 @@ export default class Video extends React.Component {
     const iframe = video.querySelector('iframe');
     const player = new Player(iframe);
     video.classList.add('active');
+    player.setLoop(false);
     player.setCurrentTime(0);
     player.setVolume(1);
     player.play();
   };
 
   onEnd = () => {
-    console.log('VIDEO ENDED');
-    const video = document.querySelector('.ibm--video-wrapper');
-    if (video.classList.contains('active')) {
-      video.classList.remove('active');
-    }
+    const video = document.querySelector('.active');
     const iframe = document.querySelector('iframe');
     const player = new Player(iframe);
-    player.setCurrentTime(0);
-    player.setVolume(0);
-    player.play();
+    player.loadVideo(304672438).then(() => {
+      player.setLoop(true).then(() => {
+        video.classList.remove('active');
+      });
+      player.setVolume(0);
+    });
   };
 
   render() {
