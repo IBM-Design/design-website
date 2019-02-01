@@ -13,7 +13,7 @@ people we serve.</span>
 <column lg="16">
 
 <video>
-  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=0?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 </video>
 
 </column>
@@ -43,7 +43,7 @@ people we serve.</span>
 
 <column lg="4" md="4">
 
-<tile title_size="small" 
+<tile title_size="small"
     href="/impact/quantum"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
@@ -53,7 +53,7 @@ people we serve.</span>
 </column>
 <column lg="4" md="4">
 
-<tile title_size="small" 
+<tile title_size="small"
     href="https://www.youtube.com/watch?v=yrI8S1906Ug"
     caption="Youtube"
     title="Video: Building a security operations center on wheels">
@@ -63,7 +63,7 @@ people we serve.</span>
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-<tile title_size="small" 
+<tile title_size="small"
     href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
     caption="Quartz"
     title="The business case for an open-source font">
