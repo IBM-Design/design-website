@@ -70,7 +70,7 @@ meets pragmatic.</span>
 <column lg="4" md="4">
 
 <tile
-    href="#"
+    href="https://www.ibm.com/standards/web/"
     dark="true"
     title="Digital Design System">
 <img src="images/Image_3.png" alt=""/>
