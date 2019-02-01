@@ -63,10 +63,10 @@ people we serve.</span>
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-<tile title_size="small"
-    href="https://qz.com/1124664/ibm-plex-with-its-first-ever-custom-corporate-font-ibm-is-freeing-itself-from-the-tyranny-of-helvetica/"
-    caption="Quartz"
-    title="The business case for an open-source font">
+<tile title_size="small" 
+    href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/"
+    caption="Type Directors Club"
+    title="2018 Typeface design competition: Plex wins Judges’ Choice">
 <img src="images/Image_3.jpg" alt=""/>
 </tile>
 
