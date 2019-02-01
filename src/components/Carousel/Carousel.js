@@ -13,7 +13,7 @@ export default class Carousel extends React.Component {
 
     this.state = {
       checkedRadio: 1,
-      autoplay: setInterval(this.nextSlide, 6000),
+      // autoplay: setInterval(this.nextSlide, 6000),
       items: numArr,
     };
   }
@@ -147,13 +147,21 @@ export default class Carousel extends React.Component {
 
   //UPDATING RADIO BUTTON
   onChange = e => {
+    console.log(
+      this.props.id,
+      'changing from',
+      this.state.checkedRadio,
+      'to',
+      e
+    );
+
     const slide = document.querySelector(`.${this.props.id}`);
     const images = slide.querySelectorAll('img');
 
-    clearInterval(this.state.autoplay);
+    // clearInterval(this.state.autoplay);
     this.setState({
       checkedRadio: e,
-      autoplay: setInterval(this.nextSlide, 6000),
+      // autoplay: setInterval(this.nextSlide, 6000),
     });
 
     images.forEach(img => {
@@ -208,6 +216,7 @@ export default class Carousel extends React.Component {
               <RadioButton
                 className="ibm--carousel-nav-item"
                 value={i}
+                key={i}
                 labelText=""
               />
             );
