@@ -268,7 +268,7 @@ Team up with talented graphic designers, creative copywriters and some of the sh
 
 Types of roles: graphic design, content and copywriting, front-end development, communications, PR, marketing
 
-<p><a href=#><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
+<p><a href=https://careers.ibm.com/ListJobs/All/Search/primary-job-category/Design---Offering-Management/keyword/brand/?lang=en><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
 
 </column>
 <column lg="8" offset_lg="4" md="5">
@@ -283,7 +283,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 </column>
 <column lg="3" md="3" sm="0">
 
-> _It’s been exhilarating to help usher in a new design language and ethos for IBM. With this foundation, we’re building stronger bridges and eleveating our design practices internally whiel also creating more unified brand experiences in the world—bringing that distinct ‘IBMness’ to everything we do._
+> _It’s been exhilarating to help usher in a new design language and ethos for IBM. With this foundation, we’re building stronger bridges and elevating our design practices internally while also creating more unified brand experiences in the world—bringing that distinct ‘IBMness’ to everything we do._
 
 > Sadek Bazaraa – Design Director, Brand Experience
 
@@ -306,7 +306,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 
 Work directly with clients while partnering with IBM consultants and business strategists to drive outcomes that create both market impact and user impact.
 
-Types of role: graphic design, content design, business strategy, user and market research, consulting
+Types of roles: graphic design, content design, business strategy, user and market research, consulting
 
 <p><a href=https://www.ibm.com/services/careers><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
 
@@ -323,7 +323,7 @@ Types of role: graphic design, content design, business strategy, user and marke
 </column>
 <column lg="3" md="3" sm="0"">
 
-> _To me, the biggest design challenge in the world right now is innovation. How do we continue to drive new ideas that will benefit users' lives without replicating an existing product just for the sake of it? We need to put our users' needs at the forefront of every design challenge to make sure that we're always delivering what is right for them._
+> _To me, the biggest design challenge in the world right now is innovation. How do we continue to drive new ideas that will benefit peoples' lives without replicating an existing product just for the sake of it? Putting our users' needs at the forefront of every design challenge helps us ensure that we're always delivering what is right for them._
 
 > Milly Longbottom – Visual Designer, IBM iX
 
