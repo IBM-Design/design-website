@@ -193,9 +193,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 
 ## Find your team
 
-<p size="xl">Ready to become part of the largest design initiative in the world?
-
-We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways design is practiced across IBM.</p>
+<p size="xl">Ready to become part of the largest design initiative in the world?<br><br>We’re always looking for talented, ambitious individuals to join us in our mission. Learn more about the different ways design is practiced across IBM.</p>
 
 </column>
 
