@@ -10,21 +10,15 @@ TODO: setup circle ci to push automatically
 
 (accessible via https://wwwpoc.ibm.com/design/)
 
-cf api https://api.ng.bluemix.net for the US instance
+`cf login -a https://api.ng.bluemix.net -sso -s slashDesign -o IBMDesignOrg`
 
-cf login -sso
+`cf push -f .circleci/manifest.staging.yml`
 
-cf target -s slashDesign -o IBMDesignOrg
+Repeat steps for Germany
 
-cf push -f manifest.staging.yml
+`cf login -a https://api.eu-de.bluemix.net -sso -s slashDesign -o IBMDesignOrg`
 
-cf api https://api.eu-de.bluemix.net
-
-cf login -sso
-
-cf target -s slashDesign -o IBMDesignOrg
-
-cf push -f manifest.staging.yml
+`cf push -f .circleci/manifest.staging.yml`
 
 ## production:
 
