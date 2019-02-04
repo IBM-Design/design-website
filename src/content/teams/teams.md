@@ -249,7 +249,7 @@ Types of roles: visual design, UX design, user research, front-end development, 
 
 > _We’re bridging data with previously disconnected experiences to accelerate how our customers get their jobs done. By augmenting their workflows and providing rich insights at just the right moment, we’re turning pain points into moments of delight._
 
-> Cameron Calder – UX Designer, IBM Security
+> _***Cameron Calder*** <br> UX Designer, IBM Security_
 
 </column>
 </grid>
@@ -289,7 +289,7 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 
 > _It’s been exhilarating to help usher in a new design language and ethos for IBM. With this foundation, we’re building stronger bridges and elevating our design practices internally while also creating more unified brand experiences in the world—bringing that distinct ‘IBMness’ to everything we do._
 
-> Sadek Bazaraa – Design Director, Brand Experience
+> _***Sadek Bazaraa*** <br> Design Director, Brand Experience_
 
 </column>
 </grid>
@@ -329,7 +329,7 @@ Types of roles: graphic design, content design, business strategy, user and mark
 
 > _To me, the biggest design challenge in the world right now is innovation. How do we continue to drive new ideas that will benefit peoples' lives without replicating an existing product just for the sake of it? Putting our users' needs at the forefront of every design challenge helps us ensure that we're always delivering what is right for them._
 
-> Milly Longbottom – Visual Designer, IBM iX
+> _***Milly Longbottom*** <br> Visual Designer, IBM iX_
 
 </column>
 </grid>
