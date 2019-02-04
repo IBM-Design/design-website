@@ -160,9 +160,9 @@ Embedding designers directly into the business allows them to build a rigorous u
 
 ## When users are intimately involved in the design process, you’re all but guaranteed to create something they love.
 
-User-centered design goes far beyond just speaking with a few people before you get started; it’s about truly co-creating with your business users and stakeholders by making them integral members of the team.
+Human-centered design goes far beyond just speaking with a few people before you get started; it’s about truly co-creating with your business users and stakeholders by bringing them into the design process from Day 1.
 
-From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their needs.
+From the initial visioning stages through to delivery and beyond, we work closely with both of these groups to ensure that every decision we make is rooted in a deep understanding of their goals and needs.
 
 </column>
 <column lg="8" offset_lg="4" md="5" fade="true">
