@@ -8,6 +8,7 @@ import favicon32 from '../../content/global/images/favicon-32.png';
 import SiteHeader from '../SiteHeader';
 import { WebsiteFooter } from '@carbon/addons-website';
 import timestamp from 'raw-loader!../../../build-timestamp';
+import SmoothScroll from 'smooth-scroll';
 
 import '../../styles/index.scss';
 
@@ -40,6 +41,12 @@ class Layout extends React.Component {
   static propTypes = {
     children: PropTypes.any,
   };
+
+  componentDidMount() {
+    const scroll = new SmoothScroll('a[href*="#"]', {
+      speedAsDuration: true,
+    });
+  }
 
   render() {
     const { children } = this.props;
