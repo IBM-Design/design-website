@@ -92,8 +92,8 @@ Customers and employees are won and lost by the quality of your experience, not 
 
 ##### Design philosophy
 
-<p size="sm">Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.<br><br>
-<a href="/approach/design-philosophy">Learn more →</a></p>
+<p size="md">Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.</p>
+<a href="/approach/design-philosophy">Learn more →</a>
 
 </column>
 <column lg="4" md="4">
@@ -102,7 +102,8 @@ Customers and employees are won and lost by the quality of your experience, not 
 
 ##### Design thinking
 
-<p size="sm">Get familiar with how to apply the framework that drives how we think and work every day. <br><br><a href="/approach/design-thinking">Learn more →</a></p>
+<p size="md">Get familiar with how to apply the framework that drives how we think and work every day.</p>
+<a href="/approach/design-thinking">Learn more →</a>
 
 </column>
 </grid>

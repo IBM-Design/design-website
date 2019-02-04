@@ -21,6 +21,7 @@
 .page-p--md {
   //md default
   @include type-style('body-short-02');
+  margin-bottom: 0.5rem;
 }
 
 .page-p--lg {
@@ -117,7 +118,6 @@
 h5 {
   @include type-style('heading-02');
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
 }
 
 //----------------------------

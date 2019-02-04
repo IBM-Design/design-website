@@ -100,8 +100,8 @@ Like our brand values, our design ethos must be palpable in everything we produc
 
 ##### Design thinking
 
-<p size="sm">Get familiar with how to apply the framework that drives how we think and work every day.<br><br>
-<a href="/approach/design-thinking">Learn more →</a></p>
+<p size="md">Get familiar with how to apply the framework that drives how we think and work every day.</p>
+<a href="/approach/design-thinking">Learn more →</a>
 
 </column>
 <column lg="4" md="4">
@@ -110,7 +110,8 @@ Like our brand values, our design ethos must be palpable in everything we produc
 
 ##### Design services
 
-<p size="sm">Let’s define your strategy, create exceptional experiences, and drive better business outcomes.<br><br><a href="/approach/design-services">Learn more →</a></p>
+<p size="md">Let’s define your strategy, create exceptional experiences, and drive better business outcomes.</p>
+<a href="/approach/design-services">Learn more →</a>
 
 </column>
 </grid>
