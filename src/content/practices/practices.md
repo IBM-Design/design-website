@@ -11,9 +11,11 @@ meets pragmatic.</span>
 
 <anchor-links>
 
-- [IBM Design Language](#ibm-design-language)
-- [Enterprise Design Thinking](#enterprise-design-thinking)
-- [IBM Design Research](#ibm-design-research)
+<ul>
+<li><a data-scroll href="#ibm-design-language">IBM Design Language</a></li>
+<li><a data-scroll href="#enterprise-design-thinking">Enterprise Design Thinking</a></li>
+<li><a data-scroll href="#ibm-design-research">IBM Design Research</a></li>
+</ul>
 
 </anchor-links>
 

@@ -41,6 +41,17 @@ class Layout extends React.Component {
     children: PropTypes.any,
   };
 
+  componentDidMount() {
+    const scroll = new SmoothScroll('a[href*="#"]', {
+      speedAsDuration: true,
+      speed: 200,
+      durationMin: 90,
+      durationMax: 800,
+      easing: 'easeInOutCubic',
+      offset: 24,
+    });
+  }
+
   render() {
     const { children } = this.props;
     const currentYear = new Date().getFullYear();
