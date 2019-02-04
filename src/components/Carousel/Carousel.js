@@ -28,6 +28,10 @@ export default class Carousel extends React.Component {
     slide.addEventListener('mousemove', this.mouseMove);
   }
 
+  componentWillUnmount() {
+    clearInterval(this.state.autoplay);
+  }
+
   static propTypes = {
     /**
      * for slide images
