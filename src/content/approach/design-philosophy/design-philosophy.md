@@ -38,7 +38,7 @@ Aesthetic is defined as the philosophical theory or set of principles governing 
 
 <column lg="3" offset_lg="1" md="3" sm="0">
 
-> **Good design is always good design.** <br><br>What we borrow from our own design history is not a mid-century aesthetic in stylistic terms, but the modernist attitudes and approach used at the time.<br><br>Eliot Noyes taught us that brand is character, and should be built through curation. Paul Rand taught us the importance of endless experimentation. Charles and Ray Eames brought out our playful nature, and were pioneers of what is now referred to as “branded content” and “experiential.”<br><br>Their methods are as modern today as ever before–maybe more so.
+> **Good design is always good design.** <br><br>What we borrow from our own design history is not a mid-century aesthetic in stylistic terms, but the modernist attitudes and approach used at the time.<br><br>Eliot Noyes taught us that brand is character, and should be built through curation. Paul Rand taught us the importance of endless experimentation. Charles and Ray Eames brought out our playful nature, and were pioneers of what is now referred to as “branded content” and “experiential.”<br><br>Their methods are as modern today as ever before—maybe more so.
 
 </column>
 </grid>
