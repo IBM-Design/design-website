@@ -234,10 +234,10 @@ Types of roles: visual design, UX design, user research, front-end development, 
 <column lg="8" offset_lg="4" md="5">
 
 <carousel id="c1" count="1 2 3 4">
-  <img src="images/Image_5.png" alt="Dashboard interface of IBM Digital Analytics."/>
-  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
-  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
-  <img src="images/Image_5.png" alt="Dashboard interface of IBM Digital Analytics."/>
+  <img src="images/product-carousel/Image_1.jpg" alt="A dashboard view of IBM Digital Analytics."/>
+  <img src="images/product-carousel/Image_2.jpg" alt="A dashboard view of IBM Security Connect."/>
+  <img src="images/product-carousel/Image_3.jpg" alt="A view of the Watson website."/>
+  <img src="images/product-carousel/Image_4.jpg" alt="A dashboard view of Quantum Composer on a mobile device."/>
 </carousel>
 
 </column>
@@ -274,10 +274,10 @@ Types of roles: graphic design, content and copywriting, front-end development, 
 <column lg="8" offset_lg="4" md="5">
 
 <carousel id="c2" count="1 2 3 4">
-  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
-  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
-  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
-  <img src="images/Image_6.png" alt="It's IBM's Think branding."/>
+  <img src="images/brand-carousel/Image_1.jpg" alt="It's IBM's Think branding."/>
+  <img src="images/brand-carousel/Image_2.jpg" alt="Wall of IBMers on posters."/>
+  <img src="images/brand-carousel/Image_3.jpg" alt="Let's put smart to work."/>
+  <img src="images/brand-carousel/Image_4.jpg" alt="A collection of IBM Developer posters."/>
 </carousel>
 
 </column>
@@ -314,14 +314,14 @@ Types of roles: graphic design, content design, business strategy, user and mark
 <column lg="8" offset_lg="4" md="5">
 
 <carousel id="c3" count="1 2 3 4">
-  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
-  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
-  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
-  <img src="images/Image_7.png" alt="A prototype of a design on two mobile device’s"/>
+  <img src="images/services-carousel/Image_1.jpg" alt="Two mobile devices showing IBM iX artifacts."/>
+  <img src="images/services-carousel/Image_2.jpg" alt="IBM iX branding."/>
+  <img src="images/services-carousel/Image_3.jpg" alt="Profile shot of a man wearing IBM iX branding."/>
+  <img src="images/services-carousel/Image_4.jpg" alt="More IBM iX branding."/>
 </carousel>
 
 </column>
-<column lg="3" md="3" sm="0"">
+<column lg="3" md="3" sm="0">
 
 > _To me, the biggest design challenge in the world right now is innovation. How do we continue to drive new ideas that will benefit peoples' lives without replicating an existing product just for the sake of it? Putting our users' needs at the forefront of every design challenge helps us ensure that we're always delivering what is right for them._
 
