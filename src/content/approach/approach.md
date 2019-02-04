@@ -11,9 +11,11 @@ business problems
 
 <anchor-links>
 
-- [Design philosophy](#design-philosophy)
-- [Design thinking](#design-thinking)
-- [Design services](#design-services)
+<ul>
+<li><a data-scroll href="#design-philosophy">Design philosophy</a></li>
+<li><a data-scroll href="#design-thinking">Design thinking</a></li>
+<li><a data-scroll href="#design-services">Design services</a></li>
+</ul>
 
 </anchor-links>
 
