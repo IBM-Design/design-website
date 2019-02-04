@@ -7,7 +7,7 @@ title: Design thinking
 
 ## **Enterprise Design Thinking**
 
-Design thinking shouldn't be controversial–it's simply the idea that everyone on a team should be focused on their users, first and foremost.
+Design thinking shouldn't be controversial—it's simply the idea that everyone on a team should be focused on their users, first and foremost.
 
 We built on that idea, adding strategies, tactics and activities to create a framework that uniquely scales design thinking across teams of all shapes and sizes, whether they are co-located or widely dispersed.
 
