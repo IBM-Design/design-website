@@ -9,10 +9,12 @@ A solution’s quality<br>hinges directly on<br>
 
 <anchor-links>
 
-- [Diverse](#diverse)
-- [Embedded](#embedded)
-- [Co-creators](#co-creators)
-- [Find your team](#find-your-team)
+<ul>
+<li><a data-scroll href="#diverse">Diverse</a></li>
+<li><a data-scroll href="#embedded">Embedded</a></li>
+<li><a data-scroll href="#co-creators">Co-creators</a></li>
+<li><a data-scroll href="#find-your-team">Find your team</a></li>
+</ul>
 
 </anchor-links>
 
@@ -201,9 +203,11 @@ From the initial visioning stages through to delivery and beyond, we work closel
 
 <anchor-links>
 
-- [Product](#product)
-- [Brand](#brand)
-- [Services](#services)
+<ul>
+<li><a data-scroll href="#product">Product</a></li>
+<li><a data-scroll href="#brand">Brand</a></li>
+<li><a data-scroll href="#services">Services</a></li>
+</ul>
 
 </anchor-links>
 
