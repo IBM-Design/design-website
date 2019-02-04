@@ -8,7 +8,6 @@ import favicon32 from '../../content/global/images/favicon-32.png';
 import SiteHeader from '../SiteHeader';
 import { WebsiteFooter } from '@carbon/addons-website';
 import timestamp from 'raw-loader!../../../build-timestamp';
-import SmoothScroll from 'smooth-scroll';
 
 import '../../styles/index.scss';
 
