@@ -13,13 +13,15 @@ export default class Carousel extends React.Component {
 
     this.state = {
       checkedRadio: 1,
-      // autoplay: setInterval(this.nextSlide, 6000),
+      autoplay: setInterval(this.nextSlide, 6000),
       items: numArr,
     };
   }
 
   componentDidMount() {
-    const slide = document.querySelector(`.${this.props.id}`);
+    const slide = document.querySelector(
+      `.ibm--carousel-slide.${this.props.id}`
+    );
     slide.addEventListener('touchstart', this.touchStart, false);
     slide.addEventListener('touchmove', this.touchMove, false);
     slide.addEventListener('mousedown', this.mouseStart);
@@ -147,21 +149,15 @@ export default class Carousel extends React.Component {
 
   //UPDATING RADIO BUTTON
   onChange = e => {
-    console.log(
-      this.props.id,
-      'changing from',
-      this.state.checkedRadio,
-      'to',
-      e
+    const slide = document.querySelector(
+      `.ibm--carousel-slide.${this.props.id}`
     );
-
-    const slide = document.querySelector(`.${this.props.id}`);
     const images = slide.querySelectorAll('img');
 
-    // clearInterval(this.state.autoplay);
+    clearInterval(this.state.autoplay);
     this.setState({
       checkedRadio: e,
-      // autoplay: setInterval(this.nextSlide, 6000),
+      autoplay: setInterval(this.nextSlide, 6000),
     });
 
     images.forEach(img => {
@@ -171,44 +167,31 @@ export default class Carousel extends React.Component {
 
   render() {
     const { children, id, count } = this.props;
-    const img = children[1].props.children[3].props;
-    const img2 = children[3].props.children[3].props;
-    const img3 = children[5].props.children[3].props;
-    const img4 = children[7].props.children[3].props;
+    const imgArr = this.state.items.map((i, x) => {
+      const index = i + x;
+      return children[index].props.children[3].props;
+    });
 
     return (
       <div className={`ibm--carousel ${this.props.id}`}>
         <div className="ibm--carousel-slide-wrapper">
           <div className={`ibm--carousel-slide ${this.props.id}`}>
-            <img
-              draggable="false"
-              src={img.src}
-              alt={img.alt}
-              className={img.className}
-            />
-            <img
-              draggable="false"
-              src={img2.src}
-              alt={img2.alt}
-              className={img2.className}
-            />
-            <img
-              draggable="false"
-              src={img3.src}
-              alt={img3.alt}
-              className={img3.className}
-            />
-            <img
-              draggable="false"
-              src={img4.src}
-              alt={img4.alt}
-              className={img4.className}
-            />
+            {imgArr.map((img, i) => {
+              return (
+                <img
+                  draggable="false"
+                  src={img.src}
+                  alt={img.alt}
+                  key={`img-${i}`}
+                  className={img.className}
+                />
+              );
+            })}
           </div>
         </div>
         <RadioButtonGroup
-          className={`ibm--carousel-nav-wrapper ${this.props.id}`}
-          name={`Carousel nav ${this.props.id}`}
+          className={'ibm--carousel-nav-wrapper'}
+          name={`Carousel navigation ${this.props.id}`}
           valueSelected={this.state.checkedRadio}
           onChange={this.onChange}>
           {this.state.items.map(i => {
