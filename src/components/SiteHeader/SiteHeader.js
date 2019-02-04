@@ -145,7 +145,7 @@ const SiteHeader = ({
                   linkText: 'IBM Digital Design',
                 },
                 {
-                  href: 'https://www.ibm.com/design/product',
+                  href: 'https://next.carbondesignsystem.com',
                   linkText: 'IBM Product Design',
                 },
               ]}
