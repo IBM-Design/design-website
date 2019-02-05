@@ -141,7 +141,7 @@ const SiteHeader = ({
               isSwitcherOpen={isSwitcherExpanded}
               links={[
                 {
-                  href: '/language/',
+                  href: '/design/language/',
                   linkText: 'IBM Design Language',
                 },
                 {
