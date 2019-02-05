@@ -64,7 +64,7 @@ const SiteHeader = ({
                     Overview
                   </HeaderMenuItem>
                   <HeaderMenuItem
-                    to="/approach/design-philosophy"
+                    to="/approach/design-philosophy/"
                     element={Link}>
                     Design philosophy
                   </HeaderMenuItem>
