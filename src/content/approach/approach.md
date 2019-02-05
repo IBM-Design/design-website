@@ -52,7 +52,7 @@ business problems
     feature_description="Learn how you can apply the same framework our teams use every day."
     href="/approach/design-thinking"
     title="Learn more">
-<img src="images/thinking.svg" alt="Geometric shapes"/>
+<img src="images/design-thinking.svg" alt="Geometric shapes"/>
 </tile>
 <tile
     feature="true"
