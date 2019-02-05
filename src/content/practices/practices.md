@@ -50,7 +50,7 @@ meets pragmatic.</span>
 <column lg="12" offset_lg="4">
 
 <tile
-    href="https://www.ibm.com/design/language/"
+    href="/language/"
     size="lg"
     background="#373737"
     dark="true"

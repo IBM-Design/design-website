@@ -68,10 +68,14 @@ const SiteHeader = ({
                     element={Link}>
                     Design philosophy
                   </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-thinking/" element={Link}>
+                  <HeaderMenuItem
+                    to="/approach/design-thinking/"
+                    element={Link}>
                     Design thinking
                   </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-services/" element={Link}>
+                  <HeaderMenuItem
+                    to="/approach/design-services/"
+                    element={Link}>
                     Design services
                   </HeaderMenuItem>
                 </HeaderMenu>
@@ -137,7 +141,7 @@ const SiteHeader = ({
               isSwitcherOpen={isSwitcherExpanded}
               links={[
                 {
-                  href: 'https://www.ibm.com/design/language/',
+                  href: '/language/',
                   linkText: 'IBM Design Language',
                 },
                 {
