@@ -138,7 +138,7 @@ meets pragmatic.</span>
 <column lg="12" offset_lg="4">
 
 <tile
-    href="https://www.ibm.com/design/research/"
+    href="/research/"
     size="lg"
     background="#F2BDD8"
     dark="true"
