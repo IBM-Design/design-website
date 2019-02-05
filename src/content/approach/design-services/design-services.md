@@ -98,7 +98,7 @@ Customers and employees are won and lost by the quality of your experience, not 
 </column>
 <column lg="4" md="4">
 
-![Design thinking artwork](../images/thinking-sm.svg)
+![Design thinking artwork](../images/design-thinking-sm.svg)
 
 ##### Design thinking
 

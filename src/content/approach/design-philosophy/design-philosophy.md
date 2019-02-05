@@ -96,7 +96,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
 </column>
 <column lg="4" md="4">
 
-![Design thinking artwork](../images/thinking-sm.svg)
+![Design thinking artwork](../images/design-thinking-sm.svg)
 
 ##### Design thinking
 
