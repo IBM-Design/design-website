@@ -60,7 +60,7 @@ const SiteHeader = ({
 
               <HeaderNavigation aria-label="Main Navigation">
                 <HeaderMenu aria-label="Approach" className={approachClassName}>
-                  <HeaderMenuItem to="/approach" element={Link}>
+                  <HeaderMenuItem to="/approach/" element={Link}>
                     Overview
                   </HeaderMenuItem>
                   <HeaderMenuItem
@@ -68,20 +68,20 @@ const SiteHeader = ({
                     element={Link}>
                     Design philosophy
                   </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-thinking" element={Link}>
+                  <HeaderMenuItem to="/approach/design-thinking/" element={Link}>
                     Design thinking
                   </HeaderMenuItem>
-                  <HeaderMenuItem to="/approach/design-services" element={Link}>
+                  <HeaderMenuItem to="/approach/design-services/" element={Link}>
                     Design services
                   </HeaderMenuItem>
                 </HeaderMenu>
-                <HeaderMenuItem to="/teams" element={Link}>
+                <HeaderMenuItem to="/teams/" element={Link}>
                   Teams
                 </HeaderMenuItem>
-                <HeaderMenuItem to="/practices" element={Link}>
+                <HeaderMenuItem to="/practices/" element={Link}>
                   Practices
                 </HeaderMenuItem>
-                <HeaderMenuItem to="/impact" element={Link}>
+                <HeaderMenuItem to="/impact/" element={Link}>
                   Impact
                 </HeaderMenuItem>
               </HeaderNavigation>
@@ -101,32 +101,32 @@ const SiteHeader = ({
                 <SideNavMenu
                   title="Approach"
                   defaultExpanded={approachActive ? 'true' : 'false'}>
-                  <SideNavMenuItem to="/approach" element={Link}>
+                  <SideNavMenuItem to="/approach/" element={Link}>
                     Overview
                   </SideNavMenuItem>
                   <SideNavMenuItem
-                    to="/approach/design-philosophy"
+                    to="/approach/design-philosophy/"
                     element={Link}>
                     Design philosophy
                   </SideNavMenuItem>
                   <SideNavMenuItem
-                    to="/approach/design-thinking"
+                    to="/approach/design-thinking/"
                     element={Link}>
                     Design thinking
                   </SideNavMenuItem>
                   <SideNavMenuItem
-                    to="/approach/design-services"
+                    to="/approach/design-services/"
                     element={Link}>
                     Design services
                   </SideNavMenuItem>
                 </SideNavMenu>
-                <SideNavLink to="/teams" element={Link}>
+                <SideNavLink to="/teams/" element={Link}>
                   Teams
                 </SideNavLink>
-                <SideNavLink to="/practices" element={Link}>
+                <SideNavLink to="/practices/" element={Link}>
                   Practices
                 </SideNavLink>
-                <SideNavLink to="/impact" element={Link}>
+                <SideNavLink to="/impact/" element={Link}>
                   Impact
                 </SideNavLink>
               </SideNavItems>
