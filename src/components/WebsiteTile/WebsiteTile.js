@@ -62,6 +62,11 @@ export default class WebsiteTile extends React.Component {
      * feature style, default or alt
      */
     feature_style: PropTypes.string,
+
+    /**
+     * allows href to open in same winndow, default to true
+     */
+    new_window: PropTypes.string,
   };
 
   render() {
@@ -78,6 +83,7 @@ export default class WebsiteTile extends React.Component {
       feature_description,
       feature_background,
       feature_style,
+      new_window,
     } = this.props;
 
     const internalLink = href.startsWith('/');
@@ -158,8 +164,8 @@ export default class WebsiteTile extends React.Component {
           ) : (
             <div>
               <a
-                target="_blank"
-                rel="noopener noreferrer"
+                target={new_window === 'false' ? '_self' : '_blank'}
+                rel={new_window === 'false' ? '' : 'noopener noreferrer'}
                 href={href}
                 className={classNames}>
                 <div className={backgroundClassnames}>
@@ -204,7 +210,10 @@ export default class WebsiteTile extends React.Component {
                   {clickableTile}
                 </Link>
               ) : (
-                <a target="_blank" rel="noopener noreferrer" href={href}>
+                <a
+                  target={new_window === 'false' ? '_self' : '_blank'}
+                  rel={new_window === 'false' ? '' : 'noopener noreferrer'}
+                  href={href}>
                   <div className={backgroundClassnames}>
                     <div className="ibm--col-lg-4 ibm--offset-lg-1 ibm--col-md-3">
                       <h2
@@ -239,7 +248,10 @@ export default class WebsiteTile extends React.Component {
           </div>
         ) : (
           <div className={classNames}>
-            <a target="_blank" rel="noopener noreferrer" href={href}>
+            <a
+              target={new_window === 'false' ? '_self' : '_blank'}
+              rel={new_window === 'false' ? '' : 'noopener noreferrer'}
+              href={href}>
               <div className="tile__img">{children}</div>
               {clickableTile}
             </a>
@@ -258,4 +270,5 @@ WebsiteTile.defaultProps = {
   feature_style: 'default',
   feature_heading: '',
   title_size: 'default',
+  new_window: 'true',
 };

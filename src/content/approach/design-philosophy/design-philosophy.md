@@ -55,8 +55,6 @@ IBM has always served as a medium between mankind and machine, blending science,
 </column>
 <column lg="3" offset_lg="1"  md="3" sm="0">
 
-> **Here → There**<br>Everything IBM and IBMers do is this. Everything we design should too.
-
 </column>
 </grid>
 <grid background="gray-10" classname="background--tight">
@@ -80,7 +78,8 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <column lg="16">
 
 <tile
-    href="https://www.ibm.com/design/language"
+    href="https://wwwpoc.ibm.com/design/language/"
+    new_window="false"
     title="IBM Design Language"
     feature="true"
     feature_heading="See how we bring our philosophy to life in our design systems."
