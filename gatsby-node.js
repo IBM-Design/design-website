@@ -43,6 +43,30 @@ exports.createPages = ({ actions, graphql }) => {
     isPermanent: true,
   });
 
+  createRedirect({
+    fromPath: '/studio.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/teams/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/work.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/impact/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/careers.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/teams#find-your-team/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/social.shtml',
+    toPath: 'https://medium.com/design-ibm',
+    isPermanent: true,
+  });
+
   return graphql(`
     {
       allMarkdownRemark {
