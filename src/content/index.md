@@ -44,7 +44,7 @@ people we serve.</span>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/impact/quantum"
+    href="/impact/quantum/"
     caption="impact/quantum"
     title="Gallery: Quantum computing">
 <img src="images/Image_1.jpg" alt="" />
