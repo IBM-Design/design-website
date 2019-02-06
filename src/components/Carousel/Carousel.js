@@ -155,20 +155,22 @@ export default class Carousel extends React.Component {
 
   //UPDATING RADIO BUTTON
   onChange = e => {
-    const slide = document.querySelector(
-      `.ibm--carousel-slide.${this.props.id}`
-    );
-    const images = slide.querySelectorAll('img');
+    if (typeof document !== undefined) {
+      const slide = document.querySelector(
+        `.ibm--carousel-slide.${this.props.id}`
+      );
+      const images = slide.querySelectorAll('img');
 
-    clearInterval(this.state.autoplay);
-    this.setState({
-      checkedRadio: e,
-      autoplay: setInterval(this.nextSlide, 6000),
-    });
+      clearInterval(this.state.autoplay);
+      this.setState({
+        checkedRadio: e,
+        autoplay: setInterval(this.nextSlide, 6000),
+      });
 
-    images.forEach(img => {
-      img.style.transform = `translate(${e * -100 + 100}%, 0)`;
-    });
+      images.forEach(img => {
+        img.style.transform = `translate(${e * -100 + 100}%, 0)`;
+      });
+    }
   };
 
   render() {
