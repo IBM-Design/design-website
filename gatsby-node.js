@@ -2,6 +2,12 @@ const path = require('path');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const { copy } = require('fs-extra');
 
+createRedirect({
+  fromPath: '/practices.shtml',
+  toPath: '/practices',
+  isPermanent: true,
+});
+
 // Method that creates nodes based on the file system that we can use in our templates
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
