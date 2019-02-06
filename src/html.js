@@ -3,6 +3,36 @@ import PropTypes from 'prop-types';
 
 export default class HTML extends React.Component {
   render() {
+    if (typeof window !== 'undefined') {
+      window.digitalData = {
+        page: {
+          category: {
+            primaryCategory: 'SB03',
+          },
+          pageInfo: {
+            effectiveDate: '2019-01-01',
+            expiryDate: '2099-01-01',
+            language: 'en-US',
+            publishDate: '2019-02-01',
+            publisher: 'IBM Corporation',
+            version: 'v1',
+            ibm: {
+              contentDelivery: 'ECM/Filegen',
+              contentProducer:
+                'ECM/IConS Adopter ## - #synkey# - 11/19/2014 05:14:00 PM',
+              country: 'US',
+              industry: '______',
+              owner: 'Alison Joseph/Austin/IBM',
+              owningPortal: '______',
+              siteID: '______',
+              subject: '______',
+              type: 'CT###',
+            },
+          },
+        },
+      };
+    }
+
     return (
       <html {...this.props.htmlAttributes}>
         <head>
@@ -14,37 +44,6 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
           <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js" />
-          {() => {
-            if (typeof window !== 'undefined') {
-              window.digitalData = {
-                page: {
-                  category: {
-                    primaryCategory: 'SB03',
-                  },
-                  pageInfo: {
-                    effectiveDate: '2019-01-01',
-                    expiryDate: '2099-01-01',
-                    language: 'en-US',
-                    publishDate: '2019-02-01',
-                    publisher: 'IBM Corporation',
-                    version: 'v1',
-                    ibm: {
-                      contentDelivery: 'ECM/Filegen',
-                      contentProducer:
-                        'ECM/IConS Adopter ## - #synkey# - 11/19/2014 05:14:00 PM',
-                      country: 'US',
-                      industry: '______',
-                      owner: 'Alison Joseph/Austin/IBM',
-                      owningPortal: '______',
-                      siteID: '______',
-                      subject: '______',
-                      type: 'CT###',
-                    },
-                  },
-                },
-              };
-            }
-          }();}
 
           <script
             src="https://www.ibm.com/common/stats/ida_stats.js"
