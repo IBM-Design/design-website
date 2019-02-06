@@ -2,12 +2,6 @@ const path = require('path');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const { copy } = require('fs-extra');
 
-createRedirect({
-  fromPath: '/practices.shtml',
-  toPath: '/practices',
-  isPermanent: true,
-});
-
 // Method that creates nodes based on the file system that we can use in our templates
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -41,7 +35,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 // Method that creates the pages for our website
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
+
+  createRedirect({
+    fromPath: '/practices.shtml',
+    toPath: '/practices',
+    isPermanent: true,
+  });
 
   return graphql(`
     {
