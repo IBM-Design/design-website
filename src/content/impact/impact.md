@@ -54,7 +54,7 @@ the means.<br>
 </column>
 
 <column lg="4"  md="4">
-  <tile title_size="small" title="Gallery: Quantum computing" caption="impact/quantum" href="/impact/quantum">
+  <tile title_size="small" title="Gallery: Quantum computing" caption="impact/quantum" href="/impact/quantum/">
     <img src="images/Image_2.jpg" alt=""/>
   </tile>
 

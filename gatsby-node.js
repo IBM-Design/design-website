@@ -39,7 +39,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   createRedirect({
     fromPath: '/practices.shtml',
-    toPath: '/practices',
+    toPath: 'http://wwwpoc.ibm.com/design/practices/',
     isPermanent: true,
   });
 
