@@ -12,9 +12,9 @@ business problems
 <anchor-links>
 
 <ul>
-<li><a data-scroll href="#design-philosophy">Design philosophy</a></li>
-<li><a data-scroll href="#design-thinking">Design thinking</a></li>
-<li><a data-scroll href="#design-services">Design services</a></li>
+<li><a data-scroll href="#design-philosophy">Design Philosophy</a></li>
+<li><a data-scroll href="#design-thinking">Design Thinking</a></li>
+<li><a data-scroll href="#design-services">Design Services</a></li>
 </ul>
 
 </anchor-links>
