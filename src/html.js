@@ -14,11 +14,7 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
           <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js" />
-          <script
-            src="https://www.ibm.com/common/stats/ida_stats.js"
-            type="text/javascript">
-            //
-          </script>
+          
           <script>
             digitalData = {
                 page: {
@@ -46,6 +42,11 @@ export default class HTML extends React.Component {
                     }
                 }
             };
+          </script>
+          <script
+            src="https://www.ibm.com/common/stats/ida_stats.js"
+            type="text/javascript">
+            //
           </script>
         </head>
         <body {...this.props.bodyAttributes}>
