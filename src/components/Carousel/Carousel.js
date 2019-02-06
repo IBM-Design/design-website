@@ -19,13 +19,15 @@ export default class Carousel extends React.Component {
   }
 
   componentDidMount() {
-    const slide = document.querySelector(
-      `.ibm--carousel-slide.${this.props.id}`
-    );
-    slide.addEventListener('touchstart', this.touchStart, false);
-    slide.addEventListener('touchmove', this.touchMove, false);
-    slide.addEventListener('mousedown', this.mouseStart);
-    slide.addEventListener('mousemove', this.mouseMove);
+    if (typeof document !== undefined) {
+      const slide = document.querySelector(
+        `.ibm--carousel-slide.${this.props.id}`
+      );
+      slide.addEventListener('touchstart', this.touchStart, false);
+      slide.addEventListener('touchmove', this.touchMove, false);
+      slide.addEventListener('mousedown', this.mouseStart);
+      slide.addEventListener('mousemove', this.mouseMove);
+    }
   }
 
   componentWillUnmount() {
