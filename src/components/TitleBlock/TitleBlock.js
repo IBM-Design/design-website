@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 
 const eyeBeeM = (
   <svg
-    className="eye-bee-m"
     xmlns="http://www.w3.org/2000/svg"
     enable-background="new 0 0 30 72"
     viewBox="0 0 30 72"
@@ -49,7 +48,7 @@ export default class TitleBlock extends React.Component {
               <div className="ibm--row">
                 <Fade bottom cascade distance="10%">
                   <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">
-                    {eyeBeeM}
+                    <div className="eye-bee-m">{eyeBeeM}</div>
                     <h1 className="title-block__text">{children}</h1>
                   </div>
                 </Fade>

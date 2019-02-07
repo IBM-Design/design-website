@@ -29,6 +29,11 @@
   @include breakpoint('md') {
     margin-top: auto;
   }
+
+  svg {
+    height: 72px;
+    width: 30px;
+  }
 }
 
 .title-block__content {
