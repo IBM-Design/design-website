@@ -4,6 +4,12 @@ import { Play32 } from '@carbon/icons-react';
 import Player from '@vimeo/player';
 
 export default class Video extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.onClick = this.onClick.bind(this);
+  }
+
   componentDidMount() {
     const iframe = document.querySelector('iframe');
     const player = new Player(iframe);
@@ -29,7 +35,8 @@ export default class Video extends React.Component {
     }
   };
 
-  onClick = () => {
+  onClick = evt => {
+    evt.preventDefault;
     const video = document.querySelector('.ibm--video-wrapper');
     const iframe = video.querySelector('iframe');
     const player = new Player(iframe);
