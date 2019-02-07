@@ -50,7 +50,7 @@ meets pragmatic.</span>
 <column lg="12" offset_lg="4">
 
 <tile
-    href="https://wwwpoc.ibm.com/design/language/"
+    href="https://www.ibm.com/design/language/"
     new_window="false"
     size="lg"
     background="#373737"
@@ -139,7 +139,7 @@ meets pragmatic.</span>
 <column lg="12" offset_lg="4">
 
 <tile
-    href="https://wwwpoc.ibm.com/design/research/"
+    href="https://www.ibm.com/design/research/"
     new_window="false"
     size="lg"
     background="#F2BDD8"
