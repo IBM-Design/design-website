@@ -35,7 +35,37 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 // Method that creates the pages for our website
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
+
+  createRedirect({
+    fromPath: '/practices.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/practices/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/studio.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/teams/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/work.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/impact/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/careers.shtml',
+    toPath: 'http://wwwpoc.ibm.com/design/teams#find-your-team/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/social.shtml',
+    toPath: 'https://medium.com/design-ibm',
+    isPermanent: true,
+  });
 
   return graphql(`
     {
