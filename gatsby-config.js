@@ -77,5 +77,6 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-meta-redirect', //this neeeds to stay as the last item
   ],
 };
