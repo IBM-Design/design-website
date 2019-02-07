@@ -3,11 +3,11 @@
 
   @include breakpoint('md') {
     height: calc(100vh - 48px);
-    min-height: 540px;
+    //min-height: 540px;
   }
 
   @include breakpoint('lg') {
-    min-height: 640px;
+    //min-height: 640px;
   }
 }
 
