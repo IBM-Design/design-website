@@ -104,7 +104,7 @@ const SiteHeader = ({
               <SideNavItems>
                 <SideNavMenu
                   title="Approach"
-                  defaultExpanded={approachActive ? 'true' : 'false'}>
+                  defaultExpanded={approachActive ? true : false}>
                   <SideNavMenuItem to="/approach/" element={Link}>
                     Overview
                   </SideNavMenuItem>
