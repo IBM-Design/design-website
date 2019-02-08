@@ -141,11 +141,11 @@ const SiteHeader = ({
               isSwitcherOpen={isSwitcherExpanded}
               links={[
                 {
-                  href: 'https://wwwpoc.ibm.com/design/',
+                  href: 'https://www.ibm.com/design/',
                   linkText: 'IBM Design',
                 },
                 {
-                  href: 'https://wwwpoc.ibm.com/design/language/',
+                  href: 'https://www.ibm.com/design/language/',
                   linkText: 'IBM Design Language',
                 },
                 {

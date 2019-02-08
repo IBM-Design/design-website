@@ -39,25 +39,25 @@ exports.createPages = ({ actions, graphql }) => {
 
   createRedirect({
     fromPath: '/practices.shtml',
-    toPath: 'http://wwwpoc.ibm.com/design/practices/',
+    toPath: 'http://www.ibm.com/design/practices/',
     isPermanent: true,
   });
 
   createRedirect({
     fromPath: '/studio.shtml',
-    toPath: 'http://wwwpoc.ibm.com/design/teams/',
+    toPath: 'http://www.ibm.com/design/teams/',
     isPermanent: true,
   });
 
   createRedirect({
     fromPath: '/work.shtml',
-    toPath: 'http://wwwpoc.ibm.com/design/impact/',
+    toPath: 'http://www.ibm.com/design/impact/',
     isPermanent: true,
   });
 
   createRedirect({
     fromPath: '/careers.shtml',
-    toPath: 'http://wwwpoc.ibm.com/design/teams#find-your-team/',
+    toPath: 'http://www.ibm.com/design/teams#find-your-team/',
     isPermanent: true,
   });
 

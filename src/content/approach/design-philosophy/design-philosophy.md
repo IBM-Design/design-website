@@ -78,7 +78,7 @@ Like our brand values, our design ethos must be palpable in everything we produc
 <column lg="16">
 
 <tile
-    href="https://wwwpoc.ibm.com/design/language/"
+    href="https://www.ibm.com/design/language/"
     new_window="false"
     title="IBM Design Language"
     feature="true"
