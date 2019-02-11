@@ -13,7 +13,7 @@ jobs:
           name: Confirm project can build
           command: |
             yarn build
-     - deploy:
+      - deploy:
           name: deploy to IBM Cloud production US
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
@@ -47,5 +47,3 @@ jobs:
               ibmcloud cf blue-green-deploy slash-design-root \
                 -f .circleci/manifest.prod.yml \
                 --delete-old-apps
-
-      
