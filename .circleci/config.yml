@@ -47,3 +47,4 @@ jobs:
               ibmcloud cf blue-green-deploy slash-design-root \
                 -f .circleci/manifest.prod.yml \
                 --delete-old-apps
+            fi
