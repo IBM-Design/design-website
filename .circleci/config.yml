@@ -20,7 +20,7 @@ jobs:
               # Install `ibmcloud` CLI
               curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
 
-              # Login and push next manifest
+              # Login and push to US
               ibmcloud login \
                 --apikey $CLOUD_API_KEY \
                 -a https://api.ng.bluemix.net \
@@ -33,14 +33,8 @@ jobs:
               ibmcloud cf blue-green-deploy slash-design-root \
                 -f .circleci/manifest.prod.yml \
                 --delete-old-apps
-      - deploy:
-          name: deploy to IBM Cloud production Germany
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              # Install `ibmcloud` CLI
-              curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
 
-              # Login and push next manifest
+              # Login and push to Germany
               ibmcloud login \
                 --apikey $CLOUD_API_KEY \
                 -a https://api.eu-de.bluemix.net \
