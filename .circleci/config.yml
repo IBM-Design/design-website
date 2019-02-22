@@ -13,4 +13,38 @@ jobs:
           name: Confirm project can build
           command: |
             yarn build
-      
+      - deploy:
+          name: deploy to IBM Cloud production US
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              # Install `ibmcloud` CLI
+              curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
+
+              # Login and push to US
+              ibmcloud login \
+                --apikey $CLOUD_API_KEY \
+                -a https://api.ng.bluemix.net \
+                -o IBMDesignOrg \
+                -s slashDesign
+
+              ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
+              ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
+
+              ibmcloud cf blue-green-deploy slash-design-root \
+                -f .circleci/manifest.prod.yml \
+                --delete-old-apps
+
+              # Login and push to Germany
+              ibmcloud login \
+                --apikey $CLOUD_API_KEY \
+                -a https://api.eu-de.bluemix.net \
+                -o IBMDesignOrg \
+                -s slashDesign
+
+              ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
+              ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
+
+              ibmcloud cf blue-green-deploy slash-design-root \
+                -f .circleci/manifest.prod.yml \
+                --delete-old-apps
+            fi

@@ -23,7 +23,7 @@ module.exports = {
       options: {
         name: `IBM Design`,
         short_name: `IBM Design`,
-        start_url: `/design`,
+        start_url: `/`,
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
@@ -77,5 +77,6 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-meta-redirect', //this neeeds to stay as the last item
   ],
 };

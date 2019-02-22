@@ -104,7 +104,7 @@ const SiteHeader = ({
               <SideNavItems>
                 <SideNavMenu
                   title="Approach"
-                  defaultExpanded={approachActive ? 'true' : 'false'}>
+                  defaultExpanded={approachActive ? true : false}>
                   <SideNavMenuItem to="/approach/" element={Link}>
                     Overview
                   </SideNavMenuItem>
@@ -141,16 +141,32 @@ const SiteHeader = ({
               isSwitcherOpen={isSwitcherExpanded}
               links={[
                 {
-                  href: '/design/language/',
+                  href: 'https://www.ibm.com/design/',
+                  linkText: 'IBM Design',
+                },
+                {
+                  href: 'https://www.ibm.com/design/language/',
                   linkText: 'IBM Design Language',
+                },
+                {
+                  href: 'https://next.carbondesignsystem.com',
+                  linkText: 'IBM Product Design',
                 },
                 {
                   href: 'https://www.ibm.com/standards/web/',
                   linkText: 'IBM Digital Design',
                 },
                 {
-                  href: 'https://next.carbondesignsystem.com',
-                  linkText: 'IBM Product Design',
+                  href: 'https://www.ibm.com/design/research/',
+                  linkText: 'IBM Design Research',
+                },
+                {
+                  href: 'https://www.ibm.com/design/thinking/',
+                  linkText: 'Enterprise Design Thinking',
+                },
+                {
+                  href: 'https://www.ibm.com/services/ibmix/',
+                  linkText: 'IBM iX',
                 },
               ]}
             />

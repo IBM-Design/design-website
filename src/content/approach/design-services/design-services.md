@@ -44,7 +44,7 @@ Customers and employees are won and lost by the quality of your experience, not 
 
 ### Designing progressive digital strategies
 
-Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
+A business strategy that fails to account for the constantly changing needs and behaviors of its customers isn’t much of a strategy at all. We forge versatile, enduring strategies by reimagining how an organization innovates, operates, and engages with its environment, employees, customers, and partners.
 
 <div>
 – Digital reinvention<br>
@@ -57,7 +57,7 @@ Customers and employees are won and lost by the quality of your experience, not 
 
 ### Putting customer platforms to work
 
-Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
+In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of consult-to-operate services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.
 
 <div>
 – Marketing operations<br>

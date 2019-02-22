@@ -21,7 +21,7 @@
     "storybook:build": "build-storybook -c .storybook -o public/docs"
   },
   "dependencies": {
-    "@carbon/addons-website": "^0.0.1-alpha.16",
+    "@carbon/addons-website": "^0.0.1-alpha.17",
     "@carbon/colors": "0.0.1-alpha.31",
     "@carbon/grid": "0.0.1-alpha.31",
     "@carbon/icons-react": "0.0.1-alpha.31",
@@ -32,8 +32,8 @@
     "@storybook/addon-info": "^4.0.9",
     "@vimeo/player": "^2.6.7",
     "animate.css": "^3.7.0",
-    "carbon-components": "^9.69.0",
-    "carbon-components-react": "6.84.2",
+    "carbon-components": "^9.73.3",
+    "carbon-components-react": "6.88.0",
     "carbon-icons": "^7.0.7",
     "classnames": "^2.2.6",
     "custom-event": "^1.0.1",
@@ -45,6 +45,7 @@
     "gatsby-plugin-catch-links": "^2.0.10",
     "gatsby-plugin-google-analytics": "^2.0.8",
     "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-offline": "^2.0.18",
     "gatsby-plugin-react-helmet": "3.0.3",
     "gatsby-plugin-sass": "2.0.4",
