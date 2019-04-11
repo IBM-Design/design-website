@@ -24,7 +24,7 @@ module.exports = {
         name: `IBM Design`,
         short_name: `IBM Design`,
         start_url: `/`,
-        background_color: `#000000`,
+        background_color: `#171717`,
         theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/content/global/images/home-icon.png`, // This path is relative to the root of the site.
