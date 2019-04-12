@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Play32 } from '@carbon/icons-react';
 import Player from '@vimeo/player';
+import classnames from 'classnames';
 
 export default class Video extends React.Component {
   constructor(props) {
@@ -9,6 +10,8 @@ export default class Video extends React.Component {
 
     this.onClick = this.onClick.bind(this);
   }
+
+  state = {};
 
   componentDidMount() {
     const iframe = document.querySelector('iframe');
@@ -40,11 +43,17 @@ export default class Video extends React.Component {
     const video = document.querySelector('.ibm--video-wrapper');
     const iframe = video.querySelector('iframe');
     const player = new Player(iframe);
-    video.classList.add('active');
-    player.setLoop(false);
-    player.setCurrentTime(0);
-    player.setVolume(1);
-    player.play();
+    this.setState(
+      {
+        isVideoWrapperActive: true,
+      },
+      () => {
+        player.setLoop(false);
+        player.setCurrentTime(0);
+        player.setVolume(1);
+        player.play();
+      }
+    );
   };
 
   onEnd = () => {
@@ -53,9 +62,15 @@ export default class Video extends React.Component {
     const player = new Player(iframe);
     player.loadVideo(304672438).then(() => {
       player.setLoop(true).then(() => {
-        video.classList.remove('active');
+        this.setState(
+          {
+            isVideoWrapperActive: false,
+          },
+          () => {
+            player.setVolume(0);
+          }
+        );
       });
-      player.setVolume(0);
     });
   };
 
@@ -141,9 +156,12 @@ export default class Video extends React.Component {
         </g>
       </svg>
     );
+    const videoWrapperClassName = classnames('ibm--video-wrapper', {
+      '  active': this.state.isVideoWrapperActive,
+    });
 
     return (
-      <div className="ibm--video-wrapper" onClick={this.onClick}>
+      <div className={videoWrapperClassName} onClick={this.onClick}>
         {children}
         <div className="ibm--video-overlay" />
         <div className="ibm--video-controls">{svgPlayBtn}</div>
