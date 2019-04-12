@@ -33,6 +33,7 @@ export default class Video extends React.Component {
     children: PropTypes.node,
   };
 
+  // Only plays second video if key = spacebar & it's currently first video
   onKeyDown = evt => {
     if (evt.which === 32) {
       this.player.getVideoId().then(id => {
@@ -49,6 +50,7 @@ export default class Video extends React.Component {
     }
   };
 
+  // Only plays second video if it's currently first video
   onClick = evt => {
     evt.preventDefault();
     this.player.getVideoId().then(id => {
@@ -64,6 +66,7 @@ export default class Video extends React.Component {
     });
   };
 
+  // Only re-starts if it's the end of the second video
   onEnd = () => {
     this.player.getVideoId().then(id => {
       if (id === SECOND_VIDEO_ID) {
