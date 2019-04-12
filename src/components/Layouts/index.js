@@ -88,6 +88,28 @@ class Layout extends React.Component {
                   content:
                     'IBM, design, design thinking, design system, human-centered design, user-centered design, design services',
                 },
+                {
+                  name: 'twitter:card',
+                  content: 'summary',
+                },
+                {
+                  name: 'twitter:site',
+                  content: '@ibmdesign',
+                },
+                {
+                  name: 'twitter:title',
+                  content: 'IBM Design',
+                },
+                {
+                  name: 'twitter:description',
+                  content:
+                    'At IBM, our design philosophy is to help guide people so they can do their best work.',
+                },
+                {
+                  name: 'twitter:image',
+                  content:
+                    'https://media.licdn.com/dms/image/C4D22AQGYrpghhY5wNQ/feedshare-shrink_8192/0?e=1550019600&v=beta&t=ZZ_vrBmH0IR6N6IjJI6alKcJBwU_PX9TtqkBbjVl9ps',
+                },
               ]}
               link={[
                 {
