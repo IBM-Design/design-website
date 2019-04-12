@@ -13,7 +13,7 @@ people we serve.</span>
 <column lg="16">
 
 <video>
-  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/304672438?muted=1&autoplay=1&loop=1?title=0&byline=0&portrait=0?color=ff0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+  <iframe id="homepage-video" title="IBM Design sizzle video" src="https://player.vimeo.com/video/329866992?&muted=1&loop=0&autoplay=1" allow="autoplay" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 </video>
 
 </column>
@@ -63,7 +63,7 @@ people we serve.</span>
 </column>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
-<tile title_size="small" 
+<tile title_size="small"
     href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/"
     caption="Type Directors Club"
     title="2018 Typeface design competition: Plex wins Judges’ Choice">
