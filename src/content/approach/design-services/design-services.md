@@ -7,9 +7,9 @@ title: Design services
 
 ## **Design Services**
 
-Most companies make things for their clients. We prefer to co-create with you.
+To make an impact on the world, businesses must lead through perpetual change.
 
-At iX, we blend design with innovative technologies and business strategy to offer you a comprehensive global business design partner.
+This requires a new kind of business partner with the ambition and imagination to drive world-changing progress.
 
 </column>
 <column lg="8" offset_lg="4" md="4">
@@ -29,40 +29,42 @@ At iX, we blend design with innovative technologies and business strategy to off
 </column>
 <column lg="4" offset_lg="4" border="true" md="5">
 
-### Creating future shaping experiences
+### Reinvent your enterprise.
 
-Customers and employees are won and lost by the quality of your experience, not by the promises you make. By blending analytics, design and development, we help you create authentic interactions that drive meaningful business impact.
+The rapidly changing business landscape requires new focus, new expertise, and new methods. IBM iX applies strategies to analyze, identify, and recommend new business opportunities to help companies future-proof themselves and evolve how they work.
 
 <div>
-– Branding and communications<br>
-– Experience strategy and design<br>
-– Content strategy and production
+– Future-proof your brand<br>
+– Evolve how you work<br>
+– Mobilize your workforce
 </div>
 
 </column>
 <column lg="4" border="true" md="5">
 
-### Designing progressive digital strategies
+### Transform your experiences.
 
-A business strategy that fails to account for the constantly changing needs and behaviors of its customers isn’t much of a strategy at all. We forge versatile, enduring strategies by reimagining how an organization innovates, operates, and engages with its environment, employees, customers, and partners.
+The last best experience that anyone has anywhere becomes the minimum expectation for the experience they want everywhere. IBM iX uses AI and human intuition to discover actionable insights that lead to innovative, on-brand experiences that drive measurable outcomes at scale.
+
 
 <div>
-– Digital reinvention<br>
-– Business and talent transformation<br>
-– Responsive operating models
+– Discover human insights<br>
+– Design for outcomes<br>
+– Innovate to meet expectations
 </div>
 
 </column>
 <column lg="4" border="true" md="5">
 
-### Putting customer platforms to work
+### Maximize your impact.
 
-In today’s world, people expect consistent, cohesive experiences at every touchpoint. Our insight-led strategy will help you do just that, providing a full range of consult-to-operate services across stores, web, mobile and support channels to help you create a seamless end-to-end experience for your clients and customers.
+Your business may be up and running, but it could always run better. From attracting and retaining customers to driving commerce and managing operations, IBM iX uses advanced design methodologies to unlock the potential of technologies from Adobe, Apple, IBM, Salesforce, SAP and many more.
+
 
 <div>
-– Marketing operations<br>
-– Omni-channel commerce<br>
-– Customer relationship management
+– Attract and retain your customers<br>
+– Drive commerce<br>
+– Manage operations
 </div>
 
 </column>

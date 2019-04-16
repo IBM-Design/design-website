@@ -25,8 +25,6 @@ Describe the full user experience for this feature. Also define the metrics by w
 
 Highlight any "must have" needs and functionality for the request.
 
-This should not be a full list of functionality; the Carbon team will work with you to define functionality based on the desired UX.
-
 ### Specific timeline issues / requests
 
 Do you want this work within a specific time period? Is it related to an upcoming release?
