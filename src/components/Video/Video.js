@@ -11,8 +11,7 @@ export default class Video extends React.Component {
   constructor(props) {
     super(props);
 
-    this.onClick = this.onClick.bind(this);
-    this.onKeyDown = this.onKeyDown.bind(this);
+    this.handlePlaySecondVideo = this.handlePlaySecondVideo.bind(this);
   }
 
   state = {
@@ -26,6 +25,13 @@ export default class Video extends React.Component {
     this.player.setLoop(false);
   }
 
+  componentWillUnmount() {
+    if (this.player) {
+      this.player.destroy();
+      this.player = null;
+    }
+  }
+
   static propTypes = {
     /**
      * iframe
@@ -33,9 +39,9 @@ export default class Video extends React.Component {
     children: PropTypes.node,
   };
 
-  // Only plays second video if key = spacebar & it's currently first video
-  onKeyDown = evt => {
-    if (evt.which === 32) {
+  // Play video on click or spacebar
+  handlePlaySecondVideo = evt => {
+    if ((evt.type === 'keydown' && evt.which === 32) || evt.type === 'click') {
       this.player.getVideoId().then(id => {
         if (id === FIRST_VIDEO_ID) {
           this.setState({ isVideoWrapperActive: true }, () => {
@@ -48,22 +54,6 @@ export default class Video extends React.Component {
         }
       });
     }
-  };
-
-  // Only plays second video if it's currently first video
-  onClick = evt => {
-    evt.preventDefault();
-    this.player.getVideoId().then(id => {
-      if (id === FIRST_VIDEO_ID) {
-        this.setState({ isVideoWrapperActive: true }, () => {
-          this.player.loadVideo(SECOND_VIDEO_ID).then(() => {
-            this.player.setLoop(false);
-            this.player.setVolume(1);
-            this.player.play();
-          });
-        });
-      }
-    });
   };
 
   // Only re-starts if it's the end of the second video
@@ -169,8 +159,8 @@ export default class Video extends React.Component {
     return (
       <div
         className={videoWrapperClassName}
-        onClick={this.onClick}
-        onKeyDown={this.onKeyDown}
+        onClick={this.handlePlaySecondVideo}
+        onKeyDown={this.handlePlaySecondVideo}
         tabindex="0">
         {children}
         <div className="ibm--video-overlay" />
