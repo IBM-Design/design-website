@@ -14,12 +14,14 @@ export default class Video extends React.Component {
     this.handlePlaySecondVideo = this.handlePlaySecondVideo.bind(this);
   }
 
+  _container = React.createRef();
+
   state = {
     isVideoWrapperActive: false,
   };
 
   componentDidMount() {
-    const iframe = document.querySelector('#homepage-video');
+    const iframe = this._container.current.querySelector('iframe');
     this.player = new Player(iframe);
     this.player.on('ended', this.onEnd);
     this.player.setLoop(false);
@@ -158,10 +160,11 @@ export default class Video extends React.Component {
 
     return (
       <div
+        ref={this._container}
         className={videoWrapperClassName}
         onClick={this.handlePlaySecondVideo}
         onKeyDown={this.handlePlaySecondVideo}
-        tabindex="0">
+        tabIndex="0">
         {children}
         <div className="ibm--video-overlay" />
         <div className="ibm--video-controls">{svgPlayBtn}</div>
