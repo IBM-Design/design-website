@@ -166,12 +166,12 @@ const SiteHeader = ({
                   linkText: 'IBM Design Research',
                 },
                 {
-                  href: 'https://www.ibm.com/services/ibmix/',
-                  linkText: 'IBM iX',
-                },
-                {
                   href: 'https://www.ibm.com/design/ai/',
                   linkText: 'IBM Design for AI',
+                },
+                {
+                  href: 'https://www.ibm.com/services/ibmix/',
+                  linkText: 'IBM iX',
                 },
               ]}
             />
