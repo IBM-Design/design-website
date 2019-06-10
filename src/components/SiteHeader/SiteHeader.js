@@ -140,13 +140,14 @@ const SiteHeader = ({
               aria-label="Site switcher"
               isSwitcherOpen={isSwitcherExpanded}
               links={[
-                {
-                  href: 'https://www.ibm.com/design/',
-                  linkText: 'IBM Design',
-                },
+                { href: 'https://www.ibm.com/design/', linkText: 'IBM Design' },
                 {
                   href: 'https://www.ibm.com/design/language/',
                   linkText: 'IBM Design Language',
+                },
+                {
+                  href: 'https://www.ibm.com/design/brand/',
+                  linkText: 'IBM Brand Center',
                 },
                 {
                   href: 'https://www.carbondesignsystem.com',
@@ -157,12 +158,16 @@ const SiteHeader = ({
                   linkText: 'IBM Digital Design',
                 },
                 {
+                  href: 'https://www.ibm.com/design/thinking/',
+                  linkText: 'Enterprise Design Thinking',
+                },
+                {
                   href: 'https://www.ibm.com/design/research/',
                   linkText: 'IBM Design Research',
                 },
                 {
-                  href: 'https://www.ibm.com/design/thinking/',
-                  linkText: 'Enterprise Design Thinking',
+                  href: 'https://www.ibm.com/design/ai/',
+                  linkText: 'IBM Design for AI',
                 },
                 {
                   href: 'https://www.ibm.com/services/ibmix/',
