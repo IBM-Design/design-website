@@ -27,6 +27,28 @@ the means.<br>
 </column>
 <column lg="4">
 
+### AI Design
+
+</column>
+
+<column lg="12">
+
+  <tile title_size="small" title="Everyone can play a role in how their team innovates with AI" caption="ibm.com/badges/ai" href="https://www.ibm.com/design/thinking/page/badges/ai">
+    <img src="images/Image_ai.png" alt=""/>
+
+  </tile>
+
+</column>
+
+</grid>
+<grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
+<column lg="4">
+
 ### Think
 
 </column>
