@@ -40,26 +40,42 @@
 .bx--website-switcher-list__item:nth-child(3),
 .bx--website-switcher-list__item:nth-last-child(5) {
   position: relative;
-  margin-bottom: .5rem;
+  margin-bottom: 3.95rem;
 
   &::after {
     content: '';
     display: block;
     position: absolute;
-    bottom: rem(-9px);
+    bottom: -3.45rem;
     width: rem(222px);
     margin-left: 1rem;
-    border-top: 1px solid $ibm-colors--gray-80;
+    border-top: 1px solid $ibm-colors--gray-70;
   }
+}
+
+.bx--website-switcher-list__item:nth-child(4),
+.bx--website-switcher-list__item:nth-child(6) {
+  position: relative;
+
+  &::before {
+    content: 'Design disciplines';
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0.32px;
+    color: #bebebe;
+    position: absolute;
+    margin-left: 1rem;
+    top: -1.8rem;
+  }
+}
+
+.bx--website-switcher-list__item:nth-child(6)::before {
+  content: 'Design practices';
 }
 
 .bx--website-switcher-list__item:nth-last-child(5) {
   margin-top: 0;
-}
-
-.bx--website-switcher-list__item:nth-child(4),
-.bx--website-switcher-list__item:nth-last-child(6) {
-  padding-top: rem(9px);
 }
 
 .bx--website-switcher-list__item-link {

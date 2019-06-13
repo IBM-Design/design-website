@@ -151,15 +151,15 @@ const SiteHeader = ({
                 },
                 {
                   href: 'https://www.carbondesignsystem.com',
-                  linkText: 'IBM Product Design',
+                  linkText: 'Product',
                 },
                 {
                   href: 'https://www.ibm.com/standards/web/',
-                  linkText: 'IBM Digital Design',
+                  linkText: 'Digital',
                 },
                 {
                   href: 'https://www.ibm.com/design/thinking/',
-                  linkText: 'Enterprise Design Thinking',
+                  linkText: 'IBM Enterprise Design Thinking',
                 },
                 {
                   href: 'https://www.ibm.com/design/research/',
