@@ -15,6 +15,7 @@ meets pragmatic.</span>
 <li><a data-scroll href="#ibm-design-language">IBM Design Language</a></li>
 <li><a data-scroll href="#enterprise-design-thinking">Enterprise Design Thinking</a></li>
 <li><a data-scroll href="#ibm-design-research">IBM Design Research</a></li>
+<li><a data-scroll href="#ibm-design-for-ai">IBM Design for AI</a></li>  
 </ul>
 
 </anchor-links>
