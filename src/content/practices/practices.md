@@ -119,7 +119,7 @@ meets pragmatic.</span>
 <img src="images/Image_5.png" alt="Geometric shapes"/>
 </tile>
 <tile
-    href="https://www.ibm.com/design/thinking/page/badges/ai"
+    href="https://www.ibm.com/design/thinking/page/badges/ai/"
     size="lg"
     background="#C5DEFF"
     dark="true"
@@ -162,7 +162,7 @@ meets pragmatic.</span>
 <column lg="4" md="4" offset_lg="4">
 
 <tile
-    href="https://www.ibm.com/design/ai/fundamentals"
+    href="https://www.ibm.com/design/ai/fundamentals/"
     dark="true"
     title="AI Design Fundamentals">
 <img src="images/Image_fundamentals.png" alt=""/>
@@ -172,7 +172,7 @@ meets pragmatic.</span>
 <column lg="4" md="4">
 
 <tile
-    href="https://www.ibm.com/design/ai/ethics/everyday-ethics"
+    href="https://www.ibm.com/design/ai/ethics/everyday-ethics/"
     dark="true"
     title="Everyday Ethics for AI">
 <img src="images/Image_ethics.png" alt=""/>
@@ -182,7 +182,7 @@ meets pragmatic.</span>
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile
-    href="https://www.ibm.com/design/ai/conversation"
+    href="https://www.ibm.com/design/ai/conversation/"
     dark="true"
     title="Conversation Design">
 <img src="images/Image_conversation.png" alt=""/>
