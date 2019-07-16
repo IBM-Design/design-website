@@ -312,7 +312,7 @@ Work directly with clients while partnering with IBM consultants and business st
 
 Types of roles: graphic design, content design, business strategy, user and market research, consulting
 
-<p><a href="https://www.ibm.com/services/careers" target="_blank"><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
+<p><a href="https://www.ibm.com/services/careers/" target="_blank"><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
 
 </column>
 <column lg="8" offset_lg="4" md="5">

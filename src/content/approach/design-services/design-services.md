@@ -46,7 +46,6 @@ The rapidly changing business landscape requires new focus, new expertise, and n
 
 The last best experience that anyone has anywhere becomes the minimum expectation for the experience they want everywhere. IBM iX uses AI and human intuition to discover actionable insights that lead to innovative, on-brand experiences that drive measurable outcomes at scale.
 
-
 <div>
 – Discover human insights<br>
 – Design for outcomes<br>
@@ -59,7 +58,6 @@ The last best experience that anyone has anywhere becomes the minimum expectatio
 ### Maximize your impact.
 
 Your business may be up and running, but it could always run better. From attracting and retaining customers to driving commerce and managing operations, IBM iX uses advanced design methodologies to unlock the potential of technologies from Adobe, Apple, IBM, Salesforce, SAP and many more.
-
 
 <div>
 – Attract and retain your customers<br>
@@ -95,7 +93,7 @@ Your business may be up and running, but it could always run better. From attrac
 ##### Design philosophy
 
 <p size="md">Our beliefs drive everything we do. Design is about moving people forward, both emotionally and functionally.</p>
-<p><a href="/design/approach/design-philosophy">Learn more →</a></p>
+<p><a href="/design/approach/design-philosophy/">Learn more →</a></p>
 
 </column>
 <column lg="4" md="4">
@@ -105,7 +103,7 @@ Your business may be up and running, but it could always run better. From attrac
 ##### Design thinking
 
 <p size="md">Get familiar with how to apply the framework that drives how we think and work every day.</p>
-<p><a href="/design/approach/design-thinking">Learn more →</a></p>
+<p><a href="/design/approach/design-thinking/">Learn more →</a></p>
 
 </column>
 </grid>
