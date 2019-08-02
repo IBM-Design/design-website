@@ -165,7 +165,7 @@ const SiteHeader = ({
                   linkText: 'IBM Design Language',
                 },
                 {
-                  href: 'https://www.ibm.com/design/brand/',
+                  href: 'https://www.ibm.com/brand/',
                   linkText: 'IBM Brand Center',
                 },
                 {
@@ -178,7 +178,7 @@ const SiteHeader = ({
                 },
                 {
                   href: 'https://www.ibm.com/design/thinking/',
-                  linkText: 'IBM Enterprise Design Thinking',
+                  linkText: 'Enterprise Design Thinking',
                 },
                 {
                   href: 'https://www.ibm.com/design/research/',
