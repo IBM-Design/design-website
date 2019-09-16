@@ -228,13 +228,37 @@ a:hover .bx--tile--dark {
 .ibm--col-lg-12 {
   @include breakpoint('lg') {
     .bx--tile {
-      width: 32%;
+      width: 32.1%;
     }
   }
 }
 
 .ibm--col-lg-16 {
   @include breakpoint('lg') {
+    .bx--tile {
+      width: calc(25% - 2rem);
+    }
+  }
+}
+
+.ibm--col-lg-8 {
+  @include breakpoint('xlg') {
+    .bx--tile {
+      width: 47.5%;
+    }
+  }
+}
+
+.ibm--col-lg-12 {
+  @include breakpoint('xlg') {
+    .bx--tile {
+      width: 32.425%;
+    }
+  }
+}
+
+.ibm--col-lg-16 {
+  @include breakpoint('xlg') {
     .bx--tile {
       width: calc(25% - 2rem);
     }
@@ -389,7 +413,6 @@ a:hover .bx--tile--dark {
   }
 
   img {
-    margin: auto;
     width: 90%;
 
     @include breakpoint('md') {

@@ -15,6 +15,7 @@ meets pragmatic.</span>
 <li><a data-scroll href="#ibm-design-language">IBM Design Language</a></li>
 <li><a data-scroll href="#enterprise-design-thinking">Enterprise Design Thinking</a></li>
 <li><a data-scroll href="#ibm-design-research">IBM Design Research</a></li>
+<li><a data-scroll href="#ibm-design-for-ai">IBM Design for AI</a></li>  
 </ul>
 
 </anchor-links>
@@ -63,7 +64,7 @@ meets pragmatic.</span>
 <column lg="4" md="4" offset_lg="4">
 
 <tile
-    href="https://next.carbondesignsystem.com"
+    href="https://www.carbondesignsystem.com"
     dark="true"
     title="Product Design System">
 <img src="images/Image_2.png" alt=""/>
@@ -116,6 +117,75 @@ meets pragmatic.</span>
     dark="true"
     title="Enterprise Design Thinking">
 <img src="images/Image_5.png" alt="Geometric shapes"/>
+</tile>
+<tile
+    href="https://www.ibm.com/design/thinking/page/badges/ai/"
+    size="lg"
+    background="#C5DEFF"
+    dark="true"
+    title="Enterprise Design Thinking for AI">
+<img src="images/Image_ai.png" alt="Geometric shapes"/>
+</tile>
+
+</column>
+</grid>
+<grid background="gray-100">
+<column lg="16">
+
+<hr>
+
+</column>
+<column lg="4" md="5">
+
+### IBM Design for AI
+
+</column>
+<column lg="7" md="5">
+
+## A collection of guidelines, resources, and ethics to give you what you need to design human-centric AI solutions.
+
+</column>
+
+<column lg="12" offset_lg="4">
+
+<tile
+    href="https://www.ibm.com/design/ai/"
+    new_window="false"
+    size="lg"
+    background="#373737"
+    dark="true"
+    title="IBM Design for AI">
+<img src="images/Image_ai-banner.png" alt="Geometric shapes"/>
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile
+    href="https://www.ibm.com/design/ai/fundamentals/"
+    dark="true"
+    title="AI Design Fundamentals">
+<img src="images/Image_fundamentals.png" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile
+    href="https://www.ibm.com/design/ai/ethics/everyday-ethics/"
+    dark="true"
+    title="Everyday Ethics for AI">
+<img src="images/Image_ethics.png" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="0"  offset_md="4">
+
+<tile
+    href="https://www.ibm.com/design/ai/conversation/"
+    dark="true"
+    title="Conversation Design">
+<img src="images/Image_conversation.png" alt=""/>
 </tile>
 
 </column>

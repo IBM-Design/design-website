@@ -2,60 +2,73 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Play32 } from '@carbon/icons-react';
 import Player from '@vimeo/player';
+import classnames from 'classnames';
+
+const FIRST_VIDEO_ID = 329866992;
+const SECOND_VIDEO_ID = 304672438;
 
 export default class Video extends React.Component {
   constructor(props) {
     super(props);
 
-    this.onClick = this.onClick.bind(this);
+    this.handlePlaySecondVideo = this.handlePlaySecondVideo.bind(this);
   }
 
+  _container = React.createRef();
+
+  state = {
+    isVideoWrapperActive: false,
+  };
+
   componentDidMount() {
-    const iframe = document.querySelector('iframe');
-    const player = new Player(iframe);
-    player.on('ended', this.onEnd);
-    player.on('pause', this.mitigateKeyboard);
+    const iframe = this._container.current.querySelector('iframe');
+    this.player = new Player(iframe);
+    this.player.on('ended', this.onEnd);
+    this.player.setLoop(false);
+  }
+
+  componentWillUnmount() {
+    if (this.player) {
+      this.player.destroy();
+      this.player = null;
+    }
   }
 
   static propTypes = {
     /**
-     * for slide images
+     * iframe
      */
     children: PropTypes.node,
   };
 
-  mitigateKeyboard = () => {
-    const video = document.querySelector('.ibm--video-wrapper');
-    const iframe = document.querySelector('iframe');
-    const player = new Player(iframe);
-    if (!video.classList.contains('active')) {
-      this.onClick();
-    } else {
-      player.pause();
+  // Play video on click or spacebar
+  handlePlaySecondVideo = evt => {
+    if ((evt.type === 'keydown' && evt.which === 32) || evt.type === 'click') {
+      this.player.getVideoId().then(id => {
+        if (id === FIRST_VIDEO_ID) {
+          this.setState({ isVideoWrapperActive: true }, () => {
+            this.player.loadVideo(SECOND_VIDEO_ID).then(() => {
+              this.player.setLoop(false);
+              this.player.setVolume(1);
+              this.player.play();
+            });
+          });
+        }
+      });
     }
   };
 
-  onClick = evt => {
-    evt.preventDefault;
-    const video = document.querySelector('.ibm--video-wrapper');
-    const iframe = video.querySelector('iframe');
-    const player = new Player(iframe);
-    video.classList.add('active');
-    player.setLoop(false);
-    player.setCurrentTime(0);
-    player.setVolume(1);
-    player.play();
-  };
-
+  // Only re-starts if it's the end of the second video
   onEnd = () => {
-    const video = document.querySelector('.active');
-    const iframe = document.querySelector('iframe');
-    const player = new Player(iframe);
-    player.loadVideo(304672438).then(() => {
-      player.setLoop(true).then(() => {
-        video.classList.remove('active');
-      });
-      player.setVolume(0);
+    this.player.getVideoId().then(id => {
+      if (id === SECOND_VIDEO_ID) {
+        this.setState({ isVideoWrapperActive: false }, () => {
+          this.player.loadVideo(FIRST_VIDEO_ID).then(() => {
+            this.player.setLoop(false);
+            this.player.setVolume(0);
+          });
+        });
+      }
     });
   };
 
@@ -141,9 +154,17 @@ export default class Video extends React.Component {
         </g>
       </svg>
     );
+    const videoWrapperClassName = classnames('ibm--video-wrapper', {
+      ' active': this.state.isVideoWrapperActive,
+    });
 
     return (
-      <div className="ibm--video-wrapper" onClick={this.onClick}>
+      <div
+        ref={this._container}
+        className={videoWrapperClassName}
+        onClick={this.handlePlaySecondVideo}
+        onKeyDown={this.handlePlaySecondVideo}
+        tabIndex="0">
         {children}
         <div className="ibm--video-overlay" />
         <div className="ibm--video-controls">{svgPlayBtn}</div>

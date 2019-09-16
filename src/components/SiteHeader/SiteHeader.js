@@ -20,7 +20,22 @@ import {
   HeaderGlobalAction,
 } from 'carbon-components-react/lib/components/UIShell';
 import { WebsiteSwitcher } from '@carbon/addons-website';
-import { AppSwitcher20, Close20 } from '@carbon/icons-react';
+import { Close20 } from '@carbon/icons-react';
+
+const appSwitcher20 = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    enable-background="new 0 0 30 72"
+    viewBox="0 0 30 72"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20">
+    <path
+      fill="white"
+      d="M15.5 15.5H18V18h-2.5zm-6.75 0h2.5V18h-2.5zM2 15.5h2.5V18H2zm13.5-6.75H18v2.5h-2.5zm-6.75 0h2.5v2.5h-2.5zM2 8.75h2.5v2.5H2zM15.5 2H18v2.5h-2.5zM8.75 2h2.5v2.5h-2.5zM2 2h2.5v2.5H2z"
+    />
+  </svg>
+);
 
 const SiteHeader = ({
   isNavExpanded,
@@ -94,7 +109,11 @@ const SiteHeader = ({
                   className="bx--header__action--switcher"
                   aria-label="Switch"
                   onClick={onToggleSwitcher}>
-                  {isSwitcherExpanded ? <Close20 /> : <AppSwitcher20 />}
+                  {isSwitcherExpanded ? (
+                    <Close20 />
+                  ) : (
+                    <div>{appSwitcher20}</div>
+                  )}
                 </HeaderGlobalAction>
               </HeaderGlobalBar>
             </Header>
@@ -140,29 +159,34 @@ const SiteHeader = ({
               aria-label="Site switcher"
               isSwitcherOpen={isSwitcherExpanded}
               links={[
-                {
-                  href: 'https://www.ibm.com/design/',
-                  linkText: 'IBM Design',
-                },
+                { href: 'https://www.ibm.com/design/', linkText: 'IBM Design' },
                 {
                   href: 'https://www.ibm.com/design/language/',
                   linkText: 'IBM Design Language',
                 },
                 {
-                  href: 'https://next.carbondesignsystem.com',
-                  linkText: 'IBM Product Design',
+                  href: 'https://www.ibm.com/brand/',
+                  linkText: 'IBM Brand Center',
+                },
+                {
+                  href: 'https://www.carbondesignsystem.com',
+                  linkText: 'Product',
                 },
                 {
                   href: 'https://www.ibm.com/standards/web/',
-                  linkText: 'IBM Digital Design',
+                  linkText: 'Digital',
+                },
+                {
+                  href: 'https://www.ibm.com/design/thinking/',
+                  linkText: 'Enterprise Design Thinking',
                 },
                 {
                   href: 'https://www.ibm.com/design/research/',
                   linkText: 'IBM Design Research',
                 },
                 {
-                  href: 'https://www.ibm.com/design/thinking/',
-                  linkText: 'Enterprise Design Thinking',
+                  href: 'https://www.ibm.com/design/ai/',
+                  linkText: 'IBM Design for AI',
                 },
                 {
                   href: 'https://www.ibm.com/services/ibmix/',

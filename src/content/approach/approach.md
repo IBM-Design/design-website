@@ -39,7 +39,7 @@ business problems
     feature_heading_secondary="The beliefs behind everything we do"
     feature_background="black"
     feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
-    href="/approach/design-philosophy"
+    href="/approach/design-philosophy/"
     title="Learn more">
 <img src="images/philosophy.svg" alt="Geometric shapes"/>
 </tile>
@@ -50,7 +50,7 @@ business problems
     feature_heading_secondary="Human-centered design at scale"
     feature_background="magenta-20"
     feature_description="Learn how you can apply the same framework our teams use every day."
-    href="/approach/design-thinking"
+    href="/approach/design-thinking/"
     title="Learn more">
 <img src="images/design-thinking.svg" alt="Geometric shapes"/>
 </tile>
@@ -58,10 +58,10 @@ business problems
     feature="true"
     feature_style="alt"
     feature_heading="Design services"
-    feature_heading_secondary="Your business partner by design"
+    feature_heading_secondary="Your global business partner by design"
     feature_background="gray-80"
-    feature_description="Design is about giving people a path, both emotionally and functionally, towards their goals."
-    href="/approach/design-services"
+    feature_description="At IBM iX, we imagine the businesses of the future and help our clients make them real."
+    href="/approach/design-services/"
     title="Learn more">
 <img src="images/services.svg" alt="Ven diagram emphasizing overlapping area"/>
 </tile>
