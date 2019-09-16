@@ -73,7 +73,7 @@ people we serve.</span>
 </column>
 <column lg="4" offset_lg="12" text_align="right">
 
-[View more](/impact)
+[View more](/impact/)
 
 </column>
 
