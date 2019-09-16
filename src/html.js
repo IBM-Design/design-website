@@ -24,7 +24,7 @@ export default class HTML extends React.Component {
                 },
                 pageInfo: {
                   ibm: {
-                    siteID: 'DESIGN_LANGUAGE',
+                    siteID: 'DESIGN',
                     country: 'US',
                     industry: 'Design',
                     owner: 'Alison Joseph/Austin/IBM',
