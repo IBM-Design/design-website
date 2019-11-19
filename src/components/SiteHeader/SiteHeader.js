@@ -177,6 +177,14 @@ const SiteHeader = ({
                   linkText: 'Digital',
                 },
                 {
+                  href: 'https://www.ibm.com/design/events/',
+                  linkText: 'Events',
+                },
+                {
+                  href: '#',
+                  linkText: 'Workplace',
+                },
+                {
                   href: 'https://www.ibm.com/design/thinking/',
                   linkText: 'Enterprise Design Thinking',
                 },
