@@ -177,8 +177,8 @@ const SiteHeader = ({
                   linkText: 'Digital',
                 },
                 {
-                  href: 'https://www.ibm.com/design/events/',
-                  linkText: 'Events',
+                  href: 'https://www.ibm.com/design/event/',
+                  linkText: 'Event',
                 },
                 {
                   href: '#',
