@@ -54,7 +54,7 @@
 }
 
 .bx--website-switcher-list__item:nth-child(4),
-.bx--website-switcher-list__item:nth-child(6) {
+.bx--website-switcher-list__item:nth-child(8) {
   position: relative;
 
   &::before {
@@ -70,7 +70,7 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(6)::before {
+.bx--website-switcher-list__item:nth-child(8)::before {
   content: 'Design practices';
 }
 
@@ -94,4 +94,12 @@
     outline: 2px solid $shell-side-nav-accent-01;
     outline-offset: -2px;
   }
+}
+
+.bx--website-switcher-list__item:nth-child(7)
+  .bx--website-switcher-list__item-link {
+  color: #6f6f6f;
+  cursor: default;
+  background: transparent;
+  outline: none;
 }
