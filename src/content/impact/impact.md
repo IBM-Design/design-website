@@ -150,7 +150,7 @@ the means.<br>
 </column>
 <column lg="4" md="4">
 
-  <tile title_size="small" title="2018 Typeface design competition: Plex wins Judges’ Choice" caption="Type Directors Club" href="https://www.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">
+  <tile title_size="small" title="2018 Typeface design competition: Plex wins Judges’ Choice" caption="Type Directors Club" href="https://www.tdc.org/competitions/typeface-design-2018/">
     <img src="images/Image_9.jpg" alt=""/>
   </tile>
 
