@@ -23,7 +23,7 @@ export default class HTML extends React.Component {
                   primaryCategory: 'DESIGN',
                 },
                 pageInfo: {
-                  productTitle: "IBM Design",
+                  productTitle: 'IBM Design',
                   ibm: {
                     siteID: 'DESIGN',
                     country: 'US',
