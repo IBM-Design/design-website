@@ -5,7 +5,7 @@ title: Ruchi
 <grid classname="background-bleed">
 <column lg="16">
 
-![Plex hero image](/signature1.jpg)
+![Ruchi Batra hero image](../images/signatures/placeholder.png)
 
 </column>
 </grid>

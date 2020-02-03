@@ -40,7 +40,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -50,7 +50,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -60,7 +60,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -70,7 +70,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -81,7 +81,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -91,7 +91,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -101,7 +101,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -112,7 +112,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -122,7 +122,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -132,7 +132,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -143,7 +143,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -153,7 +153,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -163,7 +163,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -174,7 +174,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/featured1.jpg" alt="" />
+<img src="images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
