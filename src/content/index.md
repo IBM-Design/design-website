@@ -37,6 +37,166 @@ people we serve.</span>
 </column>
 <column lg="4">
 
+<!-- Featured Community Start -->
+
+### Featured community
+
+</column>
+
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/impact/quantum/"
+    caption="impact/quantum"
+    title="Gallery: Quantum computing">
+<img src="images/Image_1.jpg" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a security operations center on wheels">
+<img src="images/Image_2.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.tdc.org/competitions/typeface-design-2018/"
+    caption="Type Directors Club"
+    title="2018 Typeface design competition: Plex wins Judges’ Choice">
+<img src="images/Image_3.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/impact/quantum/"
+    caption="impact/quantum"
+    title="Gallery: Quantum computing">
+<img src="images/Image_1.jpg" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a security operations center on wheels">
+<img src="images/Image_2.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.tdc.org/competitions/typeface-design-2018/"
+    caption="Type Directors Club"
+    title="2018 Typeface design competition: Plex wins Judges’ Choice">
+<img src="images/Image_3.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/impact/quantum/"
+    caption="impact/quantum"
+    title="Gallery: Quantum computing">
+<img src="images/Image_1.jpg" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a security operations center on wheels">
+<img src="images/Image_2.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.tdc.org/competitions/typeface-design-2018/"
+    caption="Type Directors Club"
+    title="2018 Typeface design competition: Plex wins Judges’ Choice">
+<img src="images/Image_3.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/impact/quantum/"
+    caption="impact/quantum"
+    title="Gallery: Quantum computing">
+<img src="images/Image_1.jpg" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a security operations center on wheels">
+<img src="images/Image_2.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.tdc.org/competitions/typeface-design-2018/"
+    caption="Type Directors Club"
+    title="2018 Typeface design competition: Plex wins Judges’ Choice">
+<img src="images/Image_3.jpg" alt=""/>
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/impact/quantum/"
+    caption="impact/quantum"
+    title="Gallery: Quantum computing">
+<img src="images/Image_1.jpg" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
+    caption="Youtube"
+    title="Video: Building a security operations center on wheels">
+<img src="images/Image_2.jpg" alt=""/>
+</tile>
+
+</column>
+</grid>
+
+<grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
+<column lg="4">
+
+<!-- Featured Community End -->
+
+<!-- Outcones Start -->
+
 ### Featured outcomes
 
 </column>
@@ -78,3 +238,5 @@ people we serve.</span>
 </column>
 
 </grid>
+
+<!-- Outcones End -->
