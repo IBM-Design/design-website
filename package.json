@@ -4,6 +4,9 @@
   "private": true,
   "version": "0.0.0",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ibm-design/design-website/"
@@ -12,8 +15,8 @@
     "gatsby"
   ],
   "scripts": {
-    "dev": "rm -rf .cache && ./tasks/build-timestamp.sh && gatsby develop",
-    "build": "rm -rf public && ./tasks/build-timestamp.sh && PATH_PREFIX='/design' gatsby build  --prefix-paths && mv public design && mkdir public && mv design public && mv public/design/404 public/404 && mv public/design/404.html public/404.html",
+    "dev": "gatsby develop",
+    "build": "rm -rf public && PATH_PREFIX='/design' gatsby build  --prefix-paths && mv public design && mkdir public && mv design public && mv public/design/404 public/404 && mv public/design/404.html public/404.html",
     "format": "prettier --write \"**/*.{scss,css,js,md}\"",
     "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
