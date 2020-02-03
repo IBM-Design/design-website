@@ -24,3 +24,5 @@ package-lock.json
 
 # Build timestamp
 build-timestamp
+
+*.sketch
