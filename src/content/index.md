@@ -9,16 +9,6 @@ everything we do<br>
 people we serve.</span>
 </title-block>
 
-<grid background="black">
-<column lg="16">
-
-<video>
-  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/329866992?&muted=1&loop=0&autoplay=1" allow="autoplay" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-</video>
-
-</column>
-</grid>
-
 <grid background="gray-10">
 <column lg="8" md="5">
 
@@ -39,7 +29,7 @@ people we serve.</span>
 
 <!-- Featured Community Start -->
 
-### Featured community
+<!-- ### Featured community
 
 </column>
 
@@ -191,7 +181,7 @@ people we serve.</span>
 <hr>
 
 </column>
-<column lg="4">
+<column lg="4"> -->
 
 <!-- Featured Community End -->
 
