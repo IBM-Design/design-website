@@ -1,11 +1,11 @@
 ---
-title: Dawn Ahukanna
+title: Sarah Platenberg
 ---
 
 <grid classname="background-bleed">
 <column lg="16">
 
-![Dawn Ahukanna hero image](placeholder.png)
+![Sarah Platenberg hero image](placeholder.png)
 
 </column>
 </grid>
@@ -13,7 +13,7 @@ title: Dawn Ahukanna
 <grid background="gray-10">
 <column md="2" lg="4">
 
-#### Dawn Ahukanna
+#### Sarah Platenberg
 
 </column>
 

@@ -1,5 +1,5 @@
 ---
-title: Jordan
+title: Jordan Shade
 ---
 
 <grid classname="background-bleed">

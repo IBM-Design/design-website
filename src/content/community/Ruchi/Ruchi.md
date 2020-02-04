@@ -1,5 +1,5 @@
 ---
-title: Ruchi
+title: Ruchi Batra
 ---
 
 <grid classname="background-bleed">
