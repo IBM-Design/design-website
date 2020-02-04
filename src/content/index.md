@@ -57,9 +57,9 @@ people we serve.</span>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
+    href="/community/Dawn/"
+    caption="community/Dawn"
+    title="Dawn Ahukanna">
 <img src="images/cards/placeholder.png" alt="" />
 </tile>
 
