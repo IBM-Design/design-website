@@ -40,7 +40,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+<img src="images/cards/placeholder.png" alt="Portrait of Ruchi Batra" />
 </tile>
 
 </column>
@@ -50,27 +50,27 @@ people we serve.</span>
     href="/community/Jordan/"
     caption="community/Jordan"
     title="Jordan Shade">
-<img src="images/cards/placeholder.png" alt="" />
+<img src="images/cards/placeholder.png" alt="Portrait of Jordan Shade" />
 </tile>
 
 </column>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Dawn/"
+    caption="community/Dawn"
+    title="Dawn Ahukanna">
+<img src="images/cards/placeholder.png" alt="Portrait of Dawn Ahukanna" />
 </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Haidy/"
+    caption="community/Haidy"
+    title="Haidy Perez">
+<img src="images/cards/placeholder.png" alt="Portrait of Haidy Perez" />
 </tile>
 </tile>
 
@@ -78,30 +78,30 @@ people we serve.</span>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Joni/"
+    caption="community/Joni"
+    title="Joni Saylor">
+<img src="images/cards/placeholder.png" alt="Portrait of Joni Saylor" />
 </tile>
 
 </column>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Shani/"
+    caption="community/Shani"
+    title="Shani Sandy">
+<img src="images/cards/placeholder.png" alt="Portrait of Shani Sandy" />
 </tile>
 
 </column>
 <column lg="4" md="4" offset_lg="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Maria/"
+    caption="community/Maria"
+    title="Maria Rose Espadaler Mazo">
+<img src="images/cards/placeholder.png" alt="Portrait of Maria Rose" />
 </tile>
 </tile>
 
@@ -109,61 +109,30 @@ people we serve.</span>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Susana/"
+    caption="community/Susana"
+    title="Susana Rodriguez de Tembleque">
+<img src="images/cards/placeholder.png" alt="Portrait of Susana Rodriguez" />
 </tile>
 
 </column>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Sarah/"
+    caption="community/Sarah"
+    title="Sarah Platenberg">
+<img src="images/cards/placeholder.png" alt="Portrait of Sarah Platenberg" />
 </tile>
 
 </column>
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4"  offset_lg="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
-</tile>
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
-</tile>
-
-</column>
-<column lg="4" md="4" offset_lg="4">
-
-<tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Sophie/"
+    caption="community/Sophie"
+    title="Sophie Kirk">
+<img src="images/cards/placeholder.png" alt="Portrait of Sophie Kirk" />
 </tile>
 </tile>
 
@@ -171,10 +140,10 @@ people we serve.</span>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Placeholder"
-    title="Placeholder Lastname">
-<img src="images/cards/placeholder.png" alt="" />
+    href="/community/Jenny/"
+    caption="community/Jenny"
+    title="Jenny Woo">
+<img src="images/cards/placeholder.png" alt="Portrait of Jenny Woo" />
 </tile>
 
 </column>
