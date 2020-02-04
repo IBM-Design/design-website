@@ -9,16 +9,6 @@ everything we do<br>
 people we serve.</span>
 </title-block>
 
-<grid background="black">
-<column lg="16">
-
-<video>
-  <iframe title="IBM Design sizzle video" src="https://player.vimeo.com/video/329866992?&muted=1&loop=0&autoplay=1" allow="autoplay" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-</video>
-
-</column>
-</grid>
-
 <grid background="gray-10">
 <column lg="8" md="5">
 
@@ -35,7 +25,172 @@ people we serve.</span>
 <hr>
 
 </column>
+
+<!-- Featured Community Start -->
+
 <column lg="4">
+
+### Featured community
+
+</column>
+
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Ruchi"
+    title="Ruchi Batra">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Jordan/"
+    caption="community/Jordan"
+    title="Jordan Shade">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4" offset_lg="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Ruchi/"
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+</grid>
+
+<grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
+<column lg="4">
+
+<!-- Featured Community End -->
+
+<!-- Outcomes Start -->
 
 ### Featured outcomes
 
@@ -78,3 +233,5 @@ people we serve.</span>
 </column>
 
 </grid>
+
+<!-- Outcomes End -->
