@@ -1,5 +1,5 @@
 ---
-title: Community
+title: Homepage
 ---
 
 <title-block fade="true">
@@ -40,7 +40,17 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+<img src="../images/cards/placeholder.png" alt="" />
+</tile>
+
+</column>
+<column lg="4" md="4">
+
+<tile title_size="small"
+    href="/community/Jordan/"
+    caption="community/Jordan"
+    title="Jordan Shade">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -48,19 +58,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -68,9 +68,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -79,9 +79,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -89,9 +89,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -99,9 +99,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -110,9 +110,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -120,9 +120,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -130,9 +130,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -141,9 +141,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -151,9 +151,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -161,9 +161,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 </tile>
 
@@ -172,9 +172,9 @@ people we serve.</span>
 
 <tile title_size="small"
     href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="" />
+    caption="community/Placeholder"
+    title="Placeholder Lastname">
+<img src="../images/cards/placeholder.png" alt="" />
 </tile>
 
 </column>
@@ -189,49 +189,3 @@ people we serve.</span>
 <column lg="4">
 
 <!-- Featured Community End -->
-
-<!-- Outcomes Start -->
-
-### Featured outcomes
-
-</column>
-
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="/impact/quantum/"
-    caption="impact/quantum"
-    title="Gallery: Quantum computing">
-<img src="images/Image_1.jpg" alt="" />
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="https://www.youtube.com/watch?v=yrI8S1906Ug"
-    caption="Youtube"
-    title="Video: Building a security operations center on wheels">
-<img src="images/Image_2.jpg" alt=""/>
-</tile>
-
-</column>
-<column lg="4" md="4" offset_lg="0"  offset_md="4">
-
-<tile title_size="small"
-    href="https://www.tdc.org/competitions/typeface-design-2018/"
-    caption="Type Directors Club"
-    title="2018 Typeface design competition: Plex wins Judges’ Choice">
-<img src="images/Image_3.jpg" alt=""/>
-</tile>
-
-</column>
-<column lg="4" offset_lg="12" text_align="right">
-
-[View more](/impact/)
-
-</column>
-
-</grid>
-
-<!-- Outcomes End -->
