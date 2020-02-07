@@ -6,10 +6,6 @@ const ArtDirection = ({ children }) => {
   const isMobile = useMedia({ maxWidth: '42rem' });
   const isTablet = useMedia({ maxWidth: '66rem' });
 
-  console.log({ isMobile, isTablet });
-
-  console.log(children);
-
   const childrenArray = React.Children.toArray(children);
 
   if (isMobile || !childrenArray[1]) {
