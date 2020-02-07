@@ -5,7 +5,13 @@ title: Ruchi Batra
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Ruchi Batra card image](card.png)
+
 ![Ruchi Batra hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

@@ -5,7 +5,13 @@ title: Sophie Kirk
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Sophie Kirk card image](card.png)
+
 ![Sophie Kirk hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

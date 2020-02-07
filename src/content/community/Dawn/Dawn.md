@@ -5,7 +5,13 @@ title: Dawn Ahukanna
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Dawn Ahukanna hero image](card.png)
+
 ![Dawn Ahukanna hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

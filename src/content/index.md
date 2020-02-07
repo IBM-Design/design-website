@@ -40,7 +40,7 @@ people we serve.</span>
     href="/community/Ruchi/"
     caption="community/Ruchi"
     title="Ruchi Batra">
-<img src="images/cards/placeholder.png" alt="Portrait of Ruchi Batra" />
+<img src="community/Ruchi/card.png" alt="Portrait of Ruchi Batra" />
 </tile>
 
 </column>
@@ -50,7 +50,7 @@ people we serve.</span>
     href="/community/Jordan/"
     caption="community/Jordan"
     title="Jordan Shade">
-<img src="images/cards/placeholder.png" alt="Portrait of Jordan Shade" />
+<img src="community/Jordan/card.png" alt="Portrait of Jordan Shade" />
 </tile>
 
 </column>
@@ -60,7 +60,7 @@ people we serve.</span>
     href="/community/Dawn/"
     caption="community/Dawn"
     title="Dawn Ahukanna">
-<img src="images/cards/placeholder.png" alt="Portrait of Dawn Ahukanna" />
+<img src="community/Dawn/card.png" alt="Portrait of Dawn Ahukanna" />
 </tile>
 
 </column>
@@ -70,7 +70,7 @@ people we serve.</span>
     href="/community/Haidy/"
     caption="community/Haidy"
     title="Haidy Perez">
-<img src="images/cards/placeholder.png" alt="Portrait of Haidy Perez" />
+<img src="community/Haidy/card.png" alt="Portrait of Haidy Perez" />
 </tile>
 </tile>
 
@@ -81,7 +81,7 @@ people we serve.</span>
     href="/community/Joni/"
     caption="community/Joni"
     title="Joni Saylor">
-<img src="images/cards/placeholder.png" alt="Portrait of Joni Saylor" />
+<img src="community/Joni/card.png" alt="Portrait of Joni Saylor" />
 </tile>
 
 </column>
@@ -91,7 +91,7 @@ people we serve.</span>
     href="/community/Shani/"
     caption="community/Shani"
     title="Shani Sandy">
-<img src="images/cards/placeholder.png" alt="Portrait of Shani Sandy" />
+<img src="community/Shani/card.png" alt="Portrait of Shani Sandy" />
 </tile>
 
 </column>
@@ -101,7 +101,7 @@ people we serve.</span>
     href="/community/Maria/"
     caption="community/Maria"
     title="Maria Rose Espadaler Mazo">
-<img src="images/cards/placeholder.png" alt="Portrait of Maria Rose" />
+<img src="community/Maria/card.png" alt="Portrait of Maria Rose" />
 </tile>
 </tile>
 
@@ -112,7 +112,7 @@ people we serve.</span>
     href="/community/Susana/"
     caption="community/Susana"
     title="Susana Rodriguez de Tembleque">
-<img src="images/cards/placeholder.png" alt="Portrait of Susana Rodriguez" />
+<img src="community/Susana/card.png" alt="Portrait of Susana Rodriguez" />
 </tile>
 
 </column>
@@ -122,7 +122,7 @@ people we serve.</span>
     href="/community/Sarah/"
     caption="community/Sarah"
     title="Sarah Platenberg">
-<img src="images/cards/placeholder.png" alt="Portrait of Sarah Platenberg" />
+<img src="community/Sarah/card.png" alt="Portrait of Sarah Platenberg" />
 </tile>
 
 </column>
@@ -132,7 +132,7 @@ people we serve.</span>
     href="/community/Sophie/"
     caption="community/Sophie"
     title="Sophie Kirk">
-<img src="images/cards/placeholder.png" alt="Portrait of Sophie Kirk" />
+<img src="community/Sophie/card.png" alt="Portrait of Sophie Kirk" />
 </tile>
 </tile>
 
@@ -143,7 +143,7 @@ people we serve.</span>
     href="/community/Jenny/"
     caption="community/Jenny"
     title="Jenny Woo">
-<img src="images/cards/placeholder.png" alt="Portrait of Jenny Woo" />
+<img src="community/Jenny/card.png" alt="Portrait of Jenny Woo" />
 </tile>
 
 </column>
