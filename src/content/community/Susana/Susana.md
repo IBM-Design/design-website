@@ -5,7 +5,13 @@ title: Susana Rodriguez de Tembleque
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Susana Rodriguez de Tembleque card image](card.png)
+
 ![Susana Rodriguez de Tembleque hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

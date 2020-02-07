@@ -5,7 +5,13 @@ title: Jordan Shade
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Jordan Shade card image](card.png)
+
 ![Jordan Shade hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

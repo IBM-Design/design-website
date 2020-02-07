@@ -5,7 +5,13 @@ title: Sarah Platenberg
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Sarah Platenberg card image](card.png)
+
 ![Sarah Platenberg hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

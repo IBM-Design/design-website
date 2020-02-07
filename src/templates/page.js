@@ -26,6 +26,7 @@ import {
   ul,
   ol,
 } from '../components/Markdown/Markdown';
+import ArtDirection from '../components/ArtDirection';
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -50,6 +51,7 @@ const renderAst = new rehypeReact({
     video: Video,
     carousel: Carousel,
     'back-link': BackLink,
+    'art-direction': ArtDirection,
   },
 }).Compiler;
 

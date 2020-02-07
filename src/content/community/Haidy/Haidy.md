@@ -5,7 +5,13 @@ title: Haidy Perez
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Haidy Perez card image](card.png)
+
 ![Haidy Perez hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

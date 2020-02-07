@@ -5,7 +5,13 @@ title: Maria Rose Espadaler Mazo
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Maria Rose Espadaler Mazo card image](card.png)
+
 ![Maria Rose Espadaler Mazo hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

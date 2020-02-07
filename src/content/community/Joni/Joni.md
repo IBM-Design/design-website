@@ -5,7 +5,13 @@ title: Joni Saylor
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Joni Saylor card image](card.png)
+
 ![Joni Saylor hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>

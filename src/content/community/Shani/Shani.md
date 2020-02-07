@@ -5,7 +5,13 @@ title: Shani Sandy
 <grid classname="background-bleed">
 <column lg="16">
 
+<art-direction>
+
+![Shani Sandy card image](card.png)
+
 ![Shani Sandy hero image](placeholder.png)
+
+</art-direction>
 
 </column>
 </grid>
