@@ -1,5 +1,5 @@
 ---
-title: Susana Rodriguez de Tembleque
+title: Sarah Platenberg
 ---
 
 <grid classname="background-bleed">
@@ -7,9 +7,9 @@ title: Susana Rodriguez de Tembleque
 
 <art-direction>
 
-![Susana Rodriguez de Tembleque card image](608x608.jpg)
+![Sarah Platenberg card image]608x608.jpg
 
-![Susana Rodriguez de Tembleque hero image](2624x1120.jpg)
+![Sarah Platenberg hero image](2624x1120.jpg)
 
 </art-direction>
 
@@ -19,7 +19,7 @@ title: Susana Rodriguez de Tembleque
 <grid background="gray-10">
 <column md="2" lg="4">
 
-#### Susana Rodriguez de Tembleque
+#### Sarah Platenberg
 
 </column>
 

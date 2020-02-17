@@ -1,5 +1,5 @@
 ---
-title: Sarah Platenberg
+title: Sabine Roehl
 ---
 
 <grid classname="background-bleed">
@@ -7,9 +7,9 @@ title: Sarah Platenberg
 
 <art-direction>
 
-![Sarah Platenberg card image](card.png)
+![Sabine Roehl card image](608x608.jpg)
 
-![Sarah Platenberg hero image](placeholder.png)
+![Sabine Roehl hero image](2624x1120.jpg)
 
 </art-direction>
 
@@ -19,7 +19,7 @@ title: Sarah Platenberg
 <grid background="gray-10">
 <column md="2" lg="4">
 
-#### Sarah Platenberg
+#### Sabine Roehl
 
 </column>
 

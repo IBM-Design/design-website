@@ -37,116 +37,125 @@ people we serve.</span>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Ruchi/"
-    caption="community/Ruchi"
-    title="Ruchi Batra">
-<img src="community/Ruchi/card.png" alt="Portrait of Ruchi Batra" />
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="/community/Jordan/"
-    caption="community/Jordan"
-    title="Jordan Shade">
-<img src="community/Jordan/card.png" alt="Portrait of Jordan Shade" />
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
     href="/community/Dawn/"
     caption="community/Dawn"
     title="Dawn Ahukanna">
-<img src="community/Dawn/card.png" alt="Portrait of Dawn Ahukanna" />
+<img src="community/Dawn/608x608.jpg" alt="Portrait of Dawn Ahukanna" />
 </tile>
 
 </column>
-<column lg="4" md="4" offset_lg="4">
 
-<tile title_size="small"
-    href="/community/Haidy/"
-    caption="community/Haidy"
-    title="Haidy Perez">
-<img src="community/Haidy/card.png" alt="Portrait of Haidy Perez" />
-</tile>
-</tile>
-
-</column>
 <column lg="4" md="4">
 
 <tile title_size="small"
-    href="/community/Joni/"
-    caption="community/Joni"
-    title="Joni Saylor">
-<img src="community/Joni/card.png" alt="Portrait of Joni Saylor" />
+    href="/community/Ruchi/"
+    caption="community/Ruchi"
+    title="Ruchi Batra">
+<img src="community/Ruchi/608x608.jpg" alt="Portrait of Ruchi Batra" />
 </tile>
 
 </column>
+
 <column lg="4" md="4">
-
 <tile title_size="small"
-    href="/community/Shani/"
-    caption="community/Shani"
-    title="Shani Sandy">
-<img src="community/Shani/card.png" alt="Portrait of Shani Sandy" />
+    href="/community/SarahB/"
+    caption="community/SarahB"
+    title="Sarah Brooks">
+<img src="community/SarahB/608x608.jpg" alt="Portrait of Sarah Brooks" />
 </tile>
-
 </column>
-<column lg="4" md="4" offset_lg="4">
 
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Maria/"
     caption="community/Maria"
     title="Maria Rose Espadaler Mazo">
-<img src="community/Maria/card.png" alt="Portrait of Maria Rose" />
+<img src="community/Maria/608x608.jpg" alt="Portrait of Maria Rose" />
 </tile>
 </tile>
-
 </column>
+
 <column lg="4" md="4">
-
-<tile title_size="small"
-    href="/community/Susana/"
-    caption="community/Susana"
-    title="Susana Rodriguez de Tembleque">
-<img src="community/Susana/card.png" alt="Portrait of Susana Rodriguez" />
-</tile>
-
-</column>
-<column lg="4" md="4">
-
-<tile title_size="small"
-    href="/community/Sarah/"
-    caption="community/Sarah"
-    title="Sarah Platenberg">
-<img src="community/Sarah/card.png" alt="Portrait of Sarah Platenberg" />
-</tile>
-
-</column>
-<column lg="4" md="4"  offset_lg="4">
-
 <tile title_size="small"
     href="/community/Sophie/"
     caption="community/Sophie"
     title="Sophie Kirk">
-<img src="community/Sophie/card.png" alt="Portrait of Sophie Kirk" />
+<img src="community/Sophie/608x608.jpg" alt="Portrait of Sophie Kirk" />
 </tile>
-</tile>
-
 </column>
-<column lg="4" md="4">
 
+<column lg="4" md="4">
+<tile title_size="small"
+    href="/community/Haidy/"
+    caption="community/Haidy"
+    title="Haidy Perez">
+<img src="community/Haidy/608x608.jpg" alt="Portrait of Haidy Perez" />
+</tile>
+</column>
+
+<column lg="4" md="4" offset_lg="4">
+<tile title_size="small"
+    href="/community/SarahP/"
+    caption="community/SarahP"
+    title="Sarah Platenberg">
+<img src="community/SarahP/608x608.jpg" alt="Portrait of Sarah Platenberg" />
+</tile>
+</column>
+
+<column lg="4" md="4">
+<tile title_size="small"
+    href="/community/Susana/"
+    caption="community/Susana"
+    title="Susana Rodriguez de Tembleque">
+<img src="community/Susana/608x608.jpg" alt="Portrait of Susana Rodriguez de Tembleque" />
+</tile>
+</column>
+
+<column lg="4" md="4">
+<tile title_size="small"
+    href="/community/Sabine/"
+    caption="community/Sabine"
+    title="Sabine Roehl">
+<img src="community/Sabine/608x608.jpg" alt="Portrait of Sabine Roehl" />
+</tile>
+</column>
+
+<column lg="4" md="4" offset_lg="4">
+<tile title_size="small"
+    href="/community/Shani/"
+    caption="community/Shani"
+    title="Shani Sandy">
+<img src="community/Shani/608x608.jpg" alt="Portrait of Shani Sandy" />
+</tile>
+</column>
+
+<column lg="4" md="4">
+<tile title_size="small"
+    href="/community/Joni/"
+    caption="community/Joni"
+    title="Joni Saylor">
+<img src="community/Joni/608x608.jpg" alt="Portrait of Joni Saylor" />
+</tile>
+</column>
+
+<column lg="4" md="4" >
+<tile title_size="small"
+    href="/community/Jordan/"
+    caption="community/Jordan"
+    title="Jordan Shade">
+<img src="community/Jordan/608x608.jpg" alt="Portrait of Jordan Shade" />
+</tile>
+</column>
+
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Jenny/"
     caption="community/Jenny"
     title="Jenny Woo">
-<img src="community/Jenny/card.png" alt="Portrait of Jenny Woo" />
+<img src="community/Jenny/608x608.jpg" alt="Portrait of Jenny Woo" />
 </tile>
-
 </column>
+
 </grid>
 
 <grid background="gray-10">
