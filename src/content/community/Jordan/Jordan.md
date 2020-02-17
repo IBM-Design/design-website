@@ -7,9 +7,9 @@ title: Jordan Shade
 
 <art-direction>
 
-![Jordan Shade card image](card.png)
+![Jordan Shade card image](608x608.jpg)
 
-![Jordan Shade hero image](placeholder.png)
+![Jordan Shade hero image](2624x1120.jpg)
 
 </art-direction>
 

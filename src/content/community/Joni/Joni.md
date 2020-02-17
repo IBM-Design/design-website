@@ -7,9 +7,9 @@ title: Joni Saylor
 
 <art-direction>
 
-![Joni Saylor card image](card.png)
+![Joni Saylor card image](608x608.jpg)
 
-![Joni Saylor hero image](placeholder.png)
+![Joni Saylor hero image](2624x1120.jpg)
 
 </art-direction>
 
