@@ -67,6 +67,15 @@ people we serve.</span>
 
 <column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
+    href="/community/Jodi/"
+    caption="community/Jodi"
+    title="Jodi Cutler">
+<img src="community/Jodi/608x608.jpg" alt="Portrait of Jodi Cutler" />
+</tile>
+</column>
+
+<column lg="4" md="4">
+<tile title_size="small"
     href="/community/Maria/"
     caption="community/Maria"
     title="Maria Rose Espadaler Mazo">
@@ -84,7 +93,7 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4">
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Haidy/"
     caption="community/Haidy"
@@ -93,7 +102,7 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4" >
 <tile title_size="small"
     href="/community/SarahP/"
     caption="community/SarahP"
@@ -111,7 +120,7 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4">
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Sabine/"
     caption="community/Sabine"
@@ -120,21 +129,12 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4" >
 <tile title_size="small"
     href="/community/Shani/"
     caption="community/Shani"
     title="Shani Sandy">
 <img src="community/Shani/608x608.jpg" alt="Portrait of Shani Sandy" />
-</tile>
-</column>
-
-<column lg="4" md="4">
-<tile title_size="small"
-    href="/community/Joni/"
-    caption="community/Joni"
-    title="Joni Saylor">
-<img src="community/Joni/608x608.jpg" alt="Portrait of Joni Saylor" />
 </tile>
 </column>
 

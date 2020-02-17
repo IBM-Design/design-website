@@ -9,7 +9,7 @@ title: Sarah Platenberg
 
 ![Sarah Platenberg card image]608x608.jpg
 
-![Sarah Platenberg hero image](2624x1120.jpg)
+![Sarah Platenberg hero image](./2624x1120.jpg)
 
 </art-direction>
 

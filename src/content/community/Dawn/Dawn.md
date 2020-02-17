@@ -7,9 +7,9 @@ title: Dawn Ahukanna
 
 <art-direction>
 
-![Dawn Ahukanna hero image](608x608.jpg)
+![Dawn Ahukanna hero image](./608x608.jpg)
 
-![Dawn Ahukanna hero image](2624x1120.jpg)
+![Dawn Ahukanna hero image](./2624x1120.jpg)
 
 </art-direction>
 

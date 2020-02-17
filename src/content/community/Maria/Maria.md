@@ -7,9 +7,9 @@ title: Maria Rose Espadaler Mazo
 
 <art-direction>
 
-![Maria Rose Espadaler Mazo card image](608x608.jpg)
+![Maria Rose Espadaler Mazo card image](./608x608.jpg)
 
-![Maria Rose Espadaler Mazo hero image](2624x1120.jpg)
+![Maria Rose Espadaler Mazo hero image](./2624x1120.jpg)
 
 </art-direction>
 

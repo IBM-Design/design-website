@@ -5,7 +5,13 @@ title: Jenny Woo
 <grid classname="background-bleed">
 <column lg="16">
 
-![Jenny Woo](2624x1120.jpg)
+<art-direction>
+
+![Jenny Woo card image](./608x608.jpg)
+
+![Jenny Woo hero image](./2624x1120.jpg)
+
+</art-direction>
 
 </column>
 </grid>
