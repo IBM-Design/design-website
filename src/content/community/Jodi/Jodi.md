@@ -1,5 +1,5 @@
 ---
-title: Joni Saylor
+title: Jodi Cutler
 ---
 
 <grid classname="background-bleed">
@@ -7,9 +7,9 @@ title: Joni Saylor
 
 <art-direction>
 
-![Joni Saylor card image](608x608.jpg)
+![Jodi Cutler card image](./608x608.jpg)
 
-![Joni Saylor hero image](2624x1120.jpg)
+![Jodi Cutler hero image](./2624x1120.jpg)
 
 </art-direction>
 
@@ -19,7 +19,7 @@ title: Joni Saylor
 <grid background="gray-10">
 <column md="2" lg="4">
 
-#### Joni Saylor
+#### Jodi Cutler
 
 </column>
 

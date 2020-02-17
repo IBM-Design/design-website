@@ -7,9 +7,9 @@ title: Shani Sandy
 
 <art-direction>
 
-![Shani Sandy card image]608x608.jpg
+![Shani Sandy card image](./608x608.jpg)
 
-![Shani Sandy hero image](2624x1120.jpg)
+![Shani Sandy hero image](./2624x1120.jpg)
 
 </art-direction>
 

@@ -7,9 +7,9 @@ title: Sabine Roehl
 
 <art-direction>
 
-![Sabine Roehl card image](608x608.jpg)
+![Sabine Roehl card image](./608x608.jpg)
 
-![Sabine Roehl hero image](2624x1120.jpg)
+![Sabine Roehl hero image](./2624x1120.jpg)
 
 </art-direction>
 

@@ -7,9 +7,9 @@ title: Ruchi Batra
 
 <art-direction>
 
-![Ruchi Batra card image](608x608.jpg)
+![Ruchi Batra card image](./608x608.jpg)
 
-![Ruchi Batra hero image](2624x1120.jpg)
+![Ruchi Batra hero image](./2624x1120.jpg)
 
 </art-direction>
 

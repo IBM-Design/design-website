@@ -7,9 +7,9 @@ title: Sophie Kirk
 
 <art-direction>
 
-![Sophie Kirk card image](608x608.jpg)
+![Sophie Kirk card image](./608x608.jpg)
 
-![Sophie Kirk hero image](2624x1120.jpg)
+![Sophie Kirk hero image](./2624x1120.jpg)
 
 </art-direction>
 

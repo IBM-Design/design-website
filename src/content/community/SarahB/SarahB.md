@@ -9,7 +9,7 @@ title: Sarah Brooks
 
 ![Sarah Brooks card image]608x608.jpg
 
-![Sarah Brooks hero image](2624x1120.jpg)
+![Sarah Brooks hero image](./2624x1120.jpg)
 
 </art-direction>
 

@@ -7,9 +7,9 @@ title: Haidy Perez
 
 <art-direction>
 
-![Haidy Perez card image](608x608.jpg)
+![Haidy Perez card image](./608x608.jpg)
 
-![Haidy Perez hero image](2624x1120.jpg)
+![Haidy Perez hero image](./2624x1120.jpg)
 
 </art-direction>
 

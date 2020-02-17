@@ -7,9 +7,9 @@ title: Susana Rodriguez de Tembleque
 
 <art-direction>
 
-![Susana Rodriguez de Tembleque card image](608x608.jpg)
+![Susana Rodriguez de Tembleque card image](./608x608.jpg)
 
-![Susana Rodriguez de Tembleque hero image](2624x1120.jpg)
+![Susana Rodriguez de Tembleque hero image](./2624x1120.jpg)
 
 </art-direction>
 
