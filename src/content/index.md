@@ -140,6 +140,15 @@ people we serve.</span>
 
 <column lg="4" md="4" >
 <tile title_size="small"
+    href="/community/Joni/"
+    caption="community/Joni"
+    title="Joni Saylor">
+<img src="community/Joni/608x608.jpg" alt="Portrait of Joni Saylor" />
+</tile>
+</column>
+
+<column lg="4" md="4" offset_lg="4">
+<tile title_size="small"
     href="/community/Jordan/"
     caption="community/Jordan"
     title="Jordan Shade">
@@ -147,7 +156,7 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4">
 <tile title_size="small"
     href="/community/Jenny/"
     caption="community/Jenny"
