@@ -147,7 +147,7 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4" >
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Jordan/"
     caption="community/Jordan"
@@ -156,7 +156,7 @@ people we serve.</span>
 </tile>
 </column>
 
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4">
 <tile title_size="small"
     href="/community/Jenny/"
     caption="community/Jenny"
