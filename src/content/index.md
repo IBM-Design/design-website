@@ -98,7 +98,7 @@ people we serve.</span>
     href="/community/Haidy/"
     caption="community/Haidy"
     title="Haidy Perez">
-<img src="community/Haidy/608x608.jpg" alt="Portrait of Haidy Perez" />
+<img src="community/Haidy/608x608.jpg" alt="Portrait of Haidy Perez-Francis" />
 </tile>
 </column>
 
