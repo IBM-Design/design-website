@@ -1,0 +1,54 @@
+// Lead
+.background.community-lead {
+  padding-bottom: 80px;
+  padding-top: 24px;
+  margin: 0 1rem;
+  @include breakpoint('md') {
+    padding-top: 1rem;
+    margin: 0 2rem;
+  }
+}
+
+.community-lead div[class^='ibm--col-'] {
+  padding: 0;
+}
+
+.community-lead__heading {
+  line-height: 1.2;
+  font-weight: 300;
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+strong.community-lead__heading {
+  font-weight: 600;
+}
+
+.community-lead__arrow {
+  margin-top: 24px;
+  display: block;
+}
+
+// Q&A
+.community__grid {
+  padding-top: 24px;
+  padding-bottom: 64px;
+  margin: 0 1rem;
+  border-top: 1px solid $ibm-colors__gray-50;
+  max-width: 95rem; // 99rem - 2rem left - 2rem right
+  @include breakpoint('md') {
+    margin: 0 2rem;
+  }
+}
+
+.community__grid .ibm--grid {
+  padding: 0;
+}
+
+.community__grid .community__prompt {
+  display: block;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}

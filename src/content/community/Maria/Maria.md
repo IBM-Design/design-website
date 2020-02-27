@@ -13,89 +13,91 @@ title: Maria Rose Espadaler Mazo
 
 </art-direction>
 
-</column>
-</grid>
-
-<grid background="gray-10">
-<column md="2" lg="4">
-
-#### Maria Rose Espadaler Mazo
-
-</column>
-
-<column md="5" lg="8">
-
-<p size="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<community-lead name="FirstName M. LastName" position="Distinguished Designer" department="Watson IoT"></community-lead>
 
 </column>
 </grid>
 
-<grid background="gray-10">
-<column md="2" lg="4">
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
 
-#### What was your path into the design profession?
-
-</column>
-
-<column md="5" lg="8">
-
-<p size="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-</column>
-</grid>
-
-<grid background="gray-10">
-<column md="2" lg="4">
-
-#### Which career stage is the hardest for women?
+<span className="community__prompt">Maria Rose Espadaler Mazo</span>
 
 </column>
 
-<column md="5" lg="8">
+<column md="6" lg="8" offset_lg="1">
 
-<p size="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 </column>
 </grid>
 
-<grid background="gray-10">
-<column md="2" lg="4">
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
 
-#### What are you doing to make IBM a better place to work for women in design?
-
-</column>
-
-<column md="5" lg="8">
-
-<p size="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-</column>
-</grid>
-
-<grid background="gray-10">
-<column md="2" lg="4">
-
-#### How would your career have been different if you were a man?
+<span className="community__prompt">What was your path into the design profession?</span>
 
 </column>
 
-<column md="5" lg="8">
+<column md="6" lg="8" offset_lg="1">
 
-<p size="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 </column>
 </grid>
 
-<grid background="gray-10">
-<column md="2" lg="4">
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
 
-#### Any last thoughts?
+<span className="community__prompt">Which career stage is the hardest for women?</span>
 
 </column>
 
-<column md="5" lg="8">
+<column md="6" lg="8" offset_lg="1">
 
-<p size="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</column>
+</grid>
+
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
+
+<span className="community__prompt">What are you doing to make IBM a better place to work for women in design?</span>
+
+</column>
+
+<column md="6" lg="8" offset_lg="1">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</column>
+</grid>
+
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
+
+<span className="community__prompt">How would your career have been different if you were a man?</span>
+
+</column>
+
+<column md="6" lg="8" offset_lg="1">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</column>
+</grid>
+
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
+
+<span className="community__prompt">Any last thoughts?</span>
+
+</column>
+
+<column md="6" lg="8" offset_lg="1">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 </column>
 </grid>
