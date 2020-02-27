@@ -21,7 +21,7 @@ title: Maria Rose Espadaler Mazo
 <grid className="community__grid" background="gray-10">
 <column sm="3" md="3" lg="3">
 
-<span className="community__prompt">Maria Rose Espadaler Mazo</span>
+<span className="community__prompt">Introduce yourself.</span>
 
 </column>
 
