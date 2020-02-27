@@ -21,7 +21,7 @@ title: Sarah Brooks
 <grid className="community__grid" background="gray-10">
 <column sm="3" md="3" lg="3">
 
-<span className="community__prompt">Sarah Brooks</span>
+<span className="community__prompt">Introduce yourself.</span>
 
 </column>
 

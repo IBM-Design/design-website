@@ -14,14 +14,11 @@
 }
 
 .community-lead__heading {
-  line-height: 1.2;
-  font-weight: 300;
-  @media (max-width: 600px) {
-    font-size: 20px;
-  }
+  margin-bottom: 0;
+  padding: 0;
 }
 
-strong.community-lead__heading {
+.community-lead__heading strong {
   font-weight: 600;
 }
 
