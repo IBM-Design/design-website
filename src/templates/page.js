@@ -14,6 +14,7 @@ import Icon from '../components/Icon';
 import Video from '../components/Video';
 import Carousel from '../components/Carousel';
 import BackLink from '../components/BackLink';
+import CommunityLead from '../components/Community/CommunityLead';
 import { Grid, Column } from '../components/Grid/Grid';
 import {
   a,
@@ -50,6 +51,7 @@ const renderAst = new rehypeReact({
     column: Column,
     video: Video,
     carousel: Carousel,
+    'community-lead': CommunityLead,
     'back-link': BackLink,
     'art-direction': ArtDirection,
   },
