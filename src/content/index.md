@@ -76,16 +76,6 @@ people we serve.</span>
 
 <column lg="4" md="4">
 <tile title_size="small"
-    href="/community/Maria/"
-    caption="community/Maria"
-    title="Maria Rose Espadaler Mazo">
-<img src="community/Maria/608x608.jpg" alt="Portrait of Maria Rose" />
-</tile>
-</tile>
-</column>
-
-<column lg="4" md="4">
-<tile title_size="small"
     href="/community/Sophie/"
     caption="community/Sophie"
     title="Sophie Kirk">
@@ -93,7 +83,27 @@ people we serve.</span>
 </tile>
 </column>
 
+<column lg="4" md="4">
+<tile title_size="small"
+    href="/community/Roxanne/"
+    caption="community/Roxanne"
+    title="Roxanne Ma">
+<img src="community/Roxanne/608x608.jpg" alt="Portrait of Roxanne Ma" />
+</tile>
+</tile>
+</column>
+
 <column lg="4" md="4" offset_lg="4">
+<tile title_size="small"
+    href="/community/Maria/"
+    caption="community/Maria"
+    title="Maria Rose Espadaler Mazo">
+<img src="community/Maria/608x608.jpg" alt="Maria Rose Espadaler Mazo" />
+</tile>
+</tile>
+</column>
+
+<column lg="4" md="4">
 <tile title_size="small"
     href="/community/Haidy/"
     caption="community/Haidy"
@@ -108,15 +118,6 @@ people we serve.</span>
     caption="community/SarahP"
     title="Sarah Platenberg">
 <img src="community/SarahP/608x608.jpg" alt="Portrait of Sarah Platenberg" />
-</tile>
-</column>
-
-<column lg="4" md="4">
-<tile title_size="small"
-    href="/community/Susana/"
-    caption="community/Susana"
-    title="Susana Rodriguez de Tembleque">
-<img src="community/Susana/608x608.jpg" alt="Portrait of Susana Rodriguez de Tembleque" />
 </tile>
 </column>
 
@@ -153,6 +154,15 @@ people we serve.</span>
     caption="community/Jordan"
     title="Jordan Shade">
 <img src="community/Jordan/608x608.jpg" alt="Portrait of Jordan Shade" />
+</tile>
+</column>
+
+<column lg="4" md="4">
+<tile title_size="small"
+    href="/community/Susana/"
+    caption="community/Susana"
+    title="Susana Rodriguez de Tembleque">
+<img src="community/Susana/608x608.jpg" alt="Portrait of Susana Rodriguez de Tembleque" />
 </tile>
 </column>
 
