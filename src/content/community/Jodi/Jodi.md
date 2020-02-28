@@ -13,7 +13,7 @@ title: Jodi Cutler
 
 </art-direction>
 
-<community-lead name="FirstName M. LastName" position="Distinguished Designer" department="Watson IoT"></community-lead>
+<community-lead name="Jodi Cutler" position="Design Principal and Practice Lead" department="IBM Watson Health"></community-lead>
 
 </column>
 </grid>
