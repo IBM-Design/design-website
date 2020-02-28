@@ -13,7 +13,7 @@ title: Ruchi Batra
 
 </art-direction>
 
-<community-lead name="FirstName M. LastName" position="Distinguished Designer" department="Watson IoT"></community-lead>
+<community-lead name="Ruchi Batra" position="Design Director" department="IBM iX"></community-lead>
 
 </column>
 </grid>
@@ -59,7 +59,11 @@ With IBM, my career has further evolved into becoming a strategic design partner
 
 <column md="6" lg="8" offset_lg="1">
 
-I am an experience designer and strategist, a researcher, a dreamer, a mother of twin boys, a home maker, a food lover, an avid reader, and an aspiring author. I am always looking for unique connections between multiple disciplines and topics such as business strategy and modeling, human-centered design, economics, ethnography, science fiction, strategic foresight, data science, behavioral science, and psychological principles that shape human behavior. I enjoy immersing myself in these disciplines to concoct new ideas for next-generation businesses, products, services, and user experiences that solve for a human need, enable business growth, and help shape a better future.
+In my experience so far, the hardest career stage for a woman is to make a leap from an individual contributor into becoming a leader, to be seen and be open to feel vulnerable. Being a daughter, a mother, and a wife myself, I feel women are always thinking about, “Do it all, do it perfectly, and never let them see you struggle” — and that’s what holds us back most of the time. The quest for perfection and nothing less than that slows us down more than it speeds us up. 
+
+I personally learned a lot working with women leaders in my entire career journey on making balanced choices. Be open to asking for help and overcoming biases as well as self-depleting voices in your head saying, “I am never enough!” We fail to take credit of contributions and demonstrate male traits to be acceptable, which makes it even more difficult to establish our own authentic voice. 
+
+As a side note, I am a big fan of Brene Brown’s work around vulnerability and shame. I recommend reading her book “Dare to Lead” and “Braving the Wilderness” to embrace daring greatly, which is not about winning or losing; it's about courage and standing up for yourself.
 
 </column>
 </grid>
@@ -73,13 +77,13 @@ I am an experience designer and strategist, a researcher, a dreamer, a mother of
 
 <column md="6" lg="8" offset_lg="1">
 
-<p size="lg">"I believe each woman is unique and should not be fearful of not fitting in, but rather celebrate the strengths each one of us brings forward.  I don’t think there is a need to reassure women that they can be mother and professional since men are equally responsible for doing so, too.
+<p size="lg">I believe each woman is unique and should not be fearful of not fitting in, but rather celebrate the strengths each one of us brings forward.  I don’t think there is a need to reassure women that they can be mother and professional since men are equally responsible for doing so, too.
 
 Build new norms of working and interacting with your universe through empathy and empowering each other. Women have distinct superpowers of being sensitive, caring yet passionate, and driven—which are true game changers.
 
 Believe in advancing the women around you, and we all move forward.
 
-Speak up rather than staying silent, and never shy away from conveying your own need to feel included and acknowledged for your efforts."
+Speak up rather than staying silent, and never shy away from conveying your own need to feel included and acknowledged for your efforts.
 
 </column>
 </grid>
