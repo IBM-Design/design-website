@@ -13,7 +13,7 @@ title: Jenny Woo
 
 </art-direction>
 
-<community-lead name="FirstName M. LastName" position="Distinguished Designer" department="Watson IoT"></community-lead>
+<community-lead name="Jenny Woo" position="Design Lead" department="Watson Immersive Experience"></community-lead>
 
 </column>
 </grid>
