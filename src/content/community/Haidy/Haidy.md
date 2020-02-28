@@ -13,7 +13,7 @@ title: Haidy Perez-Francis
 
 </art-direction>
 
-<community-lead name="FirstName M. LastName" position="Distinguished Designer" department="Watson IoT"></community-lead>
+<community-lead name="Haidy Perez-Francis" position="Design Executive" department="IBM Security"></community-lead>
 
 </column>
 </grid>
