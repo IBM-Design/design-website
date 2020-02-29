@@ -77,6 +77,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-fathom',
+      options: {
+        siteId: 'HUILTLQR',
+      },
+    },
     'gatsby-plugin-meta-redirect', //this neeeds to stay as the last item
   ],
 };
