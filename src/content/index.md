@@ -3,16 +3,14 @@ title: Homepage
 ---
 
 <title-block fade="true">
-The purpose of<br>
-everything we do<br>
-<span>is to guide the<br>
-people we serve.</span>
+It’s time to change the design game.
+<span>We’re all in.</span>
 </title-block>
 
 <grid background="gray-10">
 <column lg="8" md="5">
 
-<p size="xl">When we blend human-centered design practices with time-tested business acumen, the results speak for themselves.</p>
+<p size="xl">This community of designers is building on their unique journeys with fresh and exciting perspectives that model the change they want to see across IBM.</p>
 
 <icon name="PlexArrowDown"></icon>
 
