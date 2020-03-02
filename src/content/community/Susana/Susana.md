@@ -62,7 +62,7 @@ My second aspiration for women designers at IBM is to focus on creating brillian
 </column>
 </grid>
 
-<!-- <grid className="community__grid" background="gray-10">
+<!--- <grid className="community__grid" background="gray-10">
 <column sm="3" md="3" lg="3">
 
 <span className="community__prompt">What are you doing to make IBM a better place to work for women in design?</span>
