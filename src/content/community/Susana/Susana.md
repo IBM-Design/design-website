@@ -35,6 +35,20 @@ Born and raised in Spain, in a family of bankers and lawyers, naturally dreamed 
 <grid className="community__grid" background="gray-10">
 <column sm="3" md="3" lg="3">
 
+<span className="community__prompt">What was your path into the design profession?</span>
+
+</column>
+
+<column md="6" lg="8" offset_lg="1">
+
+I would characterize my path to design as a winding road full of luck and grit. I started off as a painter, albeit not quite a money-making one, so I looked for a "creative" job that would help me pay the bills. I ended up working as a storyboard artist in an advertising agency in Madrid, although the job would be best described as “coffee girl” for the all-male creative team. Despite their misogynistic ways, the team was extremely talented, and I learned a lot from them. Little by little, I managed to get a few ideas considered and eventually became the first woman art director. My first job in the U.S. became possible after I spoke to my future boss, Cuban music label design legend Carlos Segura, in Spanish. A meeting of chance led us to together redesign some major newspapers and cultural gigs in Chicago. Every other eventual job opportunity in my career has been an equal amount of serendipity and hard work to make something great. I never set out to become a designer, I simply followed situations of great creative potential and pushed myself to make it a reality.
+
+</column>
+</grid>
+
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
+
 <span className="community__prompt">Which career stage is the hardest for women?</span>
 
 </column>
