@@ -3,7 +3,7 @@ title: Homepage
 ---
 
 <title-block fade="true">
-It’s time to change the design game.
+It’s time to change<br>the design game.
 <span>We’re all in.</span>
 </title-block>
 
