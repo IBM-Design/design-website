@@ -41,7 +41,7 @@ I’m a designer who gets equally excited about beauty and business impact. My b
 
 <column md="6" lg="8" offset_lg="1">
 
-YYou hear a lot about mid-career being one of the tougher times for women, given the challenge of potentially caring for kids and parents alongside work. I feel that in my own life, but I’d say at 41 I’m equipped to handle it.
+You hear a lot about mid-career being one of the tougher times for women, given the challenge of potentially caring for kids and parents alongside work. I feel that in my own life, but I’d say at 41 I’m equipped to handle it.
 
 I found the earlier years more challenging. When I first started working as a designer, I was honestly shocked and confused by some of the attitudes and situations I experienced. Coming from what I would call a healthy university environment, I often didn’t even have the language to call out what was happening in my teams, even to myself. When you combine that with the reality that design itself is often the minority perspective in business, even simple product team meetings felt daunting to me sometimes. I came to appreciate formal design reviews and group critiques as important moments of truth, where expertise and new ideas get their best chance to win the day.
 
