@@ -27,7 +27,7 @@ title: Sarah Brooks
 
 <column md="6" lg="8" offset_lg="1">
 
-I’m a service designer, design researcher, and artist with a background in performance, film production, fashion design, printmaking, and sculpture. So, for all of you who like to work between disciplines, I’m with you. My career has followed a varied path from design studios (wild, fun, big broad the-future-of challenges), to startups (delightfully chaotic and fast paced), to being invited to be a Presidential Innovation Fellow by the Obama Administration (serious, mission-driven, systems-changey). These days, I call New York my home. I’m a Distinguished Designer in the IBM Design Program Office, leading a team developing the Journey System, a practice that helps IBM employees take a client-centric approach that puts service design into action to better serve our customers’ lifetime of needs.
+I’m a service designer, design researcher, and artist with a background in performance, film production, fashion design, printmaking, and sculpture. So, for all of you who like to work between disciplines, I’m with you. My career has followed a varied path from design studios (wild, fun, big, broad, the-future-of challenges), to startups (delightfully chaotic and fast paced), to being invited to be a Presidential Innovation Fellow by the Obama Administration (serious, mission-driven, systems-changey). These days, I call New York my home. I’m a Distinguished Designer in the IBM Design Program Office, leading a team developing the Journey System, a practice that helps IBM employees take a client-centric approach that puts service design into action to better serve our customers’ lifetime of needs.
 
 </column>
 </grid>
@@ -79,7 +79,7 @@ What’s been helpful for me is that navigating career choices has become easier
 
 I’ve just joined the advisory committee for Women@IBM NYC, whose mission is to make IBM the best place for women to work in New York (insert cheerleader emoji here)! We run a series of networking and learning events throughout the year, most recently with [InspireCorps](https://inspirecorps.com/) to kickstart 2020.
 
-I consider it time well spent to actively seek out ways of encouraging the women on my team to elevate their presence within the IBM and the broader design world. Speaking at conferences and posting on topics related to one’s areas of interest has been a helpful tool for me. It’s not something everyone feels comfortable doing, so I try to support any effort to push past one’s comfort zone.
+I consider it time well spent to actively seek out ways of encouraging the women on my team to elevate their presence within IBM and the broader design world. Speaking at conferences and posting on topics related to one’s areas of interest has been a helpful tool for me. It’s not something everyone feels comfortable doing, so I try to support any effort to push past one’s comfort zone.
 
 Like leaders whom I admire, I make time for women who reach out, whether that’s for a one-off word of advice or a request for mentorship. My women colleagues feel the same as I do—it’s always an honor to be asked. It’s interesting, I’ve yet to have a man ask me to mentor him (hit me up, guys). The lesson I keep learning from the many women who support me and have offered great career advice is that none of us gets where we’re going alone. We need each other.
 
@@ -97,7 +97,7 @@ Last but not least, in a world where women earn [79 cents](https://www.unwomen.o
 
 <column md="6" lg="8" offset_lg="1">
 
-Hypotheticals aren’t my favorite thing¬; I’m not cut from “woulda/coulda” cloth. But the first thing that comes to mind, if I were to imagine being a man, is that I’d be much more comfortable taking up space, and offering my opinions in all types of settings (during large presentations or smaller meetings, etc). It’s worth noting that the data (re: the gender pay gap I mentioned) says my bank account, if I were male, over the duration of my career, would have reflected higher pay and I would have had a more well-worn path to a series of promotions. That said, I wonder if I would’ve developed the inner resources that I draw upon and feel grounded by to overcome the challenges I’ve faced as a woman in my field. Was this question designed to evoke gratitude for being who I am? That’s where I’m landing. 
+Hypotheticals aren’t my favorite thing—I’m not cut from “woulda/coulda” cloth. But the first thing that comes to mind, if I were to imagine being a man, is that I’d be much more comfortable taking up space, and offering my opinions in all types of settings (during large presentations or smaller meetings, etc). It’s worth noting that the data (re: the gender pay gap I mentioned) says my bank account, if I were male, over the duration of my career, would have reflected higher pay and I would have had a more well-worn path to a series of promotions. That said, I wonder if I would’ve developed the inner resources that I draw upon and feel grounded by to overcome the challenges I’ve faced as a woman in my field. Was this question designed to evoke gratitude for being who I am? That’s where I’m landing. 
 
 </column>
 </grid>
