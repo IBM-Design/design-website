@@ -13,7 +13,7 @@ title: Joni Saylor
 
 </art-direction>
 
-<community-lead name="Joni Saylor" position="Distinguished Designer" department="TBD"></community-lead>
+<community-lead name="Joni Saylor" position="Distinguished Designer" department="Design Program Office"></community-lead>
 
 </column>
 </grid>
