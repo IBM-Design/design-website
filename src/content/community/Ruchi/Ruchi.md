@@ -63,7 +63,7 @@ In my experience so far, the hardest career stage for a woman is to make a leap 
 
 I personally learned a lot working with women leaders in my entire career journey on making balanced choices. Be open to asking for help and overcoming biases as well as self-depleting voices in your head saying, “I am never enough!” We fail to take credit of contributions and demonstrate male traits to be acceptable, which makes it even more difficult to establish our own authentic voice.
 
-As a side note, I am a big fan of Brene Brown’s work around vulnerability and shame. I recommend reading her book “Dare to Lead” and “Braving the Wilderness” to embrace daring greatly, which is not about winning or losing; it's about courage and standing up for yourself.
+As a side note, I am a big fan of Brene Brown’s work around vulnerability and shame. I recommend reading her books “Dare to Lead” and “Braving the Wilderness” to embrace daring greatly, which is not about winning or losing; it's about courage and standing up for yourself.
 
 </column>
 </grid>
@@ -97,7 +97,7 @@ Speak up rather than staying silent, and never shy away from conveying your own 
 
 <column md="6" lg="8" offset_lg="1">
 
-I don’t think being a man would make much of a difference in how my career is today. I have had the equal opportunities and great support from the people I worked with that I can’t even imagine this workplace gender divide anymore. In fact, I often feel women are able to leverage their superpowers of perseverance and empathy which actually makes an organization a better place to work and thereby elevating their male counterparts, too. The more we emphasize this gap that needs to be filled, wider it may become. So, the design question here is (can’t resist), “How might we blur the gender divide at workplace and come together as inclusive, high-performing team?
+I don’t think being a man would make much of a difference in how my career is today. I have had the equal opportunities and great support from the people I worked with that I can’t even imagine this workplace gender divide anymore. In fact, I often feel women are able to leverage their superpowers of perseverance and empathy which actually makes an organization a better place to work and thereby elevating their male counterparts, too. The more we emphasize this gap that needs to be filled, the wider it may become. So, the design question here is (can’t resist), “How might we blur the gender divide at workplace and come together as inclusive, high-performing team?”
 
 </column>
 </grid>
