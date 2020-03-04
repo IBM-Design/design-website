@@ -99,7 +99,7 @@ As a man at IBM, it would have been easier for me to reflect myself in positions
 
 <column md="6" lg="8" offset_lg="1">
 
-Remember: Solving a problem can’t happen before you understand the problem. And in order to understand the problem, you must look at it from different perspectives. You get different perspective through diversity.
+Remember: Solving a problem can’t happen before you understand the problem. And in order to understand the problem, you must look at it from different perspectives. You get different perspectives through diversity.
 
 </column>
 </grid>
