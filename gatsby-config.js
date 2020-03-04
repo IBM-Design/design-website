@@ -31,7 +31,6 @@ module.exports = {
         include_favicon: false,
       },
     },
-    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -83,6 +82,7 @@ module.exports = {
         siteId: 'HUILTLQR',
       },
     },
+    'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-meta-redirect', //this neeeds to stay as the last item
   ],
 };

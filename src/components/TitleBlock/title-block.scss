@@ -69,3 +69,22 @@
     color: $ibm-colors__blue-50;
   }
 }
+
+.title-block__animation {
+  animation-fill-mode: both;
+  animation-duration: 1414ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  animation-name: titleBlockFadeIn;
+}
+
+@keyframes titleBlockFadeIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, 10%, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

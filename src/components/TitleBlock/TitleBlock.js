@@ -46,12 +46,10 @@ export default class TitleBlock extends React.Component {
           <div className="title-block background--black">
             <div className="ibm--grid">
               <div className="ibm--row">
-                <Fade bottom cascade distance="10%">
                   <div className="title-block__content ibm--col-lg-12 ibm--col-md-7">
-                    <div className="eye-bee-m">{eyeBeeM}</div>
-                    <h1 className="title-block__text">{children}</h1>
+                    <div className="eye-bee-m  title-block__animation">{eyeBeeM}</div>
+                    <h1 className="title-block__text title-block__animation">{children}</h1>
                   </div>
-                </Fade>
               </div>
             </div>
           </div>
