@@ -49,6 +49,7 @@
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-offline": "^2.0.18",
     "gatsby-plugin-react-helmet": "3.0.3",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sass": "2.0.4",
     "gatsby-plugin-sharp": "2.0.14",
     "gatsby-react-router-scroll": "^2.0.2",
