@@ -93,10 +93,10 @@ It’s time to change<br>the design game.
 
 <column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
-    href="/community/Maria/"
-    caption="community/Maria"
-    title="Maria Rose Espadaler Mazo">
-<img src="community/Maria/608x608.jpg" alt="Maria Rose Espadaler Mazo" />
+    href="/community/Rosa/"
+    caption="community/Rosa"
+    title="Rosa Espadaler Mazo">
+<img src="community/Rosa/608x608.jpg" alt="Rosa Espadaler Mazo" />
 </tile>
 </tile>
 </column>
@@ -105,7 +105,7 @@ It’s time to change<br>the design game.
 <tile title_size="small"
     href="/community/Haidy/"
     caption="community/Haidy"
-    title="Haidy Perez">
+    title="Haidy Perez-Francis">
 <img src="community/Haidy/608x608.jpg" alt="Portrait of Haidy Perez-Francis" />
 </tile>
 </column>
@@ -114,8 +114,8 @@ It’s time to change<br>the design game.
 <tile title_size="small"
     href="/community/SarahP/"
     caption="community/SarahP"
-    title="Sarah Platenberg">
-<img src="community/SarahP/608x608.jpg" alt="Portrait of Sarah Platenberg" />
+    title="Sarah Plantenberg">
+<img src="community/SarahP/608x608.jpg" alt="Portrait of Sarah Plantenberg" />
 </tile>
 </column>
 

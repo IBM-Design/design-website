@@ -1,5 +1,5 @@
 ---
-title: Maria Rose Espadaler Mazo
+title: Rosa Espadaler Mazo
 ---
 
 <grid classname="background-bleed">
@@ -7,13 +7,13 @@ title: Maria Rose Espadaler Mazo
 
 <art-direction>
 
-![Maria Rose Espadaler Mazo card image](./608x608.jpg)
+![Rosa Espadaler Mazo card image](./608x608.jpg)
 
-![Maria Rose Espadaler Mazo hero image](./2624x1120.jpg)
+![Rosa Espadaler Mazo hero image](./2624x1120.jpg)
 
 </art-direction>
 
-<community-lead name="Maria Rose Espadaler Mazo" position="Customer Engagement and Design Practice Leader" department="IBM Services"></community-lead>
+<community-lead name="Rosa Espadaler Mazo" position="Customer Engagement and Design Practice Leader" department="IBM Services"></community-lead>
 
 </column>
 </grid>
@@ -27,7 +27,7 @@ title: Maria Rose Espadaler Mazo
 
 <column md="6" lg="8" offset_lg="1">
 
-I’m a 36-year-old self-made problem solver with infinite curiosity that drives me to keep learning how things work, what makes people tick. 
+I’m a 36-year-old self-made problem solver with infinite curiosity that drives me to keep learning how things work, what makes people tick.
 
 When I was little, I dismantled toys to understand their mechanics. I preferred the freedom Lego blocks gave me to create, and I read classic books to discover new worlds and the emotional and psychological intricacies of humans.
 
@@ -62,7 +62,7 @@ So, even though I started my career as an artist and evolved into a UX/UI Design
 
 <column md="6" lg="8" offset_lg="1">
 
-From my experience, the higher the level, the harder to be viewed as an equal. On the other hand, designers are only viewed as “doers,” “order-followers.” 
+From my experience, the higher the level, the harder to be viewed as an equal. On the other hand, designers are only viewed as “doers,” “order-followers”.
 
 So, any woman in design who wants to progress in her career will have to demonstrate more knowledge than an older man and more flexibility cross-discipline than an engineer.
 

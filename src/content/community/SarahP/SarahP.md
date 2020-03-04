@@ -7,9 +7,9 @@ title: Sarah Plantenberg
 
 <art-direction>
 
-![Sarah Platenberg card image]608x608.jpg
+![Sarah Plantenberg card image]608x608.jpg
 
-![Sarah Platenberg hero image](./2624x1120.jpg)
+![Sarah Plantenberg hero image](./2624x1120.jpg)
 
 </art-direction>
 
@@ -81,7 +81,7 @@ Recently I worked with a team trying to understand how to win back clients who h
 
 I did three hours of research and found a nugget: the human factors involved for our clients when considering a major, strategic change. In short, when proposing a conversation about a change in cloud strategy, IBM teams reported that their clients felt IBM was only after a sale, not caring about the disruption a change to IBM technology might cause.
 
-The full report was given to the executives. I also included an overview of [Systems 1 and 2 of decision-making, Daniel Kahneman’s work](https://www.scientificamerican.com/article/kahneman-excerpt-thinking-fast-and-slow/) as a means of “shining a light into the black box” that I mentioned earlier. This created trust for the process and the data. Now that the team understands the client experience, they can manage that with intention and consider the human factor in what originally appeared to be a conversation predominantly about technology. 
+The full report was given to the executives. I also included an overview of [Systems 1 and 2 of decision-making, Daniel Kahneman’s work](https://www.scientificamerican.com/article/kahneman-excerpt-thinking-fast-and-slow/) as a means of “shining a light into the black box” that I mentioned earlier. This created trust for the process and the data. Now that the team understands the client experience, they can manage that with intention and consider the human factor in what originally appeared to be a conversation predominantly about technology.
 
 </column>
 </grid>
@@ -99,7 +99,7 @@ Acceptance and ease.
 
 Much ink has been spilled about how the expectations of women differ from those of men. This is especially true when it comes to the things like the definition of success, how we perceive drive, allowable emotions and language, communication styles, and more. And even more ink on how to help women work in a world constructed and measured by men.
 
-Depending on the environment in which one works, being a driven, high-performing woman can come with some specific tradeoffs. Women rather freely speak about this behind closed doors. On multiple occasions, women have mentored me to one, be aware that my success might feel more threatening to men than that of a male colleague, and two, make sure I’m enjoyable to work with. Note, not neutral but enjoyable, by the men around me, lest I risk alienation. The (barely) unspoken message is that there is an order, a “way” of doing things. This has eased a bit in the last few years, but in the past, women and men were coming to the same office and entering two different work environments. 
+Depending on the environment in which one works, being a driven, high-performing woman can come with some specific tradeoffs. Women rather freely speak about this behind closed doors. On multiple occasions, women have mentored me to one, be aware that my success might feel more threatening to men than that of a male colleague, and two, make sure I’m enjoyable to work with. Note, not neutral but enjoyable, by the men around me, lest I risk alienation. The (barely) unspoken message is that there is an order, a “way” of doing things. This has eased a bit in the last few years, but in the past, women and men were coming to the same office and entering two different work environments.
 
 We cannot escape the fact that the interactions and thus expectations of men and women have been shaped over millennia, so this stuff can be deeply ingrained. It is my hope that we are all working on our unconscious biases and challenging ourselves to grow.
 
