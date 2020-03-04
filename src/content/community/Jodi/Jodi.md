@@ -65,13 +65,35 @@ Ugh. Any stage in which women don’t trust or like themselves. Which for me, th
 <grid className="community__grid" background="gray-10">
 <column sm="3" md="3" lg="3">
 
+<span className="community__prompt">Name three projects that made you the designer you are today.</span>
+
+</column>
+
+<column md="6" lg="8" offset_lg="1">
+
+In 1997, I sharpened my relationship with data and built a foundational love for structure and creating conditions for learning and variable-driven design. 
+
+I was at citysearch.com working on the SF City Guide. I was quickly invited to the core product team in L.A. because I kept hacking the core product database to do what I wanted. Our Product X team was charged with migrating to a more flexible, data-driven framework, instead of a manually-curated editorial approach. We were given a target of release cycle of one city a month instead of the usual six to eight-month release cycle. We had to rethink the entire experience from a rich and curated experience to bare bones and data-driven while still being engaging. We never knew exactly what we would get when we would turn on a city’s source data: Yellow Pages. I found a love for accounting for flexibility and the unknown, which I drive my team by today. 
+
+In 2007, I was working in [IBM iX](https://www.ibm.com/services/ibmix/) when I got a call that would change how I understood the impact I could have on the world. Our Managing Partner got a call from the Chief of Pediatric Critical Care at Boston Children’s Hospital, inquiring how he might replicate what IBM iX had done for the [Masters Tournament](https://www.masters.com/index.html) (IBM created a virtual experience demonstrating what it was like to putt on [Amen Corner](https://www.golf.com/tour-news/2017/03/07/amen-corner-masters-augusta-national).) for the “apprentice-master learning model.”
+
+When we met with Dr. Burns, he realized how his instinct to create a more engaging learning experience had way more implications to help shape the future of distributed expertise. We quickly (in six weeks) worked to create a working proof of concept that demonstrated a real-time question and answer session that connected to experts in critical care and created the first-of-a-kind respirator simulator. The beta went viral and we had to shut it down for security reasons. We hadn’t imagined how successful it would be. We went to the drawing board to rearchitect, rebuild, and fund the project. Our Christmas card from CHB lights up the countries of roughly over 6,000 hospitals where it’s in use. 
+
+The third I’m still working on, but I am super stoked to be illustrating and making approachable the really complex landscape of health care. I am coordinating across stakeholders, inspiring designers to elevate their thinking and storytelling like I never have before. All of this is the art of orchestration and connection. This is my next chapter. 
+
+</column>
+</grid>
+
+<grid className="community__grid" background="gray-10">
+<column sm="3" md="3" lg="3">
+
 <span className="community__prompt">How would your career have been different if you were a man?</span>
 
 </column>
 
 <column md="6" lg="8" offset_lg="1">
 
-Yes. I don’t think I would have the sensitivities, the power of observation, the sensing, the feeling. The ability to listen and not act is a female energy trait. Would I be further along by now? Of course, I would. A reason women don’t apply to jobs that they don’t match 95% is that even if they match 100%, they still get passed over by men who match 20%. I am glad we have since progressed; a lot has changed in 25 years. I have a place in this world, and I bring my perspective, and it’s unique. Culturally, we don’t value what we don't know.
+Yes. I don’t think I would have the sensitivities, the power of observation, the sensing, the feeling. The ability to listen and not act is a femanine energy trait. Would I be further along by now? Of course, I would. A reason women don’t apply to jobs that they don’t match 95% is that even if they match 100%, they still get passed over by men who match 20%. I am glad we have since progressed; a lot has changed in 25 years. I have a place in this world, and I bring my perspective, and it’s unique. Culturally, we don’t value what we don't know.
 
 </column>
 </grid>
