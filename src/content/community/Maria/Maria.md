@@ -29,7 +29,7 @@ title: Maria Rose Espadaler Mazo
 
 I’m a 36-year-old self-made problem solver with infinite curiosity that drives me to keep learning how things work, what makes people tick. 
 
-When I was little, I dismantled toys to understand their mechanics, I preferred the freedom Lego blocks gave me to create, and I read classic books to discover new worlds and the emotional and psychological intricacies of humans.
+When I was little, I dismantled toys to understand their mechanics. I preferred the freedom Lego blocks gave me to create, and I read classic books to discover new worlds and the emotional and psychological intricacies of humans.
 
 Now I use the creativity, analysis, and empathy I cultivated to deliver beyond expectations, spreading team spirit and collective intelligence.
 
@@ -47,9 +47,9 @@ Now I use the creativity, analysis, and empathy I cultivated to deliver beyond e
 
 With a 5-year BSc in Digital Design and a MSc in Animation from Barcelona universities, I started my career as a Web Designer 16 years ago, working for the banking, manufacturing, and hospitality sectors. Over the years, I broadened my horizons, illustrating children books for a Canadian publishing company and freelancing as a Storyboard Artist for the Peter Drucker Institute. I also designed iOS apps for pharmacy companies and accessible, encrypted, web-responsive voting solutions for European and Middle Eastern countries.
 
-Since joining IBM, I have further developed my design, development and consultancy expertise to help accelerate business growth in DS&iX SPGI and raise the bar in the delivered human experience for our clients.
+Since joining IBM, I have further developed my design, development, and consultancy expertise to help accelerate business growth in DS&iX SPGI and raise the bar in the delivered human experience for our clients.
 
-So, even though I started my career as an artist and evolved into a UX/UI Designer along the years, nowadays I wouldn’t call myself a designer but a humanist. I try to diversify my knowledge and avoid tags that would limit my potential, knowing that there’s still so much I don’t know, and I could learn.
+So, even though I started my career as an artist and evolved into a UX/UI Designer along the years, nowadays I wouldn’t call myself a designer but a humanist. I try to diversify my knowledge and avoid tags that would limit my potential, knowing that there’s still so much I don’t know—and I could learn.
 
 </grid>
 
@@ -62,7 +62,7 @@ So, even though I started my career as an artist and evolved into a UX/UI Design
 
 <column md="6" lg="8" offset_lg="1">
 
-From my experience, the higher the level, the harder to be viewed as an equal. On the other hand, designers are only viewed as “doers,” “order-followers”. 
+From my experience, the higher the level, the harder to be viewed as an equal. On the other hand, designers are only viewed as “doers,” “order-followers.” 
 
 So, any woman in design who wants to progress in her career will have to demonstrate more knowledge than an older man and more flexibility cross-discipline than an engineer.
 
