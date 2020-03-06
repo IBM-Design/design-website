@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
 
 const eyeBeeM = (
   <svg

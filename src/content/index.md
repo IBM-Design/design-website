@@ -181,11 +181,12 @@ It’s time to change<br>the design game.
 <hr>
 
 </column>
-<column lg="4">
 
 <!-- Featured Community End -->
 
 <!-- Outcomes Start -->
+
+<column lg="4">
 
 ### Featured outcomes
 
