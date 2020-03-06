@@ -174,10 +174,3 @@ It’s time to change<br>the design game.
 </column>
 
 </grid>
-
-<grid background="gray-10">
-<column lg="16">
-
-<hr>
-
-</column>
