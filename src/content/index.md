@@ -3,16 +3,19 @@ title: Homepage
 ---
 
 <title-block fade="true">
-It’s time to change<br>the design game.
-<span>We’re all in.</span>
+Empathy is our<br/>foundation, always
+<span>Now it’s more important than ever.</span>
 </title-block>
 
 <grid background="gray-10">
 <column lg="8" md="5">
 
-<p size="xl">This community of designers is building on their unique journeys with fresh and exciting perspectives that model the change they want to see across IBM.</p>
+<p size="xl">Teammates, clients, friends, and family are operating in new contexts and with reexamined priorities. It’s the responsibility of designers and design thinkers to respond to this change with empathy.</p>
 
-<icon name="PlexArrowDown"></icon>
+<p size="xl">To support teams that find themselves suddenly forced into a new way of working, we’re providing free access to all of our online Enterprise Design Thinking [activities and courses](https://www.ibm.com/design/thinking).</p>
+<p size="xl">Enable teams to co-create impactful outcomes amidst uncertainty in a remote world by developing empathy, for themselves and for those they serve.</p>
+
+
 
 </column>
 </grid>
