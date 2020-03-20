@@ -3,7 +3,7 @@ title: Homepage
 ---
 
 <title-block fade="true">
-Empathy is our<br/>foundation, always
+Empathy is our<br/>foundation, always.
 <span>Now it’s more,<br/>important than ever.</span>
 </title-block>
 
