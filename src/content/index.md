@@ -4,7 +4,7 @@ title: Homepage
 
 <title-block fade="true">
 Empathy is our<br/>foundation, always
-<span>Now it’s more important than ever.</span>
+<span>Now it’s more,<br/>important than ever.</span>
 </title-block>
 
 <grid background="gray-10">
@@ -13,7 +13,7 @@ Empathy is our<br/>foundation, always
 <p size="xl">Teammates, clients, friends, and family are operating in new contexts and with reexamined priorities. It’s the responsibility of designers and design thinkers to respond to this change with empathy.</p>
 
 <p size="xl">To support teams that find themselves suddenly forced into a new way of working, we’re providing free access to all of our online Enterprise Design Thinking [activities and courses](https://www.ibm.com/design/thinking).</p>
-<p size="xl">Enable teams to co-create impactful outcomes amidst uncertainty in a remote world by developing empathy, for themselves and for those they serve.</p>
+<p size="xl">In a remote world, enable teams to co-create impactful outcomes amidst uncertainty by helping them develop empathy, for themselves and those they serve.</p>
 
 
 
