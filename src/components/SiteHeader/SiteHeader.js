@@ -159,7 +159,10 @@ const SiteHeader = ({
               aria-label="Site switcher"
               isSwitcherOpen={isSwitcherExpanded}
               links={[
-                { href: 'https://www.ibm.com/design/', linkText: 'IBM Design' },
+                { 
+                  href: 'https://www.ibm.com/design/', 
+                  linkText: 'IBM Design' 
+                },
                 {
                   href: 'https://www.ibm.com/design/language/',
                   linkText: 'IBM Design Language',
@@ -167,6 +170,10 @@ const SiteHeader = ({
                 {
                   href: 'https://www.ibm.com/brand/',
                   linkText: 'IBM Brand Center',
+                },
+                {
+                  href: 'https://www.ibm.com/able/',
+                  linkText: 'IBM Accessibility',
                 },
                 {
                   href: 'https://www.carbondesignsystem.com',

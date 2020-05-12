@@ -33,11 +33,11 @@
 }
 
 .bx--website-switcher-list__item:first-child,
-.bx--website-switcher-list__item:nth-last-child(4) {
+.bx--website-switcher-list__item:nth-last-child(12) {
   margin-top: 1rem;
 }
 
-.bx--website-switcher-list__item:nth-child(3),
+.bx--website-switcher-list__item:nth-child(4),
 .bx--website-switcher-list__item:nth-last-child(5) {
   position: relative;
   margin-bottom: 3.95rem;
@@ -53,8 +53,8 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(4),
-.bx--website-switcher-list__item:nth-child(8) {
+.bx--website-switcher-list__item:nth-child(5),
+.bx--website-switcher-list__item:nth-child(9) {
   position: relative;
 
   &::before {
@@ -70,7 +70,7 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(8)::before {
+.bx--website-switcher-list__item:nth-child(9)::before {
   content: 'Design practices';
 }
 
@@ -96,7 +96,7 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(7)
+.bx--website-switcher-list__item:nth-child(8)
   .bx--website-switcher-list__item-link {
   color: #6f6f6f;
   cursor: default;
