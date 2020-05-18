@@ -14,8 +14,9 @@ meets pragmatic.</span>
 <ul>
 <li><a data-scroll href="#ibm-design-language">IBM Design Language</a></li>
 <li><a data-scroll href="#enterprise-design-thinking">Enterprise Design Thinking</a></li>
-<li><a data-scroll href="#ibm-design-research">IBM Design Research</a></li>
 <li><a data-scroll href="#ibm-design-for-ai">IBM Design for AI</a></li>  
+<li><a data-scroll href="#ibm-accessibility">IBM Accessibility</a></li>  
+<li><a data-scroll href="#ibm-design-research">IBM Design Research</a></li>
 </ul>
 
 </anchor-links>
@@ -190,6 +191,36 @@ meets pragmatic.</span>
 
 </column>
 </grid>
+<grid background="gray-100">
+<column lg="16">
+
+<hr>
+
+</column>
+<column lg="4">
+
+### IBM Accessibility
+
+</column>
+<column lg="7" md="5">
+
+## Resources and guidance crafted by IBM’s accessibility experts to help any product team deliver an accessible solution to the market.
+
+</column>
+<column lg="12" offset_lg="4">
+
+<tile
+    href="https://www.ibm.com/able/"
+    new_window="false"
+    size="lg"
+    background="#F2BDD8"
+    dark="true"
+    title="IBM Accessibility">
+<img src="images/accessibility.png" alt="IBM Bee"/>
+</tile>
+
+</column>
+
 <grid background="gray-100">
 <column lg="16">
 
