@@ -43,8 +43,6 @@ jobs:
                 -o IBMDesignOrg \
                 -s slashDesign
               
-              ibmcloud cf install
-              
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
