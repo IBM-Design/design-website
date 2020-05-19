@@ -26,6 +26,8 @@ jobs:
                 -a https://api.ng.bluemix.net \
                 -o IBMDesignOrg \
                 -s slashDesign
+                
+              ibmcloud cf install
 
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
@@ -40,7 +42,9 @@ jobs:
                 -a https://api.eu-de.bluemix.net \
                 -o IBMDesignOrg \
                 -s slashDesign
-
+              
+              ibmcloud cf install
+              
               ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
               ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
