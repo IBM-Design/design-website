@@ -112,15 +112,6 @@ It’s time to change<br>the design game.
 
 <column lg="4" md="4" >
 <tile title_size="small"
-    href="/community/SarahP/"
-    caption="community/SarahP"
-    title="Sarah Plantenberg">
-<img src="SarahP/608x608.jpg" alt="Portrait of Sarah Plantenberg" />
-</tile>
-</column>
-
-<column lg="4" md="4" offset_lg="4">
-<tile title_size="small"
     href="/community/Sabine/"
     caption="community/Sabine"
     title="Sabine Roehl">
@@ -128,7 +119,7 @@ It’s time to change<br>the design game.
 </tile>
 </column>
 
-<column lg="4" md="4" >
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Shani/"
     caption="community/Shani"
@@ -146,7 +137,7 @@ It’s time to change<br>the design game.
 </tile>
 </column>
 
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4" >
 <tile title_size="small"
     href="/community/Jordan/"
     caption="community/Jordan"
@@ -155,7 +146,7 @@ It’s time to change<br>the design game.
 </tile>
 </column>
 
-<column lg="4" md="4">
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Susana/"
     caption="community/Susana"
