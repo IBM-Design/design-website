@@ -15,8 +15,6 @@ Empathy is our<br/>foundation, always.
 <p size="xl">To support teams that find themselves suddenly forced into a new way of working, we’re providing free access to all of our online Enterprise Design Thinking <a href="https://www.ibm.com/design/thinking">activities and courses</a>.</p>
 <p size="xl">In a remote world, enable teams to co-create impactful outcomes amidst uncertainty by helping them develop empathy, for themselves and those they serve.</p>
 
-
-
 </column>
 </grid>
 
@@ -115,15 +113,6 @@ Empathy is our<br/>foundation, always.
 
 <column lg="4" md="4" >
 <tile title_size="small"
-    href="/community/SarahP/"
-    caption="community/SarahP"
-    title="Sarah Plantenberg">
-<img src="community/SarahP/608x608.jpg" alt="Portrait of Sarah Plantenberg" />
-</tile>
-</column>
-
-<column lg="4" md="4" offset_lg="4">
-<tile title_size="small"
     href="/community/Sabine/"
     caption="community/Sabine"
     title="Sabine Roehl">
@@ -131,7 +120,7 @@ Empathy is our<br/>foundation, always.
 </tile>
 </column>
 
-<column lg="4" md="4" >
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Shani/"
     caption="community/Shani"
@@ -149,7 +138,7 @@ Empathy is our<br/>foundation, always.
 </tile>
 </column>
 
-<column lg="4" md="4" offset_lg="4">
+<column lg="4" md="4" >
 <tile title_size="small"
     href="/community/Jordan/"
     caption="community/Jordan"
@@ -158,7 +147,7 @@ Empathy is our<br/>foundation, always.
 </tile>
 </column>
 
-<column lg="4" md="4">
+<column lg="4" md="4" offset_lg="4">
 <tile title_size="small"
     href="/community/Susana/"
     caption="community/Susana"
