@@ -10,7 +10,7 @@ Empathy is our<br/>foundation, always.
 <grid background="gray-10">
 <column lg="8" md="5">
 
-<p size="xl">Empathy is how we create a more human-centered design business—it's who we are. Explore some of our strategic work that prioritizes the needs of the people we design for, and learn from the humans who make it all possible.</p>
+<p size="xl">Empathy is how we create a more human-centered design business—it’s who we are. Explore some of our strategic work that prioritizes the needs of the people we design for, and learn from the humans who make it all possible.</p>
 
 </column>
 </grid>
@@ -30,7 +30,7 @@ Empathy is our<br/>foundation, always.
 </column>
 <column lg="7" md="5">
 
-## It’s about time we design an equitable future: The Racial Equity in Design initiative is committed to instilling racial equity at our company and our industry through our interactions, investments, and actions.
+## It’s about time we design an equitable future. The Racial Equity in Design initiative is committed to instilling racial equity at our company and our industry through our interactions, investments, and actions.
 
 </column>
 

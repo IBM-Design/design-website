@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { ClickableTile, Tile } from 'carbon-components-react';
-import { ArrowRight24, ArrowUpRight24 } from '@carbon/icons-react';
+import { ArrowRight24, Launch24 } from '@carbon/icons-react';
 import Fade from 'react-reveal/Fade';
 
 export default class WebsiteTile extends React.Component {
@@ -144,7 +144,7 @@ export default class WebsiteTile extends React.Component {
               {(feature === 'true') & (feature_style === 'alt') || (icon === "arrowRight") ? (
                 <ArrowRight24 aria-label="" />
               ) : (
-                <ArrowUpRight24 aria-label="" />
+                <Launch24 aria-label="" />
               )}
             </div>
           </div>
