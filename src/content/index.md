@@ -12,6 +12,8 @@ Empathy is our<br/>foundation, always.
 
 <p size="xl">Empathy is how we create a more human-centered design business—it’s who we are. Explore some of our strategic work that prioritizes the needs of the people we design for, and learn from the humans who make it all possible.</p>
 
+<icon name="PlexArrowDown"></icon>
+
 </column>
 </grid>
 
@@ -104,7 +106,7 @@ Empathy is our<br/>foundation, always.
 <grid>
 <column lg="4" md="4" offset_lg="4">
 
-<tile title_size="small"
+<tile
     href="/community/Dawn/"
     title="Dawn Ahukanna"
     icon="arrowRight">
@@ -115,7 +117,7 @@ Empathy is our<br/>foundation, always.
 
 <column lg="4" md="4">
 
-<tile title_size="small"
+<tile
     href="/community/Ruchi/"
     title="Ruchi Batra"
     icon="arrowRight">
@@ -125,7 +127,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4">
-<tile title_size="small"
+<tile
     href="/community/SarahB/"
     title="Sarah Brooks"
     icon="arrowRight">
@@ -134,7 +136,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" offset_lg="4">
-<tile title_size="small"
+<tile
     href="/community/Jodi/"
     title="Jodi Cutler"
     icon="arrowRight">
@@ -143,7 +145,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4">
-<tile title_size="small"
+<tile
     href="/community/Sophie/"
     title="Sophie Kirk"
     icon="arrowRight">
@@ -152,7 +154,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4">
-<tile title_size="small"
+<tile
     href="/community/Roxanne/"
     title="Roxanne Ma"
     icon="arrowRight">
@@ -162,7 +164,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" offset_lg="4">
-<tile title_size="small"
+<tile
     href="/community/Rosa/"
     title="Rosa Espadaler Mazo"
     icon="arrowRight">
@@ -172,7 +174,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4">
-<tile title_size="small"
+<tile
     href="/community/Haidy/"
     title="Haidy Perez-Francis"
     icon="arrowRight">
@@ -181,7 +183,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" >
-<tile title_size="small"
+<tile
     href="/community/Sabine/"
     title="Sabine Roehl"
     icon="arrowRight">
@@ -190,7 +192,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" offset_lg="4">
-<tile title_size="small"
+<tile
     href="/community/Shani/"
     title="Shani Sandy"
     icon="arrowRight">
@@ -199,7 +201,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" >
-<tile title_size="small"
+<tile
     href="/community/Joni/"
     title="Joni Saylor"
     icon="arrowRight">
@@ -208,7 +210,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" >
-<tile title_size="small"
+<tile
     href="/community/Jordan/"
     title="Jordan Shade"
     icon="arrowRight">
@@ -217,7 +219,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4" offset_lg="4">
-<tile title_size="small"
+<tile
     href="/community/Susana/"
     title="Susana Rodriguez de Tembleque"
     icon="arrowRight">
@@ -226,7 +228,7 @@ Empathy is our<br/>foundation, always.
 </column>
 
 <column lg="4" md="4">
-<tile title_size="small"
+<tile
     href="/community/Jenny/"
     title="Jenny Woo"
     icon="arrowRight">
