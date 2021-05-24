@@ -126,7 +126,7 @@ Discipline
 
 Rather than siloing designers into a single organization, we distribute them throughout teams and business units across IBM.
 
-Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, offering managers, and all of the other disciplines that must come together to deliver a great outcome.
+Embedding designers directly into the business allows them to build a rigorous understanding of the domain they’re working in. This knowledge, in turn, helps them align and collaborate more effectively with developers, engineers, product managers, and all of the other disciplines that must come together to deliver a great outcome.
 
 </column>
 <column lg="8" offset_lg="4" md="5" fade="true">
@@ -228,9 +228,9 @@ From the initial visioning stages through to delivery and beyond, we work closel
 
 ## Are you passionate about designing great software and digital experiences?
 
-Work with multi-disciplinary teams of designers, developers, offering managers and beyond to design some of IBM’s most foundational products and webpages.
+Work with multi-disciplinary teams of designers, developers, product managers and beyond to design some of IBM’s most foundational products and webpages.
 
-Types of roles: visual design, UX design, user research, front-end development, content design and strategy, offering management
+Types of roles: visual design, UX design, user research, front-end development, content design and strategy, product management
 
 <p><a href="https://careers.ibm.com/ListJobs/All/Search/Position-Type/Early-Professional/primary-job-category/Design---Offering-Management//?lang=en" target="_blank"><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
 
