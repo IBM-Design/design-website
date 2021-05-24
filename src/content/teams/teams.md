@@ -230,7 +230,7 @@ From the initial visioning stages through to delivery and beyond, we work closel
 
 Work with multi-disciplinary teams of designers, developers, product managers and beyond to design some of IBM’s most foundational products and webpages.
 
-Types of roles: visual design, UX design, user research, front-end development, content design and strategy, Product management
+Types of roles: visual design, UX design, user research, front-end development, content design and strategy, product management
 
 <p><a href="https://careers.ibm.com/ListJobs/All/Search/Position-Type/Early-Professional/primary-job-category/Design---Offering-Management//?lang=en" target="_blank"><span>Open roles</span> <icon color="blue" name="ArrowUpRight20" inline="true"></icon></a></p><br>
 
