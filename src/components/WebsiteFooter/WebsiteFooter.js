@@ -24,14 +24,14 @@ const WebsiteFooter = ({ children, linksCol1, linksCol2, logoOffset }) => {
         <div className={`ibm--row`}>
           <nav
             aria-label="Footer nav"
-            className={`ibm--website-footer__nav ibm--col-lg-2 ibm--col-md-2 ibm--offset-lg-4`}>
+            className={`bx--website-footer__nav ibm--col-lg-2 ibm--col-md-2 ibm--offset-lg-4`}>
             <ul>
               {linksCol1 &&
                 linksCol1.map((link, i) => {
                   return (
                     <li key={i}>
                       <a
-                        className={`ibm--website-footer__link`}
+                        className={`bx--website-footer__link`}
                         href={link.href}
                         aria-label={link.linkText}>
                         {link.linkText}
@@ -43,14 +43,14 @@ const WebsiteFooter = ({ children, linksCol1, linksCol2, logoOffset }) => {
           </nav>
           <nav
             aria-label="Footer nav continued"
-            className={`ibm--website-footer__nav ibm--col-lg-2 ibm--col-md-2`}>
+            className={`bx--website-footer__nav ibm--col-lg-2 ibm--col-md-2`}>
             <ul>
               {linksCol2 &&
                 linksCol2.map((link, i) => {
                   return (
                     <li key={i}>
                       <a
-                        className={`ibm--website-footer__link`}
+                        className={`bx--website-footer__link`}
                         href={link.href}
                         aria-label={link.linkText}>
                         {link.linkText}
@@ -61,7 +61,7 @@ const WebsiteFooter = ({ children, linksCol1, linksCol2, logoOffset }) => {
             </ul>
           </nav>
           <div
-            className={`ibm--website-footer__content ibm--col-lg-5 ibm--col-md-4 ibm--offset-lg-2`}>
+            className={`bx--website-footer__content ibm--col-lg-5 ibm--col-md-4 ibm--offset-lg-2`}>
             {children}
           </div>
         </div>
