@@ -66,7 +66,7 @@ const WebsiteFooter = ({ children, linksCol1, linksCol2, logoOffset }) => {
           </div>
         </div>
         <div className="ibm--row">
-          <div className={logoClassNames}><a classname="ibm--website-footer__logo" href="http://www.ibm.com" aria-label="IBM.com">{IBMLogo}</a></div>
+          <div className={logoClassNames}><a style={{boxShadow: "none"}} href="http://www.ibm.com" aria-label="IBM.com">{IBMLogo}</a></div>
         </div>
       </div>
     </footer>
