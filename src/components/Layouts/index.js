@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import favicon32 from '../../content/global/images/favicon-32.png';
 import SiteHeader from '../SiteHeader';
-import { WebsiteFooter } from '@carbon/addons-website';
+import WebsiteFooter from '../WebsiteFooter';
 import timestamp from 'raw-loader!../../../build-timestamp';
 
 import '../../styles/index.scss';
