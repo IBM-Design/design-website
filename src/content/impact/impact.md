@@ -27,13 +27,36 @@ the means.<br>
 </column>
 <column lg="4">
 
+### America by Design
+
+</column>
+
+<column lg="12">
+
+<tile title_size="small" icon="arrowRight" title="IBM Design featured on TV Series America by Design" href="/impact/abd">
+<img src="images/abd.jpg" alt="America by Design producer Mike Chapman speaking with IBM Z Design Director Shani Sandy"/>
+
+  </tile>
+
+</column>
+
+</grid>
+
+<grid background="gray-10">
+<column lg="16">
+
+<hr>
+
+</column>
+<column lg="4">
+
 ### Racial Equity in Design
 
 </column>
 
 <column lg="12">
 
-<tile title_size="small" title="It’s about time we ask the tough questions that lead to transformation." href="https://www.ibm.com/design/racial-equity-in-design">
+<tile title_size="small" title="It’s about time we ask the tough questions that lead to transformation" href="https://www.ibm.com/design/racial-equity-in-design">
 <img src="images/REiD_field_guide_IMPACT.png" alt=""/>
 
   </tile>
@@ -78,7 +101,7 @@ the means.<br>
 
 <column lg="12">
 
-  <tile title_size="small" title="Business leaders, visionaries, and innovators unite" href="/impact/think/">
+  <tile title_size="small" icon="arrowRight" title="Business leaders, visionaries, and innovators unite" href="/impact/think/">
     <img src="images/Image_1.jpg" alt=""/>
 
   </tile>
