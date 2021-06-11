@@ -100,9 +100,21 @@ const SiteHeader = ({
                 <HeaderMenuItem to="/practices/" element={Link}>
                   Practices
                 </HeaderMenuItem>
-                <HeaderMenuItem to="/impact/" element={Link}>
-                  Impact
-                </HeaderMenuItem>
+                <HeaderMenu aria-label="Impact" className={approachClassName}>
+                  <HeaderMenuItem to="/impact/" element={Link}>
+                    Overview
+                  </HeaderMenuItem>
+                  <HeaderMenuItem
+                    to="/impact/abd/"
+                    element={Link}>
+                    America by Design
+                  </HeaderMenuItem>
+                  <HeaderMenuItem
+                    to="/impact/think/"
+                    element={Link}>
+                    Think
+                  </HeaderMenuItem>
+                </HeaderMenu>
               </HeaderNavigation>
               <HeaderGlobalBar>
                 <HeaderGlobalAction
@@ -149,9 +161,23 @@ const SiteHeader = ({
                 <SideNavLink to="/practices/" element={Link}>
                   Practices
                 </SideNavLink>
-                <SideNavLink to="/impact/" element={Link}>
-                  Impact
-                </SideNavLink>
+                <SideNavMenu
+                  title="Impact"
+                  defaultExpanded={approachActive ? true : false}>
+                  <SideNavMenuItem to="/impact/" element={Link}>
+                    Overview
+                  </SideNavMenuItem>
+                  <SideNavMenuItem
+                    to="/impact/abd/"
+                    element={Link}>
+                    America by Design
+                  </SideNavMenuItem>
+                  <SideNavMenuItem
+                    to="/impact/think/"
+                    element={Link}>
+                    Think
+                  </SideNavMenuItem>
+                </SideNavMenu>
               </SideNavItems>
             </SideNav>
             <WebsiteSwitcher
