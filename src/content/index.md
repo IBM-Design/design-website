@@ -276,9 +276,10 @@ Empathy is our<br/>foundation, always.
 <column lg="4" md="4" offset_lg="0"  offset_md="4">
 
 <tile title_size="small"
-    href="https://www.tdc.org/competitions/typeface-design-2018/"
-    title="2018 Typeface design competition: Plex wins Judges’ Choice">
-<img src="images/Image_3.jpg" alt=""/>
+    href="/impact/abd/"
+    title="IBM Design featured in TV Series America by Design"
+    icon="arrowRight">
+<img src="images/abd_shani_square.jpg" alt="Shani Sandy, design director for IBM Z chatting with America by Design Executive Producer Mike Chapman"/>
 </tile>
 
 </column>
