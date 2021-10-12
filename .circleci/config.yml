@@ -18,7 +18,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               # Install `ibmcloud` CLI
-              curl -fsSL https://clis.ng.bluemix.net/install/linux | sh
+              curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
 
               # Login and push to US
               ibmcloud login \
