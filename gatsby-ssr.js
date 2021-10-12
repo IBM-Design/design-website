@@ -1,7 +1,36 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+import React from 'react';
 
-// You can delete this file if you're not using it
+export const onRenderBody = ({ setPostBodyComponents }) => {
+  if (process.env.NODE_ENV !== `production`) {
+    return null;
+  }
+
+  const script = `
+  if(!window) window = {};
+  window.idaPageIsSPA = true;
+  window.digitalData = {
+    page: {
+      category: {
+        primaryCategory: 'PC010',
+      },
+      pageInfo: {
+        ibm: {
+          siteID: 'DESIGN',
+          country: 'US',
+          industry: 'Design',
+          owner: 'Alison Joseph/Austin/IBM',
+        },
+      },
+    },
+  }`;
+
+  return setPostBodyComponents([
+    <script key="digital-data" dangerouslySetInnerHTML={{ __html: script }} />,
+    <script
+      defer
+      key="core-metrics"
+      src="https://1.www.s81c.com/common/stats/ibm-common.js"
+      type="text/javascript"
+    />,
+  ]);
+};
