@@ -32,13 +32,23 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.bx--website-switcher-list__item:first-child,
-.bx--website-switcher-list__item:nth-last-child(12) {
-  margin-top: 1rem;
+// Section heading border/divider
+.bx--website-switcher-list__item:nth-child(1) {
+  margin-top: 3rem;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -0.45rem;
+    width: rem(222px);
+    margin-left: 1rem;
+    border-top: 1px solid $ibm-colors--gray-70;
+  }
 }
 
-.bx--website-switcher-list__item:nth-child(4),
-.bx--website-switcher-list__item:nth-last-child(5) {
+.bx--website-switcher-list__item:nth-child(2),
+.bx--website-switcher-list__item:nth-child(6),
+.bx--website-switcher-list__item:nth-child(12) {
   position: relative;
   margin-bottom: 3.95rem;
 
@@ -53,12 +63,14 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(5),
-.bx--website-switcher-list__item:nth-child(9) {
+// Section heading text
+.bx--website-switcher-list__item:nth-child(1),
+.bx--website-switcher-list__item:nth-child(3),
+.bx--website-switcher-list__item:nth-child(7),
+.bx--website-switcher-list__item:nth-child(13) {
   position: relative;
 
   &::before {
-    content: 'Design disciplines';
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 1rem;
@@ -70,12 +82,20 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(9)::before {
-  content: 'Design practices';
+.bx--website-switcher-list__item:nth-child(1)::before {
+  content: 'Foundations';
 }
 
-.bx--website-switcher-list__item:nth-last-child(5) {
-  margin-top: 0;
+.bx--website-switcher-list__item:nth-child(3)::before {
+  content: 'Implementation';
+}
+
+.bx--website-switcher-list__item:nth-child(7)::before {
+  content: 'Practices';
+}
+
+.bx--website-switcher-list__item:nth-child(13)::before {
+  content: 'Community';
 }
 
 .bx--website-switcher-list__item-link {
@@ -96,10 +116,13 @@
   }
 }
 
-.bx--website-switcher-list__item:nth-child(8)
+// Internal only links, shows lock icon
+.bx--website-switcher-list__item:nth-child(1),
+.bx--website-switcher-list__item:nth-child(12),
+.bx--website-switcher-list__item:nth-child(13) {
   .bx--website-switcher-list__item-link {
-  color: #6f6f6f;
-  cursor: default;
-  background: transparent;
-  outline: none;
+    background-image: url("data:image/svg+xml,%3Csvg focusable='false' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg' fill='%23c6c6c6' width='16' height='16' viewBox='0 0 32 32' aria-hidden='true'%3E%3Cpath d='M24,14H22V8A6,6,0,0,0,10,8v6H8a2,2,0,0,0-2,2V28a2,2,0,0,0,2,2H24a2,2,0,0,0,2-2V16A2,2,0,0,0,24,14ZM12,8a4,4,0,0,1,8,0v6H12ZM24,28H8V16H24Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 224px;
+  }
 }

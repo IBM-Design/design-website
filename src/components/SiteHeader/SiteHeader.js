@@ -114,7 +114,11 @@ const SiteHeader = ({
                     element={Link}>
                     Think
                   </HeaderMenuItem>
+                 
                 </HeaderMenu>
+                <HeaderMenuItem href="https://www.ibm.com/employment/#jobs?job-category=Design">
+                    Open roles
+                </HeaderMenuItem>
               </HeaderNavigation>
               <HeaderGlobalBar>
                 <HeaderGlobalAction
@@ -185,53 +189,61 @@ const SiteHeader = ({
               aria-label="Site switcher"
               isSwitcherOpen={isSwitcherExpanded}
               links={[
-                { 
-                  href: 'https://www.ibm.com/design/', 
-                  linkText: 'IBM Design' 
+                {
+                  href: 'https://ibm.com/brand',
+                  linkText: 'IBM Brand Center',
                 },
                 {
                   href: 'https://www.ibm.com/design/language/',
                   linkText: 'IBM Design Language',
                 },
                 {
-                  href: 'https://www.ibm.com/brand/',
-                  linkText: 'IBM Brand Center',
-                },
-                {
-                  href: 'https://www.ibm.com/able/',
-                  linkText: 'IBM Accessibility',
-                },
-                {
                   href: 'https://www.carbondesignsystem.com',
-                  linkText: 'Product',
+                  linkText: 'Carbon Design System',
                 },
                 {
-                  href: 'https://www.ibm.com/standards/web/',
-                  linkText: 'Digital',
+                  href: 'https://www.ibm.com/standards/carbon/',
+                  linkText: 'Carbon for IBM.com',
                 },
                 {
                   href: 'https://www.ibm.com/design/event/',
-                  linkText: 'Event',
+                  linkText: 'IBM Event Design',
                 },
                 {
-                  href: '#',
-                  linkText: 'Workplace',
+                  href: 'https://www.ibm.com/design/workplace/',
+                  linkText: 'IBM Workplace Design',
                 },
                 {
                   href: 'https://www.ibm.com/design/thinking/',
                   linkText: 'Enterprise Design Thinking',
                 },
                 {
-                  href: 'https://www.ibm.com/design/research/',
-                  linkText: 'IBM Design Research',
+                  href: 'https://www.ibm.com/able/',
+                  linkText: 'IBM Accessibility',
                 },
                 {
                   href: 'https://www.ibm.com/design/ai/',
                   linkText: 'IBM Design for AI',
                 },
                 {
+                  href: 'https://www.ibm.com/design/research/',
+                  linkText: 'IBM Design Research',
+                },
+                {
                   href: 'https://www.ibm.com/services/ibmix/',
                   linkText: 'IBM iX',
+                },
+                {
+                  href: 'https://w3.ibm.com/design/experience-standards/',
+                  linkText: 'IBM Experience Standards',
+                },
+                {
+                  href: 'https://w3.ibm.com/design/',
+                  linkText: 'IBM Design',
+                },
+                {
+                  href: 'https://www.ibm.com/design/racial-equity-in-design',
+                  linkText: 'Racial Equity in Design',
                 },
               ]}
             />
