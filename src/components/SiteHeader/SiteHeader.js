@@ -72,7 +72,6 @@ const SiteHeader = ({
               <HeaderName prefix="IBM" to="/" element={Link}>
                 Design
               </HeaderName>
-
               <HeaderNavigation aria-label="Main Navigation">
                 <HeaderMenu aria-label="Approach" className={approachClassName}>
                   <HeaderMenuItem to="/approach/" element={Link}>
