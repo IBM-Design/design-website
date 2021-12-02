@@ -72,6 +72,7 @@ const SiteHeader = ({
               <HeaderName prefix="IBM" to="/" element={Link}>
                 Design
               </HeaderName>
+
               <HeaderNavigation aria-label="Main Navigation">
                 <HeaderMenu aria-label="Approach" className={approachClassName}>
                   <HeaderMenuItem to="/approach/" element={Link}>
@@ -113,7 +114,6 @@ const SiteHeader = ({
                     element={Link}>
                     Think
                   </HeaderMenuItem>
-                 
                 </HeaderMenu>
                 <HeaderMenuItem href="https://www.ibm.com/employment/#jobs?job-category=Design">
                     Open roles
