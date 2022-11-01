@@ -110,6 +110,11 @@ const SiteHeader = ({
                     America by Design
                   </HeaderMenuItem>
                   <HeaderMenuItem
+                    to="/impact/dfs/"
+                    element={Link}>
+                    Design for Sustainability
+                  </HeaderMenuItem>
+                  <HeaderMenuItem
                     to="/impact/think/"
                     element={Link}>
                     Think
@@ -174,6 +179,11 @@ const SiteHeader = ({
                     to="/impact/abd/"
                     element={Link}>
                     America by Design
+                  </SideNavMenuItem>
+                  <SideNavMenuItem
+                    to="/impact/dfs/"
+                    element={Link}>
+                    Design for Sustainability
                   </SideNavMenuItem>
                   <SideNavMenuItem
                     to="/impact/think/"

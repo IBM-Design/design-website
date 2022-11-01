@@ -283,6 +283,7 @@ Empathy is our<br/>foundation, always.
 </tile>
 
 </column>
+
 <column lg="4" offset_lg="12" text_align="right">
 
 [View more](/impact/)
