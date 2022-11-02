@@ -13,10 +13,10 @@ title: Design for Sustainability
 
 </grid>
 
-<grid background="gray-10">
+<grid background="white">
 <column md="2" lg="4">
 
-### Design for Sustainability
+### IBM Design for Sustainability
 
 </column>
 
@@ -31,17 +31,20 @@ title: Design for Sustainability
 <icon name="PlexArrowDown"></icon>
 
 </column>
-<column lg="3" offset_lg="1" md="3" sm="0">
+<column lg="3" offset_lg="1" md="2" sm="0">
 
-> **"Good design is good business. Good design is also more sustainable."**
-<br><br>**Chris Hammond**
-<br>Design Principal
-<br>IBM Sustainability Software
+> _"Good design is good business. Good design is also more sustainable."_
+
+> **Chris Hammon**
+<br>
+Design Principal 
+<br>
+IBM Sustainability Software
 
 </column>
 </grid>
 
-<grid background="white">
+<grid background="gray-10">
 <column lg="4">
 
 ### The Principles
@@ -55,78 +58,76 @@ title: Design for Sustainability
 </column>
 <column lg="4" offset_lg="4" border="true"  md="5">
 
-### Inclusive for all living things.
-<br>
-<br>
-<br>
-<br>
-<br>
+### **Inclusive for all <br> living things.**
 
-![This is a circle within a circle](images/inclusion.svg)
+_Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+![Three circles stacked inside each other.](images/inclusion.svg)
 
 </column>
+
 <column lg="4" border="true"  md="5">
 
-### Easy to learn and to use for all people.
-<br>
-<br>
-<br>
-<br>
-<br>
+### **Easy to learn and to use <br> for all people.**
 
-![A hand hold up a box ](images/intuitive.svg)
+_Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+![Three circles stacked inside each other.](images/intuitive.svg)
 
 </column>
+
 <column lg="4" border="true"  md="5">
 
-### Efficient for users and power consumption.
-<br>
-<br>
-<br>
-<br>
-<br>
+### **Efficient for users and <br> power consumption.**
 
-![A circle with dots](images/efficient.svg)
+_Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+![Three circles stacked inside each other.](images/efficient.svg)
 
 </column>
+
 </grid>
 
 <grid background="gray-10">
 <column lg="16">
 
+<tile
+    href="#"
+    dark="true"
+    icon="Download"
+    title="Download"
+    feature="true"
+    feature_background="black"
+    feature_heading="IBM Design for sustainability position paper">
+<img src="images/dfs_pdf_download.png" alt="TBD"/>
+</tile>
 </column>
-<column lg="4">
 
-### Additional resources
+</column>
+<column lg="8">
+
+<h3>Keep learning about our <br>stance on sustainability</h3>
 
 </column>
 
 <column lg="4" md="4">
 
-<tile
-    href="#"
-    title="Download the paper & heuristic">
-    <img src="images/dfs_1_square.png" alt="TBD"/>
-</tile>
+![Design services artwork](/images/eee.svg)
+
+##### Influence
+
+<p size="md">IBM’s Environmental, Equitable,<br> and Ethical</p>
+<p><a href="#">Learn more →</a></p>
 
 </column>
 <column lg="4" md="4">
 
-<tile
-    href="#"
-    title="Learn more about IBM’s Environmental, Equitable, and Ethical Impact">
-    <img src="images/dfs_2_square.png" alt="TBD"/>
-</tile>
+![Design services artwork](/images/products.svg)
 
-</column>
-<column lg="4" md="4">
+##### Solutions
 
-<tile
-    href="#"
-    title="Learn more about IBM’s Sustainability Solutions & Products">
-    <img src="images/dfs_3_square.png" alt="TBD"/>
-</tile>
+<p size="md">IBM’s Sustainability Solutions<br> & Products</p>
+<p><a href="#">Learn more →</a></p>
 
 </column>
 </grid>
-
