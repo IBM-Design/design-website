@@ -1,11 +1,17 @@
-name: Deploy website to IBM Cloud
+name: Deploy website to S3
 on:
   push:
     branches:
       - master
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
-    runs-on: macOS-latest
+    if: github.repository == 'IBM-Design/design-website'
+    runs-on: ubuntu-latest
     steps:
       - uses: fkirc/skip-duplicate-actions@v1.4.0
         with:
@@ -22,22 +28,14 @@ jobs:
       - name: Build site
         run: yarn build
 
-      - name: Install IBM Cloud CLI
-        run: curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
-
-      - name: Install Cloud Foundry CLI
-        run: ibmcloud cf install -v 6.51.0
-
-      - name: Login to to US
+      - uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks
         env:
-          API_KEY: ${{ secrets.IBM_CLOUD_KEY_SLASH_DESIGN }}
-        run: ibmcloud login -a https://api.ng.bluemix.net --apikey $API_KEY -o IBMDesignOrg -s slashDesign
-      - name: Deploy to US
-        run: ibmcloud cf v3-zdt-push slash-design-root -b https://github.com/cloudfoundry/nginx-buildpack.git
-        
-      - name: Login to to EU
-        env:
-          API_KEY: ${{ secrets.IBM_CLOUD_KEY_SLASH_DESIGN }}
-        run: ibmcloud login -a https://api.eu-de.bluemix.net --apikey $API_KEY -o IBMDesignOrg -s slashDesign
-      - name: Deploy to EU
-        run: ibmcloud cf v3-zdt-push slash-design-root -b https://github.com/cloudfoundry/nginx-buildpack.git
+          AWS_S3_BUCKET: ${{ secrets.COS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.COS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.COS_REGION }}
+          AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
+          SOURCE_DIR: 'public/design'
+          DEST_DIR: 'design'
