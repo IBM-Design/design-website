@@ -12,8 +12,10 @@
     "gatsby"
   ],
   "scripts": {
-    "dev": "rm -rf .cache && ./tasks/build-timestamp.sh && gatsby develop",
-    "build": "rm -rf public && ./tasks/build-timestamp.sh && PATH_PREFIX='/design' gatsby build  --prefix-paths && mv public design && mkdir public && mv design public && mv public/design/404 public/404 && mv public/design/404.html public/404.html",
+    "dev": "yarn clean && yarn build:timestamp && gatsby develop",
+    "clean": "rimraf .cache public",
+    "build": "yarn clean && yarn build:timestamp && gatsby build --prefix-paths && mv public design && mkdir public && mv design public && mv public/design/404 public/404 && mv public/design/404.html public/404.html",
+    "build:timestamp": "./tasks/build-timestamp.sh",
     "format": "prettier --write \"**/*.{scss,css,js,md}\"",
     "format:diff": "prettier --list-different \"**/*.{scss,css,js,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -92,6 +94,7 @@
     "html-loader": "^0.5.5",
     "node-sass": "^4.10.0",
     "prettier": "^1.15.3",
+    "rimraf": "^3.0.2",
     "sass-loader": "^7.1.0",
     "storybook-readme": "^3.3.0"
   },
