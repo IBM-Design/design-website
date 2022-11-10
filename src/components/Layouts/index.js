@@ -147,10 +147,6 @@ class Layout extends React.Component {
                     href: 'https://twitter.com/ibmdesign',
                     linkText: 'Twitter',
                   },
-                  {
-                    href: 'https://facebook.com/ibmdesign',
-                    linkText: 'Facebook',
-                  },
                 ]}>
                 <p>
                   Have questions? Please{' '}
