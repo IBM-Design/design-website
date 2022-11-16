@@ -12,7 +12,7 @@ the means.<br>
 <grid background="gray-10">
 <column lg="8" md="5">
 
-<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different outcomes we’ve delivered for our clients and users below.</p>
+<p size="xl">In a world where every challenge is complex and unique, good design values unity over uniformity. Explore some of the different outcomes we’ve delivered for our clients and users.</p>
 
 <icon name="PlexArrowDown"></icon>
 
@@ -27,14 +27,14 @@ the means.<br>
 </column>
 <column lg="4">
 
-### Design for Sustainability
+### IBM Design for sustainability
 
 </column>
 
 <column lg="12">
 
-<tile title_size="small" icon="arrowRight" title="IBM Design featured in Design for Sustainability" href="/impact/dfs">
-<img src="images/dfs.jpg" alt="Design for Sustainability - the impacts of design across the globe"/>
+<tile title_size="small" icon="arrowRight" title="IBM Design for sustainability position paper" href="/impact/dfs">
+<img src="images/dfs.jpg" alt="IBM Design for sustainability"/>
 
   </tile>
 
@@ -48,7 +48,7 @@ the means.<br>
 <hr>
 
 </column>
-<column lg="4">
+<column lg="4">`
 
 ### America by Design
 
@@ -56,7 +56,7 @@ the means.<br>
 
 <column lg="12">
 
-<tile title_size="small" icon="arrowRight" title="IBM Design featured on TV Series America by Design" href="/impact/abd">
+<tile title_size="small" icon="arrowRight" title="IBM Design featured on TV series America by Design" href="/impact/abd">
 <img src="images/abd.jpg" alt="America by Design producer Mike Chapman speaking with IBM Z Design Director Shani Sandy"/>
 
   </tile>
