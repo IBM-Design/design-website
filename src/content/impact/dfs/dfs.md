@@ -4,38 +4,55 @@ title: Design for Sustainability
 
 <back-link to="/impact">Impact Stories</back-link>
 
-<grid classname="background-bleed">
-<column lg="16">
+<grid background="gray-10">
 
-![Design for Sustainability.](/images/dfs_header.jpg)
+<column lg="8" md="4" sm="4">
+<div class="dfs-header-top">
+    <h1>IBM Design <br>for sustainability</h1>
+</div>
+
+<div class="dfs-header-bottom">
+    <div class="hero--subtext">Check out the <a href="https://ibm.box.com/s/dld4ni31egjqlbxx5ycfgwk0fhdlrgmh" target="_new">IBM Design for <br>sustainability position paper</a></div>
+    <a href="https://ibm.box.com/s/dld4ni31egjqlbxx5ycfgwk0fhdlrgmh" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
+</div>
+
+</column>
+
+<column lg="8" md="4" sm="4">
+
+<img class="dfs-header--img" src="images/dfs_header.svg" alt="Design for Sustainability - the impacts of design across the globe"/>
 
 </column>
 
 </grid>
 
 <grid background="white">
-<column md="2" lg="4">
+<column lg="4" md="2">
 
-### IBM Design for Sustainability
+### IBM Design for sustainability
 
 </column>
 
 <column md="5" lg="8">
 
-<p size="lg">IBM designers are committed to making progress to improve the human condition, society, and the environment.</p>
+<p size="lg">Our purpose is to be the catalyst that makes the world work better.</p>
 
-<p size="lg">As designers we define sustainability as bringing prosperity to all people, communities, and the planet. Sustainability includes reducing our impact on limited resources. To achieve this vision of <a href="https://www.un.org/en/academic-impact/sustainability" target="_blank">sustainability</a>, we practice <strong>IBM Design for sustainability</strong> and use it as a framework for how we satisfy the needs of the present without compromising the future. This is how we ensure that IBM’s designers and their teams create more sustainable value.</p>
+<p size="lg"><span class="dfs-text--italic">IBM Design for sustainability</span> articulates the collective viewpoint of IBM Designers about how we can acquire and apply sustainability consciousness.</p>
 
-<p size="lg">Design for sustainability requires a <a href="https://www.ibm.com/design/thinking/page/framework/principles/diverse-empowered-teams" target="_blank">diverse and empowered team</a>. As a team, we make sure that the user, community, and social value of the experience outweighs any negative environmental and social impact. Understanding these impacts and their effect on the delivered experience is especially critical when AI is included. An efficient and inclusive front end has only so much impact on sustainability unless equal attention is given to the development and operations of the experience.</p>
+<p size="lg"><strong>IBM Design definition of sustainability</strong><br>As IBM Designers, we define sustainability as bringing prosperity to all people, communities, and the planet, both now and in the future. The positive impact of sustainability includes all living things, not just humans. It also includes reducing our impact on the limited resources of our planet.</p>
+
+<p size="lg"><strong>Sustainability consciousness</strong><br>We make design choices every day, always in pursuit of best meeting our users’ needs. We consider the impact of those choices on society and on our planet, and our goal is that sustainability considerations are part of every design choice that we make.</p>
+
+<p size="lg"><strong>Envisioning a better tomorrow</strong><br>We believe in optimism and are optimistic about a more sustainable future. We published our first version of <span class="dfs-text--italic">IBM Design for sustainability</span> to help our IBM Designers develop their sustainability consciousness. This first version is a prototype and we expect to iterate on it as our sustainability consciousness expands.</p>
 
 <icon name="PlexArrowDown"></icon>
 
 </column>
 <column lg="3" offset_lg="1" md="2" sm="0">
 
-> _"Good design is good business. Good design is also more sustainable."_
+> _"Good design is good business. Good design <br>is also more sustainable."_
 
-> **Chris Hammon**
+> **Chris Hammond**
 <br>
 Design Principal 
 <br>
@@ -47,20 +64,20 @@ IBM Sustainability Software
 <grid background="gray-10">
 <column lg="4">
 
-### The Principles
+### Our principles
 <p>Enabled by diverse empowered teams.</p>
 
 </column>
 <column lg="12"  md="5">
 
-<h2>Our guiding principles are:</h2>
+<h2>Our guiding principles are that sustainability is:</h2>
 
 </column>
 <column lg="4" offset_lg="4" border="true"  md="5">
 
 ### **Inclusive for all <br> living things.**
 
-_Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+_Have we understood the full impact of our designed experience for both people and other living things?_ <br><br>Our experiences go beyond just being human-centered to encompass good stewardship of our planet’s limited resources for all living things, now and in the future.
 
 ![Three circles stacked inside each other.](images/inclusion.svg)
 
@@ -70,7 +87,7 @@ _Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur 
 
 ### **Easy to learn and to use <br> for all people.**
 
-_Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+_Have we prioritized the usability of our experiences regardless of the user’s ability or means?_ <br><br>Our experiences deliver ease-of-use for everyone, both the first time and every time.
 
 ![Three circles stacked inside each other.](images/intuitive.svg)
 
@@ -80,7 +97,7 @@ _Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur 
 
 ### **Efficient for users and <br> power consumption.**
 
-_Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+_Have we collaborated with out team to optimize systems to reduce and increase user efficiency?_ <br><br>Our experiences are simplified to be more inclusive, more efficient, and require fewer resources.
 
 ![Three circles stacked inside each other.](images/efficient.svg)
 
@@ -92,42 +109,55 @@ _Placeholder for a question?_ <br><br>DiLorem ipsum dolor sit amet, consectetur 
 <column lg="16">
 
 <tile
-    href="#"
-    dark="true"
-    icon="Download"
+    href="https://www.ibm.com/design/language/"
+    new_window="false"
     title="Download"
     feature="true"
-    feature_background="black"
-    feature_heading="IBM Design for sustainability position paper">
-<img src="images/dfs_pdf_download.png" alt="TBD"/>
+    dark="true"
+    icon="Download"
+    feature_heading="IBM Design for sustainability position paper"
+    feature_background="black">
+<img src="images/dfs_pdf_download.png" alt="IBM Design for sustainability pdf"/>
 </tile>
 </column>
+</grid>
 
+<grid background="gray-10">
+
+<column lg="4">
+
+<h3>Learn more about <br>sustainability at IBM</h3>
 </column>
-<column lg="8">
 
-<h3>Keep learning about our <br>stance on sustainability</h3>
+<column lg="4" md="4">
+
+![Design services artwork](/images/impact.svg)
+
+##### Impact  
+
+<p size="md">IBM's ESG framework: Environmental, Equitable, and Ethical Impact</p>
+<p><a href="https://www.ibm.com/impact">IBM Impact →</a></p>
 
 </column>
 
 <column lg="4" md="4">
 
-![Design services artwork](/images/eee.svg)
-
-##### Influence
-
-<p size="md">IBM’s Environmental, Equitable,<br> and Ethical</p>
-<p><a href="#">Learn more →</a></p>
-
-</column>
-<column lg="4" md="4">
-
-![Design services artwork](/images/products.svg)
+![Design services artwork](/images/solutions.svg)
 
 ##### Solutions
 
-<p size="md">IBM’s Sustainability Solutions<br> & Products</p>
-<p><a href="#">Learn more →</a></p>
+<p size="md">IBM’s Sustainability Solutions<br> and Products</p>
+<p><a href="https://www.ibm.com/sustainability">Sustainability solutions from IBM →</a></p>
+
+</column>
+<column lg="4" md="4">
+
+![Design services artwork](/images/services.svg)
+
+##### Services 
+
+<p size="md">IBM Consulting Sustainability Services</p>
+<p><a href="https://www.ibm.com/business-operations/services/sustainability">IBM Consulting Sustainability Services →</a></p>
 
 </column>
 </grid>

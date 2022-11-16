@@ -1,6 +1,12 @@
 .dfs-header-bottom {
     position: absolute;
     bottom: 0;
+    width: 100%;
+
+    @include breakpoint('sm') {
+        position: relative;
+        padding-bottom: 2rem;
+    }
 
     .carbon--button {
         min-height: 3rem;
@@ -19,6 +25,14 @@
         justify-content: space-between;
         padding: 0 1rem;
         cursor: pointer;
+
+        @include breakpoint('sm') {
+            min-width: 100%;
+        }
+
+        @include breakpoint('md') {
+            min-width: 13.75rem;
+        }
     }
 
     .carbon--button:hover {
@@ -34,23 +48,87 @@
         border-color: #0f62fe;
     }
 
-
-
-
-
     .hero--subtext {
         font-size: calc(1.25rem + .25 * ((100vw - 82rem)/ 17));
         color: #525252;
         padding-bottom: 2.5rem;
         line-height: 1.75rem;
+        
+        @include breakpoint('md') {
+            font-size: 1.25rem;
+            line-height: auto;
+        }
+        
+        @include breakpoint('sm') {
+            font-size: calc(1.25rem + 0 * ((100vw - 20rem) / 62));
+            line-height: auto;
+            padding-bottom: 1rem;
+        }
     }
 }
 
 .dfs-header-top {
     position: absolute;
     top: 0;
+
+    @include breakpoint('sm') {
+        position: relative; 
+    }
     
     h1 {
-        font-size: calc(3rem + .75 * ((100vw - 82rem)/ 17))
+        font-size: calc(3rem + .75 * ((100vw - 82rem)/ 17));
+
+        @include breakpoint('sm') {
+            font-size:  calc(2.625rem + 0 * ((100vw - 20rem) / 22));
+            line-height: auto;
+            padding-bottom: 1rem;
+        }
     }
+}
+
+.background {
+    @include breakpoint('sm') {
+        padding-bottom: 2rem !important;
+        
+    }
+}
+
+.tile--feature .bx--tile {
+    @media screen and (max-width: 671px) {
+        position: relative !important;
+        width: 100% !important;
+        max-height: 96px !important;
+    }
+}
+
+.tile__link-icon {
+    @media screen and (max-width: 671px) {
+        position: absolute !important;
+        right: 1rem !important;
+        bottom: initial !important;
+    }
+
+    @media screen and (min-width: 672px) {
+        right: 1rem !important;
+        top: 5rem;
+    }
+
+    @media screen and (min-width: 1055px) {
+        right: 1rem !important;
+        top: 5rem;
+    }
+}
+
+.tile--feature .bx--tile {
+    @media screen and (min-width: 672px){
+        height: 50%;
+    }
+
+    @media screen and (min-width: 1055px) {
+        height: initial;
+    }
+}
+
+.dfs-text--italic {
+    font-style: italic;
 }
