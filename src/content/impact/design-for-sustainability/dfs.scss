@@ -24,7 +24,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 1rem;
-        cursor: pointer;
+        cursor: pointer !important;
 
         @include breakpoint('sm') {
             min-width: 100%;

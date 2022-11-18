@@ -33,8 +33,8 @@ the means.<br>
 
 <column lg="12">
 
-<tile title_size="small" icon="arrowRight" title="IBM Design for sustainability position paper" href="/impact/dfs">
-<img src="images/dfs.jpg" alt="IBM Design for sustainability"/>
+<tile title_size="small" icon="arrowRight" title="IBM Design for sustainability position paper" href="/impact/design-for-sustainability">
+<img src="images/design-for-sustainability.jpg" alt="IBM Design for sustainability"/>
 
   </tile>
 

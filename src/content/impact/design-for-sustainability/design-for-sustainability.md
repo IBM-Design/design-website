@@ -1,5 +1,5 @@
 ---
-title: Design for Sustainability
+title: Design for sustainability
 ---
 
 <back-link to="/impact">Impact Stories</back-link>
@@ -12,15 +12,15 @@ title: Design for Sustainability
 </div>
 
 <div class="dfs-header-bottom">
-    <div class="hero--subtext">Check out the <a href="/downloads/dfs-positionpaper.pdf" target="_self">IBM Design for <br>sustainability position paper</a></div>
-    <a href="/downloads/dfs-positionpaper.pdf" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
+    <div class="hero--subtext">Check out the <a href="/downloads/design-for-sustainability-positionpaper.pdf" target="_self">IBM Design for <br>sustainability position paper</a></div>
+    <a href="/downloads/design-for-sustainability-positionpaper.pdf" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
 </div>
 
 </column>
 
 <column lg="8" md="4" sm="4">
 
-<img class="dfs-header--img" src="images/dfs_header.svg" alt="Design for Sustainability - the impacts of design across the globe"/>
+<img class="dfs-header--img" src="images/design-for-sustainability-header.svg" alt="Design for sustainability - the impacts of design across the globe"/>
 
 </column>
 
@@ -109,7 +109,7 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
 <column lg="16">
 
 <tile
-    href="downloads/dfs-positionpaper.pdf"
+    href="downloads/design-for-sustainability-positionpaper.pdf"
     new_window="false"
     title="Download"
     feature="true"
@@ -117,7 +117,7 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
     icon="Download"
     feature_heading="IBM Design for sustainability position paper"
     feature_background="black">
-<img src="images/dfs_pdf_download.png" alt="IBM Design for sustainability pdf"/>
+<img src="images/design-for-sustainability-pdf-download.png" alt="IBM Design for sustainability pdf"/>
 </tile>
 </column>
 </grid>
@@ -136,7 +136,7 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
 ##### Impact  
 
 <p size="md">IBM's ESG framework: Environmental, Equitable, and Ethical Impact</p>
-<p><a href="https://www.ibm.com/impact">IBM Impact →</a></p>
+<p><a href="https://www.ibm.com/impact">IBM Impact→</a></p>
 
 </column>
 
@@ -147,7 +147,7 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
 ##### Solutions
 
 <p size="md">IBM’s Sustainability Solutions<br> and Products</p>
-<p><a href="https://www.ibm.com/sustainability">Sustainability solutions from IBM →</a></p>
+<p><a href="https://www.ibm.com/sustainability">Sustainability solutions from IBM→</a></p>
 
 </column>
 <column lg="4" md="4">
@@ -157,7 +157,7 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
 ##### Services 
 
 <p size="md">IBM Consulting Sustainability Services</p>
-<p><a href="https://www.ibm.com/business-operations/services/sustainability">IBM Consulting Sustainability Services →</a></p>
+<p><a href="https://www.ibm.com/business-operations/services/sustainability">IBM Consulting Sustainability Services→</a></p>
 
 </column>
 </grid>
