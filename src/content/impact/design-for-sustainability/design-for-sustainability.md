@@ -4,14 +4,15 @@ title: Design for sustainability
 
 <back-link to="/impact">Impact Stories</back-link>
 
+<div class="dfs-wrapper">
 <grid background="gray-10">
 
 <column lg="8" md="4" sm="4">
-<div class="dfs-header-top">
+<div class="header-top">
     <h1>IBM Design <br>for sustainability</h1>
 </div>
 
-<div class="dfs-header-bottom">
+<div class="header-bottom">
     <div class="hero--subtext">Check out the <a href="/downloads/design-for-sustainability-positionpaper.pdf" target="_self">IBM Design for <br>sustainability position paper</a></div>
     <a href="/downloads/design-for-sustainability-positionpaper.pdf" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
 </div>
@@ -37,7 +38,7 @@ title: Design for sustainability
 
 <p size="lg">Our purpose is to be the catalyst that makes the world work better.</p>
 
-<p size="lg"><span class="dfs-text--italic">IBM Design for sustainability</span> articulates the collective viewpoint of IBM Designers about how we can acquire and apply sustainability consciousness.</p>
+<p size="lg"><span class="text--italic">IBM Design for sustainability</span> articulates the collective viewpoint of IBM Designers about how we can acquire and apply sustainability consciousness.</p>
 
 <p size="lg"><strong>IBM Design definition of sustainability</strong><br>As IBM Designers, we define sustainability as bringing prosperity to all people, communities, and the planet, both now and in the future. The positive impact of sustainability includes all living things, not just humans. It also includes reducing our impact on the limited resources of our planet.</p>
 
@@ -161,3 +162,4 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
 
 </column>
 </grid>
+</div>
