@@ -7,7 +7,7 @@ export const onRenderBody = ({ setPostBodyComponents }) => {
 
   const script = `
   if(!window) window = {};
-  window.idaPageIsSPA = true;
+  window.idaPageIsSPA = false;
   window.digitalData = {
     page: {
       category: {
@@ -15,7 +15,7 @@ export const onRenderBody = ({ setPostBodyComponents }) => {
       },
       pageInfo: {
         ibm: {
-          siteID: 'DESIGN',
+          siteID: 'WWW_DESIGN',
           country: 'US',
           industry: 'Design',
           owner: 'Alison Joseph/Austin/IBM',
