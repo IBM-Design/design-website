@@ -27,29 +27,6 @@ the means.<br>
 </column>
 <column lg="4">
 
-### IBM Design for sustainability
-
-</column>
-
-<column lg="12">
-
-<tile title_size="small" icon="arrowRight" title="IBM Design for sustainability position paper" href="/impact/design-for-sustainability">
-<img src="images/design-for-sustainability.jpg" alt="IBM Design for sustainability"/>
-
-  </tile>
-
-</column>
-
-</grid>
-
-<grid background="gray-10">
-<column lg="16">
-
-<hr>
-
-</column>
-<column lg="4">`
-
 ### America by Design
 
 </column>

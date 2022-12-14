@@ -2,7 +2,7 @@
 title: Design for sustainability
 ---
 
-<back-link to="/impact">Impact Stories</back-link>
+<back-link to="/practices">Practices</back-link>
 
 <div class="dfs-wrapper">
 <grid background="gray-10">

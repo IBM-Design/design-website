@@ -110,11 +110,6 @@ const SiteHeader = ({
                     America by Design
                   </HeaderMenuItem>
                   <HeaderMenuItem
-                    to="/impact/design-for-sustainability/"
-                    element={Link}>
-                    Design for sustainability
-                  </HeaderMenuItem>
-                  <HeaderMenuItem
                     to="/impact/think/"
                     element={Link}>
                     Think
