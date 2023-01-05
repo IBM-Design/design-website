@@ -176,11 +176,6 @@ const SiteHeader = ({
                     America by Design
                   </SideNavMenuItem>
                   <SideNavMenuItem
-                    to="/impact/design-for-sustainability/"
-                    element={Link}>
-                    IBM Design for sustainability
-                  </SideNavMenuItem>
-                  <SideNavMenuItem
                     to="/impact/think/"
                     element={Link}>
                     Think
