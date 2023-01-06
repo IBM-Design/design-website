@@ -13,8 +13,8 @@ title: Design for sustainability
 </div>
 
 <div class="header-bottom">
-    <div class="hero--subtext">Check out the <a href="/downloads/design-for-sustainability-positionpaper.pdf" target="_self">IBM Design for <br>sustainability position paper</a></div>
-    <a href="/downloads/design-for-sustainability-positionpaper.pdf" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
+    <div class="hero--subtext">Check out the <a href="design-for-sustainability-positionpaper.pdf" target="_self">IBM Design for <br>sustainability position paper</a></div>
+    <a href="design-for-sustainability-positionpaper.pdf" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
 </div>
 
 </column>
@@ -110,7 +110,7 @@ _Have we collaborated with out team to optimize systems to reduce and increase u
 <column lg="16">
 
 <tile
-    href="downloads/design-for-sustainability-positionpaper.pdf"
+    href="design-for-sustainability-positionpaper.pdf"
     new_window="false"
     title="Download"
     feature="true"
