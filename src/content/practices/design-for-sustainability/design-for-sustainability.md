@@ -51,7 +51,7 @@ title: Design for sustainability
 </column>
 <column lg="3" offset_lg="1" md="2" sm="0">
 
-> _"Good design is good business. Good design <br>is also more sustainable."_
+<div class="quote">"Good design is good business. Good design is also more sustainable."</div>
 
 > **Chris Hammond**
 <br>
