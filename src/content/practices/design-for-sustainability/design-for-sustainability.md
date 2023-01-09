@@ -13,7 +13,7 @@ title: Design for sustainability
 </div>
 
 <div class="header-bottom">
-    <div class="hero--subtext">Check out the <a href="design-for-sustainability-positionpaper.pdf" target="_self">IBM Design for <br>sustainability position paper</a></div>
+    <div class="hero--subtext">Explore IBM Design's approach <br>to designing for sustainability</div>
     <a href="design-for-sustainability-positionpaper.pdf" download><button class="carbon--button">Download<svg focusable="false" preserveAspectRatio="xMidYMid meet" aria-label="" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;"><path d="M26 15l-1.41-1.41L17 21.17V2h-2v19.17l-7.59-7.58L6 15l10 10 10-10z"></path><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4z"></path></svg></button></a>
 </div>
 
@@ -51,7 +51,7 @@ title: Design for sustainability
 </column>
 <column lg="3" offset_lg="1" md="2" sm="0">
 
-> _"Good design is good business. Good design <br>is also more sustainable."_
+<div class="quote">"Good design is good business. Good design is also more sustainable."</div>
 
 > **Chris Hammond**
 <br>

@@ -265,7 +265,7 @@ meets pragmatic.</span>
 </column>
 <column lg="7" md="5">
 
-## IBM Design for sustainability articulates the collective viewpoint of IBM Designers about how we can acquire and apply sustainability consciousness.
+## Principles, guidance, and resources to acquire and apply sustainability consciousness to everyday design.
 
 </column>
 <column lg="12" offset_lg="4">
