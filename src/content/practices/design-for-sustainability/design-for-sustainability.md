@@ -98,7 +98,7 @@ _Have we prioritized the usability of our experiences regardless of the user’s
 
 ### **Efficient for users and <br> power consumption.**
 
-_Have we collaborated with out team to optimize systems to reduce and increase user efficiency?_ <br><br>Our experiences are simplified to be more inclusive, more efficient, and require fewer resources.
+_Have we collaborated with our team to optimize systems to reduce and increase user efficiency?_ <br><br>Our experiences are simplified to be more inclusive, more efficient, and require fewer resources.
 
 ![Three circles stacked inside each other.](images/efficient.svg)
 
