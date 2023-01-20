@@ -111,7 +111,7 @@ _Have we collaborated with our team to optimize systems to reduce and increase u
 
 <tile
     href="/practices/design-for-sustainability/design-for-sustainability-positionpaper.pdf"
-    new_window="false"
+    new_window="true"
     title="Download"
     feature="true"
     dark="true"
