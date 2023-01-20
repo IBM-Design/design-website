@@ -110,7 +110,7 @@ _Have we collaborated with our team to optimize systems to reduce and increase u
 <column lg="16">
 
 <tile
-    href="/design/practices/design-for-sustainability/design-for-sustainability-positionpaper.pdf"
+    href="/practices/design-for-sustainability/design-for-sustainability-positionpaper.pdf"
     new_window="false"
     title="Download"
     feature="true"
