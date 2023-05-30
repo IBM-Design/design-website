@@ -139,7 +139,10 @@ export default class WebsiteTile extends React.Component {
       }
 
       const clickableTile = (
-      <Tile className={clickTileClassNames}>
+      <Tile
+        className={clickTileClassNames}
+        target={new_window === 'false' ? '_self' : '_blank'}
+      >
         <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
           <div className="bx--aspect-ratio--object">
             <h2
@@ -164,7 +167,11 @@ export default class WebsiteTile extends React.Component {
         <Fade bottom distance="10%">
           {internalLink === true ? (
             <div>
-              <Link to={href} className={classNames}>
+              <Link
+                to={href}
+                className={classNames}
+                target={new_window === 'false' ? '_self' : '_blank'}
+              >
                 <div className={backgroundClassnames}>
                   <h2 className="bx--type-expressive-heading-05">
                     {feature_heading}
@@ -205,7 +212,10 @@ export default class WebsiteTile extends React.Component {
           <div className="ibm--grid tile-grid">
             <div className={classNames}>
               {internalLink === true ? (
-                <Link to={href}>
+                <Link
+                  to={href}
+                  target={new_window === 'false' ? '_self' : '_blank'}
+                >
                   <div className={backgroundClassnames}>
                     <div className="ibm--col-lg-4 ibm--offset-lg-1 ibm--col-md-3">
                       <h2
