@@ -42,7 +42,7 @@
     "dotenv": "^6.1.0",
     "flatpickr": "^4.5.2",
     "fs": "0.0.1-security",
-    "gatsby": "2.0.110",
+    "gatsby": "4.25.7",
     "gatsby-image": "2.0.22",
     "gatsby-plugin-catch-links": "^2.0.10",
     "gatsby-plugin-fathom": "^1.2.0",
