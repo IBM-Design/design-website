@@ -240,10 +240,6 @@ const SiteHeader = ({
                   href: 'https://w3.ibm.com/design/',
                   linkText: 'IBM Design',
                 },
-                {
-                  href: 'https://www.ibm.com/design/racial-equity-in-design',
-                  linkText: 'Racial Equity in Design',
-                },
               ]}
             />
           </>
