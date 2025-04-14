@@ -21,7 +21,7 @@ title: America by Design
 
 <column md="5" lg="8">
 
-<p size="lg">IBM Design will be featured in the upcoming season of America by Design, a syndicated TV series about innovation and design excellence which airs on local CBS affiliates in 10 major markets in the US beginning Saturday, June 12. IBM design executives Shani Sandy, Design Director for IBM Z, and Nigel Prentice, Design Director for Digital Growth & Commerce will serve as on-screen presenters and judges throughout the season, and our <a href="https://www.ibm.com/design/racial-equity-in-design" target="_blank">Racial Equity in Design initiative</a> will be spotlighted with a feature story in the final episode of the season on July 17.</p>
+<p size="lg">IBM Design will be featured in the upcoming season of America by Design, a syndicated TV series about innovation and design excellence which airs on local CBS affiliates in 10 major markets in the US beginning Saturday, June 12. IBM design executives Shani Sandy, Design Director for IBM Z, and Nigel Prentice, Design Director for Digital Growth & Commerce will serve as on-screen presenters and judges throughout the season.</p>
 <p size="lg">Additionally IBM will be the presenting sponsor of the Empower Award, recognizing designers and teams that create diverse and inclusive experiences and outcomes.</p>
 <p size="lg"><a href="https://www.bydesignchannel.com/americabydesign/home" target="_blank">Check your local TV listings for broadcast times and stations.</a> The episodes will be available online shortly after broadcast.<br />
 (Note that in Austin, America by Design will broadcast on KVUE, the ABC affiliate)</p>

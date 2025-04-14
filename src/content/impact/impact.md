@@ -50,29 +50,6 @@ the means.<br>
 </column>
 <column lg="4">
 
-### Racial Equity in Design
-
-</column>
-
-<column lg="12">
-
-<tile title_size="small" title="It’s about time we ask the tough questions that lead to transformation" href="https://www.ibm.com/design/racial-equity-in-design">
-<img src="images/REiD_field_guide_IMPACT.png" alt=""/>
-
-  </tile>
-
-</column>
-
-</grid>
-
-<grid background="gray-10">
-<column lg="16">
-
-<hr>
-
-</column>
-<column lg="4">
-
 ### AI Design
 
 </column>
