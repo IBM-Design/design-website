@@ -23,7 +23,7 @@ jobs:
           node-version: '10.15'
 
       - name: Install dependencies from offline mirror
-        run: yarn install --offline
+        run: yarn install
 
       - name: Build site
         run: yarn build
